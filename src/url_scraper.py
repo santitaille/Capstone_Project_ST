@@ -19,7 +19,7 @@ BASE_URL = (
     "position=LB%2CCB%2CRB%2CCAM%2CCM%2CCDM%2CRM%2CLM%2CST%2CRW%2CLW&"
     "pos_type=all&player_rating=83-99&eUnt=1"
 )
-TOTAL_PAGES = 2 # Tested first for small amount of pages
+TOTAL_PAGES = 27 # Tested first for small amount of pages
 OUTPUT_FILE = "/files/Capstone_Project_ST/data/player_urls.csv"
 
 def scrape_player_urls(base_url: str, total_pages: int):
@@ -65,4 +65,3 @@ if __name__ == "__main__":
     df = pd.DataFrame({"url": urls})
     df.to_csv(OUTPUT_FILE, index=False)
     logger.info(f"Scraped {len(urls)} URLs to {OUTPUT_FILE}")
-    
