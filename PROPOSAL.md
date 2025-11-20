@@ -1,6 +1,6 @@
 # Project Proposal - Santiago Tailleferd
 
-## Project Proposal Title: Explaining and Predicting the Market Value of EA FC 26 Player Cards (83+ OVR)
+## Title: Explaining and Predicting the Market Value of EA FC 26 Player Cards (83+ OVR)
 
 ### Motivation
 Player prices in EA FC 26 vary widely: the cheapest player costs 200 credits, while the most expensive player costs 11.49M credits. That wide range can be explained by many variables, including overall rating (OVR), nationality, league, rarity and other ongoing market dynamics. Prices evolve rapidly due to promo releases and SBC requirements, making it hard to determine which characteristics genuinely drive value. This project aims to explain which characteristics most strongly influence prices and to predict player prices using machine learning.
