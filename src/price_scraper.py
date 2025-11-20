@@ -20,8 +20,8 @@ headers = {"User-Agent": "Mozilla/5.0"}
 
 # Configuration
 INPUT_FILE = "/files/Capstone_Project_ST/data/player_urls.csv"
-OUTPUT_DIR = "/files/Capstone_Project_ST/data/week1" # Change week1 to week2
-OUTPUT_FILE = "prices_week1.csv" # Change week1 to week2
+OUTPUT_DIR = "/files/Capstone_Project_ST/data/week2" # Change week1 to week2
+OUTPUT_FILE = "prices_week2.csv" # Change week1 to week2
 
 # Had to exclude some players that were mistakenly inluded in the market for a very short time before being removed
 # So those players won't be part of the price scraping
