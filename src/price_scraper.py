@@ -23,8 +23,22 @@ INPUT_FILE = "/files/Capstone_Project_ST/data/player_urls.csv"
 OUTPUT_DIR = "/files/Capstone_Project_ST/data/week1" # Change week1 to week2
 OUTPUT_FILE = "prices_week1.csv" # Change week1 to week2
 
-# Take URLs from the scraped list
+# Had to exclude some players that were mistakenly inluded in the market for a very short time before being removed
+# So those players won't be part of the price scraping
+EXCLUDE_URLS = [
+    "https://www.futbin.com/26/player/52/alexander-isak",
+    "https://www.futbin.com/26/player/398/piero-hincapie",
+    "https://www.futbin.com/26/player/17322/benjamin-pavard",
+    "https://www.futbin.com/26/player/20451/victor-osimhen",
+    "https://www.futbin.com/26/player/20452/micky-van-de-ven",
+    "https://www.futbin.com/26/player/20577/troy-parrott",
+    "https://www.futbin.com/26/player/20453/mikel-gogorza",
+    "https://www.futbin.com/26/player/20454/dan-burn"
+]
+
+# Take URLs from the scraped list, takes out excluded players
 df_urls = pd.read_csv(INPUT_FILE)
+df_urls = df_urls[~df_urls['url'].isin(EXCLUDE_URLS)]
 
 rows = []
 failed_players = []
