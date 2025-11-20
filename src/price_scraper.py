@@ -1,57 +1,75 @@
 """
 Price scraper for EA FC 26 Players from Futbin website. Used for week 1 and week 2 scrapes.
+Following similar strcuture to url_scraper.py
 """
 
 import time
 import re
 import os
+import logging
 
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
+
 headers = {"User-Agent": "Mozilla/5.0"}
 
-# Take URLs from the scraped list
-df_urls = pd.read_csv("/files/Capstone_Project_ST/data/player_urls.csv")
+# Configuration
+INPUT_FILE = "/files/Capstone_Project_ST/data/player_urls.csv"
+OUTPUT_DIR = "/files/Capstone_Project_ST/data/week1" # Change week1 to week2
+OUTPUT_FILE = "prices_week1.csv" # Change week1 to week2
 
-df_urls = df_urls.head(5) # Test for little amount of players
+# Take URLs from the scraped list
+df_urls = pd.read_csv(INPUT_FILE)
 
 rows = []
+failed_players = []
+
 total_players = len(df_urls)
 
-for index, url in enumerate(df_urls["url"], start=1):
-    print(f"Scraping price for player {index}/{total_players}: {url}")
-    
-    try:
-        resp = requests.get(url, headers=headers, timeout=10) # So the program does not run indefinitely in case of connection problems
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        
-        row = {"url": url}
-        
-        # Finds lowest price of each player
-        price_el = soup.select_one("div.price.inline-with-icon.lowest-price-1")
-        if price_el:
-            text_price = price_el.get_text(strip=True)
-            digits = re.sub(r"[^\d]", "", text_price) # So only digits appear
-            row["price"] = int(digits) if digits else None
-        else:
-            row["price"] = None
-        
-        rows.append(row)
-        time.sleep(1) # Avoid too many requests in a short time
-        
-        # Ackowledge if there was an error with a specific player
-    except requests.exceptions.RequestException as e:
-        print(f"Error on {url}: {e}")
-        row = {"url": url, "price": None}
-        rows.append(row)
-        continue
+if __name__ == "__main__":
+    logger.info("Starting price scraper")
 
-# Save player prices to week1 folder (CSV file)
-output_dir = "/files/Capstone_Project_ST/data/week1"
-os.makedirs(output_dir, exist_ok=True)
-df = pd.DataFrame(rows)
-df.to_csv(f"{output_dir}/prices_week1.csv", index=False)
-print(f"Scraped {len(df)} player prices to {output_dir}/prices_week1.csv")
+    for index, url in enumerate(df_urls["url"], start=1):
+        logger.info(f"Scraping price for player {index}/{total_players}: {url}")
+        
+        try:
+            resp = requests.get(url, headers=headers, timeout=10) # So the program does not run indefinitely in case of connection problems
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            
+            row = {"url": url}
+            
+            # Finds lowest price of each player
+            price_el = soup.select_one("div.price.inline-with-icon.lowest-price-1")
+            if price_el:
+                text_price = price_el.get_text(strip=True)
+                digits = re.sub(r"[^\d]", "", text_price) # So only digits appear
+                row["price"] = int(digits) if digits else None
+            else:
+                row["price"] = None
+            
+            rows.append(row)
+            time.sleep(1) # Avoid too many requests in a short time
+            
+            # Ackowledge if there was an error with a specific player
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Error on {url}: {e}")
+            row = {"url": url, "price": None}
+            rows.append(row)
+            failed_players.append(index)
+            continue
+
+    # Acknowledge the number of players that failed to scrape
+    if failed_players:
+        logger.warning(f"{len(failed_players)} players failed to scrape")
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    df = pd.DataFrame(rows)
+    output_path = f"{OUTPUT_DIR}/{OUTPUT_FILE}"
+    df.to_csv(output_path, index=False)
+    logger.info(f"Scraped {len(df)} player prices to {output_path}")
