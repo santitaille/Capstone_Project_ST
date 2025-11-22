@@ -23,14 +23,26 @@ OUTPUT_FILE = "players_attributes.csv"
 
 headers = {"User-Agent": "Mozilla/5.0"}
 
+# as for price scraper, had to exclude some players that were mistakenly inluded in the market for a very short time before being removed
+# So those players won't be part of the price scraping
+EXCLUDE_URLS = [
+    "https://www.futbin.com/26/player/52/alexander-isak",
+    "https://www.futbin.com/26/player/398/piero-hincapie",
+    "https://www.futbin.com/26/player/17322/benjamin-pavard",
+    "https://www.futbin.com/26/player/20451/victor-osimhen",
+    "https://www.futbin.com/26/player/20452/micky-van-de-ven",
+    "https://www.futbin.com/26/player/20577/troy-parrott",
+    "https://www.futbin.com/26/player/20453/mikel-gogorza",
+    "https://www.futbin.com/26/player/20454/dan-burn"
+]
+
 def get_text(el):
     """Extract text from HTML element with no errors (managing None values)."""
     return el.get_text(strip=True) if el else None
 
-# Read player URLs
+# Take URLs from the scraped list, takes out excluded players
 df_urls = pd.read_csv(INPUT_FILE)
-
-df_urls = df_urls.head(6)  # Tested first for small amount of players
+df_urls = df_urls[~df_urls['url'].isin(EXCLUDE_URLS)]
 
 rows = []
 failed_players = []
