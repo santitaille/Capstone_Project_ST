@@ -2,6 +2,7 @@
 Data Merger using Pandas. Will be used for 2 merges:
 1. Merge player attributes with week 1 prices
 2. Merge player attributes + week 1 prices with week 2 prices
+3. Eliminate players with price = 0
 
 IMPORTANT:
 For second merge: uncomment lines marked with #W2 and comment lines marked with #W1.
@@ -54,6 +55,15 @@ if __name__ == "__main__":
             logger.warning(f"There are {missing_counts} missing values after merge")
         else:
             logger.info("There are no missing values")
+
+        logger.info(f"Merged datasets: {len(df_merged)} rows, {len(df_merged.columns)} columns")
+
+        # remove players with price = 0
+        logger.info("Removing players with invalid prices")
+        initial_size = len(df_merged)
+        df_merged = df_merged[df_merged['price_w1'] > 0]  # UNCOMMENT FOR W1
+        # df_merged = df_merged[(df_merged['price_w1'] > 0) & (df_merged['price_w2'] > 0)]  # UNCOMMENT FOR W2
+        logger.info(f"Removed {initial_size - len(df_merged)} players with price = 0")
 
         # save merged dataset
         # CAREFUL: only 1 line should be uncommented at a time
