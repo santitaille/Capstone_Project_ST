@@ -93,11 +93,11 @@ if __name__ == "__main__":
             "card_category": df["card_category"],
             "price_w1": df["price_w1"],
             "price_w2": df["price_w2"],
-            "pred_price_w2": np.expm1(y_test_pred_log),
+            "pred_price_w2": np.expm1(y_test_pred_log).round(0),  # Round to nearest whole number
         })
 
         results_path = "/files/Capstone_Project_ST/data/processed/predictions_linear_regression_w2.csv"
-        results_df.to_csv(results_path, index=False)
+        results_df.to_csv(results_path, index=False, float_format='%.0f')
         logger.info(f"Predictions saved to: {results_path}")
 
         # Final summary
