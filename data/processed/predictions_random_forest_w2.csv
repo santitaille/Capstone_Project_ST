@@ -1,0 +1,802 @@
+player_name,rating,card_category,price_w1,price_w2,pred_price_w2
+Maradona,95,Icons_Heroes,4000000,3890000,4014369
+Arantes Nascimento,95,Icons_Heroes,5200000,4795000,5083425
+Nazário De Lima,94,Icons_Heroes,9599000,9390000,5435282
+Zidane,94,Icons_Heroes,2950000,2975000,1503709
+De Assis Moreira,93,Icons_Heroes,4520000,4649000,3697693
+Cruyff,93,Icons_Heroes,4100000,3928000,3970424
+Hamm,93,Icons_Heroes,5900000,5700000,4792404
+Maldini,92,Icons_Heroes,2934000,2450000,1080760
+Puskás,92,Icons_Heroes,1495000,1285000,1539571
+Franc. Dos Santos,92,Icons_Heroes,1005000,801000,1290917
+Prinz,92,Icons_Heroes,115000,125000,269173
+Iniesta Luján,92,Icons_Heroes,1295000,958000,797620
+Charlton,92,Icons_Heroes,1354000,1040000,1481739
+Franz Beckenbauer,92,Icons_Heroes,1150000,1080000,817655
+Müller,92,Icons_Heroes,460000,341000,401346
+Mohamed Salah,92,Special,639000,595000,770608
+Alexia Putellas Segura,92,Special,430000,360000,739695
+Erling Haaland,92,Special,1599000,890000,1048830
+Kylian Mbappé,92,Special,6499000,5970000,3775674
+Mohamed Salah,91,Gold,153000,124000,152145
+Kylian Mbappé,91,Gold,1716000,1650000,724527
+Alexia Putellas Segura,91,Gold,188000,151000,149525
+Aitana Bonmatí Conca,91,Gold,278000,230000,173129
+Antunes Coimbra,91,Icons_Heroes,3570000,3389000,2205361
+Hernández Creus,91,Icons_Heroes,468000,400000,463301
+Baggio,91,Icons_Heroes,295000,238000,421577
+Henry,91,Icons_Heroes,2450000,2075000,1905964
+Da Silva Ferreira,91,Icons_Heroes,3130000,2670000,2146911
+Carlos Alberto Torres,91,Icons_Heroes,1162000,833000,1133773
+Baresi,91,Icons_Heroes,176000,185000,231890
+Cafu,91,Icons_Heroes,873000,799000,974223
+Morgan,91,Icons_Heroes,2130000,1790000,1881203
+Van Basten,91,Icons_Heroes,235000,191000,282123
+Sawa,91,Icons_Heroes,792000,680000,609904
+Ibrahimovic,91,Icons_Heroes,2899000,2770000,1223369
+Erling Haaland,91,Special,590000,370000,500777
+Jude Bellingham,91,Special,338000,236000,453183
+Harry Kane,91,Special,798000,505000,458484
+Ousmane Dembélé,90,Gold,700000,539000,379291
+Rodrigo Hernández Cascante,90,Gold,28750,32750,41113
+Virgil Van Dijk,90,Gold,68000,55000,47658
+Erling Haaland,90,Gold,32750,35500,63083
+Jude Bellingham,90,Gold,36750,36000,51793
+Caroline Graham Hansen,90,Gold,221000,163000,205642
+Da Silva Rocha,90,Icons_Heroes,1174000,1174000,1065403
+Bergkamp,90,Icons_Heroes,217000,170000,257565
+Borba Ferreira,90,Icons_Heroes,435000,420000,442312
+Best,90,Icons_Heroes,818000,660000,924799
+Gullit,90,Icons_Heroes,3389000,3465000,1081758
+González Blanco,90,Icons_Heroes,509000,428000,422463
+Abily,90,Icons_Heroes,536000,400000,471533
+Seger,90,Icons_Heroes,183000,158000,224261
+Pirlo,90,Icons_Heroes,239000,225000,251549
+Miyama,90,Icons_Heroes,220000,171000,289292
+Matthäus,90,Icons_Heroes,1499000,1400000,904692
+Moore,90,Icons_Heroes,132000,140000,154533
+Foudy,90,Icons_Heroes,150000,135000,181268
+Kroos,90,Icons_Heroes,380000,350000,268588
+Schelin,90,Icons_Heroes,620000,360000,811410
+Del Piero,90,Icons_Heroes,609000,470000,489735
+Harry Kane,90,Special,106000,102000,123303
+Vinícius José De Oliveira Júnior,90,Special,1045000,820000,1382529
+Khadija Shaw,90,Special,88000,73500,102553
+Vinícius José De Oliveira Júnior,90,Special,2470000,1990000,1888516
+Ousmane Dembélé,90,Special,3925000,3100000,2033410
+Caroline Graham Hansen,90,Special,2790000,2190000,1688875
+Vítor Machado Ferreira,90,Special,103000,100000,158012
+Virgil Van Dijk,90,Special,1801000,1810000,639370
+María Pilar León Cebrián,90,Special,41750,35500,73912
+Khadija Shaw,90,Special,35250,33250,50178
+Florian Wirtz,89,Gold,36000,30250,33234
+Vinícius José De Oliveira Júnior,89,Gold,432000,315000,337028
+Federico Valverde,89,Gold,159000,142000,124770
+Vítor Machado Ferreira,89,Gold,22500,24000,27177
+Harry Kane,89,Gold,28000,24000,26460
+Raphael Dias Belloli,89,Gold,127000,99500,133931
+Lamine Yamal Nasraoui Ebana,89,Gold,72500,60500,72645
+Joshua Kimmich,89,Gold,22500,24000,24610
+Achraf Hakimi,89,Gold,65500,64000,92862
+Pedro González López,89,Gold,23250,24000,36734
+Alessia Russo,89,Gold,22750,24000,30789
+María Francesca Caldentey Oliver,89,Gold,22750,24000,25429
+Patricia Guijarro Gutiérrez,89,Gold,22750,23750,27751
+Khadija Shaw,89,Gold,23000,26000,26133
+María Pilar León Cebrián,89,Gold,23250,25750,27542
+Lahm,89,Icons_Heroes,222000,230000,227454
+Madeira Caeiro Figo,89,Icons_Heroes,269000,235000,441177
+Zanetti,89,Icons_Heroes,214000,206000,228584
+Dalglish,89,Icons_Heroes,1115000,890000,701096
+Nesta,89,Icons_Heroes,201000,195000,215755
+Sánchez,89,Icons_Heroes,300000,259000,473321
+Stoichkov,89,Icons_Heroes,860000,601000,958509
+Ventura Filho,89,Icons_Heroes,1809000,1460000,1308853
+Shearer,89,Icons_Heroes,81500,85000,104492
+Vieira Da Silva,89,Icons_Heroes,720000,900000,485455
+Smith,89,Icons_Heroes,339000,239000,444446
+Lineker,89,Icons_Heroes,84000,82000,109971
+Butragueño Santos,89,Icons_Heroes,985000,668000,917641
+Totti,89,Icons_Heroes,1088000,979000,651756
+Eto'O,89,Icons_Heroes,1600000,1385000,1227945
+Cannavaro,89,Icons_Heroes,470000,419000,417847
+Vieira De Oliveira,89,Icons_Heroes,399000,293000,369236
+Puyol Saforcada,89,Icons_Heroes,182000,183000,209837
+Drogba,89,Icons_Heroes,499000,416000,420976
+Dos Santos Leite,89,Icons_Heroes,900000,718000,742499
+Van Nistelrooy,89,Icons_Heroes,86500,90000,128876
+Cantona,89,Icons_Heroes,669000,499000,728728
+Jones,89,Icons_Heroes,162000,142000,179418
+Papin,89,Icons_Heroes,51000,52500,58264
+Da Silva Ferreira,89,Icons_Heroes,685000,690000,344928
+Völler,89,Icons_Heroes,266000,192000,365205
+Kohler,89,Icons_Heroes,64500,58000,128731
+Morientes Sánchez,89,Icons_Heroes,60000,60000,87945
+Šašic,89,Icons_Heroes,24500,25000,48664
+Ayew,89,Icons_Heroes,260000,200000,456563
+Vialli,89,Icons_Heroes,44000,40000,58562
+Ginola,89,Icons_Heroes,1384000,1100000,1219010
+Débora C. De Oliveira,89,Special,150000,136000,229967
+Federico Valverde,89,Special,1450000,1497000,885054
+Florian Wirtz,89,Special,635000,407000,439618
+Mascherano,89,Special,187000,147000,185608
+Di Natale,89,Special,1170000,919000,1023107
+Débora C. De Oliveira,89,Special,459000,324000,323324
+Joshua Kimmich,89,Special,150000,144000,162832
+María Francesca Caldentey Oliver,89,Special,91000,86500,139178
+Sneijder,89,Special,369000,277000,353180
+Dos Santos Futre,89,Special,1015000,705000,845698
+Hazard,89,Special,2010000,1885000,1148746
+Simone Laudehr,90,Special,139000,174000,295983
+Lamine Yamal Nasraoui Ebana,89,Special,2048000,1799000,972669
+Ewa Pajor,89,Special,408000,289000,352319
+Cristiano Ronaldo Dos Santos Aveiro,89,Special,1260000,889000,583630
+Bukayo Saka,88,Gold,15250,14500,15450
+Gabriel Dos S. Magalhães,88,Gold,14750,14750,15997
+Jamal Musiala,88,Gold,15250,15500,16508
+Lautaro Martínez,88,Gold,15000,14750,15534
+Robert Lewandowski,88,Gold,16500,14500,20919
+Sophia Wilson,88,Gold,22250,19250,24644
+Guro Reiten,88,Gold,15250,14250,18506
+Ewa Pajor,88,Gold,16000,14750,21267
+Irene Paredes Hernández,88,Gold,17000,14750,18898
+Débora C. De Oliveira,88,Gold,15250,14750,22165
+Kadidiatou Diani,88,Gold,15750,15000,23084
+Marie Katoto,88,Gold,15250,14500,16202
+Owen,88,Icons_Heroes,200000,150000,248165
+Gerrard,88,Icons_Heroes,221000,212000,202367
+Chiellini,88,Icons_Heroes,689000,650000,582728
+Shevchenko,88,Icons_Heroes,157000,128000,128882
+Rooney,88,Icons_Heroes,570000,468000,521705
+Koeman,88,Icons_Heroes,148000,145000,150849
+Beckham,88,Icons_Heroes,215000,226000,209627
+Schweinsteiger,88,Icons_Heroes,149000,142000,149182
+Nedved,88,Icons_Heroes,140000,110000,181475
+Ferdinand,88,Icons_Heroes,1202000,1180000,581237
+Ribéry,88,Icons_Heroes,811000,585000,592088
+Pichon,88,Icons_Heroes,179000,105000,226987
+Scholes,88,Icons_Heroes,109000,101000,131910
+Klose,88,Icons_Heroes,95000,92500,107045
+Hagi,88,Icons_Heroes,147000,150000,169460
+Thuram,88,Icons_Heroes,1415000,1499000,974580
+Vieira,88,Icons_Heroes,1450000,1230000,860097
+Blanc,88,Icons_Heroes,483000,430000,343020
+Desailly,88,Icons_Heroes,590000,560000,607609
+Hierro Ruiz,88,Icons_Heroes,129000,139000,151661
+Laudrup,88,Icons_Heroes,94500,89500,132667
+Riquelme,88,Icons_Heroes,88000,82000,134001
+Van Persie,88,Icons_Heroes,257000,207000,275391
+Bale,88,Icons_Heroes,1793000,1540000,1094489
+Tévez,88,Icons_Heroes,279000,204000,295567
+Mascherano,88,Icons_Heroes,73500,67500,90879
+Okocha,88,Icons_Heroes,290000,255000,236373
+Márquez,88,Icons_Heroes,71000,88000,111351
+Litmanen,88,Icons_Heroes,24000,22000,40482
+Dos Santos Futre,88,Icons_Heroes,250000,183000,388107
+Lizarazu,88,Icons_Heroes,123000,150000,155745
+Forlán,88,Icons_Heroes,110000,118000,129663
+Silveira Carvalho,88,Icons_Heroes,119000,180000,87624
+Milito,88,Icons_Heroes,39000,32500,54121
+Gomez,88,Icons_Heroes,32000,25750,43589
+Kompany,88,Icons_Heroes,368000,329000,384222
+Enzo Francescoli,88,Icons_Heroes,153000,88000,164732
+Sneijder,88,Icons_Heroes,275000,181000,287974
+Douglas Sisenando,88,Icons_Heroes,295000,294000,220041
+Kessler,88,Icons_Heroes,37500,34000,66631
+Di Natale,88,Icons_Heroes,845000,556000,533759
+Hazard,88,Icons_Heroes,1005000,688000,580529
+Alexander Isak,88,Gold,15500,14500,16168
+Cole Palmer,88,Special,514000,440000,293818
+Bruno Miguel Borges Fernandes,88,Special,479000,410000,260137
+Rose Lavelle,88,Special,33000,30000,78266
+Millie Bright,88,Special,54000,64500,79697
+Cristiano Ronaldo Dos Santos Aveiro,88,Special,795000,595000,431255
+Moisés Caicedo,88,Special,110000,98000,113331
+Julián Alvarez,88,Special,550000,379000,275151
+Heung Min Son,88,Special,330000,229000,188925
+Lucy Bronze,88,Special,70000,76000,94045
+Kevin De Bruyne,88,Special,219000,178000,191898
+Lionel Messi,88,Special,720000,479000,308081
+Campos,88,Special,15750,15250,42688
+Hamšík,88,Special,711000,579000,456220
+Sakina Karchaoui,88,Special,318000,285000,345939
+Katie Mccabe,88,Special,23000,20750,37789
+Paulo Dybala,88,Special,202000,141000,228689
+Marchisio,88,Special,389000,300000,349494
+Touré,88,Special,1569000,1299000,916372
+Declan Rice,88,Special,31500,37250,59773
+Daniele De Rossi,88,Special,790000,705000,495627
+Georges,88,Special,317000,329000,301306
+Míchel Salgado,88,Special,280000,310000,222726
+Maya Le Tissier,88,Special,73000,88000,93477
+William Saliba,88,Special,1100000,1180000,311832
+Klara Bühl,88,Special,21000,19000,38727
+Irene Paredes Hernández,88,Special,80000,98000,128063
+Lindsey Heaps,88,Special,81000,83500,96159
+Robert Lewandowski,88,Special,320000,240000,344750
+Leah Williamson,88,Special,104000,122000,97742
+Simone Laudehr,88,Icons_Heroes,73000,45000,84941
+Lauren Hemp,87,Gold,10750,10500,11257
+Ada Hegerberg,87,Gold,12250,10750,11945
+Mallory Swanson,87,Gold,10750,10750,10913
+Beth Mead,87,Gold,11000,10500,11151
+Leah Williamson,87,Gold,11750,10750,12076
+Sakina Karchaoui,87,Gold,10750,11250,13797
+Chloe Kelly,87,Gold,10750,10500,10853
+Lindsey Heaps,87,Gold,11250,10500,11189
+Lucy Bronze,87,Gold,11000,10750,11549
+Rose Lavelle,87,Gold,10500,10500,10836
+Kevin De Bruyne,87,Gold,10500,10750,10867
+Cole Palmer,87,Gold,11000,10750,11465
+Khvicha Kvaratskhelia,87,Gold,11000,10750,11861
+Alessandro Bastoni,87,Gold,10750,10500,11615
+Serhou Guirassy,87,Gold,11000,10500,11067
+Frenkie De Jong,87,Gold,60000,50500,28567
+Moisés Caicedo,87,Gold,11000,11000,11520
+Declan Rice,87,Gold,11000,10750,11127
+Marcos Aoás Corrêa,87,Gold,11000,11000,11921
+Jules Koundé,87,Gold,49250,40000,27851
+Bruno Miguel Borges Fernandes,87,Gold,10750,10750,11191
+William Saliba,87,Gold,27250,23750,16334
+Julián Alvarez,87,Gold,10750,10750,13741
+Jonathan Tah,87,Gold,10500,10750,12625
+Alexis Mac Allister,87,Gold,11000,10750,11245
+Millie Bright,87,Gold,10750,10750,11513
+Martin Ødegaard,87,Gold,12750,10750,11776
+Katie Mccabe,87,Gold,10750,11000,11124
+Viktor Gyökeres,87,Gold,14000,13000,12633
+Sam Kerr,87,Gold,11000,10750,11215
+Nicolò Barella,87,Gold,11250,11000,11149
+Victor Osimhen,87,Gold,10500,10750,12067
+Torres Sanz,87,Icons_Heroes,555000,320000,292616
+Pirès,87,Icons_Heroes,95000,82500,108599
+Kluivert,87,Icons_Heroes,70500,72500,89830
+Wright,87,Icons_Heroes,90000,85000,97955
+Alonso Olano,87,Icons_Heroes,94000,96000,97079
+Petit,87,Icons_Heroes,240000,209000,236486
+Lampard,87,Icons_Heroes,144000,137000,150805
+Rush,87,Icons_Heroes,74000,71500,91977
+Vidic,87,Icons_Heroes,336000,294000,339233
+Makélélé,87,Icons_Heroes,363000,299000,307704
+Rijkaard,87,Icons_Heroes,223000,200000,216932
+Šuker,87,Icons_Heroes,76000,72000,93392
+Barnes,87,Icons_Heroes,195000,157000,194461
+Zola,87,Icons_Heroes,393000,289000,214727
+Touré,87,Icons_Heroes,698000,575000,385157
+Stam,87,Icons_Heroes,1120000,1120000,461311
+Córdoba,87,Icons_Heroes,269000,265000,212312
+Da Silva Júnior,87,Icons_Heroes,350000,276000,249469
+Brolin,87,Icons_Heroes,88500,67000,103242
+Mcmanaman,87,Icons_Heroes,35250,34500,56434
+Georges,87,Icons_Heroes,89000,89500,91689
+Hamšík,87,Icons_Heroes,271000,225000,204296
+Marchisio,87,Icons_Heroes,185000,160000,177774
+Kewell,87,Icons_Heroes,154000,134000,116757
+Berbatov,87,Icons_Heroes,21000,19500,32488
+César Costa,87,Icons_Heroes,48750,38000,58343
+Cole,87,Icons_Heroes,83000,65500,93963
+Nakata,87,Icons_Heroes,40000,38000,61555
+Tijjani Reijnders,87,Special,1040000,670000,382089
+Nicholas Williams Arthuer,87,Special,940000,930000,527760
+Trent Alexander-Arnold,87,Special,152000,174000,127919
+Kim Little,87,Special,21750,23250,31431
+Claudia Pina Medina,87,Special,1599000,901000,403279
+Bruno Guimarães Moura,87,Special,22250,24750,36655
+Trinity Rodman,87,Special,410000,235000,159336
+Scott Mctominay,87,Special,88000,65000,102191
+Michael Olise,87,Special,172000,142000,128952
+Klara Bühl,87,Special,21000,18750,22961
+Alejandro Grimaldo García,87,Special,37250,34000,76771
+Désiré Doué,87,Special,319000,267000,246371
+Dominik Szoboszlai,87,Special,103000,100000,119813
+Kenan Yildiz,87,Special,299000,230000,182451
+Lauren James,87,Special,290000,254000,182874
+Crouch,87,Special,30500,27750,57086
+Bryan Mbeumo,87,Special,97500,83000,107886
+Pernille Harder,87,Special,18250,15250,20108
+Christian Pulisic,87,Special,52500,43000,57723
+Antoine Griezmann,87,Special,139000,102000,153017
+Matuidi,87,Special,605000,500000,411707
+Ljungberg,87,Special,26000,22750,55553
+Hakan Çalhanoğlu,87,Special,18000,15750,45263
+Giuly,87,Special,65500,49000,99574
+Éder Gabriel Militão,87,Special,770000,854000,416825
+Cody Gakpo,87,Special,324000,299000,237180
+Bradley Barcola,87,Special,490000,480000,294578
+Anthony Gordon,87,Special,327000,234000,307098
+Richard Ríos,87,Special,145000,150000,95162
+Rasmus Højlund,87,Special,72000,74000,105265
+Aleksandar Pavlović,87,Special,310000,297000,90333
+Ian Maatsen,87,Special,201000,222000,170031
+Lukáš Haraslín,87,Special,16500,15500,35268
+Lionel Messi,87,Special,97500,57000,95735
+Martin Ødegaard,87,Special,180000,195000,116183
+Dominik Szoboszlai,87,Special,137000,130000,139375
+Pernille Harder,87,Special,12000,12000,20975
+Álvaro Borja Morata Martín,87,Special,12250,13250,23816
+Caroline Weir,87,Special,12000,13500,25371
+Bernardo Mota Carvalho E Silva,87,Special,171000,147000,165000
+Ada Hegerberg,87,Special,12250,12500,21454
+Naomi Girma,87,Special,23500,35750,44017
+Míchel Salgado,87,Icons_Heroes,125000,137000,144002
+Daniele De Rossi,87,Icons_Heroes,362000,319000,282202
+Tijjani Reijnders,87,Special,329000,230000,365513
+Nuno Alexandre Tavares Mendes,86,Gold,41750,41000,17810
+Antonio Rüdiger,86,Gold,8400,8300,12706
+Michael Olise,86,Gold,6300,6600,6730
+Claudia Pina Medina,86,Gold,6400,7700,8076
+Trent Alexander-Arnold,86,Gold,6500,6700,10683
+Rúben Santos Gato Alves Dias,86,Gold,6400,6800,7923
+Paulo Dybala,86,Gold,6500,6800,6768
+Bruno Guimarães Moura,86,Gold,6300,6700,6975
+Klara Bühl,86,Gold,6400,6700,6730
+Willian Pacho,86,Gold,10500,10000,9839
+Ona Batlle Pascual,86,Gold,6200,6700,7934
+Ibrahima Konaté,86,Gold,6400,6800,7539
+Hakan Çalhanoğlu,86,Gold,6200,6700,6788
+Lea Schüller,86,Gold,6500,6700,6899
+Lionel Messi,86,Gold,6500,6900,7653
+Sandro Tonali,86,Gold,6500,6900,7084
+Nicholas Williams Arthuer,86,Gold,38500,27000,18021
+Melchie Dumornay,86,Gold,6400,6700,10685
+Pernille Harder,86,Gold,8400,6900,7953
+Tijjani Reijnders,86,Gold,33500,37250,14901
+Temwa Chawinga,86,Gold,6400,6800,7389
+Verón,86,Icons_Heroes,77000,75000,82565
+Hernández,86,Icons_Heroes,77500,74000,94626
+Gattuso,86,Icons_Heroes,80000,79000,109995
+Larsson,86,Icons_Heroes,74500,75000,83585
+Cole,86,Icons_Heroes,205000,192000,179691
+Crespo,86,Icons_Heroes,75500,70000,86501
+Campbell,86,Icons_Heroes,249000,240000,220454
+Lima Do Amor,86,Icons_Heroes,195000,149000,127539
+Zambrotta,86,Icons_Heroes,264000,210000,211874
+Keane,86,Icons_Heroes,143000,99500,136479
+Essien,86,Icons_Heroes,280000,294000,239134
+Cha,86,Icons_Heroes,294000,168000,213758
+Donovan,86,Icons_Heroes,26750,20000,36043
+Smolarek,86,Icons_Heroes,124000,84500,126814
+Keane,86,Icons_Heroes,122000,77000,81831
+Solskjær,86,Icons_Heroes,32000,30750,40374
+Ljungberg,86,Icons_Heroes,26000,27000,36331
+Rosický,86,Icons_Heroes,28000,26000,44749
+Bompastor,86,Icons_Heroes,48000,47250,59138
+Riise,86,Icons_Heroes,54500,55000,71631
+Giuly,86,Icons_Heroes,26000,22250,48834
+Carragher,86,Icons_Heroes,30000,27250,49150
+Al Jaber,86,Icons_Heroes,18000,18000,29259
+Park,86,Icons_Heroes,33500,35250,41602
+Gutiérrez Hernández,86,Icons_Heroes,45250,43000,41429
+Santos Do Nascimen.,86,Icons_Heroes,538000,505000,239144
+Kanu,86,Icons_Heroes,14000,13250,23893
+Matuidi,86,Icons_Heroes,330000,268000,200319
+Capdevila Méndez,86,Icons_Heroes,80000,77500,88545
+Kuyt,86,Icons_Heroes,30500,23500,40873
+Govou,86,Icons_Heroes,141000,110000,111899
+Williams,86,Icons_Heroes,22250,26500,36373
+Ledley King,86,Icons_Heroes,170000,180000,105159
+Iñigo Martínez Berridi,86,Special,23750,25500,26934
+Alejandro Grimaldo García,86,Special,21500,18750,34898
+Benjamin Pavard,86,Special,89000,91500,66879
+Lena Oberdorf,86,Special,29250,22250,33357
+Marcos Llorente Moreno,86,Special,275000,315000,147938
+Grace Geyoro,86,Gold,6600,6900,7950
+Éder Gabriel Militão,86,Special,300000,327000,156351
+Ryan Gravenberch,86,Special,168000,168000,88522
+Christian Pulisic,86,Special,51000,49250,58069
+Sara Däbritz,86,Special,21000,19500,31348
+Luis Díaz,86,Special,212000,153000,95550
+Mikel Oyarzabal Ugarte,86,Special,31500,26000,43419
+Wendie Renard,86,Special,25750,26000,27534
+Georgia Stanway,86,Special,16250,14750,20017
+Karim Adeyemi,86,Special,302000,232000,240081
+João Pedro Gonçalves Neves,86,Special,83500,64000,61189
+Alejandro Balde Martínez,86,Special,296000,282000,225501
+Willi Orban,86,Special,15750,16000,31498
+Luis Díaz,86,Special,70000,44750,77266
+Marc Cucurella Saseta,86,Special,70000,73500,62847
+Salma Celeste Paralluelo Ayingono,86,Special,465000,365000,165429
+Cristian Romero,86,Special,45250,32000,43667
+Hugo Ekitiké,86,Special,138000,106000,75851
+Eberechi Eze,86,Special,134000,100000,101471
+Pierre-Emerick Aubameyang,86,Special,26000,27750,28597
+Cody Gakpo,86,Special,30750,24500,36486
+Caroline Weir,86,Special,15750,13750,18684
+Rúben Diogo Da Silva Neves,86,Special,15750,16000,18916
+Keira Walsh,86,Special,15500,14000,24308
+Rodrygo Silva De Goes,86,Special,66000,49000,71576
+Denzel Dumfries,86,Special,39000,39000,39598
+Leny Yoro,86,Special,71000,64000,57211
+Antony Matheus Dos Santos,86,Special,76000,69500,54861
+Selma Bacha,86,Special,172000,181000,74752
+Tabitha Chawinga,86,Special,16750,15250,31025
+Clara Mateo,86,Special,17250,14750,24243
+Al Owairan,86,Special,242000,169000,91794
+Nathan Tella,86,Special,13250,12000,19218
+Thomas Müller,86,Special,13250,12750,16530
+Rafael Da Conceição Leão,86,Special,835000,529000,381951
+João Félix Sequeira,86,Special,106000,86000,67614
+Lineth Beerensteyn,86,Special,12000,11250,19149
+Juan Cuadrado,86,Special,17750,17750,21414
+Jeremie Frimpong,86,Special,146000,145000,186742
+Emelyne Laurent,86,Special,13250,12750,15143
+Álvaro Fernández Carreras,86,Special,60000,76000,80670
+Ellie Carpenter,86,Special,13750,12250,24568
+Pedro António Pereira Gonçalves,86,Special,13750,12750,15983
+Maika Hamano,86,Special,12250,11500,17977
+Xavi Simons,86,Special,85000,72000,61319
+Tara Elimbi Gilbert,86,Special,11500,12000,16444
+Dennis Man,86,Special,35750,33250,35048
+Estêvão Willian Almeida,86,Special,202000,283000,144200
+Felix Nmecha,86,Special,323000,339000,179168
+Yoan Bonny,86,Special,189000,170000,189333
+Kouadio Manu Koné,86,Special,114000,124000,88193
+Anass Zaroury,86,Special,14000,15250,31174
+Cher Ndour,86,Special,18000,17500,23943
+Benedict Hollerbach,86,Special,17000,18500,36816
+Igor Jesus Maciel Da Cruz,86,Special,21750,22500,31951
+Daniel Ballard,86,Special,14000,13500,25155
+Laia Aleixandri López,86,Special,13500,12750,30137
+Glódís Perla Viggósdóttir,86,Special,14000,19000,18134
+Aurélien Tchouaméni,86,Special,258000,240000,142533
+Jessie Fleming,86,Special,10750,10750,12766
+Nicolae Stanciu,86,Special,11500,13750,14807
+Nicolás Otamendi,86,Special,19750,19500,21216
+Giovanni Di Lorenzo,86,Special,60000,76000,73320
+Kosovare Asllani,86,Special,10750,11000,14600
+Andrew Robertson,86,Special,111000,151000,88319
+Edson Álvarez,86,Special,17750,36000,18576
+Griedge Mbock,86,Special,13750,19000,27839
+Yeremay Hernández Cubas,86,Special,13250,12250,19248
+Allegra Poljak,86,Special,12250,11750,16730
+João Pedro Gonçalves Neves,86,Special,19750,13500,45217
+Joško Gvardiol,86,Special,67000,41250,71010
+Manuela Giugliano,85,Gold,3400,3700,3407
+Gleison Bremer Silva Nascimento,85,Gold,3700,4900,3645
+Scott Mctominay,85,Gold,3400,3600,3408
+Cristiana Girelli,85,Gold,3400,3700,3417
+Ryan Gravenberch,85,Gold,4000,6300,3647
+Youri Tielemans,85,Gold,3300,3700,3334
+Granit Xhaka,85,Gold,3400,3700,3388
+Phil Foden,85,Gold,3300,3600,3326
+Bryan Mbeumo,85,Gold,3300,3700,3352
+Ella Toone,85,Gold,3300,3700,3308
+Sandy Baltimore,85,Gold,3300,3700,3319
+Caitlin Foord,85,Gold,3400,3700,3368
+Erin Cuthbert,85,Gold,3300,3700,3332
+Yui Hasegawa,85,Gold,3300,3600,3350
+Heung Min Son,85,Gold,3400,3800,3449
+Kim Little,85,Gold,3300,3500,3360
+Lauren James,85,Gold,3300,3700,3380
+Vivianne Miedema,85,Gold,3300,3700,3518
+Naomi Girma,85,Gold,4600,3700,3758
+Keira Walsh,85,Gold,3300,3700,3442
+Cristiano Ronaldo Dos Santos Aveiro,85,Gold,4400,6200,3831
+Iñigo Martínez Berridi,85,Gold,3400,3700,3554
+Karim Benzema,85,Gold,3400,3700,3386
+N'Golo Kanté,85,Gold,3500,4800,3541
+Antoine Griezmann,85,Gold,3300,3700,3339
+Daniel Olmo Carvajal,85,Gold,3300,3700,3429
+Daniel Carvajal Ramos,85,Gold,3400,3700,3544
+Rodrygo Silva De Goes,85,Gold,4000,4800,3775
+Linda Caicedo,85,Gold,3300,3600,3535
+Caroline Weir,85,Gold,4100,3600,3694
+Luis Díaz,85,Gold,3400,3800,3375
+Patrik Schick,85,Gold,3400,3700,3384
+Nico Schlotterbeck,85,Gold,3300,3700,3417
+Dayot Upamecano,85,Gold,3300,3700,3517
+Georgia Stanway,85,Gold,3300,3600,3346
+Laura Freigang,85,Gold,3300,3600,3345
+Alexandra Popp,85,Gold,3400,3700,3387
+Svenja Huth,85,Gold,3300,3700,3340
+Désiré Doué,85,Gold,3500,4100,3490
+Trinity Rodman,85,Gold,3400,4000,3604
+Barbra Banda,85,Gold,3400,3600,3656
+Delphine Cascarino,85,Gold,3300,3700,3357
+Marta Vieira Da Silva,85,Gold,3300,3700,3375
+Selma Bacha,85,Gold,3400,3800,3418
+Federico Dimarco,85,Gold,3500,3800,3429
+João Pedro Gonçalves Neves,85,Gold,3700,4700,3668
+Clara Mateo,85,Gold,3500,3700,3455
+Marcus Thuram,85,Gold,3300,3700,3356
+Tabitha Chawinga,85,Gold,3400,3700,3429
+Fabián Ruiz Peña,85,Gold,3300,3900,3392
+Wendie Renard,85,Gold,3400,3700,3488
+Noor,85,Icons_Heroes,15500,14000,20424
+Víctor Ibarbo,85,Icons_Heroes,86500,81500,66402
+Cahill,85,Icons_Heroes,14000,13000,17987
+Beasley,85,Icons_Heroes,28250,24250,35294
+Yao Kouassi,85,Icons_Heroes,114000,120000,81209
+Crouch,85,Icons_Heroes,16500,15000,18879
+Al Owairan,85,Icons_Heroes,152000,115000,77767
+Seydou Doumbia,85,Icons_Heroes,134000,96500,80749
+Scott,85,Icons_Heroes,29000,26000,26360
+Dempsey,85,Icons_Heroes,13500,12750,21903
+Luka Modrić,85,Special,36500,37000,24100
+Riccardo Orsolini,85,Special,15000,15500,15616
+Denise O'Sullivan,85,Special,30000,21000,17478
+Corentin Tolisso,85,Special,49000,56500,27119
+Gianluca Mancini,85,Special,13250,14000,26049
+Ryan Yates,85,Special,15750,18000,15779
+Giovanni Di Lorenzo,85,Special,38000,42000,29929
+Malik Tillman,85,Special,21000,19750,17253
+Khéphren Thuram,85,Special,119000,99500,34152
+Marten De Roon,85,Special,11250,12750,15614
+Elisabeth Terland,85,Special,11500,12000,12131
+Angelo Stiller,85,Special,17000,17250,16383
+Mary Alice Vignola,85,Special,11500,11750,13120
+Oscar Bobb,85,Special,20750,27750,18621
+Florian Thauvin,85,Special,13000,13500,16682
+Lotte Wubben-Moy,85,Special,11000,11500,12840
+Pau Cubarsí Paredes,85,Special,67500,75000,36337
+Riyad Mahrez,85,Special,13500,12500,14267
+Crystal Dunn,85,Special,42000,36000,28245
+Francisco F. Da Conceição,85,Special,25000,29250,28228
+Glódís Perla Viggósdóttir,85,Special,11000,11000,11686
+Maximilian Beier,85,Special,26000,18500,18821
+Angelo Stiller,85,Special,14000,12500,16010
+Alejandro Berenguer Remiro,85,Special,12250,11250,13116
+Juan David Cabal,85,Special,58000,46500,34441
+Madison Haley,85,Special,11250,10750,12831
+Pablo Fornals Malla,85,Special,13000,14000,13453
+Géraldine Reuteler,85,Special,10750,10750,12822
+Nicolas Seiwald,85,Special,10750,10750,12660
+Timothy Weah,85,Special,17750,18500,18563
+Antony Matheus Dos Santos,85,Special,17750,17250,15457
+Archie Brown,85,Special,20750,23000,19546
+Unai López Cabrera,85,Special,28000,29500,24577
+Rodrigo Mora De Carvalho,85,Special,13000,13750,14797
+Anis Hadj-Moussa,85,Special,12250,12500,15432
+Cédric Bakambu,85,Special,11500,12250,12043
+Mikael Ishak,85,Special,11000,11000,11772
+Domenico Berardi,85,Special,12750,12000,14726
+Tim Ream,85,Special,10750,11250,11386
+Sherida Spitse,85,Special,10750,11000,13170
+Orri Óskarsson,85,Special,10750,11250,12449
+Piotr Zieliński,85,Special,10750,12500,14239
+Nathan Collins,85,Special,11250,12750,13609
+Jordan Ayew,85,Special,10750,11000,12368
+Jordan Henderson,85,Special,29500,48000,19185
+Aldana Cometti,85,Special,10750,10750,20767
+Serge Gnabry,85,Special,13000,12000,15207
+Ezri Konsa,85,Special,12250,12000,13848
+Mikel Oyarzabal Ugarte,85,Special,12250,11500,13255
+Saki Kumagai,85,Special,12250,12000,13952
+Antonio Nusa,85,Special,54500,17250,28650
+Giada Greggi,84,Gold,1300,1400,1300
+Manuel Locatelli,84,Gold,1300,1400,1304
+Romelu Lukaku,84,Gold,1400,1400,1370
+Giulia Gwinn,84,Gold,1300,1400,1314
+Cody Gakpo,84,Gold,1300,1400,1382
+James Maddison,84,Gold,1500,1400,1479
+Enzo Fernández,84,Gold,1400,1400,1410
+Bernardo Mota Carvalho E Silva,84,Gold,1800,1400,1558
+Joško Gvardiol,84,Gold,1500,1600,1426
+Marc Cucurella Saseta,84,Gold,1400,1400,1396
+Omar Marmoush,84,Gold,5200,1500,3047
+Ollie Watkins,84,Gold,1400,1400,1409
+Alex Greenwood,84,Gold,1400,1400,1370
+Sjoeke Nüsken,84,Gold,1300,1400,1309
+Francisco Román Alarcón Suárez,84,Gold,1400,1400,1454
+Ellie Carpenter,84,Gold,1300,1400,1327
+Theo Hernández,84,Gold,16500,24000,5684
+Moussa Diaby,84,Gold,1300,1400,2312
+Sergej Milinković-Savić,84,Gold,1300,1400,1308
+Rúben Diogo Da Silva Neves,84,Gold,1300,1400,1326
+João Pedro Cavaco Cancelo,84,Gold,1300,1400,1311
+Riyad Mahrez,84,Gold,1400,1400,1495
+Alejandro Baena Rodríguez,84,Gold,1300,1400,1380
+Oihan Sancet Tirapu,84,Gold,1300,1400,1384
+Éder Gabriel Militão,84,Gold,7000,8900,2515
+Salma Celeste Paralluelo Ayingono,84,Gold,14000,17000,6866
+Alba Redondo Ferrer,84,Gold,1300,1400,2171
+Sara Däbritz,84,Gold,1400,1400,2058
+Aurélien Tchouaméni,84,Gold,2400,2300,2280
+Marcos Llorente Moreno,84,Gold,14250,16500,6632
+Alphonso Davies,84,Gold,1700,1800,2697
+Exequiel Palacios,84,Gold,1300,1400,1308
+Willi Orban,84,Gold,1300,1400,1444
+Daniel Vivian Moreno,84,Gold,1300,1400,1431
+Alejandro Grimaldo García,84,Gold,1300,1300,1328
+Géraldine Reuteler,84,Gold,1400,1400,2356
+Lena Oberdorf,84,Gold,1400,1400,1363
+Glódís Perla Viggósdóttir,84,Gold,1500,1400,1463
+Rodrigo De Paul,84,Gold,1400,1400,1343
+Lineth Beerensteyn,84,Gold,1400,1400,2235
+Janina Minge,84,Gold,1300,1400,1306
+Bradley Barcola,84,Gold,1400,1400,2774
+Fridolina Rolfö,84,Gold,1300,1400,1315
+Steph Catley,84,Gold,1400,1400,1368
+Olga Carmona García,84,Gold,1300,1400,1377
+Denzel Dumfries,84,Gold,1300,1400,1336
+Ashley Lawrence,84,Gold,1300,1400,1312
+Frida Maanum,84,Gold,1300,1400,1313
+Damaris Berta Egurrola Wienke,84,Gold,1300,1400,1310
+Sara Doorsoun,84,Gold,1300,1400,1318
+Mattia Zaccagni,84,Gold,1400,1400,1412
+Ingrid Syrstad Engen,84,Gold,1300,1400,1329
+Maya Le Tissier,84,Gold,1400,1400,1384
+Christian Pulisic,84,Gold,1400,1400,1441
+Rafael Da Conceição Leão,84,Gold,11500,16250,4815
+Ademola Lookman,84,Gold,1400,1400,1546
+Alexander Sørloth,84,Gold,1300,1400,1383
+Emily Fox,84,Gold,1300,1400,1319
+Esther González Rodríguez,84,Gold,1300,1400,1433
+Francesco Acerbi,84,Gold,1400,1400,1463
+Stefan De Vrij,84,Gold,1300,1400,1413
+Jaden Philogene,84,Special,19000,17250,19000
+Melvine Malard,84,Special,17750,19750,16103
+Benjamin Pavard,84,Gold,1300,1400,1419
+Xavi Simons,84,Gold,1400,1400,1431
+João Félix Sequeira,84,Special,65500,59000,38228
+David Raum,84,Special,18000,18750,15610
+Lisa Karl,84,Special,12000,11500,12010
+Fiamma Benítez Ianuzzi,84,Special,13500,12750,13503
+Jorge Resurrección,84,Special,14750,13250,15782
+Rafael A. Ferreira Silva,84,Special,42000,20000,31159
+Korbin Shrader,84,Special,13500,12250,14567
+Konrad Laimer,84,Special,15250,15000,14436
+Jade Le Guilly,84,Special,10750,11000,16506
+Maghnes Akliouche,84,Special,13000,14500,13660
+Christian Günter,84,Special,12750,14000,12963
+Jordi Alba Ramos,84,Special,15500,14500,13852
+Anders Dreyer,84,Special,11250,14250,12070
+Jovana Damnjanović,84,Special,11250,11500,11975
+Beatriz Zaneratto João,84,Special,12250,12250,12694
+Jess Park,84,Special,12750,12250,14377
+Julia Zigiotti,84,Special,11000,11750,11882
+Iván Romero De Ávila,84,Special,11750,12250,12223
+Danilho Doekhi,84,Special,13000,12500,12775
+Mason Greenwood,84,Special,14500,14500,14941
+Leroy Sané,84,Special,15500,12000,15381
+Jean-Philippe Mateta,84,Special,13250,12000,14353
+Danny Da Costa,84,Special,11250,11750,11739
+Guéla Doué,84,Special,10750,10500,10968
+Ismael Saibari,84,Special,13000,12250,12987
+Micky Van De Ven,84,Special,190000,210000,34749
+André-Franck Zambo Anguissa,84,Special,12500,12000,16162
+Vangelis Pavlidis,84,Special,12750,12000,12164
+Daniel Svensson,84,Special,10750,11000,11429
+Eseosa Aigbogun,84,Special,10500,11000,11102
+Alejandro Francés Torrijo,84,Special,10500,11250,10858
+Lucas Tolentino Coelho De Lima,84,Special,13500,16000,14105
+Matheus De Barros Da Silva,84,Special,11500,15750,11936
+Kevin Rodríguez,84,Special,11500,11750,13236
+Kenneth Taylor,84,Special,11250,11500,11922
+Victor Edvardsen,84,Special,11750,10500,11774
+Max Aarons,84,Special,10500,10750,11320
+Ruben Kluivert,84,Special,12000,12750,13720
+Boattin,84,Gold,1100,1500,1250
+Romée Leuchter,84,Special,12250,11750,17360
+Jérémy Doku,84,Special,60000,58000,33076
+Trai Hume,84,Special,11250,11750,12502
+Rebeca Bernal,84,Special,10500,12500,11096
+Mykola Matviienko,84,Special,10500,10500,10816
+Dolores Isabel Jácome Da Silva,84,Special,10500,10500,11524
+Ben Davies,84,Special,11500,12000,12338
+Kaishū Sano,84,Special,12250,12000,12596
+Croix Bethune,84,Special,12500,12000,13184
+Carlos Henrique Venancio Casimiro,84,Special,12750,11750,13985
+Dan Ndoye,84,Special,12000,12000,16116
+Malo Gusto,84,Special,14750,14000,16628
+Gianluca Mancini,83,Gold,800,900,784
+Artem Dovbyk,83,Gold,750,800,836
+Stanislav Lobotka,83,Gold,750,800,774
+Amir Rrahmani,83,Gold,750,800,766
+Giovanni Di Lorenzo,83,Gold,1400,850,1266
+Barbara Bonansea,83,Gold,800,850,816
+Hugo Ekitiké,83,Gold,1000,900,970
+Dominik Szoboszlai,83,Gold,1400,800,1094
+Jeremie Frimpong,83,Gold,1600,2200,1363
+Nikola Milenković,83,Gold,750,800,810
+Murillo Costa Dos Santos,83,Gold,1600,2500,1208
+Benjamin White,83,Gold,1000,950,970
+Nathan Aké,83,Gold,850,850,875
+Leandro Trossard,83,Gold,850,850,903
+Anthony Gordon,83,Gold,900,850,1010
+Dejan Kulusevski,83,Gold,800,850,829
+João Maria Palhinha Gonçalves,83,Gold,750,750,792
+Angelo Stiller,83,Gold,750,850,763
+Kadeisha Buchanan,83,Gold,800,850,820
+Catarina Cantanhede Macario,83,Gold,750,850,824
+Mayra Ramírez,83,Gold,1900,1000,1318
+Kingsley Coman,83,Gold,800,850,882
+Mateo Retegui,83,Gold,750,750,809
+Sadio Mané,83,Gold,800,750,871
+Iago Aspas Juncal,83,Gold,800,850,841
+Athenea Del Castillo,83,Gold,800,850,856
+Eduardo Camavinga,83,Gold,1600,2200,1243
+Jarrod Bowen,83,Gold,900,850,956
+José María Giménez,83,Gold,750,850,761
+Julian Brandt,83,Gold,800,900,793
+Aleix García Serrano,83,Gold,800,800,792
+Lucas Torreira,83,Gold,850,900,829
+Arianna Caruso,83,Gold,750,850,768
+Henrikh Mkhitaryan,83,Gold,850,800,812
+Lena Lattwein,83,Gold,750,800,769
+Morten Hjulmand,83,Gold,750,850,771
+Nicole Anyomi,83,Gold,1100,1100,1137
+Mikel Merino Zazón,83,Gold,900,900,851
+Kenza Dali,83,Gold,750,850,804
+Ayoze Pérez Gutiérrez,83,Gold,1000,950,947
+Iñaki Williams Arthuer,83,Gold,1000,900,1183
+Pedro António Pereira Gonçalves,83,Gold,750,800,800
+Jule Brand,83,Gold,850,900,979
+Daniëlle Van De Donk,83,Gold,800,900,791
+Dominique Janssen,83,Gold,750,850,778
+Dávid Hancko,83,Gold,750,900,848
+Vanessa Dibernardo,83,Gold,750,800,763
+Selina Cerci,83,Gold,900,950,880
+Mateo Kovačić,83,Gold,750,850,783
+Thomas Partey,83,Gold,750,800,839
+Emily Sonnett,83,Gold,800,850,812
+Luka Modrić,83,Gold,800,850,793
+Matheus Santos Carneiro Da Cunha,83,Gold,900,900,912
+Martín Zubimendi Ibáñez,83,Gold,800,900,805
+Pablo Martín Páez Gavira,83,Gold,750,850,853
+Eberechi Eze,83,Gold,1200,1300,996
+Alejandro Balde Martínez,83,Gold,950,1300,1142
+Fran Kirby,83,Gold,900,850,894
+Boubacar Kamara,83,Gold,800,800,835
+Ferran Torres García,83,Gold,850,900,864
+Linda Dallmann,83,Gold,750,850,775
+Moise Kean,83,Gold,750,800,834
+Ronald Araujo,83,Gold,950,1500,1116
+Griedge Mbock,83,Gold,1400,850,1018
+Elena Linari,83,Gold,800,750,790
+Robin Le Normand,83,Gold,750,800,779
+Vanessa Gilles,83,Gold,750,800,781
+Antoine Semenyo,83,Special,16500,13500,15159
+Fermín López Marín,83,Special,57500,51500,40655
+Thomas Müller,83,Special,17750,14250,16649
+İlkay Gündoğan,83,Gold,750,850,764
+Adrien Rabiot,83,Gold,800,800,925
+Piero Hincapié,83,Gold,1900,3600,1442
+Lorenzo Pellegrini,83,Special,16250,18500,16558
+Diego Chará,83,Special,13250,13000,13774
+Marwane Saadane,83,Special,15000,14250,14780
+Laura Requena Sánchez,83,Special,11500,12000,11689
+Gift Monday,83,Special,12750,12500,12512
+Carles Gil Pareja,83,Special,11500,11750,12597
+Angel Gomes,83,Special,16000,30000,16263
+Vivien Endemann,83,Special,12500,12500,13554
+Rosemonde Kouassi,83,Special,13500,13750,17158
+Lynn Wilms,83,Special,12500,12250,12719
+Manaka Matsukubo,83,Special,13750,13500,13360
+Tyler Morton,83,Special,12250,13000,14276
+Esmee Brugts,83,Special,12750,12000,20689
+Martín Ojeda,83,Special,12250,13000,12160
+Jakub Kamiński,83,Special,21250,31750,18884
+Harry Maguire,83,Special,15000,15000,14889
+Gabriel Davi Gomes Sara,83,Special,21250,19250,16882
+María Molina Molero,83,Special,12250,12000,12663
+Jizz Hornkamp,83,Special,12250,11750,12321
+Wouter Burger,83,Special,12500,12000,12704
+Al Hassan Touré,83,Special,12250,12000,12315
+Gauthier Hein,83,Special,12250,12000,12914
+Kieffer Moore,83,Special,12250,12000,12542
+Divin Mubama,83,Special,12250,12000,12766
+İsmail Yüksek,83,Special,12250,12000,12530
+Haris Tabaković,83,Special,12250,11750,12559
+Anton Krivotsyuk,83,Special,12750,12500,12499
+Jon Gorrotxategi,83,Special,12500,12250,12663
+Niccolò Pierozzi,83,Special,12250,12000,12582
+Estéban Lepaul,83,Special,12250,12000,12811
+Saeed Al Rubaie,83,Special,12250,12000,14084
+Mika Mármol Medina,83,Special,12000,11750,12602
+Kieran Tierney,83,Special,12000,12000,12306
+Guus Til,83,Special,12250,12000,12322
+Philipp Sander,83,Special,12000,12000,12563
+Dan Agyei,83,Special,12000,12000,14493
+Amario Cozier-Duberry,83,Special,12000,12000,12997
+Exequiel Zeballos,83,Special,12250,12000,14087
+Roger Martínez,83,Special,12250,12000,12272
+Freya Godfrey,83,Special,12250,12000,12796
+Jaedyn Shaw,83,Special,12250,11750,13284
+Wesley Saïd,83,Special,12000,12000,12893
+Ibrahim Maza,83,Special,12000,12000,14773
+Idrissa Touré,83,Special,12000,12250,15234
+Eduardo David Espiau Hernández,83,Special,12000,12000,12165
+Richonell Margaret,83,Special,12250,11750,12465
+Meschack Elia,83,Special,11750,11750,12570
+Juninho Bacuna,83,Special,12250,11750,12377
