@@ -21,9 +21,14 @@ Prices are log-transformed for better distribution.
 Gender was excluded as it is highly correlated with league.
 """
 
+import logging
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
+
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
 
 # CONFIGURATION
 DATA_FILE = "/files/Capstone_Project_ST/data/processed/players_complete.csv"
@@ -61,9 +66,9 @@ DEFAULT_SMOOTHING = 10
 # DATA LOADING
 def load_data(file_path=DATA_FILE):
     """Load the dataset from CSV file."""
-    print(f"Loading data from {file_path}")
+    logger.info(f"Loading data from {file_path}")
     df = pd.read_csv(file_path)
-    print(f"Loaded {len(df)} players with {len(df.columns)} columns")
+    logger.info(f"Loaded {len(df)} players with {len(df.columns)} columns")
     return df
 
 
@@ -74,7 +79,7 @@ def create_nationality_features(df):
     Top nationalities get their own column, others grouped as 'OTHER'.
     Top nationalities represent ~70% of players. 
     """
-    print("Creating nationality features")
+    logger.info("Creating nationality features")
     df = df.copy()
     
     # Group rare nationalities as OTHER
@@ -97,7 +102,7 @@ def create_nationality_features(df):
     # Sort columns for consistency
     nationality_dummies = nationality_dummies.reindex(sorted(nationality_dummies.columns), axis=1)
     
-    print(f"  Created {len(nationality_dummies.columns)} nationality features")
+    logger.info(f"  Created {len(nationality_dummies.columns)} nationality features")
     return nationality_dummies
 
 
@@ -107,7 +112,7 @@ def create_league_features(df):
     Top leagues get their own column, others grouped as 'OTHER'.
     Top leagues represent ~75% of players. 
     """
-    print("Creating league features")
+    logger.info("Creating league features")
     df = df.copy()
     
     # Group rare leagues as OTHER
@@ -133,7 +138,7 @@ def create_league_features(df):
     # Sort columns for consistency
     league_dummies = league_dummies.reindex(sorted(league_dummies.columns), axis=1)
     
-    print(f"  Created {len(league_dummies.columns)} league features")
+    logger.info(f"  Created {len(league_dummies.columns)} league features")
     return league_dummies
 
 
@@ -143,7 +148,7 @@ def create_card_category_features(df):
     Card categories: Gold, Special, Icons_Heroes.
     Unknown categories are grouped as 'OTHER' (safety measure).
     """
-    print("Creating card category features")
+    logger.info("Creating card category features")
     df = df.copy()
     
     # Group unknown categories as OTHER (safety measure)
@@ -167,7 +172,7 @@ def create_card_category_features(df):
     # Sort columns for consistency
     category_dummies = category_dummies.reindex(sorted(category_dummies.columns), axis=1)
     
-    print(f"  Created {len(category_dummies.columns)} card category features")
+    logger.info(f"  Created {len(category_dummies.columns)} card category features")
     return category_dummies
 
 
@@ -184,7 +189,7 @@ def create_club_encoding_map(df, target_col, smoothing=DEFAULT_SMOOTHING):
     Returns:
         club_encoding_map: Dictionary mapping club names to encoded values
     """
-    print(f"Creating club encoding map (smoothing={smoothing})")
+    logger.info(f"Creating club encoding map (smoothing={smoothing})")
     
     global_mean = df[target_col].mean()
     
@@ -201,7 +206,7 @@ def create_club_encoding_map(df, target_col, smoothing=DEFAULT_SMOOTHING):
     club_encoding_map = club_stats['smoothed_mean'].to_dict()
     club_encoding_map['__global_mean__'] = global_mean  # Fallback for unknown clubs
     
-    print(f"  Created encoding map for {len(club_encoding_map) - 1} clubs")
+    logger.info(f"  Created encoding map for {len(club_encoding_map) - 1} clubs")
     return club_encoding_map
 
 
@@ -260,20 +265,20 @@ def prepare_features(df, target_col='price_w1', scaler=None, club_encoding_map=N
         club_encoding_map: Club encoding map (save for test data)
         feature_names: List of all feature names
     """
-    print("\nPREPARING FEATURES")
+    logger.info("Preparing features")
     
     is_training = (scaler is None)
     mode = "TRAINING" if is_training else "TEST"
-    print(f"Mode: {mode}")
+    logger.info(f"Mode: {mode}")
     
     df = df.copy()
     
     # Target variable (log-transformed)
     y = transform_target(df[target_col])
-    print(f"Target: log-transformed {target_col}")
+    logger.info(f"Target: log-transformed {target_col}")
     
     # Numerical features (standardized)
-    print("Standardizing numerical features")
+    logger.info("Standardizing numerical features")
     if is_training:
         scaler = StandardScaler()
         X_numerical = pd.DataFrame(
@@ -287,11 +292,11 @@ def prepare_features(df, target_col='price_w1', scaler=None, club_encoding_map=N
             columns=NUMERICAL_FEATURES,
             index=df.index
         )
-    print(f"  Standardized {len(NUMERICAL_FEATURES)} numerical features")
+    logger.info(f"  Standardized {len(NUMERICAL_FEATURES)} numerical features")
     
     # Position clusters (binary, as-is)
     X_positions = df[POSITION_CLUSTERS].copy()
-    print(f"Position clusters: {len(POSITION_CLUSTERS)} features")
+    logger.info(f"Position clusters: {len(POSITION_CLUSTERS)} features")
     
     # Nationality features (one-hot)
     X_nationality = create_nationality_features(df)
@@ -309,7 +314,7 @@ def prepare_features(df, target_col='price_w1', scaler=None, club_encoding_map=N
     if is_training:
         club_encoding_map = create_club_encoding_map(df, target_col, smoothing)
     else:
-        print("Applying pre-computed club encoding")
+        logger.info("Applying pre-computed club encoding")
     club_encoded = apply_club_encoding(df, club_encoding_map)
     X_club = pd.DataFrame({'club_encoded': club_encoded}, index=df.index)
     
@@ -326,79 +331,90 @@ def prepare_features(df, target_col='price_w1', scaler=None, club_encoding_map=N
     # In test mode, reindex to match training features exactly
     if not is_training and feature_names is not None:
         X = X.reindex(columns=feature_names, fill_value=0)
-        print(f"Reindexed to match training features")
+        logger.info("Reindexed to match training features")
     
     # Get feature names (from training) or use current columns
     if is_training:
         feature_names = list(X.columns)
     
-    print("\nFEATURE PREPARATION COMPLETE")
-    print(f"Total features: {len(feature_names)}")
-    print(f"Total samples: {len(X)}")
+    logger.info(f"Feature preparation complete: {len(feature_names)} features, {len(X)} samples\n ")
     
     return X, y, scaler, club_encoding_map, feature_names
 
 
 # TESTING
 if __name__ == "__main__":
-    # Load data
-    df = load_data()
+    try:
+        # Load data
+        df = load_data()
+        
+        # Show train/test split demonstration
+        logger.info("=" * 60)
+        logger.info("DEMONSTRATING TRAIN/TEST WORKFLOW (NO DATA LEAKAGE)")
+        logger.info("=" * 60)
+        
+        # STEP 1: Prepare TRAINING features (fit scaler and encoding on W1)
+        logger.info("\nSTEP 1: TRAINING DATA")
+        X_train, y_train, scaler, club_encoding_map, feature_names = prepare_features(
+            df, 
+            target_col='price_w1',
+            scaler=None,              # Fit new scaler
+            club_encoding_map=None,   # Create new encoding
+            feature_names=None        # Will be created
+        )
+        
+        # STEP 2: Prepare TEST features (use pre-fitted scaler and encoding)
+        logger.info("STEP 2: TEST DATA (same players, different target)")
+        X_test, y_test, _, _, _ = prepare_features(
+            df,
+            target_col='price_w2',              # Predict W2 prices
+            scaler=scaler,                      # Use W1-fitted scaler
+            club_encoding_map=club_encoding_map, # Use W1-based encoding (NO LEAKAGE)
+            feature_names=feature_names         # Ensure column alignment
+        )
+        
+        # Summary
+        logger.info("=" * 60)
+        logger.info("SUMMARY")
+        logger.info("=" * 60)
+        logger.info(f"Training: {X_train.shape[0]} samples, {X_train.shape[1]} features")
+        logger.info(f"Test: {X_test.shape[0]} samples, {X_test.shape[1]} features")
+        logger.info(f"Features match: {list(X_train.columns) == list(X_test.columns)}")
+        
+        print(f"\nFeatures by category:")
+        print(f"  Numerical (standardized): {len(NUMERICAL_FEATURES)}")
+        print(f"  Position clusters: {len(POSITION_CLUSTERS)}")
+        print(f"  Nationality: 11")
+        print(f"  League: 9")
+        print(f"  Card category: 3")
+        print(f"  Club encoded: 1")
+        print(f"  TOTAL: {len(feature_names)}")
+        
+        print(f"\nAll {len(feature_names)} features:")
+        for i, name in enumerate(feature_names, 1):
+            print(f"  {i:2d}. {name}")
+        
+        print(f"\nTarget comparison:")
+        print(f"  W1 (train): min={y_train.min():.2f}, max={y_train.max():.2f}, mean={y_train.mean():.2f}")
+        print(f"  W2 (test):  min={y_test.min():.2f}, max={y_test.max():.2f}, mean={y_test.mean():.2f}")
+        
+        print(f"\nTop 5 clubs by encoded value (from W1 training data):")
+        sorted_clubs = sorted(
+            [(k, v) for k, v in club_encoding_map.items() if k != '__global_mean__'],
+            key=lambda x: x[1], 
+            reverse=True
+        )
+        for club, value in sorted_clubs[:5]:
+            print(f"  {club}: {value:,.0f}")
+
+    except FileNotFoundError as e:
+        logger.error(f"File not found: {e}")
+        logger.error("Please check that the data file exists")
     
-    # Show train/test split demonstration
-    print("\n" + "=" * 60)
-    print("DEMONSTRATING TRAIN/TEST WORKFLOW (NO DATA LEAKAGE)")
-    print("=" * 60)
+    except KeyError as e:
+        logger.error(f"Column not found: {e}")
+        logger.error("Please check that required columns exist in the dataset")
     
-    # STEP 1: Prepare TRAINING features (fit scaler and encoding on W1)
-    print("\n--- STEP 1: TRAINING DATA ---")
-    X_train, y_train, scaler, club_encoding_map, feature_names = prepare_features(
-        df, 
-        target_col='price_w1',
-        scaler=None,              # Fit new scaler
-        club_encoding_map=None,   # Create new encoding
-        feature_names=None        # Will be created
-    )
-    
-    # STEP 2: Prepare TEST features (use pre-fitted scaler and encoding)
-    print("\n--- STEP 2: TEST DATA (same players, different target) ---")
-    X_test, y_test, _, _, _ = prepare_features(
-        df,
-        target_col='price_w2',              # Predict W2 prices
-        scaler=scaler,                      # Use W1-fitted scaler
-        club_encoding_map=club_encoding_map, # Use W1-based encoding (NO LEAKAGE)
-        feature_names=feature_names         # Ensure column alignment
-    )
-    
-    # Summary
-    print("\n" + "=" * 60)
-    print("SUMMARY")
-    print("=" * 60)
-    print(f"\nTraining: {X_train.shape[0]} samples, {X_train.shape[1]} features")
-    print(f"Test: {X_test.shape[0]} samples, {X_test.shape[1]} features")
-    print(f"Features match: {list(X_train.columns) == list(X_test.columns)}")
-    
-    print(f"\nFeatures by category:")
-    print(f"  Numerical (standardized): {len(NUMERICAL_FEATURES)}")
-    print(f"  Position clusters: {len(POSITION_CLUSTERS)}")
-    print(f"  Nationality: 11")
-    print(f"  League: 9")
-    print(f"  Card category: 3")
-    print(f"  Club encoded: 1")
-    print(f"  TOTAL: {len(feature_names)}")
-    
-    print(f"\nAll {len(feature_names)} features:")
-    for i, name in enumerate(feature_names, 1):
-        print(f"  {i:2d}. {name}")
-    
-    print(f"\nTarget comparison:")
-    print(f"  W1 (train): min={y_train.min():.2f}, max={y_train.max():.2f}, mean={y_train.mean():.2f}")
-    print(f"  W2 (test):  min={y_test.min():.2f}, max={y_test.max():.2f}, mean={y_test.mean():.2f}")
-    
-    print(f"\nTop 5 clubs by encoded value (from W1 training data):")
-    sorted_clubs = sorted(
-        [(k, v) for k, v in club_encoding_map.items() if k != '__global_mean__'],
-        key=lambda x: x[1], 
-        reverse=True
-    )
-    for club, value in sorted_clubs[:5]:
-        print(f"  {club}: {value:,.0f}")
+    except Exception as e:
+        logger.error(f"Unexpected error during feature engineering: {e}")
+        raise
