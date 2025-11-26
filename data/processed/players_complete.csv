@@ -1,0 +1,802 @@
+url,player_name,gender,rating,card_category,pace,shooting,passing,dribbling,defending,physical,skill_moves,weak_foot,num_playstyles,num_playstyles_plus,nationality,league,club,positions,num_positions,cluster_cb,cluster_fullbacks,cluster_mid,cluster_att_mid,cluster_st,price_w1,price_w2
+https://www.futbin.com/26/player/18690/maradona,Maradona,M,95,Icons_Heroes,90,91,91,96,40,77,5,3,6,1,Argentina,Icons,EA FC ICONS,"CAM,ST",2,0,0,0,1,1,4000000,3890000
+https://www.futbin.com/26/player/18691/arantes-nascimento,Arantes Nascimento,M,95,Icons_Heroes,93,94,91,94,58,74,5,4,6,1,Brazil,Icons,EA FC ICONS,"CAM,ST",2,0,0,0,1,1,5200000,4795000
+https://www.futbin.com/26/player/18692/nazario-de-lima,Nazário De Lima,M,94,Icons_Heroes,94,94,79,94,43,75,5,5,4,1,Brazil,Icons,EA FC ICONS,ST,1,0,0,0,0,1,9599000,9390000
+https://www.futbin.com/26/player/18693/zidane,Zidane,M,94,Icons_Heroes,83,90,94,94,73,84,5,5,6,1,France,Icons,EA FC ICONS,"CAM,CM",2,0,0,1,1,0,2950000,2975000
+https://www.futbin.com/26/player/18694/de-assis-moreira,De Assis Moreira,M,93,Icons_Heroes,91,89,90,95,38,80,5,4,6,1,Brazil,Icons,EA FC ICONS,"LW,LM,CAM",3,0,0,0,1,0,4520000,4649000
+https://www.futbin.com/26/player/18695/cruyff,Cruyff,M,93,Icons_Heroes,90,91,90,93,42,73,5,5,6,1,Netherlands,Icons,EA FC ICONS,"CAM,ST",2,0,0,0,1,1,4100000,3928000
+https://www.futbin.com/26/player/18696/hamm,Hamm,F,93,Icons_Heroes,92,93,86,92,54,81,5,5,6,1,United States,Icons,EA FC ICONS,"ST,CAM,RW",3,0,0,0,1,1,5900000,5700000
+https://www.futbin.com/26/player/18697/maldini,Maldini,M,92,Icons_Heroes,85,55,74,69,95,82,2,4,5,1,Italy,Icons,EA FC ICONS,"CB,LB",2,1,1,0,0,0,2934000,2450000
+https://www.futbin.com/26/player/18698/puskas,Puskás,M,92,Icons_Heroes,90,94,89,91,45,74,4,3,5,1,Hungary,Icons,EA FC ICONS,ST,1,0,0,0,0,1,1495000,1285000
+https://www.futbin.com/26/player/18699/franc-dos-santos,Franc. Dos Santos,M,92,Icons_Heroes,89,85,92,94,40,66,5,4,4,1,Brazil,Icons,EA FC ICONS,"RW,RM",2,0,0,0,1,0,1005000,801000
+https://www.futbin.com/26/player/18700/prinz,Prinz,F,92,Icons_Heroes,83,92,80,82,52,88,3,4,4,1,Germany,Icons,EA FC ICONS,ST,1,0,0,0,0,1,115000,125000
+https://www.futbin.com/26/player/18701/iniesta-lujan,Iniesta Luján,M,92,Icons_Heroes,83,80,91,92,62,66,4,4,6,1,Spain,Icons,EA FC ICONS,"CM,CAM,LW",3,0,0,1,1,0,1295000,958000
+https://www.futbin.com/26/player/18702/charlton,Charlton,M,92,Icons_Heroes,90,91,87,91,50,74,4,5,6,1,England,Icons,EA FC ICONS,CAM,1,0,0,0,1,0,1354000,1040000
+https://www.futbin.com/26/player/18703/franz-beckenbauer,Franz Beckenbauer,M,92,Icons_Heroes,82,73,88,84,93,81,3,4,5,1,Germany,Icons,EA FC ICONS,"CB,CDM,CM",3,1,0,1,0,0,1150000,1080000
+https://www.futbin.com/26/player/18706/muller,Müller,M,92,Icons_Heroes,87,92,76,85,44,74,4,4,3,1,Germany,Icons,EA FC ICONS,ST,1,0,0,0,0,1,460000,341000
+https://www.futbin.com/26/player/20061/mohamed-salah,Mohamed Salah,M,92,Special,90,89,87,91,47,78,4,3,6,1,Egypt,Premier League,Liverpool,"RW,RM",2,0,0,0,1,0,639000,595000
+https://www.futbin.com/26/player/20288/alexia-putellas-segura,Alexia Putellas Segura,F,92,Special,83,90,91,92,74,81,5,5,6,1,Spain,Liga F,FC Barcelona,"CM,CDM,CAM",3,0,0,1,1,0,430000,360000
+https://www.futbin.com/26/player/20411/erling-haaland,Erling Haaland,M,92,Special,89,94,75,83,50,90,3,3,6,1,Norway,Premier League,Manchester City,ST,1,0,0,0,0,1,1599000,890000
+https://www.futbin.com/26/player/20515/kylian-mbappe,Kylian Mbappé,M,92,Special,98,92,84,93,40,78,5,4,6,1,France,LALIGA EA SPORTS,Real Madrid,"ST,LM,LW",3,0,0,0,1,1,6499000,5970000
+https://www.futbin.com/26/player/31/mohamed-salah,Mohamed Salah,M,91,Gold,89,88,86,90,45,76,4,3,6,1,Egypt,Premier League,Liverpool,"RM,RW",2,0,0,0,1,0,153000,124000
+https://www.futbin.com/26/player/40/kylian-mbappe,Kylian Mbappé,M,91,Gold,97,90,81,92,37,76,5,4,6,1,France,LALIGA EA SPORTS,Real Madrid,"ST,LM,LW",3,0,0,0,1,1,1716000,1650000
+https://www.futbin.com/26/player/105/alexia-putellas-segura,Alexia Putellas Segura,F,91,Gold,82,89,90,91,72,80,5,5,6,1,Spain,Liga F,FC Barcelona,"CM,CDM,CAM",3,0,0,1,1,0,188000,151000
+https://www.futbin.com/26/player/111/aitana-bonmati-conca,Aitana Bonmatí Conca,F,91,Gold,85,87,86,91,77,75,4,5,6,1,Spain,Liga F,FC Barcelona,"CM,CAM",2,0,0,1,1,0,278000,230000
+https://www.futbin.com/26/player/18707/antunes-coimbra,Antunes Coimbra,M,91,Icons_Heroes,89,92,91,91,62,71,5,5,6,1,Brazil,Icons,EA FC ICONS,"CAM,CM",2,0,0,1,1,0,3570000,3389000
+https://www.futbin.com/26/player/18708/hernandez-creus,Hernández Creus,M,91,Icons_Heroes,80,78,92,91,69,70,4,3,6,1,Spain,Icons,EA FC ICONS,"CM,CDM,CAM",3,0,0,1,1,0,468000,400000
+https://www.futbin.com/26/player/18709/baggio,Baggio,M,91,Icons_Heroes,84,82,90,91,38,60,5,4,5,1,Italy,Icons,EA FC ICONS,CAM,1,0,0,0,1,0,295000,238000
+https://www.futbin.com/26/player/18710/henry,Henry,M,91,Icons_Heroes,93,90,82,89,51,78,4,4,5,1,France,Icons,EA FC ICONS,"ST,LW",2,0,0,0,1,1,2450000,2075000
+https://www.futbin.com/26/player/18711/da-silva-ferreira,Da Silva Ferreira,M,91,Icons_Heroes,92,92,84,91,44,77,4,5,3,1,Portugal,Icons,EA FC ICONS,ST,1,0,0,0,0,1,3130000,2670000
+https://www.futbin.com/26/player/18712/carlos-alberto-torres,Carlos Alberto Torres,M,91,Icons_Heroes,89,64,80,84,88,85,3,4,5,1,Brazil,Icons,EA FC ICONS,"RB,CB",2,1,1,0,0,0,1162000,833000
+https://www.futbin.com/26/player/18713/baresi,Baresi,M,91,Icons_Heroes,73,48,75,70,94,83,2,3,3,1,Italy,Icons,EA FC ICONS,CB,1,1,0,0,0,0,176000,185000
+https://www.futbin.com/26/player/18714/cafu,Cafu,M,91,Icons_Heroes,90,56,83,85,88,83,4,3,3,1,Brazil,Icons,EA FC ICONS,RB,1,0,1,0,0,0,873000,799000
+https://www.futbin.com/26/player/18715/morgan,Morgan,F,91,Icons_Heroes,93,90,80,90,48,77,4,4,6,1,United States,Icons,EA FC ICONS,ST,1,0,0,0,0,1,2130000,1790000
+https://www.futbin.com/26/player/18717/van-basten,Van Basten,M,91,Icons_Heroes,84,92,74,87,37,73,3,4,5,1,Netherlands,Icons,EA FC ICONS,ST,1,0,0,0,0,1,235000,191000
+https://www.futbin.com/26/player/18718/sawa,Sawa,F,91,Icons_Heroes,84,87,91,91,83,76,4,4,5,1,Japan,Icons,EA FC ICONS,"CM,CAM",2,0,0,1,1,0,792000,680000
+https://www.futbin.com/26/player/18720/ibrahimovic,Ibrahimovic,M,91,Icons_Heroes,84,93,82,90,46,89,5,4,6,1,Sweden,Icons,EA FC ICONS,ST,1,0,0,0,0,1,2899000,2770000
+https://www.futbin.com/26/player/18918/erling-haaland,Erling Haaland,M,91,Special,87,92,72,81,47,89,3,3,6,1,Norway,Premier League,Manchester City,ST,1,0,0,0,0,1,590000,370000
+https://www.futbin.com/26/player/20289/jude-bellingham,Jude Bellingham,M,91,Special,81,87,84,91,80,86,4,4,6,1,England,LALIGA EA SPORTS,Real Madrid,"RM,CM,CAM,RW",4,0,0,1,1,0,338000,236000
+https://www.futbin.com/26/player/20516/harry-kane,Harry Kane,M,91,Special,81,94,85,86,52,86,4,4,5,1,England,Bundesliga,FC Bayern München,ST,1,0,0,0,0,1,798000,505000
+https://www.futbin.com/26/player/51/ousmane-dembele,Ousmane Dembélé,M,90,Gold,91,88,83,93,50,69,5,5,5,1,France,Ligue 1 McDonald's,Paris SG,"ST,CAM,RW",3,0,0,0,1,1,700000,539000
+https://www.futbin.com/26/player/61/rodrigo-hernandez-cascante,Rodrigo Hernández Cascante,M,90,Gold,65,80,86,84,86,85,3,4,5,1,Spain,Premier League,Manchester City,"CDM,CM",2,0,0,1,0,0,28750,32750
+https://www.futbin.com/26/player/62/virgil-van-dijk,Virgil Van Dijk,M,90,Gold,73,60,72,72,90,87,2,3,6,1,Netherlands,Premier League,Liverpool,CB,1,1,0,0,0,0,68000,55000
+https://www.futbin.com/26/player/67/erling-haaland,Erling Haaland,M,90,Gold,86,91,70,80,45,88,3,3,6,1,Norway,Premier League,Manchester City,ST,1,0,0,0,0,1,32750,35500
+https://www.futbin.com/26/player/73/jude-bellingham,Jude Bellingham,M,90,Gold,80,86,83,90,78,85,4,4,6,1,England,LALIGA EA SPORTS,Real Madrid,"CAM,CM",2,0,0,1,1,0,36750,36000
+https://www.futbin.com/26/player/117/caroline-graham-hansen,Caroline Graham Hansen,F,90,Gold,89,87,88,90,47,76,5,5,5,1,Norway,Liga F,FC Barcelona,"RW,RM",2,0,0,0,1,0,221000,163000
+https://www.futbin.com/26/player/18721/da-silva-rocha,Da Silva Rocha,M,90,Icons_Heroes,91,83,83,80,85,86,3,2,6,1,Brazil,Icons,EA FC ICONS,LB,1,0,1,0,0,0,1174000,1174000
+https://www.futbin.com/26/player/18722/bergkamp,Bergkamp,M,90,Icons_Heroes,83,89,84,88,35,76,4,4,5,1,Netherlands,Icons,EA FC ICONS,"ST,CAM",2,0,0,0,1,1,217000,170000
+https://www.futbin.com/26/player/18723/borba-ferreira,Borba Ferreira,M,90,Icons_Heroes,87,88,87,91,42,75,4,2,5,1,Brazil,Icons,EA FC ICONS,"LW,LM,CAM",3,0,0,0,1,0,435000,420000
+https://www.futbin.com/26/player/18724/best,Best,M,90,Icons_Heroes,91,89,82,92,56,68,4,4,3,1,Northern Ireland,Icons,EA FC ICONS,"RW,CAM,LW",3,0,0,0,1,0,818000,660000
+https://www.futbin.com/26/player/18725/gullit,Gullit,M,90,Icons_Heroes,85,88,88,86,80,87,4,5,4,1,Netherlands,Icons,EA FC ICONS,"CAM,CM,ST",3,0,0,1,1,1,3389000,3465000
+https://www.futbin.com/26/player/18726/gonzalez-blanco,González Blanco,M,90,Icons_Heroes,86,90,80,88,45,72,4,4,6,1,Spain,Icons,EA FC ICONS,ST,1,0,0,0,0,1,509000,428000
+https://www.futbin.com/26/player/18727/abily,Abily,F,90,Icons_Heroes,82,89,90,89,80,78,4,4,6,1,France,Icons,EA FC ICONS,"CM,CAM",2,0,0,1,1,0,536000,400000
+https://www.futbin.com/26/player/18728/seger,Seger,F,90,Icons_Heroes,77,79,90,86,85,80,4,3,5,1,Sweden,Icons,EA FC ICONS,"CM,CDM",2,0,0,1,0,0,183000,158000
+https://www.futbin.com/26/player/18729/pirlo,Pirlo,M,90,Icons_Heroes,73,79,93,89,69,66,5,4,5,1,Italy,Icons,EA FC ICONS,"CM,CDM",2,0,0,1,0,0,239000,225000
+https://www.futbin.com/26/player/18731/miyama,Miyama,F,90,Icons_Heroes,84,86,88,90,60,70,4,5,4,1,Japan,Icons,EA FC ICONS,"LM,CM,LW",3,0,0,1,1,0,220000,171000
+https://www.futbin.com/26/player/18732/matthaus,Matthäus,M,90,Icons_Heroes,88,87,88,81,89,82,3,4,4,1,Germany,Icons,EA FC ICONS,"CM,CB,CDM",3,1,0,1,0,0,1499000,1400000
+https://www.futbin.com/26/player/18733/moore,Moore,M,90,Icons_Heroes,70,62,81,76,92,83,2,3,4,1,England,Icons,EA FC ICONS,CB,1,1,0,0,0,0,132000,140000
+https://www.futbin.com/26/player/18734/foudy,Foudy,F,90,Icons_Heroes,80,84,88,87,76,81,3,4,3,1,United States,Icons,EA FC ICONS,"CM,CDM",2,0,0,1,0,0,150000,135000
+https://www.futbin.com/26/player/18735/kroos,Kroos,M,90,Icons_Heroes,71,82,91,86,76,74,3,5,6,1,Germany,Icons,EA FC ICONS,"CM,CDM,CAM",3,0,0,1,1,0,380000,350000
+https://www.futbin.com/26/player/18736/schelin,Schelin,F,90,Icons_Heroes,91,89,82,89,46,82,4,4,5,1,Sweden,Icons,EA FC ICONS,"ST,LM,LW",3,0,0,0,1,1,620000,360000
+https://www.futbin.com/26/player/18737/del-piero,Del Piero,M,90,Icons_Heroes,83,90,87,91,41,66,4,5,4,1,Italy,Icons,EA FC ICONS,"CAM,ST",2,0,0,0,1,1,609000,470000
+https://www.futbin.com/26/player/18919/harry-kane,Harry Kane,M,90,Special,70,93,84,83,50,83,3,4,5,1,England,Bundesliga,FC Bayern München,ST,1,0,0,0,0,1,106000,102000
+https://www.futbin.com/26/player/20004/vinicius-jose-de-oliveira-junior,Vinícius José De Oliveira Júnior,M,90,Special,96,85,82,92,31,70,5,4,6,1,Brazil,LALIGA EA SPORTS,Real Madrid,"LW,LM,ST",3,0,0,0,1,1,1045000,820000
+https://www.futbin.com/26/player/20086/khadija-shaw,Khadija Shaw,F,90,Special,85,90,76,85,33,85,3,4,5,1,Jamaica,Barclays WSL,Manchester City,ST,1,0,0,0,0,1,88000,73500
+https://www.futbin.com/26/player/20220/vinicius-jose-de-oliveira-junior,Vinícius José De Oliveira Júnior,M,90,Special,95,88,81,92,30,75,5,4,7,1,Brazil,LALIGA EA SPORTS,Real Madrid,"ST,LM,LW",3,0,0,0,1,1,2470000,1990000
+https://www.futbin.com/26/player/20336/ousmane-dembele,Ousmane Dembélé,M,90,Special,92,88,83,94,50,69,5,5,6,1,France,Ligue 1 McDonald's,Paris SG,"RW,RM,CAM,ST",4,0,0,0,1,1,3925000,3100000
+https://www.futbin.com/26/player/20412/caroline-graham-hansen,Caroline Graham Hansen,F,90,Special,89,88,88,91,48,76,5,5,6,1,Norway,Liga F,FC Barcelona,"RW,RM",2,0,0,0,1,0,2790000,2190000
+https://www.futbin.com/26/player/20491/vitor-machado-ferreira,Vítor Machado Ferreira,M,90,Special,76,81,87,91,77,72,4,3,6,1,Portugal,Ligue 1 McDonald's,Paris SG,"CM,CDM,CAM",3,0,0,1,1,0,103000,100000
+https://www.futbin.com/26/player/20520/virgil-van-dijk,Virgil Van Dijk,M,90,Special,78,60,76,77,90,88,2,4,6,1,Netherlands,Premier League,Liverpool,CB,1,1,0,0,0,0,1801000,1810000
+https://www.futbin.com/26/player/20576/maria-pilar-leon-cebrian,María Pilar León Cebrián,F,90,Special,77,69,81,78,91,83,2,3,3,1,Spain,Liga F,FC Barcelona,CB,1,1,0,0,0,0,41750,35500
+https://www.futbin.com/26/player/20578/khadija-shaw,Khadija Shaw,F,90,Special,80,90,73,83,33,86,3,4,3,1,Jamaica,Barclays WSL,Manchester City,ST,1,0,0,0,0,1,35250,33250
+https://www.futbin.com/26/player/41/florian-wirtz,Florian Wirtz,M,89,Gold,80,82,88,90,54,67,4,4,6,1,Germany,Premier League,Liverpool,"CAM,CM,ST",3,0,0,1,1,1,36000,30250
+https://www.futbin.com/26/player/47/vinicius-jose-de-oliveira-junior,Vinícius José De Oliveira Júnior,M,89,Gold,95,84,81,91,29,69,5,4,6,1,Brazil,LALIGA EA SPORTS,Real Madrid,"LW,LM,ST",3,0,0,0,1,1,432000,315000
+https://www.futbin.com/26/player/56/federico-valverde,Federico Valverde,M,89,Gold,88,84,84,84,83,85,3,4,6,1,Uruguay,LALIGA EA SPORTS,Real Madrid,"CM,RB,CDM",3,0,1,1,0,0,159000,142000
+https://www.futbin.com/26/player/68/vitor-machado-ferreira,Vítor Machado Ferreira,M,89,Gold,72,80,86,90,75,70,4,3,6,1,Portugal,Ligue 1 McDonald's,Paris SG,"CM,CDM,CAM",3,0,0,1,1,0,22500,24000
+https://www.futbin.com/26/player/69/harry-kane,Harry Kane,M,89,Gold,64,92,83,82,48,82,3,4,5,1,England,Bundesliga,FC Bayern München,ST,1,0,0,0,0,1,28000,24000
+https://www.futbin.com/26/player/83/raphael-dias-belloli,Raphael Dias Belloli,M,89,Gold,91,84,85,87,53,75,4,4,5,1,Brazil,LALIGA EA SPORTS,FC Barcelona,"LM,LW",2,0,0,0,1,0,127000,99500
+https://www.futbin.com/26/player/85/lamine-yamal-nasraoui-ebana,Lamine Yamal Nasraoui Ebana,M,89,Gold,85,81,86,90,23,53,5,3,6,1,Spain,LALIGA EA SPORTS,FC Barcelona,"RM,RW",2,0,0,0,1,0,72500,60500
+https://www.futbin.com/26/player/86/joshua-kimmich,Joshua Kimmich,M,89,Gold,72,74,89,84,83,79,3,4,5,1,Germany,Bundesliga,FC Bayern München,"CDM,RB,CM",3,0,1,1,0,0,22500,24000
+https://www.futbin.com/26/player/91/achraf-hakimi,Achraf Hakimi,M,89,Gold,92,79,82,83,82,79,4,4,6,1,Morocco,Ligue 1 McDonald's,Paris SG,"RB,RM",2,0,1,0,1,0,65500,64000
+https://www.futbin.com/26/player/94/pedro-gonzalez-lopez,Pedro González López,M,89,Gold,77,73,85,91,78,77,4,4,5,1,Spain,LALIGA EA SPORTS,FC Barcelona,"CM,CDM,CAM",3,0,0,1,1,0,23250,24000
+https://www.futbin.com/26/player/122/alessia-russo,Alessia Russo,F,89,Gold,82,88,70,87,39,73,4,3,5,1,England,Barclays WSL,Arsenal,"ST,CM,CAM",3,0,0,1,1,1,22750,24000
+https://www.futbin.com/26/player/128/maria-francesca-caldentey-oliver,María Francesca Caldentey Oliver,F,89,Gold,78,84,86,90,76,79,4,4,6,1,Spain,Barclays WSL,Arsenal,"CM,CDM,CAM,RW",4,0,0,1,1,0,22750,24000
+https://www.futbin.com/26/player/133/patricia-guijarro-gutierrez,Patricia Guijarro Gutiérrez,F,89,Gold,78,82,83,87,86,83,4,4,6,1,Spain,Liga F,FC Barcelona,"CDM,CM",2,0,0,1,0,0,22750,23750
+https://www.futbin.com/26/player/138/khadija-shaw,Khadija Shaw,F,89,Gold,71,89,71,81,32,85,3,4,3,1,Jamaica,Barclays WSL,Manchester City,ST,1,0,0,0,0,1,23000,26000
+https://www.futbin.com/26/player/142/maria-pilar-leon-cebrian,María Pilar León Cebrián,F,89,Gold,75,68,79,76,90,82,2,3,3,1,Spain,Liga F,FC Barcelona,CB,1,1,0,0,0,0,23250,25750
+https://www.futbin.com/26/player/18738/lahm,Lahm,M,89,Icons_Heroes,84,68,83,83,86,70,3,3,5,1,Germany,Icons,EA FC ICONS,"RB,LB,CDM",3,0,1,1,0,0,222000,230000
+https://www.futbin.com/26/player/18739/madeira-caeiro-figo,Madeira Caeiro Figo,M,89,Icons_Heroes,89,84,86,90,38,77,4,4,6,1,Portugal,Icons,EA FC ICONS,"RW,RM,CAM",3,0,0,0,1,0,269000,235000
+https://www.futbin.com/26/player/18740/zanetti,Zanetti,M,89,Icons_Heroes,83,60,84,81,86,78,2,4,5,1,Argentina,Icons,EA FC ICONS,"RB,LB,CM",3,0,1,1,0,0,214000,206000
+https://www.futbin.com/26/player/18741/dalglish,Dalglish,M,89,Icons_Heroes,89,90,75,88,41,72,4,5,4,1,Scotland,Icons,EA FC ICONS,ST,1,0,0,0,0,1,1115000,890000
+https://www.futbin.com/26/player/18742/nesta,Nesta,M,89,Icons_Heroes,76,44,63,68,92,84,2,3,3,1,Italy,Icons,EA FC ICONS,CB,1,1,0,0,0,0,201000,195000
+https://www.futbin.com/26/player/18743/sanchez,Sánchez,M,89,Icons_Heroes,89,90,78,88,41,72,3,4,6,1,Mexico,Icons,EA FC ICONS,ST,1,0,0,0,0,1,300000,259000
+https://www.futbin.com/26/player/18744/stoichkov,Stoichkov,M,89,Icons_Heroes,90,91,84,90,49,84,4,3,4,1,Bulgaria,Icons,EA FC ICONS,"ST,RW,LW",3,0,0,0,1,1,860000,601000
+https://www.futbin.com/26/player/18745/ventura-filho,Ventura Filho,M,89,Icons_Heroes,91,89,84,90,49,73,5,4,4,1,Brazil,Icons,EA FC ICONS,"RW,RM,ST",3,0,0,0,1,1,1809000,1460000
+https://www.futbin.com/26/player/18746/shearer,Shearer,M,89,Icons_Heroes,82,91,76,78,49,84,3,3,3,1,England,Icons,EA FC ICONS,ST,1,0,0,0,0,1,81500,85000
+https://www.futbin.com/26/player/18747/vieira-da-silva,Vieira Da Silva,M,89,Icons_Heroes,87,72,87,89,83,76,5,4,3,1,Brazil,Icons,EA FC ICONS,LB,1,0,1,0,0,0,720000,900000
+https://www.futbin.com/26/player/18748/smith,Smith,F,89,Icons_Heroes,88,90,84,89,46,77,4,4,4,1,England,Icons,EA FC ICONS,ST,1,0,0,0,0,1,339000,239000
+https://www.futbin.com/26/player/18750/lineker,Lineker,M,89,Icons_Heroes,86,89,71,84,40,75,3,4,3,1,England,Icons,EA FC ICONS,ST,1,0,0,0,0,1,84000,82000
+https://www.futbin.com/26/player/18751/butragueno-santos,Butragueño Santos,M,89,Icons_Heroes,92,89,78,90,40,65,3,5,6,1,Spain,Icons,EA FC ICONS,ST,1,0,0,0,0,1,985000,668000
+https://www.futbin.com/26/player/18752/totti,Totti,M,89,Icons_Heroes,85,91,89,90,40,75,4,5,6,1,Italy,Icons,EA FC ICONS,"ST,CAM",2,0,0,0,1,1,1088000,979000
+https://www.futbin.com/26/player/18753/etoo,Eto'O,M,89,Icons_Heroes,92,90,79,87,45,80,4,4,5,1,Cameroon,Icons,EA FC ICONS,ST,1,0,0,0,0,1,1600000,1385000
+https://www.futbin.com/26/player/18754/cannavaro,Cannavaro,M,89,Icons_Heroes,80,44,62,67,93,83,2,3,5,1,Italy,Icons,EA FC ICONS,CB,1,1,0,0,0,0,470000,419000
+https://www.futbin.com/26/player/18755/vieira-de-oliveira,Vieira De Oliveira,M,89,Icons_Heroes,82,88,89,88,43,82,4,5,4,1,Brazil,Icons,EA FC ICONS,CAM,1,0,0,0,1,0,399000,293000
+https://www.futbin.com/26/player/18756/puyol-saforcada,Puyol Saforcada,M,89,Icons_Heroes,72,46,66,59,91,88,2,3,6,1,Spain,Icons,EA FC ICONS,"CB,RB",2,1,1,0,0,0,182000,183000
+https://www.futbin.com/26/player/18757/drogba,Drogba,M,89,Icons_Heroes,87,90,74,80,44,87,4,4,5,1,Côte d'Ivoire,Icons,EA FC ICONS,ST,1,0,0,0,0,1,499000,416000
+https://www.futbin.com/26/player/18758/dos-santos-leite,Dos Santos Leite,M,89,Icons_Heroes,89,84,86,90,43,71,5,4,3,1,Brazil,Icons,EA FC ICONS,CAM,1,0,0,0,1,0,900000,718000
+https://www.futbin.com/26/player/18759/van-nistelrooy,Van Nistelrooy,M,89,Icons_Heroes,84,89,71,83,38,80,3,3,6,1,Netherlands,Icons,EA FC ICONS,ST,1,0,0,0,0,1,86500,90000
+https://www.futbin.com/26/player/18760/cantona,Cantona,M,89,Icons_Heroes,86,89,86,89,50,88,5,4,6,1,France,Icons,EA FC ICONS,ST,1,0,0,0,0,1,669000,499000
+https://www.futbin.com/26/player/18761/jones,Jones,F,89,Icons_Heroes,80,59,74,70,91,86,2,3,3,1,Germany,Icons,EA FC ICONS,CB,1,1,0,0,0,0,162000,142000
+https://www.futbin.com/26/player/18814/papin,Papin,M,89,Icons_Heroes,83,93,73,83,44,76,3,4,3,1,France,Ligue 1 McDonald's,HERO,ST,1,0,0,0,0,1,51000,52500
+https://www.futbin.com/26/player/18815/da-silva-ferreira,Da Silva Ferreira,M,89,Icons_Heroes,82,72,74,77,91,89,3,3,4,1,Brazil,Serie A TIM,HERO,CB,1,1,0,0,0,0,685000,690000
+https://www.futbin.com/26/player/18816/voller,Völler,M,89,Icons_Heroes,89,90,76,86,47,85,3,4,6,1,Germany,Bundesliga,HERO,ST,1,0,0,0,0,1,266000,192000
+https://www.futbin.com/26/player/18817/kohler,Kohler,M,89,Icons_Heroes,71,51,63,62,91,90,2,3,5,1,Germany,Bundesliga,HERO,CB,1,1,0,0,0,0,64500,58000
+https://www.futbin.com/26/player/18818/morientes-sanchez,Morientes Sánchez,M,89,Icons_Heroes,84,90,77,83,45,86,4,4,3,1,Spain,LALIGA EA SPORTS,HERO,ST,1,0,0,0,0,1,60000,60000
+https://www.futbin.com/26/player/18819/sasic,Šašic,F,89,Icons_Heroes,82,89,76,84,49,85,3,4,4,1,Germany,GPFBL,HERO,ST,1,0,0,0,0,1,24500,25000
+https://www.futbin.com/26/player/18820/ayew,Ayew,M,89,Icons_Heroes,91,83,87,91,48,66,4,4,4,1,Ghana,Ligue 1 McDonald's,HERO,"CAM,LM",2,0,0,0,1,0,260000,200000
+https://www.futbin.com/26/player/18821/vialli,Vialli,M,89,Icons_Heroes,86,89,72,83,42,79,3,4,3,1,Italy,Serie A TIM,HERO,ST,1,0,0,0,0,1,44000,40000
+https://www.futbin.com/26/player/18822/ginola,Ginola,M,89,Icons_Heroes,90,88,87,91,55,84,5,5,5,1,France,Ligue 1 McDonald's,HERO,"LM,CAM,ST",3,0,0,0,1,1,1384000,1100000
+https://www.futbin.com/26/player/19895/debora-c-de-oliveira,Débora C. De Oliveira,F,89,Special,86,81,87,92,47,77,5,5,6,1,Brazil,NWSL,KC Current,"CAM,CM,RW",3,0,0,1,1,0,150000,136000
+https://www.futbin.com/26/player/19918/federico-valverde,Federico Valverde,M,89,Special,89,84,85,84,83,86,3,4,6,1,Uruguay,LALIGA EA SPORTS,Real Madrid,"CM,RB,CDM",3,0,1,1,0,0,1450000,1497000
+https://www.futbin.com/26/player/19974/florian-wirtz,Florian Wirtz,M,89,Special,81,83,89,90,54,67,4,4,6,1,Germany,Premier League,Liverpool,"CAM,CM,ST",3,0,0,1,1,1,635000,407000
+https://www.futbin.com/26/player/20202/mascherano,Mascherano,M,89,Special,78,56,80,81,90,87,3,3,4,1,Argentina,LALIGA EA SPORTS,HERO,"CDM,CB",2,1,0,1,0,0,187000,147000
+https://www.futbin.com/26/player/20203/di-natale,Di Natale,M,89,Special,91,92,87,91,50,72,4,4,4,1,Italy,Serie A TIM,HERO,"LW,LM,ST",3,0,0,0,1,1,1170000,919000
+https://www.futbin.com/26/player/20221/debora-c-de-oliveira,Débora C. De Oliveira,F,89,Special,87,82,87,92,48,78,5,5,6,1,Brazil,NWSL,KC Current,"RW,RM,CM,CAM",4,0,0,1,1,0,459000,324000
+https://www.futbin.com/26/player/20222/joshua-kimmich,Joshua Kimmich,M,89,Special,81,74,89,85,85,80,3,4,6,1,Germany,Bundesliga,FC Bayern München,"RB,CDM,CM",3,0,1,1,0,0,150000,144000
+https://www.futbin.com/26/player/20337/maria-francesca-caldentey-oliver,María Francesca Caldentey Oliver,F,89,Special,80,86,88,90,76,79,4,4,6,1,Spain,Barclays WSL,Arsenal,"CAM,CDM,CM,RW",4,0,0,1,1,0,91000,86500
+https://www.futbin.com/26/player/20354/sneijder,Sneijder,M,89,Special,85,85,91,87,55,76,4,5,7,1,Netherlands,Serie A TIM,HERO,"LM,CM,CAM,LW",4,0,0,1,1,0,369000,277000
+https://www.futbin.com/26/player/20355/dos-santos-futre,Dos Santos Futre,M,89,Special,94,83,81,94,38,63,4,4,6,1,Portugal,LALIGA EA SPORTS,HERO,"ST,RM,RW,LW",4,0,0,0,1,1,1015000,705000
+https://www.futbin.com/26/player/20401/hazard,Hazard,M,89,Special,92,85,86,92,38,70,4,4,5,1,Belgium,Premier League,HERO,"LM,LW",2,0,0,0,1,0,2010000,1885000
+https://www.futbin.com/26/player/20402/simone-laudehr,Simone Laudehr,F,90,Special,88,81,85,90,84,84,4,4,6,1,Germany,GPFBL,HERO,"CM,RM,LM",3,0,0,1,1,0,139000,174000
+https://www.futbin.com/26/player/20413/lamine-yamal-nasraoui-ebana,Lamine Yamal Nasraoui Ebana,M,89,Special,88,85,86,92,23,53,5,3,6,1,Spain,LALIGA EA SPORTS,FC Barcelona,"RM,RW",2,0,0,0,1,0,2048000,1799000
+https://www.futbin.com/26/player/20525/ewa-pajor,Ewa Pajor,F,89,Special,88,89,76,89,23,77,3,4,5,1,Poland,Liga F,FC Barcelona,"ST,LM,LW",3,0,0,0,1,1,408000,289000
+https://www.futbin.com/26/player/20527/cristiano-ronaldo-dos-santos-aveiro,Cristiano Ronaldo Dos Santos Aveiro,M,89,Special,83,92,80,84,38,81,5,4,6,1,Portugal,ROSHN Saudi League,Al Nassr,ST,1,0,0,0,0,1,1260000,889000
+https://www.futbin.com/26/player/32/bukayo-saka,Bukayo Saka,M,88,Gold,84,82,85,88,60,73,3,4,2,1,England,Premier League,Arsenal,"RW,RM",2,0,0,0,1,0,15250,14500
+https://www.futbin.com/26/player/42/gabriel-dos-s-magalhaes,Gabriel Dos S. Magalhães,M,88,Gold,64,44,64,65,88,84,2,2,1,1,Brazil,Premier League,Arsenal,CB,1,1,0,0,0,0,14750,14750
+https://www.futbin.com/26/player/46/jamal-musiala,Jamal Musiala,M,88,Gold,80,82,80,90,66,65,5,4,6,1,Germany,Bundesliga,FC Bayern München,"CAM,CM,LM,ST",4,0,0,1,1,1,15250,15500
+https://www.futbin.com/26/player/60/lautaro-martinez,Lautaro Martínez,M,88,Gold,81,88,75,84,51,83,4,4,6,1,Argentina,Serie A TIM,Lombardia FC,ST,1,0,0,0,0,1,15000,14750
+https://www.futbin.com/26/player/63/robert-lewandowski,Robert Lewandowski,M,88,Gold,74,89,79,85,44,84,4,4,6,1,Poland,LALIGA EA SPORTS,FC Barcelona,ST,1,0,0,0,0,1,16500,14500
+https://www.futbin.com/26/player/74/sophia-wilson,Sophia Wilson,F,88,Gold,92,87,79,89,45,81,4,5,5,1,United States,NWSL,Portland Timbers-Thorns,"ST,CAM,LW",3,0,0,0,1,1,22250,19250
+https://www.futbin.com/26/player/90/guro-reiten,Guro Reiten,F,88,Gold,88,82,85,87,60,69,4,3,6,1,Norway,Barclays WSL,Chelsea,"LM,CAM,LW",3,0,0,0,1,0,15250,14250
+https://www.futbin.com/26/player/99/ewa-pajor,Ewa Pajor,F,88,Gold,87,88,64,88,22,71,3,3,4,1,Poland,Liga F,FC Barcelona,"ST,LM,LW",3,0,0,0,1,1,16000,14750
+https://www.futbin.com/26/player/110/irene-paredes-hernandez,Irene Paredes Hernández,F,88,Gold,71,52,67,68,88,84,2,3,4,1,Spain,Liga F,FC Barcelona,CB,1,1,0,0,0,0,17000,14750
+https://www.futbin.com/26/player/116/debora-c-de-oliveira,Débora C. De Oliveira,F,88,Gold,85,79,86,91,46,75,5,5,6,1,Brazil,NWSL,KC Current,"CAM,CM,RW",3,0,0,1,1,0,15250,14750
+https://www.futbin.com/26/player/132/kadidiatou-diani,Kadidiatou Diani,F,88,Gold,92,85,81,88,56,79,4,4,5,1,France,D1 Arkema,OL,"RW,RM,ST",3,0,0,0,1,1,15750,15000
+https://www.futbin.com/26/player/137/marie-katoto,Marie Katoto,F,88,Gold,85,87,77,84,39,74,4,4,2,1,France,D1 Arkema,OL,ST,1,0,0,0,0,1,15250,14500
+https://www.futbin.com/26/player/18762/owen,Owen,M,88,Icons_Heroes,89,88,69,87,35,66,3,4,3,1,England,Icons,EA FC ICONS,ST,1,0,0,0,0,1,200000,150000
+https://www.futbin.com/26/player/18763/gerrard,Gerrard,M,88,Icons_Heroes,78,88,88,83,75,82,3,3,5,1,England,Icons,EA FC ICONS,"CM,CDM",2,0,0,1,0,0,221000,212000
+https://www.futbin.com/26/player/18764/chiellini,Chiellini,M,88,Icons_Heroes,78,55,62,63,92,89,2,3,6,1,Italy,Icons,EA FC ICONS,CB,1,1,0,0,0,0,689000,650000
+https://www.futbin.com/26/player/18766/shevchenko,Shevchenko,M,88,Icons_Heroes,86,90,71,85,35,73,3,4,3,1,Ukraine,Icons,EA FC ICONS,"ST,RW",2,0,0,0,1,1,157000,128000
+https://www.futbin.com/26/player/18767/rooney,Rooney,M,88,Icons_Heroes,88,90,81,86,53,87,3,4,6,1,England,Icons,EA FC ICONS,"ST,CAM",2,0,0,0,1,1,570000,468000
+https://www.futbin.com/26/player/18768/koeman,Koeman,M,88,Icons_Heroes,76,86,85,78,88,84,3,3,4,1,Netherlands,Icons,EA FC ICONS,CB,1,1,0,0,0,0,148000,145000
+https://www.futbin.com/26/player/18769/beckham,Beckham,M,88,Icons_Heroes,80,85,92,85,66,80,3,3,6,1,England,Icons,EA FC ICONS,"RM,CM,RW",3,0,0,1,1,0,215000,226000
+https://www.futbin.com/26/player/18770/schweinsteiger,Schweinsteiger,M,88,Icons_Heroes,76,83,86,83,83,83,3,3,4,1,Germany,Icons,EA FC ICONS,"CM,LM",2,0,0,1,1,0,149000,142000
+https://www.futbin.com/26/player/18771/nedved,Nedved,M,88,Icons_Heroes,84,84,86,87,58,77,4,5,5,1,Czechia,Icons,EA FC ICONS,"LM,CAM,LW",3,0,0,0,1,0,140000,110000
+https://www.futbin.com/26/player/18772/ferdinand,Ferdinand,M,88,Icons_Heroes,82,48,65,64,90,85,3,3,5,1,England,Icons,EA FC ICONS,CB,1,1,0,0,0,0,1202000,1180000
+https://www.futbin.com/26/player/18773/ribery,Ribéry,M,88,Icons_Heroes,89,85,85,90,37,65,5,5,5,1,France,Icons,EA FC ICONS,"LM,LW",2,0,0,0,1,0,811000,585000
+https://www.futbin.com/26/player/18774/pichon,Pichon,F,88,Icons_Heroes,85,89,80,88,44,75,4,4,6,1,France,Icons,EA FC ICONS,ST,1,0,0,0,0,1,179000,105000
+https://www.futbin.com/26/player/18775/scholes,Scholes,M,88,Icons_Heroes,74,86,89,78,62,80,3,4,6,1,England,Icons,EA FC ICONS,"CM,CAM",2,0,0,1,1,0,109000,101000
+https://www.futbin.com/26/player/18776/klose,Klose,M,88,Icons_Heroes,86,87,73,80,40,79,3,4,5,1,Germany,Icons,EA FC ICONS,ST,1,0,0,0,0,1,95000,92500
+https://www.futbin.com/26/player/18777/hagi,Hagi,M,88,Icons_Heroes,82,86,88,88,41,64,4,4,5,1,Romania,Icons,EA FC ICONS,"CAM,CM,LM",3,0,0,1,1,0,147000,150000
+https://www.futbin.com/26/player/18778/thuram,Thuram,M,88,Icons_Heroes,88,58,76,75,90,90,3,3,5,1,France,Icons,EA FC ICONS,"RB,CB",2,1,1,0,0,0,1415000,1499000
+https://www.futbin.com/26/player/18779/vieira,Vieira,M,88,Icons_Heroes,82,78,80,82,88,90,3,3,6,1,France,Icons,EA FC ICONS,"CM,CDM",2,0,0,1,0,0,1450000,1230000
+https://www.futbin.com/26/player/18781/blanc,Blanc,M,88,Icons_Heroes,78,67,68,76,90,85,2,3,4,1,France,Icons,EA FC ICONS,"CB,CAM",2,1,0,0,1,0,483000,430000
+https://www.futbin.com/26/player/18782/desailly,Desailly,M,88,Icons_Heroes,82,51,65,66,88,88,2,3,5,1,France,Icons,EA FC ICONS,"CB,CDM",2,1,0,1,0,0,590000,560000
+https://www.futbin.com/26/player/18783/hierro-ruiz,Hierro Ruiz,M,88,Icons_Heroes,74,67,74,68,92,84,2,3,6,1,Spain,Icons,EA FC ICONS,CB,1,1,0,0,0,0,129000,139000
+https://www.futbin.com/26/player/18784/laudrup,Laudrup,M,88,Icons_Heroes,84,80,88,90,40,63,4,4,4,1,Denmark,Icons,EA FC ICONS,"CAM,LW",2,0,0,0,1,0,94500,89500
+https://www.futbin.com/26/player/18785/riquelme,Riquelme,M,88,Icons_Heroes,71,84,90,90,33,66,5,4,6,1,Argentina,Icons,EA FC ICONS,CAM,1,0,0,0,1,0,88000,82000
+https://www.futbin.com/26/player/18786/van-persie,Van Persie,M,88,Icons_Heroes,84,91,84,87,45,73,4,4,6,1,Netherlands,Icons,EA FC ICONS,ST,1,0,0,0,0,1,257000,207000
+https://www.futbin.com/26/player/18787/bale,Bale,M,88,Icons_Heroes,95,89,84,89,65,79,4,3,6,1,Wales,Icons,EA FC ICONS,"RW,ST,LW",3,0,0,0,1,1,1793000,1540000
+https://www.futbin.com/26/player/18823/tevez,Tévez,M,88,Icons_Heroes,85,89,80,86,46,89,4,3,4,1,Argentina,Premier League,HERO,"ST,CAM",2,0,0,0,1,1,279000,204000
+https://www.futbin.com/26/player/18824/mascherano,Mascherano,M,88,Icons_Heroes,76,55,76,75,89,86,3,3,3,1,Argentina,LALIGA EA SPORTS,HERO,"CB,CDM",2,1,0,1,0,0,73500,67500
+https://www.futbin.com/26/player/18825/okocha,Okocha,M,88,Icons_Heroes,87,83,83,93,40,60,5,4,3,1,Nigeria,Premier League,HERO,"CAM,RM,ST",3,0,0,0,1,1,290000,255000
+https://www.futbin.com/26/player/18826/marquez,Márquez,M,88,Icons_Heroes,74,65,75,74,90,88,3,3,5,1,Mexico,LALIGA EA SPORTS,HERO,"CB,CDM",2,1,0,1,0,0,71000,88000
+https://www.futbin.com/26/player/18827/litmanen,Litmanen,M,88,Icons_Heroes,82,87,83,83,35,65,3,4,3,1,Finland,Eredivisie,HERO,"CAM,CM",2,0,0,1,1,0,24000,22000
+https://www.futbin.com/26/player/18828/dos-santos-futre,Dos Santos Futre,M,88,Icons_Heroes,93,81,80,93,37,58,4,3,4,1,Portugal,LALIGA EA SPORTS,HERO,"LW,RW,ST",3,0,0,0,1,1,250000,183000
+https://www.futbin.com/26/player/18829/lizarazu,Lizarazu,M,88,Icons_Heroes,87,59,80,82,83,82,3,3,5,1,France,Bundesliga,HERO,LB,1,0,1,0,0,0,123000,150000
+https://www.futbin.com/26/player/18830/forlan,Forlán,M,88,Icons_Heroes,86,90,79,85,55,76,4,4,3,1,Uruguay,LALIGA EA SPORTS,HERO,"ST,LW",2,0,0,0,1,1,110000,118000
+https://www.futbin.com/26/player/18831/silveira-carvalho,Silveira Carvalho,M,88,Icons_Heroes,77,56,71,73,91,82,2,3,4,1,Portugal,Liga Portugal,HERO,CB,1,1,0,0,0,0,119000,180000
+https://www.futbin.com/26/player/18832/milito,Milito,M,88,Icons_Heroes,83,89,75,84,43,80,3,4,4,1,Argentina,Serie A TIM,HERO,ST,1,0,0,0,0,1,39000,32500
+https://www.futbin.com/26/player/18833/gomez,Gomez,M,88,Icons_Heroes,83,90,73,82,43,83,3,4,3,1,Germany,Bundesliga,HERO,ST,1,0,0,0,0,1,32000,25750
+https://www.futbin.com/26/player/18834/kompany,Kompany,M,88,Icons_Heroes,80,60,68,70,90,86,2,3,6,1,Belgium,Premier League,HERO,CB,1,1,0,0,0,0,368000,329000
+https://www.futbin.com/26/player/18835/enzo-francescoli,Enzo Francescoli,M,88,Icons_Heroes,86,88,83,90,44,72,4,4,6,1,Uruguay,LPF,HERO,"CAM,ST",2,0,0,0,1,1,153000,88000
+https://www.futbin.com/26/player/18836/sneijder,Sneijder,M,88,Icons_Heroes,81,84,90,86,53,75,4,5,6,1,Netherlands,Serie A TIM,HERO,"CAM,CM,LM",3,0,0,1,1,0,275000,181000
+https://www.futbin.com/26/player/18837/douglas-sisenando,Douglas Sisenando,M,88,Icons_Heroes,86,82,81,84,83,85,3,4,3,1,Brazil,Serie A TIM,HERO,"RB,RM",2,0,1,0,1,0,295000,294000
+https://www.futbin.com/26/player/18838/keler,Kessler,F,88,Icons_Heroes,81,85,88,86,78,77,4,3,4,1,Germany,GPFBL,HERO,"CM,CAM",2,0,0,1,1,0,37500,34000
+https://www.futbin.com/26/player/18839/di-natale,Di Natale,M,88,Icons_Heroes,90,91,85,90,46,70,4,4,4,1,Italy,Serie A TIM,HERO,"ST,LW",2,0,0,0,1,1,845000,556000
+https://www.futbin.com/26/player/18840/hazard,Hazard,M,88,Icons_Heroes,91,83,84,91,37,68,4,4,5,1,Belgium,Premier League,HERO,"LM,LW",2,0,0,0,1,0,1005000,688000
+https://www.futbin.com/26/player/18942/alexander-isak,Alexander Isak,M,88,Gold,83,89,73,85,39,76,4,4,5,1,Sweden,Premier League,Liverpool,ST,1,0,0,0,0,1,15500,14500
+https://www.futbin.com/26/player/19919/cole-palmer,Cole Palmer,M,88,Special,80,84,88,88,51,67,4,3,6,1,England,Premier League,Chelsea,"CAM,RM,ST",3,0,0,0,1,1,514000,440000
+https://www.futbin.com/26/player/19922/bruno-miguel-borges-fernandes,Bruno Miguel Borges Fernandes,M,88,Special,75,84,90,85,70,77,4,4,6,1,Portugal,Premier League,Manchester Utd,"CAM,CM",2,0,0,1,1,0,479000,410000
+https://www.futbin.com/26/player/19949/rose-lavelle,Rose Lavelle,F,88,Special,86,82,85,88,62,66,4,4,6,1,United States,NWSL,NJ/NY Gotham,"CM,CAM",2,0,0,1,1,0,33000,30000
+https://www.futbin.com/26/player/19976/millie-bright,Millie Bright,F,88,Special,75,52,71,67,88,89,2,4,4,1,England,Barclays WSL,Chelsea,"CB,CDM",2,1,0,1,0,0,54000,64500
+https://www.futbin.com/26/player/19978/cristiano-ronaldo-dos-santos-aveiro,Cristiano Ronaldo Dos Santos Aveiro,M,88,Special,82,91,79,83,37,80,5,4,6,1,Portugal,ROSHN Saudi League,Al Nassr,ST,1,0,0,0,0,1,795000,595000
+https://www.futbin.com/26/player/20005/moises-caicedo,Moisés Caicedo,M,88,Special,74,67,80,82,85,83,3,3,6,1,Ecuador,Premier League,Chelsea,"CDM,CM",2,0,0,1,0,0,110000,98000
+https://www.futbin.com/26/player/20030/julian-alvarez,Julián Alvarez,M,88,Special,86,88,83,88,58,81,4,4,3,1,Argentina,LALIGA EA SPORTS,Atlético de Madrid,ST,1,0,0,0,0,1,550000,379000
+https://www.futbin.com/26/player/20031/heung-min-son,Heung Min Son,M,88,Special,87,88,85,86,45,76,4,5,4,1,Korea Republic,MLS,LAFC,"LW,LM,ST",3,0,0,0,1,1,330000,229000
+https://www.futbin.com/26/player/20034/lucy-bronze,Lucy Bronze,F,88,Special,83,70,83,81,88,88,3,3,4,1,England,Barclays WSL,Chelsea,"RB,RM",2,0,1,0,1,0,70000,76000
+https://www.futbin.com/26/player/20087/kevin-de-bruyne,Kevin De Bruyne,M,88,Special,77,84,93,87,70,76,4,5,5,1,Belgium,Serie A TIM,SSC Napoli,"CM,CAM",2,0,0,1,1,0,219000,178000
+https://www.futbin.com/26/player/20090/lionel-messi,Lionel Messi,M,88,Special,82,87,87,91,35,66,4,4,6,1,Argentina,MLS,Inter Miami CF,"RW,RM,CAM,ST",4,0,0,0,1,1,720000,479000
+https://www.futbin.com/26/player/20207/campos,Campos,M,88,Special,85,82,78,88,70,81,3,4,4,1,Mexico,MLS,HERO,ST,1,0,0,0,0,1,15750,15250
+https://www.futbin.com/26/player/20212/hamsik,Hamšík,M,88,Special,84,88,88,87,80,84,4,5,4,1,Slovakia,Serie A TIM,HERO,"CM,CAM",2,0,0,1,1,0,711000,579000
+https://www.futbin.com/26/player/20223/sakina-karchaoui,Sakina Karchaoui,F,88,Special,90,78,88,89,80,70,5,4,7,1,France,D1 Arkema,Paris SG,"LB,CM,LM,CAM,LW",5,0,1,1,1,0,318000,285000
+https://www.futbin.com/26/player/20290/katie-mccabe,Katie Mccabe,F,88,Special,83,82,83,84,84,84,4,3,5,0,Republic of Ireland,Barclays WSL,Arsenal,"LB,LM,LW",3,0,1,0,1,0,23000,20750
+https://www.futbin.com/26/player/20339/paulo-dybala,Paulo Dybala,M,88,Special,83,87,86,89,44,70,5,3,7,1,Argentina,Serie A TIM,AS Roma,"ST,CAM",2,0,0,0,1,1,202000,141000
+https://www.futbin.com/26/player/20356/marchisio,Marchisio,M,88,Special,83,82,86,87,82,84,4,4,5,1,Italy,Serie A TIM,HERO,"CDM,CM,LM",3,0,0,1,1,0,389000,300000
+https://www.futbin.com/26/player/20357/toure,Touré,M,88,Special,80,84,87,86,81,90,4,4,6,1,Côte d'Ivoire,Premier League,HERO,"CM,CDM,CAM",3,0,0,1,1,0,1569000,1299000
+https://www.futbin.com/26/player/20373/declan-rice,Declan Rice,M,88,Special,78,74,86,81,84,85,3,3,7,0,England,Premier League,Arsenal,"CM,CDM",2,0,0,1,0,0,31500,37250
+https://www.futbin.com/26/player/20407/daniele-de-rossi,Daniele De Rossi,M,88,Special,80,83,82,81,89,88,3,3,5,1,Italy,Serie A TIM,HERO,"CDM,CM",2,0,0,1,0,0,790000,705000
+https://www.futbin.com/26/player/20408/georges,Georges,F,88,Special,86,50,68,68,88,87,2,3,5,1,France,D1 Arkema,HERO,CB,1,1,0,0,0,0,317000,329000
+https://www.futbin.com/26/player/20409/michel-salgado,Míchel Salgado,M,88,Special,85,61,81,82,86,88,3,3,4,1,Spain,LALIGA EA SPORTS,HERO,RB,1,0,1,0,0,0,280000,310000
+https://www.futbin.com/26/player/20414/maya-le-tissier,Maya Le Tissier,F,88,Special,82,62,81,77,90,84,3,3,5,1,England,Barclays WSL,Manchester Utd,"CB,RB",2,1,1,0,0,0,73000,88000
+https://www.futbin.com/26/player/20415/william-saliba,William Saliba,M,88,Special,81,40,70,74,88,84,2,3,4,1,France,Premier League,Arsenal,CB,1,1,0,0,0,0,1100000,1180000
+https://www.futbin.com/26/player/20492/klara-buhl,Klara Bühl,F,88,Special,87,86,85,88,38,77,4,5,7,0,Germany,GPFBL,FC Bayern München,"LM,LW",2,0,0,0,1,0,21000,19000
+https://www.futbin.com/26/player/20529/irene-paredes-hernandez,Irene Paredes Hernández,F,88,Special,81,52,76,77,88,86,3,3,4,1,Spain,Liga F,FC Barcelona,CB,1,1,0,0,0,0,80000,98000
+https://www.futbin.com/26/player/20530/lindsey-heaps,Lindsey Heaps,F,88,Special,85,85,88,87,65,81,4,4,6,1,United States,D1 Arkema,OL,"CAM,CM",2,0,0,1,1,0,81000,83500
+https://www.futbin.com/26/player/20531/robert-lewandowski,Robert Lewandowski,M,88,Special,80,89,80,86,44,86,4,4,6,1,Poland,LALIGA EA SPORTS,FC Barcelona,ST,1,0,0,0,0,1,320000,240000
+https://www.futbin.com/26/player/20532/leah-williamson,Leah Williamson,F,88,Special,82,51,80,78,89,84,3,3,5,1,England,Barclays WSL,Arsenal,"CB,CDM",2,1,0,1,0,0,104000,122000
+https://www.futbin.com/26/player/20566/simone-laudehr,Simone Laudehr,F,88,Icons_Heroes,85,79,83,85,82,82,4,4,4,1,Germany,GPFBL,HERO,"CM,RM,LM",3,0,0,1,1,0,73000,45000
+https://www.futbin.com/26/player/78/lauren-hemp,Lauren Hemp,F,87,Gold,91,77,84,87,63,70,4,3,4,1,England,Barclays WSL,Manchester City,"LW,LM",2,0,0,0,1,0,10750,10500
+https://www.futbin.com/26/player/84/ada-hegerberg,Ada Hegerberg,F,87,Gold,72,86,76,85,39,79,4,4,3,1,Norway,D1 Arkema,OL,ST,1,0,0,0,0,1,12250,10750
+https://www.futbin.com/26/player/92/mallory-swanson,Mallory Swanson,F,87,Gold,88,82,81,85,42,70,4,5,4,0,United States,NWSL,Chicago Red Stars,"LM,ST,LW",3,0,0,0,1,1,10750,10750
+https://www.futbin.com/26/player/93/beth-mead,Beth Mead,F,87,Gold,82,84,84,87,67,73,5,4,3,1,England,Barclays WSL,Arsenal,"RM,RW",2,0,0,0,1,0,11000,10500
+https://www.futbin.com/26/player/98/leah-williamson,Leah Williamson,F,87,Gold,74,48,73,72,88,77,3,3,3,1,England,Barclays WSL,Arsenal,"CB,CDM",2,1,0,1,0,0,11750,10750
+https://www.futbin.com/26/player/104/sakina-karchaoui,Sakina Karchaoui,F,87,Gold,89,76,87,88,77,69,5,4,7,0,France,D1 Arkema,Paris SG,"CM,LB,CAM,LW",4,0,1,1,1,0,10750,11250
+https://www.futbin.com/26/player/115/chloe-kelly,Chloe Kelly,F,87,Gold,88,84,85,84,43,69,4,4,6,0,England,Barclays WSL,Arsenal,"RM,RW",2,0,0,0,1,0,10750,10500
+https://www.futbin.com/26/player/121/lindsey-heaps,Lindsey Heaps,F,87,Gold,76,84,87,84,64,80,4,3,6,1,United States,D1 Arkema,OL,"CAM,CM",2,0,0,1,1,0,11250,10500
+https://www.futbin.com/26/player/126/lucy-bronze,Lucy Bronze,F,87,Gold,71,68,82,80,87,87,3,3,3,1,England,Barclays WSL,Chelsea,"RB,RM",2,0,1,0,1,0,11000,10750
+https://www.futbin.com/26/player/127/rose-lavelle,Rose Lavelle,F,87,Gold,85,81,84,87,60,64,4,4,6,1,United States,NWSL,NJ/NY Gotham,"CM,CAM",2,0,0,1,1,0,10500,10500
+https://www.futbin.com/26/player/193/kevin-de-bruyne,Kevin De Bruyne,M,87,Gold,66,83,92,84,65,72,4,5,4,1,Belgium,Serie A TIM,SSC Napoli,"CM,CAM",2,0,0,1,1,0,10500,10750
+https://www.futbin.com/26/player/214/cole-palmer,Cole Palmer,M,87,Gold,75,83,87,87,50,65,4,3,6,1,England,Premier League,Chelsea,"CAM,RM,ST",3,0,0,0,1,1,11000,10750
+https://www.futbin.com/26/player/215/khvicha-kvaratskhelia,Khvicha Kvaratskhelia,M,87,Gold,86,80,83,88,58,78,5,5,5,1,Georgia,Ligue 1 McDonald's,Paris SG,"LW,LM,RW",3,0,0,0,1,0,11000,10750
+https://www.futbin.com/26/player/216/alessandro-bastoni,Alessandro Bastoni,M,87,Gold,74,46,75,76,88,82,2,2,5,0,Italy,Serie A TIM,Lombardia FC,CB,1,1,0,0,0,0,10750,10500
+https://www.futbin.com/26/player/217/serhou-guirassy,Serhou Guirassy,M,87,Gold,72,88,76,83,45,83,3,4,5,1,Guinea,Bundesliga,Borussia Dortmund,ST,1,0,0,0,0,1,11000,10500
+https://www.futbin.com/26/player/218/frenkie-de-jong,Frenkie De Jong,M,87,Gold,82,71,85,87,78,77,4,3,3,1,Netherlands,LALIGA EA SPORTS,FC Barcelona,"CM,CDM",2,0,0,1,0,0,60000,50500
+https://www.futbin.com/26/player/219/moises-caicedo,Moisés Caicedo,M,87,Gold,71,64,78,81,84,82,3,3,6,1,Ecuador,Premier League,Chelsea,"CDM,CM",2,0,0,1,0,0,11000,11000
+https://www.futbin.com/26/player/220/declan-rice,Declan Rice,M,87,Gold,72,73,84,80,83,83,3,3,7,0,England,Premier League,Arsenal,"CDM,CM",2,0,0,1,0,0,11000,10750
+https://www.futbin.com/26/player/221/marcos-aoas-correa,Marcos Aoás Corrêa,M,87,Gold,78,56,75,74,89,80,3,3,3,1,Brazil,Ligue 1 McDonald's,Paris SG,CB,1,1,0,0,0,0,11000,11000
+https://www.futbin.com/26/player/223/jules-kounde,Jules Koundé,M,87,Gold,84,47,74,79,86,84,3,3,5,1,France,LALIGA EA SPORTS,FC Barcelona,"RB,CB,RM",3,1,1,0,1,0,49250,40000
+https://www.futbin.com/26/player/224/bruno-miguel-borges-fernandes,Bruno Miguel Borges Fernandes,M,87,Gold,67,83,89,83,65,75,4,4,6,1,Portugal,Premier League,Manchester Utd,"CAM,CM",2,0,0,1,1,0,10750,10750
+https://www.futbin.com/26/player/225/william-saliba,William Saliba,M,87,Gold,77,39,68,72,87,83,2,3,2,1,France,Premier League,Arsenal,CB,1,1,0,0,0,0,27250,23750
+https://www.futbin.com/26/player/226/julian-alvarez,Julián Alvarez,M,87,Gold,85,87,81,87,57,79,4,4,1,1,Argentina,LALIGA EA SPORTS,Atlético de Madrid,ST,1,0,0,0,0,1,10750,10750
+https://www.futbin.com/26/player/227/jonathan-tah,Jonathan Tah,M,87,Gold,63,38,60,63,87,86,2,3,2,1,Germany,Bundesliga,FC Bayern München,CB,1,1,0,0,0,0,10500,10750
+https://www.futbin.com/26/player/228/alexis-mac-allister,Alexis Mac Allister,M,87,Gold,66,82,85,85,78,76,3,3,5,1,Argentina,Premier League,Liverpool,"CM,CDM",2,0,0,1,0,0,11000,10750
+https://www.futbin.com/26/player/230/millie-bright,Millie Bright,F,87,Gold,57,51,70,62,87,88,2,4,2,1,England,Barclays WSL,Chelsea,CB,1,1,0,0,0,0,10750,10750
+https://www.futbin.com/26/player/231/martin-odegaard,Martin Ødegaard,M,87,Gold,68,79,88,87,67,65,5,2,4,1,Norway,Premier League,Arsenal,"CM,CAM",2,0,0,1,1,0,12750,10750
+https://www.futbin.com/26/player/232/katie-mccabe,Katie Mccabe,F,87,Gold,80,81,82,83,83,82,4,3,5,0,Republic of Ireland,Barclays WSL,Arsenal,"LB,LM,LW",3,0,1,0,1,0,10750,11000
+https://www.futbin.com/26/player/234/viktor-gyokeres,Viktor Gyökeres,M,87,Gold,90,86,73,81,36,91,3,4,6,1,Sweden,Premier League,Arsenal,ST,1,0,0,0,0,1,14000,13000
+https://www.futbin.com/26/player/235/sam-kerr,Sam Kerr,F,87,Gold,80,87,74,89,42,83,4,4,4,1,Australia,Barclays WSL,Chelsea,ST,1,0,0,0,0,1,11000,10750
+https://www.futbin.com/26/player/236/nicolo-barella,Nicolò Barella,M,87,Gold,80,78,84,86,81,76,3,4,6,1,Italy,Serie A TIM,Lombardia FC,CM,1,0,0,1,0,0,11250,11000
+https://www.futbin.com/26/player/237/victor-osimhen,Victor Osimhen,M,87,Gold,92,84,65,81,42,84,3,4,5,0,Nigeria,Trendyol Süper Lig,Galatasaray,ST,1,0,0,0,0,1,10500,10750
+https://www.futbin.com/26/player/18788/torres-sanz,Torres Sanz,M,87,Icons_Heroes,89,87,75,85,43,75,4,4,6,1,Spain,Icons,EA FC ICONS,ST,1,0,0,0,0,1,555000,320000
+https://www.futbin.com/26/player/18789/pires,Pirès,M,87,Icons_Heroes,86,79,84,86,38,64,4,4,4,1,France,Icons,EA FC ICONS,"LM,RM,CAM",3,0,0,0,1,0,95000,82500
+https://www.futbin.com/26/player/18790/kluivert,Kluivert,M,87,Icons_Heroes,84,86,76,81,40,79,4,4,4,1,Netherlands,Icons,EA FC ICONS,ST,1,0,0,0,0,1,70500,72500
+https://www.futbin.com/26/player/18791/wright,Wright,M,87,Icons_Heroes,88,89,69,81,40,76,3,4,3,1,England,Icons,EA FC ICONS,ST,1,0,0,0,0,1,90000,85000
+https://www.futbin.com/26/player/18792/alonso-olano,Alonso Olano,M,87,Icons_Heroes,71,77,86,78,82,80,3,4,4,1,Spain,Icons,EA FC ICONS,"CDM,CM",2,0,0,1,0,0,94000,96000
+https://www.futbin.com/26/player/18793/petit,Petit,M,87,Icons_Heroes,77,77,79,76,85,87,3,3,6,1,France,Icons,EA FC ICONS,"CDM,LB,CM",3,0,1,1,0,0,240000,209000
+https://www.futbin.com/26/player/18794/lampard,Lampard,M,87,Icons_Heroes,77,88,86,84,71,80,3,4,6,1,England,Icons,EA FC ICONS,"CM,CDM,CAM",3,0,0,1,1,0,144000,137000
+https://www.futbin.com/26/player/18795/rush,Rush,M,87,Icons_Heroes,84,89,69,83,43,78,3,4,5,1,Wales,Icons,EA FC ICONS,ST,1,0,0,0,0,1,74000,71500
+https://www.futbin.com/26/player/18796/vidic,Vidic,M,87,Icons_Heroes,78,48,62,62,90,89,2,3,5,1,Serbia,Icons,EA FC ICONS,CB,1,1,0,0,0,0,336000,294000
+https://www.futbin.com/26/player/18797/makelele,Makélélé,M,87,Icons_Heroes,81,48,76,78,86,86,3,3,4,1,France,Icons,EA FC ICONS,"CDM,RM,CM",3,0,0,1,1,0,363000,299000
+https://www.futbin.com/26/player/18798/rijkaard,Rijkaard,M,87,Icons_Heroes,77,73,80,77,87,86,3,4,5,1,Netherlands,Icons,EA FC ICONS,"CDM,CB,CM",3,1,0,1,0,0,223000,200000
+https://www.futbin.com/26/player/18799/suker,Šuker,M,87,Icons_Heroes,83,89,79,88,43,75,4,4,3,1,Croatia,Icons,EA FC ICONS,ST,1,0,0,0,0,1,76000,72000
+https://www.futbin.com/26/player/18800/barnes,Barnes,M,87,Icons_Heroes,89,85,83,89,44,83,4,4,5,1,England,Icons,EA FC ICONS,"LW,LM,CAM",3,0,0,0,1,0,195000,157000
+https://www.futbin.com/26/player/18801/zola,Zola,M,87,Icons_Heroes,85,88,85,89,41,63,4,4,4,1,Italy,Icons,EA FC ICONS,"CAM,ST",2,0,0,0,1,1,393000,289000
+https://www.futbin.com/26/player/18841/toure,Touré,M,87,Icons_Heroes,78,83,86,84,80,89,4,4,6,1,Côte d'Ivoire,Premier League,HERO,"CDM,CM,CAM",3,0,0,1,1,0,698000,575000
+https://www.futbin.com/26/player/18842/stam,Stam,M,87,Icons_Heroes,83,52,62,68,89,88,2,3,4,1,Netherlands,Premier League,HERO,CB,1,1,0,0,0,0,1120000,1120000
+https://www.futbin.com/26/player/18843/cordoba,Córdoba,M,87,Icons_Heroes,86,63,65,68,90,87,2,3,2,1,Colombia,Serie A TIM,HERO,CB,1,1,0,0,0,0,269000,265000
+https://www.futbin.com/26/player/18844/da-silva-junior,Da Silva Júnior,M,87,Icons_Heroes,87,79,86,89,78,80,5,3,6,1,Brazil,Bundesliga,HERO,"LM,LB,CM",3,0,1,1,1,0,350000,276000
+https://www.futbin.com/26/player/18845/brolin,Brolin,M,87,Icons_Heroes,87,88,83,90,59,69,4,3,3,1,Sweden,Serie A TIM,HERO,"ST,CAM,RW",3,0,0,0,1,1,88500,67000
+https://www.futbin.com/26/player/18846/mcmanaman,Mcmanaman,M,87,Icons_Heroes,89,77,84,87,46,77,4,4,3,1,England,Premier League,HERO,"RM,LM,CAM",3,0,0,0,1,0,35250,34500
+https://www.futbin.com/26/player/18848/georges,Georges,F,87,Icons_Heroes,85,48,66,67,87,86,2,3,3,1,France,D1 Arkema,HERO,CB,1,1,0,0,0,0,89000,89500
+https://www.futbin.com/26/player/18849/hamsik,Hamšík,M,87,Icons_Heroes,83,87,87,86,75,83,4,5,4,1,Slovakia,Serie A TIM,HERO,"CAM,CM",2,0,0,1,1,0,271000,225000
+https://www.futbin.com/26/player/18850/marchisio,Marchisio,M,87,Icons_Heroes,82,81,85,86,80,82,4,4,4,1,Italy,Serie A TIM,HERO,"CM,CDM,LM",3,0,0,1,1,0,185000,160000
+https://www.futbin.com/26/player/18851/kewell,Kewell,M,87,Icons_Heroes,90,85,88,88,52,69,4,3,4,1,Australia,Premier League,HERO,"LW,LM,CAM",3,0,0,0,1,0,154000,134000
+https://www.futbin.com/26/player/18852/berbatov,Berbatov,M,87,Icons_Heroes,80,85,81,87,34,74,4,3,3,1,Bulgaria,Premier League,HERO,ST,1,0,0,0,0,1,21000,19500
+https://www.futbin.com/26/player/18853/cesar-costa,César Costa,M,87,Icons_Heroes,83,80,87,85,43,76,4,4,4,1,Portugal,Serie A TIM,HERO,CAM,1,0,0,0,1,0,48750,38000
+https://www.futbin.com/26/player/18854/cole,Cole,M,87,Icons_Heroes,88,84,86,90,51,72,4,4,4,1,England,Premier League,HERO,"RW,CAM,LW",3,0,0,0,1,0,83000,65500
+https://www.futbin.com/26/player/18855/nakata,Nakata,M,87,Icons_Heroes,85,84,85,86,62,65,4,4,3,1,Japan,Serie A TIM,HERO,"CAM,CM",2,0,0,1,1,0,40000,38000
+https://www.futbin.com/26/player/19924/tijjani-reijnders,Tijjani Reijnders,M,87,Special,80,81,83,87,79,78,4,4,4,1,Netherlands,Premier League,Manchester City,"CM,CDM,CAM",3,0,0,1,1,0,1040000,670000
+https://www.futbin.com/26/player/19925/nicholas-williams-arthuer,Nicholas Williams Arthuer,M,87,Special,94,77,81,88,38,68,4,5,5,1,Spain,LALIGA EA SPORTS,Athletic Club,"LM,RM,LW",3,0,0,0,1,0,940000,930000
+https://www.futbin.com/26/player/19979/trent-alexander-arnold,Trent Alexander-Arnold,M,87,Special,83,73,90,83,85,78,3,4,4,1,England,LALIGA EA SPORTS,Real Madrid,"RB,RM",2,0,1,0,1,0,152000,174000
+https://www.futbin.com/26/player/19980/kim-little,Kim Little,F,87,Special,79,78,87,89,81,73,3,4,3,1,Scotland,Barclays WSL,Arsenal,"CDM,CM",2,0,0,1,0,0,21750,23250
+https://www.futbin.com/26/player/19981/claudia-pina-medina,Claudia Pina Medina,F,87,Special,81,88,85,88,46,72,4,5,6,1,Spain,Liga F,FC Barcelona,"LW,LM,ST",3,0,0,0,1,1,1599000,901000
+https://www.futbin.com/26/player/20006/bruno-guimaraes-moura,Bruno Guimarães Moura,M,87,Special,72,77,85,85,81,82,3,2,5,0,Brazil,Premier League,Newcastle Utd,"CM,CDM",2,0,0,1,0,0,22250,24750
+https://www.futbin.com/26/player/20035/trinity-rodman,Trinity Rodman,F,87,Special,92,83,80,85,70,84,4,4,6,1,United States,NWSL,Washington Spirit,"RM,RW,ST",3,0,0,0,1,1,410000,235000
+https://www.futbin.com/26/player/20036/scott-mctominay,Scott Mctominay,M,87,Special,78,84,80,84,82,87,3,3,5,1,Scotland,Serie A TIM,SSC Napoli,"CM,CAM",2,0,0,1,1,0,88000,65000
+https://www.futbin.com/26/player/20037/michael-olise,Michael Olise,M,87,Special,87,85,88,88,51,70,4,3,4,1,France,Bundesliga,FC Bayern München,"RM,RW",2,0,0,0,1,0,172000,142000
+https://www.futbin.com/26/player/20062/klara-buhl,Klara Bühl,F,87,Special,86,85,83,87,36,75,4,5,7,0,Germany,GPFBL,FC Bayern München,"LM,LW",2,0,0,0,1,0,21000,18750
+https://www.futbin.com/26/player/20091/alejandro-grimaldo-garcia,Alejandro Grimaldo García,M,87,Special,84,82,90,88,82,78,4,3,5,1,Spain,Bundesliga,Leverkusen,"LM,LB,LW",3,0,1,0,1,0,37250,34000
+https://www.futbin.com/26/player/20092/desire-doue,Désiré Doué,M,87,Special,85,82,80,91,57,77,5,4,6,1,France,Ligue 1 McDonald's,Paris SG,"RW,RM,CM,CAM,LW",5,0,0,1,1,0,319000,267000
+https://www.futbin.com/26/player/20093/dominik-szoboszlai,Dominik Szoboszlai,M,87,Special,83,86,87,86,71,81,4,4,4,1,Hungary,Premier League,Liverpool,"CAM,RB,CM",3,0,1,1,1,0,103000,100000
+https://www.futbin.com/26/player/20094/kenan-yldz,Kenan Yildiz,M,87,Special,89,86,82,90,45,74,4,5,3,1,Türkiye,Serie A TIM,Juventus,"CAM,CM,LM,LW",4,0,0,1,1,0,299000,230000
+https://www.futbin.com/26/player/20095/lauren-james,Lauren James,F,87,Special,90,83,81,89,42,85,5,4,6,1,England,Barclays WSL,Chelsea,"RM,CAM,RW",3,0,0,0,1,0,290000,254000
+https://www.futbin.com/26/player/20217/crouch,Crouch,M,87,Special,78,88,85,90,54,82,3,3,4,1,England,Premier League,HERO,"CAM,ST",2,0,0,0,1,1,30500,27750
+https://www.futbin.com/26/player/20224/bryan-mbeumo,Bryan Mbeumo,M,87,Special,89,87,81,86,51,78,4,3,5,1,Cameroon,Premier League,Manchester Utd,"ST,RM,RW",3,0,0,0,1,1,97500,83000
+https://www.futbin.com/26/player/20291/pernille-harder,Pernille Harder,F,87,Special,83,82,81,89,28,80,4,4,4,1,Denmark,GPFBL,FC Bayern München,"LW,LM,CAM,ST",4,0,0,0,1,1,18250,15250
+https://www.futbin.com/26/player/20342/christian-pulisic,Christian Pulisic,M,87,Special,89,85,84,90,49,70,4,5,4,0,United States,Serie A TIM,Milano FC,"CAM,RM,RW,ST",4,0,0,0,1,1,52500,43000
+https://www.futbin.com/26/player/20343/antoine-griezmann,Antoine Griezmann,M,87,Special,80,88,87,90,61,76,4,3,7,1,France,LALIGA EA SPORTS,Atlético de Madrid,"CAM,LM,ST",3,0,0,0,1,1,139000,102000
+https://www.futbin.com/26/player/20358/matuidi,Matuidi,M,87,Special,84,73,80,80,85,87,3,3,6,1,France,Ligue 1 McDonald's,HERO,"CM,CDM",2,0,0,1,0,0,605000,500000
+https://www.futbin.com/26/player/20359/ljungberg,Ljungberg,M,87,Special,90,82,83,87,47,80,4,4,4,1,Sweden,Premier League,HERO,"RM,LM,RW,LW",4,0,0,0,1,0,26000,22750
+https://www.futbin.com/26/player/20376/hakan-calhanoglu,Hakan Çalhanoğlu,M,87,Special,77,82,88,83,83,75,4,5,6,1,Türkiye,Serie A TIM,Lombardia FC,"CDM,CM",2,0,0,1,0,0,18000,15750
+https://www.futbin.com/26/player/20410/giuly,Giuly,M,87,Special,89,84,83,87,50,59,4,4,6,1,France,Ligue 1 McDonald's,HERO,"RM,RW",2,0,0,0,1,0,65500,49000
+https://www.futbin.com/26/player/20416/eder-gabriel-militao,Éder Gabriel Militão,M,87,Special,85,55,74,75,88,86,2,3,5,1,Brazil,LALIGA EA SPORTS,Real Madrid,CB,1,1,0,0,0,0,770000,854000
+https://www.futbin.com/26/player/20417/cody-gakpo,Cody Gakpo,M,87,Special,89,86,84,87,51,78,4,4,5,1,Netherlands,Premier League,Liverpool,"LM,LW",2,0,0,0,1,0,324000,299000
+https://www.futbin.com/26/player/20418/bradley-barcola,Bradley Barcola,M,87,Special,93,82,83,87,42,70,4,4,4,1,France,Ligue 1 McDonald's,Paris SG,"LW,LM,RW",3,0,0,0,1,0,490000,480000
+https://www.futbin.com/26/player/20419/anthony-gordon,Anthony Gordon,M,87,Special,94,86,83,88,55,76,3,4,4,1,England,Premier League,Newcastle Utd,"LW,LM,RW",3,0,0,0,1,0,327000,234000
+https://www.futbin.com/26/player/20420/richard-rios,Richard Ríos,M,87,Special,85,83,85,89,80,87,3,3,4,1,Colombia,Liga Portugal,SL Benfica,"CM,CDM",2,0,0,1,0,0,145000,150000
+https://www.futbin.com/26/player/20421/rasmus-hojlund,Rasmus Højlund,M,87,Special,90,87,70,84,44,90,3,3,4,1,Denmark,Serie A TIM,SSC Napoli,ST,1,0,0,0,0,1,72000,74000
+https://www.futbin.com/26/player/20422/aleksandar-pavlovic,Aleksandar Pavlović,M,87,Special,82,72,88,86,85,80,3,4,5,0,Germany,Bundesliga,FC Bayern München,"CDM,CM",2,0,0,1,0,0,310000,297000
+https://www.futbin.com/26/player/20433/ian-maatsen,Ian Maatsen,M,87,Special,94,73,83,89,82,72,3,3,5,0,Netherlands,Premier League,Aston Villa,"LB,LM",2,0,1,0,1,0,201000,222000
+https://www.futbin.com/26/player/20434/lukas-haraslin,Lukáš Haraslín,M,87,Special,89,85,84,90,50,70,4,4,4,1,Slovakia,Česká Liga,Sparta Praha,"LW,LM,RW,ST",4,0,0,0,1,1,16500,15500
+https://www.futbin.com/26/player/20493/lionel-messi,Lionel Messi,M,87,Special,80,86,86,91,34,66,4,4,6,1,Argentina,MLS,Inter Miami CF,"ST,RM,CAM,RW",4,0,0,0,1,1,97500,57000
+https://www.futbin.com/26/player/20533/martin-odegaard,Martin Ødegaard,M,87,Special,83,83,88,87,73,70,5,3,5,1,Norway,Premier League,Arsenal,"CM,CAM",2,0,0,1,1,0,180000,195000
+https://www.futbin.com/26/player/20534/dominik-szoboszlai,Dominik Szoboszlai,M,87,Special,83,87,87,87,71,82,4,4,5,1,Hungary,Premier League,Liverpool,"CAM,CM",2,0,0,1,1,0,137000,130000
+https://www.futbin.com/26/player/20535/pernille-harder,Pernille Harder,F,87,Special,85,83,82,89,28,80,4,4,5,1,Denmark,GPFBL,FC Bayern München,"CAM,RM,ST",3,0,0,0,1,1,12000,12000
+https://www.futbin.com/26/player/20536/alvaro-borja-morata-martin,Álvaro Borja Morata Martín,M,87,Special,84,87,83,85,37,82,3,4,5,0,Spain,Serie A TIM,Como,"ST,CAM",2,0,0,0,1,1,12250,13250
+https://www.futbin.com/26/player/20537/caroline-weir,Caroline Weir,F,87,Special,82,85,87,87,71,71,4,4,7,0,Scotland,Liga F,Real Madrid,"CAM,CDM,CM,RW",4,0,0,1,1,0,12000,13500
+https://www.futbin.com/26/player/20538/bernardo-mota-carvalho-e-silva,Bernardo Mota Carvalho E Silva,M,87,Special,83,81,86,92,74,72,4,4,5,1,Portugal,Premier League,Manchester City,"CM,CDM,RM,CAM",4,0,0,1,1,0,171000,147000
+https://www.futbin.com/26/player/20539/ada-hegerberg,Ada Hegerberg,F,87,Special,83,88,76,88,39,81,4,4,5,1,Norway,D1 Arkema,OL,ST,1,0,0,0,0,1,12250,12500
+https://www.futbin.com/26/player/20540/naomi-girma,Naomi Girma,F,87,Special,82,53,76,78,87,81,3,3,4,1,United States,Barclays WSL,Chelsea,CB,1,1,0,0,0,0,23500,35750
+https://www.futbin.com/26/player/20567/michel-salgado,Míchel Salgado,M,87,Icons_Heroes,82,60,80,80,85,87,3,3,3,1,Spain,LALIGA EA SPORTS,HERO,RB,1,0,1,0,0,0,125000,137000
+https://www.futbin.com/26/player/20568/daniele-de-rossi,Daniele De Rossi,M,87,Icons_Heroes,78,82,79,79,88,87,3,3,5,1,Italy,Serie A TIM,HERO,"CDM,CM",2,0,0,1,0,0,362000,319000
+https://www.futbin.com/26/player/20582/tijjani-reijnders,Tijjani Reijnders,M,87,Special,80,81,83,86,79,78,4,4,4,1,Netherlands,Premier League,Manchester City,"CM,CDM,CAM",3,0,0,1,1,0,329000,230000
+https://www.futbin.com/26/player/238/nuno-alexandre-tavares-mendes,Nuno Alexandre Tavares Mendes,M,86,Gold,95,65,76,82,80,77,3,4,5,1,Portugal,Ligue 1 McDonald's,Paris SG,"LB,LM",2,0,1,0,1,0,41750,41000
+https://www.futbin.com/26/player/240/antonio-rudiger,Antonio Rüdiger,M,86,Gold,79,55,72,70,84,86,2,3,4,1,Germany,LALIGA EA SPORTS,Real Madrid,CB,1,1,0,0,0,0,8400,8300
+https://www.futbin.com/26/player/242/michael-olise,Michael Olise,M,86,Gold,78,80,84,87,50,66,4,2,4,0,France,Bundesliga,FC Bayern München,"RM,RW",2,0,0,0,1,0,6300,6600
+https://www.futbin.com/26/player/243/claudia-pina-medina,Claudia Pina Medina,F,86,Gold,79,86,83,87,45,71,4,5,6,1,Spain,Liga F,FC Barcelona,"LW,LM,ST",3,0,0,0,1,1,6400,7700
+https://www.futbin.com/26/player/244/trent-alexander-arnold,Trent Alexander-Arnold,M,86,Gold,76,72,89,80,80,74,3,4,4,1,England,LALIGA EA SPORTS,Real Madrid,"RB,RM",2,0,1,0,1,0,6500,6700
+https://www.futbin.com/26/player/245/ruben-santos-gato-alves-dias,Rúben Santos Gato Alves Dias,M,86,Gold,59,39,69,69,86,84,2,4,1,1,Portugal,Premier League,Manchester City,CB,1,1,0,0,0,0,6400,6800
+https://www.futbin.com/26/player/246/paulo-dybala,Paulo Dybala,M,86,Gold,80,85,84,87,41,64,5,3,6,1,Argentina,Serie A TIM,AS Roma,"CAM,ST",2,0,0,0,1,1,6500,6800
+https://www.futbin.com/26/player/247/bruno-guimaraes-moura,Bruno Guimarães Moura,M,86,Gold,66,75,84,84,79,81,3,2,5,0,Brazil,Premier League,Newcastle Utd,"CM,CDM",2,0,0,1,0,0,6300,6700
+https://www.futbin.com/26/player/248/klara-buhl,Klara Bühl,F,86,Gold,84,84,81,84,34,74,4,5,7,0,Germany,GPFBL,FC Bayern München,"LM,LW",2,0,0,0,1,0,6400,6700
+https://www.futbin.com/26/player/249/willian-pacho,Willian Pacho,M,86,Gold,80,34,62,62,86,86,2,3,3,1,Ecuador,Ligue 1 McDonald's,Paris SG,CB,1,1,0,0,0,0,10500,10000
+https://www.futbin.com/26/player/250/ona-batlle-pascual,Ona Batlle Pascual,F,86,Gold,80,54,79,79,81,72,3,4,4,0,Spain,Liga F,FC Barcelona,"RB,LB,RM",3,0,1,0,1,0,6200,6700
+https://www.futbin.com/26/player/251/ibrahima-konate,Ibrahima Konaté,M,86,Gold,77,34,63,69,86,85,3,3,2,0,France,Premier League,Liverpool,CB,1,1,0,0,0,0,6400,6800
+https://www.futbin.com/26/player/252/hakan-calhanoglu,Hakan Çalhanoğlu,M,86,Gold,71,81,87,82,81,73,4,5,6,1,Türkiye,Serie A TIM,Lombardia FC,"CDM,CM",2,0,0,1,0,0,6200,6700
+https://www.futbin.com/26/player/253/lea-schuller,Lea Schüller,F,86,Gold,87,83,71,82,33,74,3,3,3,0,Germany,GPFBL,FC Bayern München,ST,1,0,0,0,0,1,6500,6700
+https://www.futbin.com/26/player/254/lionel-messi,Lionel Messi,M,86,Gold,78,85,85,90,33,64,4,4,6,1,Argentina,MLS,Inter Miami CF,"RW,RM,CAM,ST",4,0,0,0,1,1,6500,6900
+https://www.futbin.com/26/player/255/sandro-tonali,Sandro Tonali,M,86,Gold,79,74,82,80,81,83,3,4,3,0,Italy,Premier League,Newcastle Utd,"CDM,CM",2,0,0,1,0,0,6500,6900
+https://www.futbin.com/26/player/256/nicholas-williams-arthuer,Nicholas Williams Arthuer,M,86,Gold,93,76,80,87,36,66,4,5,5,1,Spain,LALIGA EA SPORTS,Athletic Club,"LM,RM,LW",3,0,0,0,1,0,38500,27000
+https://www.futbin.com/26/player/257/melchie-dumornay,Melchie Dumornay,F,86,Gold,93,85,78,87,60,71,4,4,5,1,Haiti,D1 Arkema,OL,"ST,CAM",2,0,0,0,1,1,6400,6700
+https://www.futbin.com/26/player/258/pernille-harder,Pernille Harder,F,86,Gold,81,80,80,88,27,78,4,4,4,1,Denmark,GPFBL,FC Bayern München,"CAM,RM,ST",3,0,0,0,1,1,8400,6900
+https://www.futbin.com/26/player/259/tijjani-reijnders,Tijjani Reijnders,M,86,Gold,79,79,82,85,77,77,4,4,4,1,Netherlands,Premier League,Manchester City,"CM,CDM,CAM",3,0,0,1,1,0,33500,37250
+https://www.futbin.com/26/player/1150/temwa-chawinga,Temwa Chawinga,F,86,Gold,91,82,77,83,46,83,4,4,3,0,Malawi,NWSL,KC Current,"LW,RM,LM",3,0,0,0,1,0,6400,6800
+https://www.futbin.com/26/player/18802/veron,Verón,M,86,Icons_Heroes,75,81,86,81,73,81,3,4,4,1,Argentina,Icons,EA FC ICONS,"CM,CAM",2,0,0,1,1,0,77000,75000
+https://www.futbin.com/26/player/18803/hernandez,Hernández,M,86,Icons_Heroes,89,85,71,86,45,67,4,3,5,1,Mexico,Icons,EA FC ICONS,ST,1,0,0,0,0,1,77500,74000
+https://www.futbin.com/26/player/18804/gattuso,Gattuso,M,86,Icons_Heroes,73,62,69,70,88,87,2,3,3,1,Italy,Icons,EA FC ICONS,"CDM,CM",2,0,0,1,0,0,80000,79000
+https://www.futbin.com/26/player/18805/larsson,Larsson,M,86,Icons_Heroes,87,86,73,82,45,71,3,4,3,1,Sweden,Icons,EA FC ICONS,ST,1,0,0,0,0,1,74500,75000
+https://www.futbin.com/26/player/18806/cole,Cole,M,86,Icons_Heroes,87,65,79,80,84,77,3,2,5,1,England,Icons,EA FC ICONS,LB,1,0,1,0,0,0,205000,192000
+https://www.futbin.com/26/player/18807/crespo,Crespo,M,86,Icons_Heroes,86,86,70,85,36,70,4,4,3,1,Argentina,Icons,EA FC ICONS,ST,1,0,0,0,0,1,75500,70000
+https://www.futbin.com/26/player/18808/campbell,Campbell,M,86,Icons_Heroes,81,45,60,58,87,88,2,3,4,1,England,Icons,EA FC ICONS,CB,1,1,0,0,0,0,249000,240000
+https://www.futbin.com/26/player/18809/lima-do-amor,Lima Do Amor,F,86,Icons_Heroes,84,88,87,86,41,68,4,3,3,1,Brazil,Icons,EA FC ICONS,CAM,1,0,0,0,1,0,195000,149000
+https://www.futbin.com/26/player/18810/zambrotta,Zambrotta,M,86,Icons_Heroes,87,69,80,81,84,82,4,5,3,1,Italy,Icons,EA FC ICONS,"RB,LB",2,0,1,0,0,0,264000,210000
+https://www.futbin.com/26/player/18811/keane,Keane,M,86,Icons_Heroes,72,69,82,78,84,87,2,3,5,1,Republic of Ireland,Icons,EA FC ICONS,"CM,CDM",2,0,0,1,0,0,143000,99500
+https://www.futbin.com/26/player/18812/essien,Essien,M,86,Icons_Heroes,82,73,77,78,85,86,3,4,5,1,Ghana,Icons,EA FC ICONS,"CDM,CM",2,0,0,1,0,0,280000,294000
+https://www.futbin.com/26/player/18813/cha,Cha,M,86,Icons_Heroes,87,85,78,84,60,83,4,5,6,1,Korea Republic,Icons,EA FC ICONS,"ST,RW",2,0,0,0,1,1,294000,168000
+https://www.futbin.com/26/player/18856/donovan,Donovan,M,86,Icons_Heroes,89,86,81,85,46,70,4,4,3,1,United States,MLS,HERO,"CAM,RM,ST",3,0,0,0,1,1,26750,20000
+https://www.futbin.com/26/player/18857/smolarek,Smolarek,M,86,Icons_Heroes,91,85,80,90,41,83,3,3,2,1,Poland,Bundesliga,HERO,"ST,LW",2,0,0,0,1,1,124000,84500
+https://www.futbin.com/26/player/18858/keane,Keane,M,86,Icons_Heroes,87,88,76,88,45,76,4,4,3,1,Republic of Ireland,Premier League,HERO,ST,1,0,0,0,0,1,122000,77000
+https://www.futbin.com/26/player/18860/solskjaer,Solskjær,M,86,Icons_Heroes,85,88,75,84,45,66,3,4,2,1,Norway,Premier League,HERO,ST,1,0,0,0,0,1,32000,30750
+https://www.futbin.com/26/player/18861/ljungberg,Ljungberg,M,86,Icons_Heroes,87,81,82,86,45,77,4,4,4,1,Sweden,Premier League,HERO,"LM,RM,LW",3,0,0,0,1,0,26000,27000
+https://www.futbin.com/26/player/18862/rosicky,Rosický,M,86,Icons_Heroes,83,81,86,88,57,69,4,3,5,1,Czechia,Premier League,HERO,"CAM,RM,CM",3,0,0,1,1,0,28000,26000
+https://www.futbin.com/26/player/18863/bompastor,Bompastor,F,86,Icons_Heroes,87,80,85,85,82,74,3,3,6,1,France,D1 Arkema,HERO,"LB,LM",2,0,1,0,1,0,48000,47250
+https://www.futbin.com/26/player/18864/riise,Riise,M,86,Icons_Heroes,83,81,81,80,81,86,3,2,3,1,Norway,Premier League,HERO,"LB,LM",2,0,1,0,1,0,54500,55000
+https://www.futbin.com/26/player/18866/giuly,Giuly,M,86,Icons_Heroes,88,83,81,85,49,58,4,4,6,1,France,Ligue 1 McDonald's,HERO,"RM,RW",2,0,0,0,1,0,26000,22250
+https://www.futbin.com/26/player/18867/carragher,Carragher,M,86,Icons_Heroes,70,52,68,67,87,84,2,3,2,1,England,Premier League,HERO,"CB,RB,LB",3,1,1,0,0,0,30000,27250
+https://www.futbin.com/26/player/18868/al-jaber,Al Jaber,M,86,Icons_Heroes,88,86,75,83,44,71,3,3,2,1,Saudi Arabia,ROSHN Saudi League,HERO,ST,1,0,0,0,0,1,18000,18000
+https://www.futbin.com/26/player/18869/park,Park,M,86,Icons_Heroes,85,80,83,85,78,81,3,4,4,1,Korea Republic,Premier League,HERO,"LM,RM,CAM",3,0,0,0,1,0,33500,35250
+https://www.futbin.com/26/player/18870/gutierrez-hernandez,Gutiérrez Hernández,M,86,Icons_Heroes,77,82,88,85,63,73,4,3,4,1,Spain,LALIGA EA SPORTS,HERO,"CM,CAM",2,0,0,1,1,0,45250,43000
+https://www.futbin.com/26/player/18871/santos-do-nascimen,Santos Do Nascimen.,M,86,Icons_Heroes,88,78,80,81,84,83,4,3,4,1,Brazil,Premier League,HERO,"CDM,RM,CM",3,0,0,1,1,0,538000,505000
+https://www.futbin.com/26/player/18872/kanu,Kanu,M,86,Icons_Heroes,79,85,81,87,40,75,3,3,4,1,Nigeria,Premier League,HERO,ST,1,0,0,0,0,1,14000,13250
+https://www.futbin.com/26/player/18873/matuidi,Matuidi,M,86,Icons_Heroes,83,72,79,77,84,85,3,3,5,1,France,Ligue 1 McDonald's,HERO,"CDM,CM",2,0,0,1,0,0,330000,268000
+https://www.futbin.com/26/player/18874/capdevila-mendez,Capdevila Méndez,M,86,Icons_Heroes,84,76,81,79,85,80,3,3,3,1,Spain,LALIGA EA SPORTS,HERO,LB,1,0,1,0,0,0,80000,77500
+https://www.futbin.com/26/player/18875/kuyt,Kuyt,M,86,Icons_Heroes,84,88,80,83,70,82,3,3,5,1,Netherlands,Eredivisie,HERO,"CAM,CM,RW",3,0,0,1,1,0,30500,23500
+https://www.futbin.com/26/player/18876/govou,Govou,M,86,Icons_Heroes,89,89,80,88,55,70,4,3,2,1,France,Ligue 1 McDonald's,HERO,"ST,RM",2,0,0,0,1,1,141000,110000
+https://www.futbin.com/26/player/18877/williams,Williams,F,86,Icons_Heroes,80,87,87,85,72,75,3,5,4,1,England,Barclays WSL,HERO,"CM,CDM",2,0,0,1,0,0,22250,26500
+https://www.futbin.com/26/player/18878/ledley-king,Ledley King,M,86,Icons_Heroes,80,55,69,72,89,80,2,4,2,1,England,Premier League,HERO,CB,1,1,0,0,0,0,170000,180000
+https://www.futbin.com/26/player/18920/inigo-martinez-berridi,Iñigo Martínez Berridi,M,86,Special,73,58,73,70,86,82,2,3,3,0,Spain,ROSHN Saudi League,Al Nassr,CB,1,1,0,0,0,0,23750,25500
+https://www.futbin.com/26/player/18921/alejandro-grimaldo-garcia,Alejandro Grimaldo García,M,86,Special,78,77,89,87,77,73,4,2,4,1,Spain,Bundesliga,Leverkusen,"LM,LB,LW",3,0,1,0,1,0,21500,18750
+https://www.futbin.com/26/player/18922/benjamin-pavard,Benjamin Pavard,M,86,Special,77,69,78,78,88,82,3,3,3,1,France,Ligue 1 McDonald's,OM,CB,1,1,0,0,0,0,89000,91500
+https://www.futbin.com/26/player/18923/lena-oberdorf,Lena Oberdorf,F,86,Special,70,64,80,77,87,87,3,3,6,1,Germany,GPFBL,FC Bayern München,"CDM,CM",2,0,0,1,0,0,29250,22250
+https://www.futbin.com/26/player/18924/marcos-llorente-moreno,Marcos Llorente Moreno,M,86,Special,91,81,81,83,81,85,3,4,5,0,Spain,LALIGA EA SPORTS,Atlético de Madrid,"RB,RM,CM",3,0,1,1,1,0,275000,315000
+https://www.futbin.com/26/player/18943/grace-geyoro,Grace Geyoro,F,86,Gold,89,73,82,83,82,80,3,3,3,1,France,Barclays WSL,London City Lionesses,"CM,CDM,CAM",3,0,0,1,1,0,6600,6900
+https://www.futbin.com/26/player/19896/eder-gabriel-militao,Éder Gabriel Militão,M,86,Special,84,53,72,74,87,84,2,3,4,0,Brazil,LALIGA EA SPORTS,Real Madrid,CB,1,1,0,0,0,0,300000,327000
+https://www.futbin.com/26/player/19897/ryan-gravenberch,Ryan Gravenberch,M,86,Special,78,78,82,86,82,82,4,4,3,0,Netherlands,Premier League,Liverpool,"CDM,CM",2,0,0,1,0,0,168000,168000
+https://www.futbin.com/26/player/19898/christian-pulisic,Christian Pulisic,M,86,Special,90,84,82,88,49,68,4,5,4,0,United States,Serie A TIM,Milano FC,"ST,RM,CAM,RW",4,0,0,0,1,1,51000,49250
+https://www.futbin.com/26/player/19899/sara-dabritz,Sara Däbritz,F,86,Special,79,83,86,88,77,76,4,4,4,0,Germany,Liga F,Real Madrid,"CM,CDM,CAM",3,0,0,1,1,0,21000,19500
+https://www.futbin.com/26/player/19926/luis-diaz,Luis Díaz,M,86,Special,90,82,80,88,47,77,4,4,4,0,Colombia,Bundesliga,FC Bayern München,"LM,ST,LW",3,0,0,0,1,1,212000,153000
+https://www.futbin.com/26/player/19927/mikel-oyarzabal-ugarte,Mikel Oyarzabal Ugarte,M,86,Special,84,87,86,86,47,70,3,3,5,0,Spain,LALIGA EA SPORTS,Real Sociedad,"ST,LM,CAM,LW",4,0,0,0,1,1,31500,26000
+https://www.futbin.com/26/player/19928/wendie-renard,Wendie Renard,F,86,Special,75,63,71,72,88,84,2,3,5,1,France,D1 Arkema,OL,CB,1,1,0,0,0,0,25750,26000
+https://www.futbin.com/26/player/19950/georgia-stanway,Georgia Stanway,F,86,Special,81,80,82,87,78,79,3,3,4,1,England,GPFBL,FC Bayern München,CDM,1,0,0,1,0,0,16250,14750
+https://www.futbin.com/26/player/19982/karim-adeyemi,Karim Adeyemi,M,86,Special,97,82,78,86,42,75,4,4,3,1,Germany,Bundesliga,Borussia Dortmund,"RM,CAM,RW,LW",4,0,0,0,1,0,302000,232000
+https://www.futbin.com/26/player/19983/joao-pedro-goncalves-neves,João Pedro Gonçalves Neves,M,86,Special,77,70,81,86,84,84,3,4,4,1,Portugal,Ligue 1 McDonald's,Paris SG,"CM,CDM",2,0,0,1,0,0,83500,64000
+https://www.futbin.com/26/player/19984/alejandro-balde-martinez,Alejandro Balde Martínez,M,86,Special,94,53,78,84,83,70,3,4,5,0,Spain,LALIGA EA SPORTS,FC Barcelona,"LB,LM",2,0,1,0,1,0,296000,282000
+https://www.futbin.com/26/player/19985/willi-orban,Willi Orban,M,86,Special,74,42,58,60,88,86,2,3,4,1,Hungary,Bundesliga,RB Leipzig,CB,1,1,0,0,0,0,15750,16000
+https://www.futbin.com/26/player/20007/luis-diaz,Luis Díaz,M,86,Special,89,82,79,88,46,77,4,4,4,0,Colombia,Bundesliga,FC Bayern München,"LM,ST,LW",3,0,0,0,1,1,70000,44750
+https://www.futbin.com/26/player/20038/marc-cucurella-saseta,Marc Cucurella Saseta,M,86,Special,83,70,82,82,87,82,3,3,4,0,Spain,Premier League,Chelsea,LB,1,0,1,0,0,0,70000,73500
+https://www.futbin.com/26/player/20039/salma-celeste-paralluelo-ayingono,Salma Celeste Paralluelo Ayingono,F,86,Special,94,86,81,85,48,80,4,4,5,0,Spain,Liga F,FC Barcelona,"LW,LM,RW,ST",4,0,0,0,1,1,465000,365000
+https://www.futbin.com/26/player/20040/cristian-romero,Cristian Romero,M,86,Special,76,52,75,70,87,86,3,3,5,0,Argentina,Premier League,Spurs,CB,1,1,0,0,0,0,45250,32000
+https://www.futbin.com/26/player/20041/hugo-ekitike,Hugo Ekitiké,M,86,Special,88,84,73,87,37,78,4,4,4,0,France,Premier League,Liverpool,"ST,CAM",2,0,0,0,1,1,138000,106000
+https://www.futbin.com/26/player/20042/eberechi-eze,Eberechi Eze,M,86,Special,83,83,84,89,53,71,4,4,6,1,England,Premier League,Arsenal,"CAM,ST,LW",3,0,0,0,1,1,134000,100000
+https://www.futbin.com/26/player/20064/pierre-emerick-aubameyang,Pierre-Emerick Aubameyang,M,86,Special,87,88,78,84,42,72,4,4,4,0,Gabon,Ligue 1 McDonald's,OM,ST,1,0,0,0,0,1,26000,27750
+https://www.futbin.com/26/player/20065/cody-gakpo,Cody Gakpo,M,86,Special,86,84,83,85,50,77,4,4,5,0,Netherlands,Premier League,Liverpool,"LW,LM",2,0,0,0,1,0,30750,24500
+https://www.futbin.com/26/player/20066/caroline-weir,Caroline Weir,F,86,Special,76,84,85,86,70,70,4,4,7,0,Scotland,Liga F,Real Madrid,"RW,RM,CM,CAM",4,0,0,1,1,0,15750,13750
+https://www.futbin.com/26/player/20067/ruben-diogo-da-silva-neves,Rúben Diogo Da Silva Neves,M,86,Special,72,77,89,80,81,79,3,4,6,0,Portugal,ROSHN Saudi League,Al Hilal,"CDM,CM",2,0,0,1,0,0,15750,16000
+https://www.futbin.com/26/player/20068/keira-walsh,Keira Walsh,F,86,Special,74,53,83,82,82,79,3,3,3,1,England,Barclays WSL,Chelsea,"CM,CDM",2,0,0,1,0,0,15500,14000
+https://www.futbin.com/26/player/20069/rodrygo-silva-de-goes,Rodrygo Silva De Goes,M,86,Special,89,82,81,88,32,66,4,4,5,0,Brazil,LALIGA EA SPORTS,Real Madrid,"LM,RW,ST,LW",4,0,0,0,1,1,66000,49000
+https://www.futbin.com/26/player/20096/denzel-dumfries,Denzel Dumfries,M,86,Special,86,72,80,82,82,86,3,3,5,0,Netherlands,Serie A TIM,Lombardia FC,"RB,RM",2,0,1,0,1,0,39000,39000
+https://www.futbin.com/26/player/20097/leny-yoro,Leny Yoro,M,86,Special,80,50,74,75,86,83,2,3,5,0,France,Premier League,Manchester Utd,CB,1,1,0,0,0,0,71000,64000
+https://www.futbin.com/26/player/20098/antony-matheus-dos-santos,Antony Matheus Dos Santos,M,86,Special,87,85,85,86,50,75,5,3,5,0,Brazil,LALIGA EA SPORTS,Real Betis,"RW,RM",2,0,0,0,1,0,76000,69500
+https://www.futbin.com/26/player/20099/selma-bacha,Selma Bacha,F,86,Special,89,75,86,83,80,81,4,3,6,1,France,D1 Arkema,OL,"LB,LM,LW",3,0,1,0,1,0,172000,181000
+https://www.futbin.com/26/player/20178/tabitha-chawinga,Tabitha Chawinga,F,86,Special,95,83,73,86,38,82,4,3,4,0,Malawi,D1 Arkema,OL,"LW,LM,ST",3,0,0,0,1,1,16750,15250
+https://www.futbin.com/26/player/20179/clara-mateo,Clara Mateo,F,86,Special,88,87,82,85,57,77,4,3,5,1,France,D1 Arkema,Paris FC,"LM,CAM,ST,LW",4,0,0,0,1,1,17250,14750
+https://www.futbin.com/26/player/20219/al-owairan,Al Owairan,M,86,Special,95,84,81,87,37,74,4,4,4,1,Saudi Arabia,ROSHN Saudi League,HERO,"ST,CAM,RW",3,0,0,0,1,1,242000,169000
+https://www.futbin.com/26/player/20226/nathan-tella,Nathan Tella,M,86,Special,88,83,86,86,56,70,3,4,5,0,Nigeria,Bundesliga,Leverkusen,"CAM,RM,RW,ST",4,0,0,0,1,1,13250,12000
+https://www.futbin.com/26/player/20227/thomas-muller,Thomas Müller,M,86,Special,83,87,86,86,60,75,3,4,6,0,Germany,MLS,Whitecaps FC,"ST,RM,CAM,RW",4,0,0,0,1,1,13250,12750
+https://www.futbin.com/26/player/20228/rafael-da-conceicao-leao,Rafael Da Conceição Leão,M,86,Special,94,80,82,88,31,77,5,4,6,1,Portugal,Serie A TIM,Milano FC,"ST,LM,LW",3,0,0,0,1,1,835000,529000
+https://www.futbin.com/26/player/20344/joao-felix-sequeira,João Félix Sequeira,M,86,Special,85,86,85,89,52,76,5,4,5,1,Portugal,ROSHN Saudi League,Al Nassr,"LW,LM,CAM,ST",4,0,0,0,1,1,106000,86000
+https://www.futbin.com/26/player/20345/lineth-beerensteyn,Lineth Beerensteyn,F,86,Special,92,82,75,88,55,78,4,4,5,0,Netherlands,GPFBL,VfL Wolfsburg,"ST,LM,LW",3,0,0,0,1,1,12000,11250
+https://www.futbin.com/26/player/20346/juan-cuadrado,Juan Cuadrado,M,86,Special,87,83,86,88,85,76,5,3,5,0,Colombia,Serie A TIM,Pisa,"RB,RM,RW",3,0,1,0,1,0,17750,17750
+https://www.futbin.com/26/player/20347/jeremie-frimpong,Jeremie Frimpong,M,86,Special,96,81,80,87,75,67,4,3,5,1,Netherlands,Premier League,Liverpool,"RW,RB,RM",3,0,1,0,1,0,146000,145000
+https://www.futbin.com/26/player/20378/emelyne-laurent,Emelyne Laurent,F,86,Special,90,83,81,87,60,70,3,2,5,0,France,D1 Arkema,FC Fleury 91,"ST,RM,RW",3,0,0,0,1,1,13250,12750
+https://www.futbin.com/26/player/20379/alvaro-fernandez-carreras,Álvaro Fernández Carreras,M,86,Special,89,72,82,86,81,87,3,4,5,0,Spain,LALIGA EA SPORTS,Real Madrid,"LB,LM",2,0,1,0,1,0,60000,76000
+https://www.futbin.com/26/player/20380/ellie-carpenter,Ellie Carpenter,F,86,Special,85,55,82,80,84,82,3,3,3,0,Australia,Barclays WSL,Chelsea,"RB,RM",2,0,1,0,1,0,13750,12250
+https://www.futbin.com/26/player/20381/pedro-antonio-pereira-goncalves,Pedro António Pereira Gonçalves,M,86,Special,81,85,86,87,67,73,4,4,7,0,Portugal,Liga Portugal,Sporting CP,"CAM,CM,LM",3,0,0,1,1,0,13750,12750
+https://www.futbin.com/26/player/20423/maika-hamano,Maika Hamano,F,86,Special,84,83,83,88,55,60,4,4,5,0,Japan,Barclays WSL,Chelsea,"CAM,CM",2,0,0,1,1,0,12250,11500
+https://www.futbin.com/26/player/20424/xavi-simons,Xavi Simons,M,86,Special,84,83,86,89,63,72,4,3,6,0,Netherlands,Premier League,Spurs,"CAM,LM,ST",3,0,0,0,1,1,85000,72000
+https://www.futbin.com/26/player/20425/tara-elimbi-gilbert,Tara Elimbi Gilbert,F,86,Special,87,46,80,81,85,72,3,3,5,0,France,D1 Arkema,Paris SG,"LB,LM",2,0,1,0,1,0,11500,12000
+https://www.futbin.com/26/player/20426/dennis-man,Dennis Man,M,86,Special,96,84,80,87,55,81,4,3,4,0,Romania,Eredivisie,PSV,"RM,RW",2,0,0,0,1,0,35750,33250
+https://www.futbin.com/26/player/20427/estevao-willian-almeida,Estêvão Willian Almeida,M,86,Special,93,84,82,88,45,65,4,3,4,0,Brazil,Premier League,Chelsea,"RM,CAM,RW",3,0,0,0,1,0,202000,283000
+https://www.futbin.com/26/player/20428/felix-nmecha,Felix Nmecha,M,86,Special,86,80,80,85,84,89,4,3,3,1,Germany,Bundesliga,Borussia Dortmund,"CDM,CM",2,0,0,1,0,0,323000,339000
+https://www.futbin.com/26/player/20429/yoan-bonny,Yoan Bonny,M,86,Special,94,86,82,88,45,85,4,3,4,1,France,Serie A TIM,Lombardia FC,"ST,CAM",2,0,0,0,1,1,189000,170000
+https://www.futbin.com/26/player/20435/kouadio-manu-kone,Kouadio Manu Koné,M,86,Special,81,82,82,88,84,86,4,3,4,0,France,Serie A TIM,AS Roma,"CM,CDM",2,0,0,1,0,0,114000,124000
+https://www.futbin.com/26/player/20436/anass-zaroury,Anass Zaroury,M,86,Special,93,84,81,84,40,73,4,5,4,1,Morocco,Hellas Liga,Panathinaikos,"LW,LM,CAM",3,0,0,0,1,0,14000,15250
+https://www.futbin.com/26/player/20437/cher-ndour,Cher Ndour,M,86,Special,84,78,85,87,75,83,3,4,5,0,Italy,Serie A TIM,Fiorentina,"CM,CDM,CAM",3,0,0,1,1,0,18000,17500
+https://www.futbin.com/26/player/20439/benedict-hollerbach,Benedict Hollerbach,M,86,Special,90,85,78,87,40,85,3,4,4,0,Germany,Bundesliga,1. FSV Mainz 05,"ST,LM,CAM",3,0,0,0,1,1,17000,18500
+https://www.futbin.com/26/player/20449/igor-jesus-maciel-da-cruz,Igor Jesus Maciel Da Cruz,M,86,Special,84,87,74,85,45,86,4,4,5,0,Brazil,Premier League,Nott'm Forest,ST,1,0,0,0,0,1,21750,22500
+https://www.futbin.com/26/player/20494/daniel-ballard,Daniel Ballard,M,86,Special,79,45,70,73,85,90,2,3,5,0,Northern Ireland,Premier League,Sunderland,CB,1,1,0,0,0,0,14000,13500
+https://www.futbin.com/26/player/20495/laia-aleixandri-lopez,Laia Aleixandri López,F,86,Special,82,42,73,70,87,81,2,4,5,0,Spain,Liga F,FC Barcelona,"CM,RB,CB,LB",4,1,1,1,0,0,13500,12750
+https://www.futbin.com/26/player/20541/glodis-perla-viggosdottir,Glódís Perla Viggósdóttir,F,86,Special,80,56,76,80,88,85,2,3,6,0,Iceland,GPFBL,FC Bayern München,CB,1,1,0,0,0,0,14000,19000
+https://www.futbin.com/26/player/20542/aurelien-tchouameni,Aurélien Tchouaméni,M,86,Special,80,74,82,82,84,87,3,4,7,0,France,LALIGA EA SPORTS,Real Madrid,"CDM,CB,CM",3,1,0,1,0,0,258000,240000
+https://www.futbin.com/26/player/20543/jessie-fleming,Jessie Fleming,F,86,Special,84,80,83,86,82,67,4,4,5,0,Canada,NWSL,Portland Timbers-Thorns,"CM,CDM,RM,RW",4,0,0,1,1,0,10750,10750
+https://www.futbin.com/26/player/20544/nicolae-stanciu,Nicolae Stanciu,M,86,Special,85,83,87,85,70,78,4,4,5,0,Romania,Serie A TIM,Genoa,"CM,CAM",2,0,0,1,1,0,11500,13750
+https://www.futbin.com/26/player/20545/nicolas-otamendi,Nicolás Otamendi,M,86,Special,80,61,71,72,86,88,2,3,7,0,Argentina,Liga Portugal,SL Benfica,CB,1,1,0,0,0,0,19750,19500
+https://www.futbin.com/26/player/20546/giovanni-di-lorenzo,Giovanni Di Lorenzo,M,86,Special,88,75,77,81,84,84,3,4,4,1,Italy,Serie A TIM,SSC Napoli,"RB,CB,RM",3,1,1,0,1,0,60000,76000
+https://www.futbin.com/26/player/20547/kosovare-asllani,Kosovare Asllani,F,86,Special,84,84,86,83,50,66,4,4,5,0,Sweden,Barclays WSL,London City Lionesses,"CAM,CM",2,0,0,1,1,0,10750,11000
+https://www.futbin.com/26/player/20548/andrew-robertson,Andrew Robertson,M,86,Special,85,72,84,81,86,83,3,3,5,1,Scotland,Premier League,Liverpool,"LB,LM",2,0,1,0,1,0,111000,151000
+https://www.futbin.com/26/player/20549/edson-alvarez,Edson Álvarez,M,86,Special,83,66,77,80,86,87,3,3,5,0,Mexico,Trendyol Süper Lig,Fenerbahçe,"CDM,CM",2,0,0,1,0,0,17750,36000
+https://www.futbin.com/26/player/20550/griedge-mbock,Griedge Mbock,F,86,Special,81,58,78,78,87,86,2,3,4,1,France,D1 Arkema,Paris SG,CB,1,1,0,0,0,0,13750,19000
+https://www.futbin.com/26/player/20583/yeremay-hernandez-cubas,Yeremay Hernández Cubas,M,86,Special,92,83,83,89,33,64,4,3,5,0,Spain,LALIGA HYPERMOTION,RC Deportivo,"ST,RM,LM,LW",4,0,0,0,1,1,13250,12250
+https://www.futbin.com/26/player/20584/allegra-poljak,Allegra Poljak,F,86,Special,86,72,84,84,83,82,3,3,5,0,Serbia,Liga F,Madrid CFF,"LM,RB,LB,LW",4,0,1,0,1,0,12250,11750
+https://www.futbin.com/26/player/20585/joao-pedro-goncalves-neves,João Pedro Gonçalves Neves,M,86,Special,77,70,82,85,83,85,3,4,4,1,Portugal,Ligue 1 McDonald's,Paris SG,"CDM,CM",2,0,0,1,0,0,19750,13500
+https://www.futbin.com/26/player/20586/josko-gvardiol,Joško Gvardiol,M,86,Special,80,75,78,81,86,84,3,5,3,1,Croatia,Premier League,Manchester City,"LB,CB,LM",3,1,1,0,1,0,67000,41250
+https://www.futbin.com/26/player/147/manuela-giugliano,Manuela Giugliano,F,85,Gold,81,80,84,86,72,74,4,4,2,0,Italy,Calcio A Femminile,AS Roma,"CM,CDM,CAM",3,0,0,1,1,0,3400,3700
+https://www.futbin.com/26/player/174/gleison-bremer-silva-nascimento,Gleison Bremer Silva Nascimento,M,85,Gold,82,50,58,66,86,80,2,2,5,0,Brazil,Serie A TIM,Juventus,CB,1,1,0,0,0,0,3700,4900
+https://www.futbin.com/26/player/206/scott-mctominay,Scott Mctominay,M,85,Gold,76,82,77,80,80,85,3,3,6,0,Scotland,Serie A TIM,SSC Napoli,"CM,CAM",2,0,0,1,1,0,3400,3600
+https://www.futbin.com/26/player/287/cristiana-girelli,Cristiana Girelli,F,85,Gold,77,84,70,80,46,77,3,4,3,0,Italy,Calcio A Femminile,Juventus,ST,1,0,0,0,0,1,3400,3700
+https://www.futbin.com/26/player/305/ryan-gravenberch,Ryan Gravenberch,M,85,Gold,76,76,81,85,81,81,4,4,2,0,Netherlands,Premier League,Liverpool,"CDM,CM",2,0,0,1,0,0,4000,6300
+https://www.futbin.com/26/player/309/youri-tielemans,Youri Tielemans,M,85,Gold,54,79,85,80,75,72,4,4,3,1,Belgium,Premier League,Aston Villa,"CM,CDM,CAM",3,0,0,1,1,0,3300,3700
+https://www.futbin.com/26/player/362/granit-xhaka,Granit Xhaka,M,85,Gold,47,75,85,74,78,82,3,3,5,1,Switzerland,Premier League,Sunderland,"CDM,CM",2,0,0,1,0,0,3400,3700
+https://www.futbin.com/26/player/405/phil-foden,Phil Foden,M,85,Gold,81,81,82,89,57,57,4,3,5,0,England,Premier League,Manchester City,"RW,RM,CM,LW",4,0,0,1,1,0,3300,3600
+https://www.futbin.com/26/player/413/bryan-mbeumo,Bryan Mbeumo,M,85,Gold,88,84,79,84,49,76,4,2,4,1,Cameroon,Premier League,Manchester Utd,"RW,RM,ST",3,0,0,0,1,1,3300,3700
+https://www.futbin.com/26/player/526/ella-toone,Ella Toone,F,85,Gold,81,80,81,86,51,64,5,3,3,1,England,Barclays WSL,Manchester Utd,"CAM,CM",2,0,0,1,1,0,3300,3700
+https://www.futbin.com/26/player/531/sandy-baltimore,Sandy Baltimore,F,85,Gold,87,74,84,86,72,69,4,3,5,0,France,Barclays WSL,Chelsea,"LM,LB,LW",3,0,1,0,1,0,3300,3700
+https://www.futbin.com/26/player/536/caitlin-foord,Caitlin Foord,F,85,Gold,87,77,81,82,45,70,3,3,3,0,Australia,Barclays WSL,Arsenal,"LM,LW",2,0,0,0,1,0,3400,3700
+https://www.futbin.com/26/player/541/erin-cuthbert,Erin Cuthbert,F,85,Gold,79,80,84,83,80,73,4,3,6,1,Scotland,Barclays WSL,Chelsea,"CDM,CM",2,0,0,1,0,0,3300,3700
+https://www.futbin.com/26/player/545/yui-hasegawa,Yui Hasegawa,F,85,Gold,77,71,85,86,81,63,4,4,3,1,Japan,Barclays WSL,Manchester City,"CDM,CM,CAM",3,0,0,1,1,0,3300,3600
+https://www.futbin.com/26/player/550/heung-min-son,Heung Min Son,M,85,Gold,84,84,81,83,42,73,4,5,4,1,Korea Republic,MLS,LAFC,"LW,LM,ST",3,0,0,0,1,1,3400,3800
+https://www.futbin.com/26/player/558/kim-little,Kim Little,F,85,Gold,76,75,85,88,78,70,3,4,2,1,Scotland,Barclays WSL,Arsenal,"CDM,CM",2,0,0,1,0,0,3300,3500
+https://www.futbin.com/26/player/559/lauren-james,Lauren James,F,85,Gold,89,81,78,87,40,82,5,4,6,1,England,Barclays WSL,Chelsea,"RM,CAM,RW",3,0,0,0,1,0,3300,3700
+https://www.futbin.com/26/player/562/vivianne-miedema,Vivianne Miedema,F,85,Gold,82,85,70,85,32,80,4,4,2,0,Netherlands,Barclays WSL,Manchester City,"ST,CAM",2,0,0,0,1,1,3300,3700
+https://www.futbin.com/26/player/563/naomi-girma,Naomi Girma,F,85,Gold,80,51,70,74,85,79,3,3,2,1,United States,Barclays WSL,Chelsea,CB,1,1,0,0,0,0,4600,3700
+https://www.futbin.com/26/player/570/keira-walsh,Keira Walsh,F,85,Gold,64,46,81,79,79,74,3,3,3,1,England,Barclays WSL,Chelsea,"CDM,CM",2,0,0,1,0,0,3300,3700
+https://www.futbin.com/26/player/724/cristiano-ronaldo-dos-santos-aveiro,Cristiano Ronaldo Dos Santos Aveiro,M,85,Gold,76,88,76,80,34,76,5,4,6,1,Portugal,ROSHN Saudi League,Al Nassr,ST,1,0,0,0,0,1,4400,6200
+https://www.futbin.com/26/player/725/inigo-martinez-berridi,Iñigo Martínez Berridi,M,85,Gold,71,57,72,68,85,80,2,3,2,0,Spain,ROSHN Saudi League,Al Nassr,CB,1,1,0,0,0,0,3400,3700
+https://www.futbin.com/26/player/729/karim-benzema,Karim Benzema,M,85,Gold,75,84,81,83,38,77,4,4,5,1,France,ROSHN Saudi League,Al Ittihad,"ST,CAM",2,0,0,0,1,1,3400,3700
+https://www.futbin.com/26/player/730/ngolo-kante,N'Golo Kanté,M,85,Gold,77,65,73,80,85,79,2,3,2,1,France,ROSHN Saudi League,Al Ittihad,"CDM,CM",2,0,0,1,0,0,3500,4800
+https://www.futbin.com/26/player/795/antoine-griezmann,Antoine Griezmann,M,85,Gold,77,86,85,88,59,73,4,3,6,1,France,LALIGA EA SPORTS,Atlético de Madrid,"ST,LM,CAM",3,0,0,0,1,1,3300,3700
+https://www.futbin.com/26/player/824/daniel-olmo-carvajal,Daniel Olmo Carvajal,M,85,Gold,73,79,83,87,50,56,4,4,6,0,Spain,LALIGA EA SPORTS,FC Barcelona,"CAM,CM,ST",3,0,0,1,1,1,3300,3700
+https://www.futbin.com/26/player/828/daniel-carvajal-ramos,Daniel Carvajal Ramos,M,85,Gold,80,58,79,81,81,79,3,3,3,0,Spain,LALIGA EA SPORTS,Real Madrid,"RB,RM",2,0,1,0,1,0,3400,3700
+https://www.futbin.com/26/player/832/rodrygo-silva-de-goes,Rodrygo Silva De Goes,M,85,Gold,88,80,79,87,31,64,4,4,5,0,Brazil,LALIGA EA SPORTS,Real Madrid,"RW,RM,ST",3,0,0,0,1,1,4000,4800
+https://www.futbin.com/26/player/864/linda-caicedo,Linda Caicedo,F,85,Gold,91,75,79,87,37,45,4,4,2,1,Colombia,Liga F,Real Madrid,"LW,LM,CAM",3,0,0,0,1,0,3300,3600
+https://www.futbin.com/26/player/865/caroline-weir,Caroline Weir,F,85,Gold,72,83,84,84,69,69,4,4,7,0,Scotland,Liga F,Real Madrid,"CAM,CDM,CM",3,0,0,1,1,0,4100,3600
+https://www.futbin.com/26/player/991/luis-diaz,Luis Díaz,M,85,Gold,88,81,76,87,45,75,4,4,4,0,Colombia,Bundesliga,FC Bayern München,"LM,ST,LW",3,0,0,0,1,1,3400,3800
+https://www.futbin.com/26/player/995/patrik-schick,Patrik Schick,M,85,Gold,72,83,71,81,38,77,3,3,3,0,Czechia,Bundesliga,Leverkusen,ST,1,0,0,0,0,1,3400,3700
+https://www.futbin.com/26/player/1003/nico-schlotterbeck,Nico Schlotterbeck,M,85,Gold,74,60,75,73,85,82,2,2,5,1,Germany,Bundesliga,Borussia Dortmund,CB,1,1,0,0,0,0,3300,3700
+https://www.futbin.com/26/player/1008/dayot-upamecano,Dayot Upamecano,M,85,Gold,77,45,64,73,84,84,3,3,4,0,France,Bundesliga,FC Bayern München,CB,1,1,0,0,0,0,3300,3700
+https://www.futbin.com/26/player/1028/georgia-stanway,Georgia Stanway,F,85,Gold,80,79,80,86,77,77,3,3,4,1,England,GPFBL,FC Bayern München,CDM,1,0,0,1,0,0,3300,3600
+https://www.futbin.com/26/player/1045/laura-freigang,Laura Freigang,F,85,Gold,84,83,77,83,37,79,4,3,6,0,Germany,GPFBL,Frankfurt,"CAM,ST",2,0,0,0,1,1,3300,3600
+https://www.futbin.com/26/player/1047/alexandra-popp,Alexandra Popp,F,85,Gold,74,84,76,78,52,89,3,5,3,1,Germany,GPFBL,VfL Wolfsburg,ST,1,0,0,0,0,1,3400,3700
+https://www.futbin.com/26/player/1056/svenja-huth,Svenja Huth,F,85,Gold,82,76,84,86,58,67,3,4,7,0,Germany,GPFBL,VfL Wolfsburg,"CM,CAM",2,0,0,1,1,0,3300,3700
+https://www.futbin.com/26/player/1063/desire-doue,Désiré Doué,M,85,Gold,83,80,77,90,55,74,5,4,5,1,France,Ligue 1 McDonald's,Paris SG,"RW,RM,CM,LW",4,0,0,1,1,0,3500,4100
+https://www.futbin.com/26/player/1134/trinity-rodman,Trinity Rodman,F,85,Gold,91,81,78,83,43,82,4,4,6,1,United States,NWSL,Washington Spirit,"RM,RW,ST",3,0,0,0,1,1,3400,4000
+https://www.futbin.com/26/player/1138/barbra-banda,Barbra Banda,F,85,Gold,92,82,62,78,33,75,4,4,6,0,Zambia,NWSL,Orlando Pride,ST,1,0,0,0,0,1,3400,3600
+https://www.futbin.com/26/player/1142/delphine-cascarino,Delphine Cascarino,F,85,Gold,93,75,79,88,38,61,5,2,5,0,France,NWSL,San Diego Wave,"RM,RW",2,0,0,0,1,0,3300,3700
+https://www.futbin.com/26/player/1146/marta-vieira-da-silva,Marta Vieira Da Silva,F,85,Gold,70,83,84,88,44,75,5,4,6,1,Brazil,NWSL,Orlando Pride,"CAM,RM,ST",3,0,0,0,1,1,3300,3700
+https://www.futbin.com/26/player/17305/selma-bacha,Selma Bacha,F,85,Gold,88,73,85,82,78,80,4,3,6,1,France,D1 Arkema,OL,"LB,LM,LW",3,0,1,0,1,0,3400,3800
+https://www.futbin.com/26/player/17306/federico-dimarco,Federico Dimarco,M,85,Gold,80,78,84,82,79,77,3,4,6,0,Italy,Serie A TIM,Lombardia FC,"LB,LM",2,0,1,0,1,0,3500,3800
+https://www.futbin.com/26/player/17307/joao-pedro-goncalves-neves,João Pedro Gonçalves Neves,M,85,Gold,74,69,80,84,82,83,3,4,4,1,Portugal,Ligue 1 McDonald's,Paris SG,"CM,CDM",2,0,0,1,0,0,3700,4700
+https://www.futbin.com/26/player/17308/clara-mateo,Clara Mateo,F,85,Gold,87,86,80,84,56,75,4,3,5,1,France,D1 Arkema,Paris FC,"ST,CAM",2,0,0,0,1,1,3500,3700
+https://www.futbin.com/26/player/17309/marcus-thuram,Marcus Thuram,M,85,Gold,86,83,76,82,50,80,3,4,3,0,France,Serie A TIM,Lombardia FC,ST,1,0,0,0,0,1,3300,3700
+https://www.futbin.com/26/player/17311/tabitha-chawinga,Tabitha Chawinga,F,85,Gold,94,82,71,85,36,81,4,3,4,0,Malawi,D1 Arkema,OL,"LW,LM,ST",3,0,0,0,1,1,3400,3700
+https://www.futbin.com/26/player/17312/fabian-ruiz-pena,Fabián Ruiz Peña,M,85,Gold,61,77,80,81,75,72,3,3,4,0,Spain,Ligue 1 McDonald's,Paris SG,"CM,CDM",2,0,0,1,0,0,3300,3900
+https://www.futbin.com/26/player/17313/wendie-renard,Wendie Renard,F,85,Gold,48,62,70,69,87,83,2,3,5,1,France,D1 Arkema,OL,CB,1,1,0,0,0,0,3400,3700
+https://www.futbin.com/26/player/18879/noor,Noor,M,85,Icons_Heroes,80,83,83,84,64,80,3,4,3,1,Saudi Arabia,ROSHN Saudi League,HERO,"CAM,CM",2,0,0,1,1,0,15500,14000
+https://www.futbin.com/26/player/18880/victor-ibarbo,Víctor Ibarbo,M,85,Icons_Heroes,93,81,71,84,42,82,3,4,2,1,Colombia,Serie A TIM,HERO,"RW,RM,ST",3,0,0,0,1,1,86500,81500
+https://www.futbin.com/26/player/18881/cahill,Cahill,M,85,Icons_Heroes,80,85,76,81,62,86,3,4,3,1,Australia,Premier League,HERO,"ST,CM,CAM",3,0,0,1,1,1,14000,13000
+https://www.futbin.com/26/player/18882/beasley,Beasley,M,85,Icons_Heroes,91,77,79,86,73,74,3,4,2,1,United States,MLS,HERO,"LM,LB,LW",3,0,1,0,1,0,28250,24250
+https://www.futbin.com/26/player/18883/yao-kouassi,Yao Kouassi,M,85,Icons_Heroes,94,75,78,86,41,70,4,3,3,1,Côte d'Ivoire,Serie A TIM,HERO,"LW,LM,RW",3,0,0,0,1,0,114000,120000
+https://www.futbin.com/26/player/18885/crouch,Crouch,M,85,Icons_Heroes,74,87,75,78,52,80,3,3,3,1,England,Premier League,HERO,ST,1,0,0,0,0,1,16500,15000
+https://www.futbin.com/26/player/18886/al-owairan,Al Owairan,M,85,Icons_Heroes,94,82,80,86,35,72,4,4,1,1,Saudi Arabia,ROSHN Saudi League,HERO,"RW,CAM,ST",3,0,0,0,1,1,152000,115000
+https://www.futbin.com/26/player/18887/seydou-doumbia,Seydou Doumbia,M,85,Icons_Heroes,93,84,68,83,43,74,4,4,2,1,Côte d'Ivoire,Serie A TIM,HERO,ST,1,0,0,0,0,1,134000,96500
+https://www.futbin.com/26/player/18888/scott,Scott,F,85,Icons_Heroes,86,70,79,78,84,80,3,4,3,1,England,Barclays WSL,HERO,RB,1,0,1,0,0,0,29000,26000
+https://www.futbin.com/26/player/18889/dempsey,Dempsey,M,85,Icons_Heroes,82,86,81,85,47,80,4,4,1,1,United States,MLS,HERO,"CAM,LW",2,0,0,0,1,0,13500,12750
+https://www.futbin.com/26/player/18925/luka-modric,Luka Modrić,M,85,Special,72,77,88,88,73,66,4,4,4,0,Croatia,Serie A TIM,Milano FC,"CM,CDM,CAM",3,0,0,1,1,0,36500,37000
+https://www.futbin.com/26/player/19929/riccardo-orsolini,Riccardo Orsolini,M,85,Special,85,85,84,86,68,75,4,4,5,0,Italy,Serie A TIM,Bologna,"RM,RW",2,0,0,0,1,0,15000,15500
+https://www.futbin.com/26/player/19930/denise-osullivan,Denise O'Sullivan,F,85,Special,85,75,75,80,81,83,3,3,5,0,Republic of Ireland,NWSL,NC Courage,"CDM,CM",2,0,0,1,0,0,30000,21000
+https://www.futbin.com/26/player/19931/corentin-tolisso,Corentin Tolisso,M,85,Special,75,81,81,80,80,85,3,3,4,0,France,Ligue 1 McDonald's,OL,"CM,CDM,CAM",3,0,0,1,1,0,49000,56500
+https://www.futbin.com/26/player/19932/gianluca-mancini,Gianluca Mancini,M,85,Special,73,52,60,71,87,84,2,3,4,0,Italy,Serie A TIM,AS Roma,CB,1,1,0,0,0,0,13250,14000
+https://www.futbin.com/26/player/19933/ryan-yates,Ryan Yates,M,85,Special,74,70,80,76,85,88,3,3,5,0,England,Premier League,Nott'm Forest,"CDM,CM",2,0,0,1,0,0,15750,18000
+https://www.futbin.com/26/player/19934/giovanni-di-lorenzo,Giovanni Di Lorenzo,M,85,Special,86,74,76,80,82,82,3,4,3,0,Italy,Serie A TIM,SSC Napoli,"RB,CB,RM",3,1,1,0,1,0,38000,42000
+https://www.futbin.com/26/player/19935/malik-tillman,Malik Tillman,M,85,Special,86,80,80,85,70,80,4,3,5,0,United States,Bundesliga,Leverkusen,"CAM,CM,LW",3,0,0,1,1,0,21000,19750
+https://www.futbin.com/26/player/19986/khephren-thuram,Khéphren Thuram,M,85,Special,82,80,81,84,85,85,3,3,3,0,France,Serie A TIM,Juventus,"CM,CDM",2,0,0,1,0,0,119000,99500
+https://www.futbin.com/26/player/19987/marten-de-roon,Marten De Roon,M,85,Special,74,78,82,81,87,84,3,3,4,0,Netherlands,Serie A TIM,Bergamo Calcio,"CM,CDM",2,0,0,1,0,0,11250,12750
+https://www.futbin.com/26/player/19989/elisabeth-terland,Elisabeth Terland,F,85,Special,85,85,77,84,40,75,3,4,4,0,Norway,Barclays WSL,Manchester Utd,ST,1,0,0,0,0,1,11500,12000
+https://www.futbin.com/26/player/19990/angelo-stiller,Angelo Stiller,M,85,Special,77,60,85,86,82,75,3,3,4,1,Germany,Bundesliga,VfB Stuttgart,"CDM,CM",2,0,0,1,0,0,17000,17250
+https://www.futbin.com/26/player/20043/mary-alice-vignola,Mary Alice Vignola,F,85,Special,85,65,72,78,84,87,3,3,5,0,United States,NWSL,Portland Timbers-Thorns,"LB,LM",2,0,1,0,1,0,11500,11750
+https://www.futbin.com/26/player/20044/oscar-bobb,Oscar Bobb,M,85,Special,89,80,85,90,45,65,4,3,4,0,Norway,Premier League,Manchester City,"RW,RM,LW",3,0,0,0,1,0,20750,27750
+https://www.futbin.com/26/player/20045/florian-thauvin,Florian Thauvin,M,85,Special,82,87,87,89,54,74,4,3,3,0,France,Ligue 1 McDonald's,RC Lens,"ST,CAM",2,0,0,0,1,1,13000,13500
+https://www.futbin.com/26/player/20046/lotte-wubben-moy,Lotte Wubben-Moy,F,85,Special,78,47,70,71,88,82,2,3,4,0,England,Barclays WSL,Arsenal,CB,1,1,0,0,0,0,11000,11500
+https://www.futbin.com/26/player/20047/pau-cubarsi-paredes,Pau Cubarsí Paredes,M,85,Special,77,45,77,80,87,83,2,4,4,1,Spain,LALIGA EA SPORTS,FC Barcelona,CB,1,1,0,0,0,0,67500,75000
+https://www.futbin.com/26/player/20070/riyad-mahrez,Riyad Mahrez,M,85,Special,81,81,83,89,40,65,5,4,7,0,Algeria,ROSHN Saudi League,Al Ahli,"RM,RW",2,0,0,0,1,0,13500,12500
+https://www.futbin.com/26/player/20100/crystal-dunn,Crystal Dunn,F,85,Special,87,80,83,84,80,82,4,4,4,0,United States,D1 Arkema,Paris SG,"CM,LB,RM,CAM",4,0,1,1,1,0,42000,36000
+https://www.futbin.com/26/player/20101/francisco-f-da-conceicao,Francisco F. Da Conceição,M,85,Special,91,77,80,88,42,62,4,3,5,0,Portugal,Serie A TIM,Juventus,"RM,CAM,RW",3,0,0,0,1,0,25000,29250
+https://www.futbin.com/26/player/20102/glodis-perla-viggosdottir,Glódís Perla Viggósdóttir,F,85,Special,78,55,75,77,87,84,2,3,4,0,Iceland,GPFBL,FC Bayern München,CB,1,1,0,0,0,0,11000,11000
+https://www.futbin.com/26/player/20103/maximilian-beier,Maximilian Beier,M,85,Special,90,85,74,84,50,70,4,3,5,0,Germany,Bundesliga,Borussia Dortmund,"ST,RM,LM,RW",4,0,0,0,1,1,26000,18500
+https://www.futbin.com/26/player/20181/angelo-stiller,Angelo Stiller,M,85,Special,77,66,85,86,78,75,3,3,3,1,Germany,Bundesliga,VfB Stuttgart,"CDM,CM",2,0,0,1,0,0,14000,12500
+https://www.futbin.com/26/player/20230/alejandro-berenguer-remiro,Alejandro Berenguer Remiro,M,85,Special,86,83,85,85,70,73,4,4,5,0,Spain,LALIGA EA SPORTS,Athletic Club,"CAM,RM,LM,LW",4,0,0,0,1,0,12250,11250
+https://www.futbin.com/26/player/20231/juan-david-cabal,Juan David Cabal,M,85,Special,82,50,80,76,85,80,3,3,4,1,Colombia,Serie A TIM,Juventus,"CB,LB,LM,LW",4,1,1,0,1,0,58000,46500
+https://www.futbin.com/26/player/20232/madison-haley,Madison Haley,F,85,Special,90,81,83,84,50,80,4,3,6,0,United States,Barclays WSL,Brighton,"RW,RM,CAM,ST",4,0,0,0,1,1,11250,10750
+https://www.futbin.com/26/player/20233/pablo-fornals-malla,Pablo Fornals Malla,M,85,Special,84,85,84,86,78,77,4,3,5,0,Spain,LALIGA EA SPORTS,Real Betis,"CM,CDM,RM,RW",4,0,0,1,1,0,13000,14000
+https://www.futbin.com/26/player/20348/geraldine-reuteler,Géraldine Reuteler,F,85,Special,91,83,83,86,60,77,4,3,6,0,Switzerland,GPFBL,Frankfurt,"CAM,CM,ST",3,0,0,1,1,1,10750,10750
+https://www.futbin.com/26/player/20349/nicolas-seiwald,Nicolas Seiwald,M,85,Special,80,70,82,82,82,85,3,3,4,0,Austria,Bundesliga,RB Leipzig,"CB,CDM,CM",3,1,0,1,0,0,10750,10750
+https://www.futbin.com/26/player/20350/timothy-weah,Timothy Weah,M,85,Special,91,79,81,86,80,78,3,3,5,0,United States,Ligue 1 McDonald's,OM,"RB,RM,RW",3,0,1,0,1,0,17750,18500
+https://www.futbin.com/26/player/20382/antony-matheus-dos-santos,Antony Matheus Dos Santos,M,85,Special,88,84,83,86,49,75,5,3,3,0,Brazil,LALIGA EA SPORTS,Real Betis,"RM,RW",2,0,0,0,1,0,17750,17250
+https://www.futbin.com/26/player/20440/archie-brown,Archie Brown,M,85,Special,92,65,77,82,80,87,3,3,3,1,England,Trendyol Süper Lig,Fenerbahçe,"LB,LM",2,0,1,0,1,0,20750,23000
+https://www.futbin.com/26/player/20441/unai-lopez-cabrera,Unai López Cabrera,M,85,Special,82,83,87,87,80,80,3,3,5,0,Spain,LALIGA EA SPORTS,Rayo Vallecano,"CM,CDM",2,0,0,1,0,0,28000,29500
+https://www.futbin.com/26/player/20442/rodrigo-mora-de-carvalho,Rodrigo Mora De Carvalho,M,85,Special,86,81,83,88,50,50,4,4,4,1,Portugal,Liga Portugal,FC Porto,"CAM,ST,LW",3,0,0,0,1,1,13000,13750
+https://www.futbin.com/26/player/20443/anis-hadj-moussa,Anis Hadj-Moussa,M,85,Special,89,80,78,93,38,61,5,3,5,0,Algeria,Eredivisie,Feyenoord,"RW,RM",2,0,0,0,1,0,12250,12500
+https://www.futbin.com/26/player/20444/cedric-bakambu,Cédric Bakambu,M,85,Special,88,87,76,84,48,78,3,3,5,0,Congo DR,LALIGA EA SPORTS,Real Betis,ST,1,0,0,0,0,1,11500,12250
+https://www.futbin.com/26/player/20445/mikael-ishak,Mikael Ishak,M,85,Special,83,87,77,85,65,90,4,4,5,0,Sweden,PKO BP Ekstraklasa,Lech Poznań,ST,1,0,0,0,0,1,11000,11000
+https://www.futbin.com/26/player/20496/domenico-berardi,Domenico Berardi,M,85,Special,86,84,82,87,39,73,4,3,7,0,Italy,Serie A TIM,Sassuolo,"RW,RM",2,0,0,0,1,0,12750,12000
+https://www.futbin.com/26/player/20551/tim-ream,Tim Ream,M,85,Special,80,54,81,74,85,86,2,3,5,0,United States,MLS,Charlotte FC,"CB,LB",2,1,1,0,0,0,10750,11250
+https://www.futbin.com/26/player/20553/sherida-spitse,Sherida Spitse,F,85,Special,80,78,86,79,86,84,2,3,5,0,Netherlands,Nederland Vrouwen Liga,Ajax,"CB,CDM",2,1,0,1,0,0,10750,11000
+https://www.futbin.com/26/player/20554/orri-oskarsson,Orri Óskarsson,M,85,Special,87,86,74,81,39,85,3,4,5,1,Iceland,LALIGA EA SPORTS,Real Sociedad,ST,1,0,0,0,0,1,10750,11250
+https://www.futbin.com/26/player/20555/piotr-zielinski,Piotr Zieliński,M,85,Special,84,81,86,87,77,74,3,4,5,0,Poland,Serie A TIM,Lombardia FC,CM,1,0,0,1,0,0,10750,12500
+https://www.futbin.com/26/player/20556/nathan-collins,Nathan Collins,M,85,Special,78,38,69,71,85,88,2,3,4,0,Republic of Ireland,Premier League,Brentford,CB,1,1,0,0,0,0,11250,12750
+https://www.futbin.com/26/player/20557/jordan-ayew,Jordan Ayew,M,85,Special,87,85,83,86,70,82,4,3,5,1,Ghana,EFL Championship,Leicester City,"RM,RW",2,0,0,0,1,0,10750,11000
+https://www.futbin.com/26/player/20558/jordan-henderson,Jordan Henderson,M,85,Special,81,78,86,82,83,82,3,4,5,0,England,Premier League,Brentford,"CDM,CM",2,0,0,1,0,0,29500,48000
+https://www.futbin.com/26/player/20559/aldana-cometti,Aldana Cometti,F,85,Special,81,36,62,70,86,84,2,3,5,0,Argentina,D1 Arkema,FC Fleury 91,"CB,RB",2,1,1,0,0,0,10750,10750
+https://www.futbin.com/26/player/20587/serge-gnabry,Serge Gnabry,M,85,Special,84,86,83,87,46,71,4,4,3,0,Germany,Bundesliga,FC Bayern München,"CAM,LM,ST,LW",4,0,0,0,1,1,13000,12000
+https://www.futbin.com/26/player/20588/ezri-konsa,Ezri Konsa,M,85,Special,79,56,75,79,87,82,2,3,3,0,England,Premier League,Aston Villa,"CB,RB,RM",3,1,1,0,1,0,12250,12000
+https://www.futbin.com/26/player/20589/mikel-oyarzabal-ugarte,Mikel Oyarzabal Ugarte,M,85,Special,82,86,85,85,45,70,3,3,3,0,Spain,LALIGA EA SPORTS,Real Sociedad,"ST,LM,LW",3,0,0,0,1,1,12250,11500
+https://www.futbin.com/26/player/20590/saki-kumagai,Saki Kumagai,F,85,Special,75,73,80,82,87,81,3,4,4,0,Japan,Barclays WSL,London City Lionesses,"CDM,CB,CM",3,1,0,1,0,0,12250,12000
+https://www.futbin.com/26/player/20591/antonio-nusa,Antonio Nusa,M,85,Special,93,85,82,89,51,76,4,4,3,0,Norway,Bundesliga,RB Leipzig,"LM,CAM,LW",3,0,0,0,1,0,54500,17250
+https://www.futbin.com/26/player/155/giada-greggi,Giada Greggi,F,84,Gold,84,71,73,85,76,73,3,5,2,0,Italy,Calcio A Femminile,AS Roma,"CM,CDM",2,0,0,1,0,0,1300,1400
+https://www.futbin.com/26/player/179/manuel-locatelli,Manuel Locatelli,M,84,Gold,63,69,80,76,81,78,3,4,7,0,Italy,Serie A TIM,Juventus,"CDM,CM",2,0,0,1,0,0,1300,1400
+https://www.futbin.com/26/player/267/romelu-lukaku,Romelu Lukaku,M,84,Gold,79,82,75,75,41,84,3,4,5,0,Belgium,Serie A TIM,SSC Napoli,ST,1,0,0,0,0,1,1400,1400
+https://www.futbin.com/26/player/302/giulia-gwinn,Giulia Gwinn,F,84,Gold,83,68,79,84,82,70,4,3,4,1,Germany,GPFBL,FC Bayern München,"RB,LB,RM",3,0,1,0,1,0,1300,1400
+https://www.futbin.com/26/player/325/cody-gakpo,Cody Gakpo,M,84,Gold,83,82,80,83,47,74,4,4,5,0,Netherlands,Premier League,Liverpool,"LM,LW",2,0,0,0,1,0,1300,1400
+https://www.futbin.com/26/player/342/james-maddison,James Maddison,M,84,Gold,67,81,86,85,58,64,4,4,6,0,England,Premier League,Spurs,"CM,CDM,CAM",3,0,0,1,1,0,1500,1400
+https://www.futbin.com/26/player/348/enzo-fernandez,Enzo Fernández,M,84,Gold,68,75,85,81,73,75,3,4,3,1,Argentina,Premier League,Chelsea,"CM,CDM,CAM",3,0,0,1,1,0,1400,1400
+https://www.futbin.com/26/player/355/bernardo-mota-carvalho-e-silva,Bernardo Mota Carvalho E Silva,M,84,Gold,61,78,83,89,71,65,4,3,5,1,Portugal,Premier League,Manchester City,"CM,CDM,RM,CAM",4,0,0,1,1,0,1800,1400
+https://www.futbin.com/26/player/377/josko-gvardiol,Joško Gvardiol,M,84,Gold,78,71,75,78,84,82,3,5,3,1,Croatia,Premier League,Manchester City,"LB,CB,LM",3,1,1,0,1,0,1500,1600
+https://www.futbin.com/26/player/384/marc-cucurella-saseta,Marc Cucurella Saseta,M,84,Gold,75,64,79,80,82,79,3,3,4,0,Spain,Premier League,Chelsea,LB,1,0,1,0,0,0,1400,1400
+https://www.futbin.com/26/player/417/omar-marmoush,Omar Marmoush,M,84,Gold,89,85,76,86,34,71,4,3,3,0,Egypt,Premier League,Manchester City,"ST,CAM,LW",3,0,0,0,1,1,5200,1500
+https://www.futbin.com/26/player/423/ollie-watkins,Ollie Watkins,M,84,Gold,77,83,73,80,50,80,3,4,4,0,England,Premier League,Aston Villa,ST,1,0,0,0,0,1,1400,1400
+https://www.futbin.com/26/player/561/alex-greenwood,Alex Greenwood,F,84,Gold,71,65,82,74,85,82,2,3,1,1,England,Barclays WSL,Manchester City,"CB,LB,LM",3,1,1,0,1,0,1400,1400
+https://www.futbin.com/26/player/590/sjoeke-nusken,Sjoeke Nüsken,F,84,Gold,70,73,78,80,82,76,2,3,4,0,Germany,Barclays WSL,Chelsea,"CDM,CB",2,1,0,1,0,0,1300,1400
+https://www.futbin.com/26/player/644/francisco-roman-alarcon-suarez,Francisco Román Alarcón Suárez,M,84,Gold,66,79,85,85,59,60,4,4,6,0,Spain,LALIGA EA SPORTS,Real Betis,"CAM,CM,LM",3,0,0,1,1,0,1400,1400
+https://www.futbin.com/26/player/684/ellie-carpenter,Ellie Carpenter,F,84,Gold,82,51,79,77,82,79,3,3,3,0,Australia,Barclays WSL,Chelsea,"RB,RM",2,0,1,0,1,0,1300,1400
+https://www.futbin.com/26/player/712/theo-hernandez,Theo Hernández,M,84,Gold,90,76,78,83,79,83,4,3,6,0,France,ROSHN Saudi League,Al Hilal,"LB,LM",2,0,1,0,1,0,16500,24000
+https://www.futbin.com/26/player/716/moussa-diaby,Moussa Diaby,M,84,Gold,95,75,77,87,44,54,4,3,3,1,France,ROSHN Saudi League,Al Ittihad,"RM,RW",2,0,0,0,1,0,1300,1400
+https://www.futbin.com/26/player/720/sergej-milinkovic-savic,Sergej Milinković-Savić,M,84,Gold,62,80,81,81,78,88,4,5,7,0,Serbia,ROSHN Saudi League,Al Hilal,"CM,CDM,CAM",3,0,0,1,1,0,1300,1400
+https://www.futbin.com/26/player/731/ruben-diogo-da-silva-neves,Rúben Diogo Da Silva Neves,M,84,Gold,57,75,87,77,77,76,3,4,6,0,Portugal,ROSHN Saudi League,Al Hilal,"CDM,CM",2,0,0,1,0,0,1300,1400
+https://www.futbin.com/26/player/735/joao-pedro-cavaco-cancelo,João Pedro Cavaco Cancelo,M,84,Gold,83,73,84,84,78,74,4,4,5,0,Portugal,ROSHN Saudi League,Al Hilal,"RB,LB,RM",3,0,1,0,1,0,1300,1400
+https://www.futbin.com/26/player/739/riyad-mahrez,Riyad Mahrez,M,84,Gold,78,80,81,88,39,63,5,4,7,0,Algeria,ROSHN Saudi League,Al Ahli,"RM,RW",2,0,0,0,1,0,1400,1400
+https://www.futbin.com/26/player/803/alejandro-baena-rodriguez,Alejandro Baena Rodríguez,M,84,Gold,79,76,84,82,65,68,3,4,7,0,Spain,LALIGA EA SPORTS,Atlético de Madrid,"LM,ST,LW",3,0,0,0,1,1,1300,1400
+https://www.futbin.com/26/player/807/oihan-sancet-tirapu,Oihan Sancet Tirapu,M,84,Gold,76,83,80,85,70,82,4,4,4,0,Spain,LALIGA EA SPORTS,Athletic Club,"CAM,CM,ST",3,0,0,1,1,1,1300,1400
+https://www.futbin.com/26/player/811/eder-gabriel-militao,Éder Gabriel Militão,M,84,Gold,82,50,69,71,85,82,2,3,4,0,Brazil,LALIGA EA SPORTS,Real Madrid,CB,1,1,0,0,0,0,7000,8900
+https://www.futbin.com/26/player/874/salma-celeste-paralluelo-ayingono,Salma Celeste Paralluelo Ayingono,F,84,Gold,92,84,78,83,46,77,4,4,4,0,Spain,Liga F,FC Barcelona,"LW,LM,RW,ST",4,0,0,0,1,1,14000,17000
+https://www.futbin.com/26/player/875/alba-redondo-ferrer,Alba Redondo Ferrer,F,84,Gold,84,85,70,84,26,64,4,3,5,0,Spain,Liga F,Real Madrid,"ST,LM,RW,LW",4,0,0,0,1,1,1300,1400
+https://www.futbin.com/26/player/876/sara-dabritz,Sara Däbritz,F,84,Gold,77,81,84,86,74,73,4,4,4,0,Germany,Liga F,Real Madrid,"CM,CDM,CAM",3,0,0,1,1,0,1400,1400
+https://www.futbin.com/26/player/884/aurelien-tchouameni,Aurélien Tchouaméni,M,84,Gold,71,69,79,78,81,82,3,3,7,0,France,LALIGA EA SPORTS,Real Madrid,"CDM,CB,CM",3,1,0,1,0,0,2400,2300
+https://www.futbin.com/26/player/952/marcos-llorente-moreno,Marcos Llorente Moreno,M,84,Gold,89,79,78,81,78,82,3,4,5,0,Spain,LALIGA EA SPORTS,Atlético de Madrid,"RB,RM,CM",3,0,1,1,1,0,14250,16500
+https://www.futbin.com/26/player/1009/alphonso-davies,Alphonso Davies,M,84,Gold,94,66,78,85,74,76,4,3,2,0,Canada,Bundesliga,FC Bayern München,"LB,LM",2,0,1,0,1,0,1700,1800
+https://www.futbin.com/26/player/1014/exequiel-palacios,Exequiel Palacios,M,84,Gold,62,76,80,82,81,71,3,4,1,0,Argentina,Bundesliga,Leverkusen,"CM,CDM",2,0,0,1,0,0,1300,1400
+https://www.futbin.com/26/player/1015/willi-orban,Willi Orban,M,84,Gold,57,40,56,56,86,83,2,3,2,1,Hungary,Bundesliga,RB Leipzig,CB,1,1,0,0,0,0,1300,1400
+https://www.futbin.com/26/player/1016/daniel-vivian-moreno,Daniel Vivian Moreno,M,84,Gold,79,50,63,72,84,83,2,2,2,0,Spain,LALIGA EA SPORTS,Athletic Club,CB,1,1,0,0,0,0,1300,1400
+https://www.futbin.com/26/player/1024/alejandro-grimaldo-garcia,Alejandro Grimaldo García,M,84,Gold,72,73,87,85,74,67,4,2,4,1,Spain,Bundesliga,Leverkusen,"LM,LB,LW",3,0,1,0,1,0,1300,1300
+https://www.futbin.com/26/player/1062/geraldine-reuteler,Géraldine Reuteler,F,84,Gold,90,82,81,85,59,75,4,3,6,0,Switzerland,GPFBL,Frankfurt,"ST,CM,CAM",3,0,0,1,1,1,1400,1400
+https://www.futbin.com/26/player/1068/lena-oberdorf,Lena Oberdorf,F,84,Gold,61,62,77,75,85,85,3,3,6,1,Germany,GPFBL,FC Bayern München,"CDM,CM",2,0,0,1,0,0,1400,1400
+https://www.futbin.com/26/player/1069/glodis-perla-viggosdottir,Glódís Perla Viggósdóttir,F,84,Gold,73,54,70,61,86,83,2,3,3,0,Iceland,GPFBL,FC Bayern München,CB,1,1,0,0,0,0,1500,1400
+https://www.futbin.com/26/player/1075/rodrigo-de-paul,Rodrigo De Paul,M,84,Gold,75,78,83,83,76,83,4,3,4,0,Argentina,MLS,Inter Miami CF,"CM,CDM,CAM",3,0,0,1,1,0,1400,1400
+https://www.futbin.com/26/player/1076/lineth-beerensteyn,Lineth Beerensteyn,F,84,Gold,90,80,73,86,52,76,4,2,5,0,Netherlands,GPFBL,VfL Wolfsburg,"LW,LM,ST",3,0,0,0,1,1,1400,1400
+https://www.futbin.com/26/player/1078/janina-minge,Janina Minge,F,84,Gold,70,79,80,81,77,80,3,3,5,0,Germany,GPFBL,VfL Wolfsburg,"CM,CB,CDM",3,1,0,1,0,0,1300,1400
+https://www.futbin.com/26/player/1154/bradley-barcola,Bradley Barcola,M,84,Gold,90,77,78,84,39,66,4,4,3,0,France,Ligue 1 McDonald's,Paris SG,"LW,LM,RW",3,0,0,0,1,0,1400,1400
+https://www.futbin.com/26/player/17314/fridolina-rolfo,Fridolina Rolfö,F,84,Gold,81,81,81,82,81,80,4,4,4,0,Sweden,Barclays WSL,Manchester Utd,"LB,LM,LW",3,0,1,0,1,0,1300,1400
+https://www.futbin.com/26/player/17315/steph-catley,Steph Catley,F,84,Gold,81,66,80,80,84,83,3,2,3,0,Australia,Barclays WSL,Arsenal,"CB,LB",2,1,1,0,0,0,1400,1400
+https://www.futbin.com/26/player/17316/olga-carmona-garcia,Olga Carmona García,F,84,Gold,88,74,78,80,79,74,4,3,4,0,Spain,D1 Arkema,Paris SG,"LB,LM",2,0,1,0,1,0,1300,1400
+https://www.futbin.com/26/player/17318/denzel-dumfries,Denzel Dumfries,M,84,Gold,84,70,75,79,79,84,2,3,4,0,Netherlands,Serie A TIM,Lombardia FC,"RB,RM",2,0,1,0,1,0,1300,1400
+https://www.futbin.com/26/player/17319/ashley-lawrence,Ashley Lawrence,F,84,Gold,82,67,82,80,82,76,3,4,4,0,Canada,D1 Arkema,OL,"RB,RM",2,0,1,0,1,0,1300,1400
+https://www.futbin.com/26/player/17320/frida-maanum,Frida Maanum,F,84,Gold,72,82,83,83,72,67,3,3,4,0,Norway,Barclays WSL,Arsenal,"CAM,ST",2,0,0,0,1,1,1300,1400
+https://www.futbin.com/26/player/17321/damaris-berta-egurrola-wienke,Damaris Berta Egurrola Wienke,F,84,Gold,62,71,82,81,81,82,3,3,2,0,Netherlands,D1 Arkema,OL,"CM,CDM,CAM",3,0,0,1,1,0,1300,1400
+https://www.futbin.com/26/player/17324/sara-doorsoun,Sara Doorsoun,F,84,Gold,77,62,74,76,85,82,2,3,3,0,Germany,NWSL,Angel City FC,CB,1,1,0,0,0,0,1300,1400
+https://www.futbin.com/26/player/17325/mattia-zaccagni,Mattia Zaccagni,M,84,Gold,88,78,77,87,57,66,4,4,7,0,Italy,Serie A TIM,Latium,"LM,LW",2,0,0,0,1,0,1400,1400
+https://www.futbin.com/26/player/17326/ingrid-syrstad-engen,Ingrid Syrstad Engen,F,84,Gold,72,61,80,74,85,80,3,3,0,0,Norway,D1 Arkema,OL,"CB,CDM,CM",3,1,0,1,0,0,1300,1400
+https://www.futbin.com/26/player/17328/maya-le-tissier,Maya Le Tissier,F,84,Gold,76,58,77,73,86,80,3,3,4,1,England,Barclays WSL,Manchester Utd,"CB,RB",2,1,1,0,0,0,1400,1400
+https://www.futbin.com/26/player/17329/christian-pulisic,Christian Pulisic,M,84,Gold,88,82,80,86,46,65,4,5,4,0,United States,Serie A TIM,Milano FC,"RW,RM,CAM",3,0,0,0,1,0,1400,1400
+https://www.futbin.com/26/player/17332/rafael-da-conceicao-leao,Rafael Da Conceição Leão,M,84,Gold,93,78,80,86,28,75,5,4,5,0,Portugal,Serie A TIM,Milano FC,"LW,LM",2,0,0,0,1,0,11500,16250
+https://www.futbin.com/26/player/17333/ademola-lookman,Ademola Lookman,M,84,Gold,86,84,73,88,32,67,4,4,5,0,Nigeria,Serie A TIM,Bergamo Calcio,"ST,CAM",2,0,0,0,1,1,1400,1400
+https://www.futbin.com/26/player/17334/alexander-sorloth,Alexander Sørloth,M,84,Gold,77,82,71,76,36,85,3,4,5,0,Norway,LALIGA EA SPORTS,Atlético de Madrid,"ST,RM,RW",3,0,0,0,1,1,1300,1400
+https://www.futbin.com/26/player/17335/emily-fox,Emily Fox,F,84,Gold,73,47,71,79,83,74,3,4,3,0,United States,Barclays WSL,Arsenal,"RB,LB,RM",3,0,1,0,1,0,1300,1400
+https://www.futbin.com/26/player/17336/esther-gonzalez-rodriguez,Esther González Rodríguez,F,84,Gold,80,84,72,83,31,72,3,4,2,0,Spain,NWSL,NJ/NY Gotham,ST,1,0,0,0,0,1,1300,1400
+https://www.futbin.com/26/player/17337/francesco-acerbi,Francesco Acerbi,M,84,Gold,57,50,65,65,87,81,3,3,5,1,Italy,Serie A TIM,Lombardia FC,CB,1,1,0,0,0,0,1400,1400
+https://www.futbin.com/26/player/17338/stefan-de-vrij,Stefan De Vrij,M,84,Gold,62,41,68,69,86,74,2,3,1,0,Netherlands,Serie A TIM,Lombardia FC,CB,1,1,0,0,0,0,1300,1400
+https://www.futbin.com/26/player/18926/jaden-philogene,Jaden Philogene,M,84,Special,91,81,79,87,47,70,4,5,3,0,England,EFL Championship,Ipswich,"LM,RM,LW",3,0,0,0,1,0,19000,17250
+https://www.futbin.com/26/player/18927/melvine-malard,Melvine Malard,F,84,Special,84,84,81,86,43,70,3,4,3,0,France,Barclays WSL,Manchester Utd,"ST,LM,LW",3,0,0,0,1,1,17750,19750
+https://www.futbin.com/26/player/18946/benjamin-pavard,Benjamin Pavard,M,84,Gold,75,67,76,75,86,79,3,3,0,1,France,Ligue 1 McDonald's,OM,CB,1,1,0,0,0,0,1300,1400
+https://www.futbin.com/26/player/18947/xavi-simons,Xavi Simons,M,84,Gold,77,77,80,87,61,70,4,3,6,0,Netherlands,Premier League,Spurs,"CAM,LM,ST",3,0,0,0,1,1,1400,1400
+https://www.futbin.com/26/player/19900/joao-felix-sequeira,João Félix Sequeira,M,84,Special,83,84,83,87,50,73,5,4,3,0,Portugal,ROSHN Saudi League,Al Nassr,"ST,LM,CAM,LW",4,0,0,0,1,1,65500,59000
+https://www.futbin.com/26/player/19901/david-raum,David Raum,M,84,Special,88,63,83,81,77,81,3,2,3,0,Germany,Bundesliga,RB Leipzig,"LB,LM",2,0,1,0,1,0,18000,18750
+https://www.futbin.com/26/player/19937/lisa-karl,Lisa Karl,F,84,Special,85,70,73,83,82,77,3,3,4,0,Germany,GPFBL,SC Freiburg,"LB,RB,RM",3,0,1,0,1,0,12000,11500
+https://www.futbin.com/26/player/19951/fiamma-benitez-ianuzzi,Fiamma Benítez Ianuzzi,F,84,Special,83,80,82,85,66,79,4,3,3,0,Spain,Liga F,Atlético de Madrid,"CAM,CM",2,0,0,1,1,0,13500,12750
+https://www.futbin.com/26/player/19952/jorge-resurreccion,Jorge Resurrección,M,84,Special,73,75,86,81,80,81,3,4,3,0,Spain,LALIGA EA SPORTS,Atlético de Madrid,"CM,CDM",2,0,0,1,0,0,14750,13250
+https://www.futbin.com/26/player/19953/rafael-a-ferreira-silva,Rafael A. Ferreira Silva,M,84,Special,91,79,80,87,50,59,4,2,5,0,Portugal,Trendyol Süper Lig,Beşiktaş,"CAM,LM,ST",3,0,0,0,1,1,42000,20000
+https://www.futbin.com/26/player/19954/korbin-shrader,Korbin Shrader,F,84,Special,79,80,81,84,75,77,3,3,3,0,United States,D1 Arkema,OL,"CDM,CM",2,0,0,1,0,0,13500,12250
+https://www.futbin.com/26/player/19955/konrad-laimer,Konrad Laimer,M,84,Special,84,73,79,78,83,79,3,3,3,0,Austria,Bundesliga,FC Bayern München,"LB,RB,CDM,CM",4,0,1,1,0,0,15250,15000
+https://www.futbin.com/26/player/19991/jade-le-guilly,Jade Le Guilly,F,84,Special,86,58,78,77,83,78,3,3,4,0,France,D1 Arkema,Paris SG,"RB,RM",2,0,1,0,1,0,10750,11000
+https://www.futbin.com/26/player/19992/maghnes-akliouche,Maghnes Akliouche,M,84,Special,82,77,85,88,52,70,4,3,4,0,France,Ligue 1 McDonald's,AS Monaco,"CAM,RM,RW",3,0,0,0,1,0,13000,14500
+https://www.futbin.com/26/player/19993/christian-gunter,Christian Günter,M,84,Special,88,68,77,78,80,87,3,3,4,0,Germany,Bundesliga,SC Freiburg,"LB,LM",2,0,1,0,1,0,12750,14000
+https://www.futbin.com/26/player/20008/jordi-alba-ramos,Jordi Alba Ramos,M,84,Special,88,76,84,86,79,76,3,3,3,0,Spain,MLS,Inter Miami CF,LB,1,0,1,0,0,0,15500,14500
+https://www.futbin.com/26/player/20048/anders-dreyer,Anders Dreyer,M,84,Special,85,86,82,85,48,72,3,3,3,0,Denmark,MLS,San Diego FC,"RW,RM,LW",3,0,0,0,1,0,11250,14250
+https://www.futbin.com/26/player/20049/jovana-damnjanovic,Jovana Damnjanović,F,84,Special,86,85,77,83,70,85,3,3,4,0,Serbia,GPFBL,FC Bayern München,"ST,CM,CAM",3,0,0,1,1,1,11250,11500
+https://www.futbin.com/26/player/20071/beatriz-zaneratto-joao,Beatriz Zaneratto João,F,84,Special,78,84,77,86,52,85,4,3,3,0,Brazil,NWSL,KC Current,"ST,CAM",2,0,0,0,1,1,12250,12250
+https://www.futbin.com/26/player/20072/jess-park,Jess Park,F,84,Special,86,80,81,89,62,67,4,3,5,0,England,Barclays WSL,Manchester Utd,"ST,RM,CM,RW",4,0,0,1,1,1,12750,12250
+https://www.futbin.com/26/player/20104/julia-zigiotti,Julia Zigiotti,F,84,Special,82,75,84,85,80,75,3,3,5,0,Sweden,Barclays WSL,Manchester Utd,"CDM,CM",2,0,0,1,0,0,11000,11750
+https://www.futbin.com/26/player/20105/ivan-romero-de-avila,Iván Romero De Ávila,M,84,Special,89,83,75,86,57,75,3,3,4,0,Spain,LALIGA EA SPORTS,Levante UD,"ST,RM,LM,CAM",4,0,0,0,1,1,11750,12250
+https://www.futbin.com/26/player/20182/danilho-doekhi,Danilho Doekhi,M,84,Special,78,51,70,72,84,89,2,3,4,0,Netherlands,Bundesliga,Union Berlin,CB,1,1,0,0,0,0,13000,12500
+https://www.futbin.com/26/player/20183/mason-greenwood,Mason Greenwood,M,84,Special,85,85,80,86,40,67,4,5,5,0,England,Ligue 1 McDonald's,OM,"RM,CAM,RW",3,0,0,0,1,0,14500,14500
+https://www.futbin.com/26/player/20184/leroy-sane,Leroy Sané,M,84,Special,89,84,81,87,40,72,4,2,4,0,Germany,Trendyol Süper Lig,Galatasaray,"RM,LM,RW",3,0,0,0,1,0,15500,12000
+https://www.futbin.com/26/player/20185/jean-philippe-mateta,Jean-Philippe Mateta,M,84,Special,78,86,72,81,43,83,3,5,3,0,France,Premier League,Crystal Palace,ST,1,0,0,0,0,1,13250,12000
+https://www.futbin.com/26/player/20234/danny-da-costa,Danny Da Costa,M,84,Special,85,65,78,81,82,83,3,3,4,0,Germany,Bundesliga,1. FSV Mainz 05,"RB,CB,RM,RW",4,1,1,0,1,0,11250,11750
+https://www.futbin.com/26/player/20235/guela-doue,Guéla Doué,M,84,Special,80,55,76,80,82,84,3,3,4,0,Côte d'Ivoire,Ligue 1 McDonald's,Strasbourg,"CB,RB,RM,RW",4,1,1,0,1,0,10750,10500
+https://www.futbin.com/26/player/20292/ismael-saibari,Ismael Saibari,M,84,Special,84,81,80,87,56,83,4,4,3,0,Morocco,Eredivisie,PSV,"CAM,CM",2,0,0,1,1,0,13000,12250
+https://www.futbin.com/26/player/20293/micky-van-de-ven,Micky Van De Ven,M,84,Special,91,51,67,75,84,83,3,3,3,0,Netherlands,Premier League,Spurs,CB,1,1,0,0,0,0,190000,210000
+https://www.futbin.com/26/player/20294/andre-franck-zambo-anguissa,André-Franck Zambo Anguissa,M,84,Special,78,79,78,81,81,87,3,3,4,0,Cameroon,Serie A TIM,SSC Napoli,"CM,CAM",2,0,0,1,1,0,12500,12000
+https://www.futbin.com/26/player/20295/vangelis-pavlidis,Vangelis Pavlidis,M,84,Special,83,85,74,83,49,84,3,4,5,0,Greece,Liga Portugal,SL Benfica,"ST,CAM",2,0,0,0,1,1,12750,12000
+https://www.futbin.com/26/player/20351/daniel-svensson,Daniel Svensson,M,84,Special,84,64,82,83,80,81,3,4,5,0,Sweden,Bundesliga,Borussia Dortmund,"CM,LB,LM,LW",4,0,1,1,1,0,10750,11000
+https://www.futbin.com/26/player/20352/eseosa-aigbogun,Eseosa Aigbogun,F,84,Special,86,75,80,82,84,77,3,3,5,0,Switzerland,D1 Arkema,Strasbourg,"LM,RB,LB,RM,LW",5,0,1,0,1,0,10500,11000
+https://www.futbin.com/26/player/20353/alejandro-frances-torrijo,Alejandro Francés Torrijo,M,84,Special,82,54,78,80,83,85,3,4,4,0,Spain,LALIGA EA SPORTS,Girona FC,"LB,RB,CB,RM",4,1,1,0,1,0,10500,11250
+https://www.futbin.com/26/player/20383/lucas-tolentino-coelho-de-lima,Lucas Tolentino Coelho De Lima,M,84,Special,77,82,82,88,75,80,5,4,4,0,Brazil,Premier League,West Ham,"CM,LM,CAM",3,0,0,1,1,0,13500,16000
+https://www.futbin.com/26/player/20430/matheus-de-barros-da-silva,Matheus De Barros Da Silva,M,84,Special,90,64,73,83,80,83,3,3,4,0,Brazil,Liga Azerbaijan,Qarabağ FK,"RB,CB,RM",3,1,1,0,1,0,11500,15750
+https://www.futbin.com/26/player/20431/kevin-rodriguez,Kevin Rodríguez,M,84,Special,93,82,70,84,42,84,4,3,5,0,Ecuador,1A Pro League,R. Union St.-G.,"ST,CM,CAM",3,0,0,1,1,1,11500,11750
+https://www.futbin.com/26/player/20432/kenneth-taylor,Kenneth Taylor,M,84,Special,80,83,84,84,73,80,3,5,4,0,Netherlands,Eredivisie,Ajax,"CM,CAM",2,0,0,1,1,0,11250,11500
+https://www.futbin.com/26/player/20446/victor-edvardsen,Victor Edvardsen,M,84,Special,90,85,80,81,40,86,3,3,4,0,Sweden,Eredivisie,Go Ahead Eagles,"ST,CM,CAM",3,0,0,1,1,1,11750,10500
+https://www.futbin.com/26/player/20447/max-aarons,Max Aarons,M,84,Special,87,55,74,83,80,83,3,3,5,0,England,Scottish Premiership,Rangers,"RB,LB,RM",3,0,1,0,1,0,10500,10750
+https://www.futbin.com/26/player/20448/ruben-kluivert,Ruben Kluivert,M,84,Special,86,48,70,78,82,84,3,3,4,0,Netherlands,Ligue 1 McDonald's,OL,"RB,CB",2,1,1,0,0,0,12000,12750
+https://www.futbin.com/26/player/20466/boattin,Boattin,F,84,Gold,76,75,83,84,81,85,3,4,4,0,Italy,NWSL,Houston Dash,"LM,CB,LW",3,1,0,0,1,0,1100,1500
+https://www.futbin.com/26/player/20497/romee-leuchter,Romée Leuchter,F,84,Special,87,86,75,84,33,78,3,4,3,0,Netherlands,D1 Arkema,Paris SG,"ST,CAM,LW",3,0,0,0,1,1,12250,11750
+https://www.futbin.com/26/player/20498/jeremy-doku,Jérémy Doku,M,84,Special,94,77,78,90,36,75,4,3,4,1,Belgium,Premier League,Manchester City,"LW,LM,RW",3,0,0,0,1,0,60000,58000
+https://www.futbin.com/26/player/20561/trai-hume,Trai Hume,M,84,Special,87,48,73,80,82,84,3,3,5,0,Northern Ireland,Premier League,Sunderland,"RB,CB",2,1,1,0,0,0,11250,11750
+https://www.futbin.com/26/player/20562/rebeca-bernal,Rebeca Bernal,F,84,Special,82,66,78,78,84,82,2,4,4,0,Mexico,NWSL,Washington Spirit,"CB,CDM,CM",3,1,0,1,0,0,10500,12500
+https://www.futbin.com/26/player/20563/mykola-matviienko,Mykola Matviienko,M,84,Special,83,65,78,76,85,81,2,3,4,0,Ukraine,Ukrayina Liha,Shakhtar Donetsk,"CB,RB,LB",3,1,1,0,0,0,10500,10500
+https://www.futbin.com/26/player/20564/dolores-isabel-jacome-da-silva,Dolores Isabel Jácome Da Silva,F,84,Special,85,81,84,82,77,79,3,3,5,0,Portugal,Liga F,Levante UD,"CM,CAM,ST",3,0,0,1,1,1,10500,10500
+https://www.futbin.com/26/player/20565/ben-davies,Ben Davies,M,84,Special,82,64,80,78,85,81,3,3,5,0,Wales,Premier League,Spurs,CB,1,1,0,0,0,0,11500,12000
+https://www.futbin.com/26/player/20592/kaishu-sano,Kaishū Sano,M,84,Special,84,56,75,82,84,81,2,3,3,0,Japan,Bundesliga,1. FSV Mainz 05,"CM,CDM",2,0,0,1,0,0,12250,12000
+https://www.futbin.com/26/player/20593/croix-bethune,Croix Bethune,F,84,Special,80,80,81,85,62,70,4,4,3,0,United States,NWSL,Washington Spirit,"CDM,CM,CAM",3,0,0,1,1,0,12500,12000
+https://www.futbin.com/26/player/20594/carlos-henrique-venancio-casimiro,Carlos Henrique Venancio Casimiro,M,84,Special,77,78,81,75,84,80,2,3,5,0,Brazil,Premier League,Manchester Utd,"CDM,CM",2,0,0,1,0,0,12750,11750
+https://www.futbin.com/26/player/20595/dan-ndoye,Dan Ndoye,M,84,Special,93,80,78,86,67,74,3,3,4,0,Switzerland,Premier League,Nott'm Forest,"LM,RM,LW",3,0,0,0,1,0,12000,12000
+https://www.futbin.com/26/player/20596/malo-gusto,Malo Gusto,M,84,Special,89,50,82,83,80,80,3,3,4,0,France,Premier League,Chelsea,"RB,RM",2,0,1,0,1,0,14750,14000
+https://www.futbin.com/26/player/205/gianluca-mancini,Gianluca Mancini,M,83,Gold,70,50,57,64,85,82,2,3,4,0,Italy,Serie A TIM,AS Roma,CB,1,1,0,0,0,0,800,900
+https://www.futbin.com/26/player/265/artem-dovbyk,Artem Dovbyk,M,83,Gold,83,84,68,78,34,79,3,4,0,0,Ukraine,Serie A TIM,AS Roma,ST,1,0,0,0,0,1,750,800
+https://www.futbin.com/26/player/273/stanislav-lobotka,Stanislav Lobotka,M,83,Gold,71,69,80,82,76,71,3,4,6,0,Slovakia,Serie A TIM,SSC Napoli,"CM,CDM",2,0,0,1,0,0,750,800
+https://www.futbin.com/26/player/279/amir-rrahmani,Amir Rrahmani,M,83,Gold,69,51,60,63,84,78,2,4,4,0,Kosovo,Serie A TIM,SSC Napoli,CB,1,1,0,0,0,0,750,800
+https://www.futbin.com/26/player/280/giovanni-di-lorenzo,Giovanni Di Lorenzo,M,83,Gold,84,72,73,77,79,80,3,4,3,0,Italy,Serie A TIM,SSC Napoli,"RB,CB,RM",3,1,1,0,1,0,1400,850
+https://www.futbin.com/26/player/291/barbara-bonansea,Barbara Bonansea,F,83,Gold,79,81,77,83,38,74,4,5,2,0,Italy,Calcio A Femminile,Juventus,"LM,LW",2,0,0,0,1,0,800,850
+https://www.futbin.com/26/player/316/hugo-ekitike,Hugo Ekitiké,M,83,Gold,86,78,69,85,33,73,4,3,3,0,France,Premier League,Liverpool,"ST,CAM",2,0,0,0,1,1,1000,900
+https://www.futbin.com/26/player/321/dominik-szoboszlai,Dominik Szoboszlai,M,83,Gold,79,82,84,82,67,76,4,4,3,0,Hungary,Premier League,Liverpool,"CAM,CM",2,0,0,1,1,0,1400,800
+https://www.futbin.com/26/player/331/jeremie-frimpong,Jeremie Frimpong,M,83,Gold,94,62,74,84,72,63,3,3,3,0,Netherlands,Premier League,Liverpool,"RB,RM,RW",3,0,1,0,1,0,1600,2200
+https://www.futbin.com/26/player/381/nikola-milenkovic,Nikola Milenković,M,83,Gold,57,46,63,62,84,86,2,3,3,0,Serbia,Premier League,Nott'm Forest,CB,1,1,0,0,0,0,750,800
+https://www.futbin.com/26/player/383/murillo-costa-dos-santos,Murillo Costa Dos Santos,M,83,Gold,80,48,67,71,83,83,2,3,4,0,Brazil,Premier League,Nott'm Forest,CB,1,1,0,0,0,0,1600,2500
+https://www.futbin.com/26/player/389/benjamin-white,Benjamin White,M,83,Gold,70,35,75,75,83,78,2,4,1,0,England,Premier League,Arsenal,RB,1,0,1,0,0,0,1000,950
+https://www.futbin.com/26/player/392/nathan-ake,Nathan Aké,M,83,Gold,72,53,72,75,84,74,2,3,0,0,Netherlands,Premier League,Manchester City,"CB,LB,LM",3,1,1,0,1,0,850,850
+https://www.futbin.com/26/player/418/leandro-trossard,Leandro Trossard,M,83,Gold,80,81,80,85,30,60,4,5,1,0,Belgium,Premier League,Arsenal,"LW,LM,ST",3,0,0,0,1,1,850,850
+https://www.futbin.com/26/player/425/anthony-gordon,Anthony Gordon,M,83,Gold,91,79,78,83,50,71,3,3,4,0,England,Premier League,Newcastle Utd,"LW,LM,RW",3,0,0,0,1,0,900,850
+https://www.futbin.com/26/player/459/dejan-kulusevski,Dejan Kulusevski,M,83,Gold,74,79,84,85,62,81,4,3,4,0,Sweden,Premier League,Spurs,"CM,CAM,RW",3,0,0,1,1,0,800,850
+https://www.futbin.com/26/player/460/joao-maria-palhinha-goncalves,João Maria Palhinha Gonçalves,M,83,Gold,56,68,70,72,84,85,2,4,1,1,Portugal,Premier League,Spurs,"CDM,CM",2,0,0,1,0,0,750,750
+https://www.futbin.com/26/player/648/angelo-stiller,Angelo Stiller,M,83,Gold,56,58,83,84,76,71,3,3,3,1,Germany,Bundesliga,VfB Stuttgart,"CDM,CM",2,0,0,1,0,0,750,850
+https://www.futbin.com/26/player/688/kadeisha-buchanan,Kadeisha Buchanan,F,83,Gold,67,44,58,65,85,84,2,3,5,0,Canada,Barclays WSL,Chelsea,CB,1,1,0,0,0,0,800,850
+https://www.futbin.com/26/player/692/catarina-cantanhede-macario,Catarina Cantanhede Macario,F,83,Gold,83,82,80,86,57,72,4,3,3,0,United States,Barclays WSL,Chelsea,"CAM,CM,ST",3,0,0,1,1,1,750,850
+https://www.futbin.com/26/player/696/mayra-ramirez,Mayra Ramírez,F,83,Gold,90,84,75,86,33,87,4,3,7,0,Colombia,Barclays WSL,Chelsea,"ST,CAM",2,0,0,0,1,1,1900,1000
+https://www.futbin.com/26/player/743/kingsley-coman,Kingsley Coman,M,83,Gold,87,75,79,87,30,61,5,3,2,1,France,ROSHN Saudi League,Al Nassr,"LM,RM,LW",3,0,0,0,1,0,800,850
+https://www.futbin.com/26/player/747/mateo-retegui,Mateo Retegui,M,83,Gold,72,83,67,78,37,76,3,3,4,0,Italy,ROSHN Saudi League,Al Qadisiyah,ST,1,0,0,0,0,1,750,750
+https://www.futbin.com/26/player/748/sadio-mane,Sadio Mané,M,83,Gold,82,81,78,85,44,75,4,4,4,0,Senegal,ROSHN Saudi League,Al Nassr,"LM,RM,ST,LW",4,0,0,0,1,1,800,750
+https://www.futbin.com/26/player/816/iago-aspas-juncal,Iago Aspas Juncal,M,83,Gold,77,84,80,84,35,62,3,4,5,0,Spain,LALIGA EA SPORTS,RC Celta,"RW,RM,ST",3,0,0,0,1,1,800,850
+https://www.futbin.com/26/player/878/athenea-del-castillo,Athenea Del Castillo,F,83,Gold,86,78,75,83,25,72,4,5,3,0,Spain,Liga F,Real Madrid,"RW,RM,LM",3,0,0,0,1,0,800,850
+https://www.futbin.com/26/player/894/eduardo-camavinga,Eduardo Camavinga,M,83,Gold,80,68,81,84,78,80,4,3,4,0,France,LALIGA EA SPORTS,Real Madrid,"CM,LB,CDM",3,0,1,1,0,0,1600,2200
+https://www.futbin.com/26/player/947/jarrod-bowen,Jarrod Bowen,M,83,Gold,76,81,78,82,46,70,4,4,4,0,England,Premier League,West Ham,"RM,RW,ST",3,0,0,0,1,1,900,850
+https://www.futbin.com/26/player/1020/jose-maria-gimenez,José María Giménez,M,83,Gold,73,46,60,62,85,82,2,3,3,0,Uruguay,LALIGA EA SPORTS,Atlético de Madrid,CB,1,1,0,0,0,0,750,850
+https://www.futbin.com/26/player/1037/julian-brandt,Julian Brandt,M,83,Gold,74,78,83,84,44,70,4,4,6,0,Germany,Bundesliga,Borussia Dortmund,"CAM,CM",2,0,0,1,1,0,800,900
+https://www.futbin.com/26/player/1041/aleix-garcia-serrano,Aleix García Serrano,M,83,Gold,65,75,85,84,75,66,3,3,4,1,Spain,Bundesliga,Leverkusen,"CM,CDM",2,0,0,1,0,0,800,800
+https://www.futbin.com/26/player/1084/lucas-torreira,Lucas Torreira,M,83,Gold,76,72,78,81,81,79,3,3,7,0,Uruguay,Trendyol Süper Lig,Galatasaray,"CDM,CM",2,0,0,1,0,0,850,900
+https://www.futbin.com/26/player/1094/arianna-caruso,Arianna Caruso,F,83,Gold,74,80,82,87,71,72,4,3,4,0,Italy,GPFBL,FC Bayern München,CM,1,0,0,1,0,0,750,850
+https://www.futbin.com/26/player/17340/henrikh-mkhitaryan,Henrikh Mkhitaryan,M,83,Gold,77,78,82,83,72,75,4,5,6,0,Armenia,Serie A TIM,Lombardia FC,CM,1,0,0,1,0,0,850,800
+https://www.futbin.com/26/player/17341/lena-lattwein,Lena Lattwein,F,83,Gold,69,74,80,82,78,83,3,4,3,0,Germany,GPFBL,VfL Wolfsburg,"CM,CDM",2,0,0,1,0,0,750,800
+https://www.futbin.com/26/player/17342/morten-hjulmand,Morten Hjulmand,M,83,Gold,70,76,78,77,80,84,3,4,4,0,Denmark,Liga Portugal,Sporting CP,"CDM,CM",2,0,0,1,0,0,750,850
+https://www.futbin.com/26/player/17343/nicole-anyomi,Nicole Anyomi,F,83,Gold,90,79,73,84,55,83,4,4,4,0,Germany,GPFBL,Frankfurt,"ST,CAM",2,0,0,0,1,1,1100,1100
+https://www.futbin.com/26/player/17344/mikel-merino-zazon,Mikel Merino Zazón,M,83,Gold,63,79,80,80,81,80,3,3,4,0,Spain,Premier League,Arsenal,"CM,ST",2,0,0,1,0,1,900,900
+https://www.futbin.com/26/player/17345/kenza-dali,Kenza Dali,F,83,Gold,73,79,82,85,68,73,4,3,6,0,France,NWSL,San Diego Wave,"CM,CDM",2,0,0,1,0,0,750,850
+https://www.futbin.com/26/player/17346/ayoze-perez-gutierrez,Ayoze Pérez Gutiérrez,M,83,Gold,86,83,80,83,59,67,4,4,5,0,Spain,LALIGA EA SPORTS,Villarreal CF,"ST,CAM",2,0,0,0,1,1,1000,950
+https://www.futbin.com/26/player/17347/inaki-williams-arthuer,Iñaki Williams Arthuer,M,83,Gold,94,81,74,80,45,84,4,3,5,0,Ghana,LALIGA EA SPORTS,Athletic Club,"RM,RW,ST",3,0,0,0,1,1,1000,900
+https://www.futbin.com/26/player/17348/pedro-antonio-pereira-goncalves,Pedro António Pereira Gonçalves,M,83,Gold,77,82,83,84,63,68,4,4,7,0,Portugal,Liga Portugal,Sporting CP,"CAM,CM,LM",3,0,0,1,1,0,750,800
+https://www.futbin.com/26/player/17349/jule-brand,Jule Brand,F,83,Gold,91,75,78,82,56,74,3,4,6,0,Germany,D1 Arkema,OL,"LW,LM",2,0,0,0,1,0,850,900
+https://www.futbin.com/26/player/17350/danielle-van-de-donk,Daniëlle Van De Donk,F,83,Gold,72,77,81,86,67,72,3,3,5,1,Netherlands,Barclays WSL,London City Lionesses,"CM,CDM,CAM",3,0,0,1,1,0,800,900
+https://www.futbin.com/26/player/17352/dominique-janssen,Dominique Janssen,F,83,Gold,77,59,76,76,84,82,2,5,2,0,Netherlands,Barclays WSL,Manchester Utd,"CDM,CB",2,1,0,1,0,0,750,850
+https://www.futbin.com/26/player/17353/david-hancko,Dávid Hancko,M,83,Gold,77,66,73,74,82,82,2,3,4,0,Slovakia,LALIGA EA SPORTS,Atlético de Madrid,"CB,LB,LM",3,1,1,0,1,0,750,900
+https://www.futbin.com/26/player/17355/vanessa-dibernardo,Vanessa Dibernardo,F,83,Gold,75,76,81,84,65,73,4,3,1,0,United States,NWSL,KC Current,"CAM,CDM,CM",3,0,0,1,1,0,750,800
+https://www.futbin.com/26/player/17357/selina-cerci,Selina Cerci,F,83,Gold,82,82,75,81,53,79,4,4,2,0,Germany,GPFBL,TSG Hoffenheim,ST,1,0,0,0,0,1,900,950
+https://www.futbin.com/26/player/17358/mateo-kovacic,Mateo Kovačić,M,83,Gold,67,74,81,83,73,72,3,4,2,0,Croatia,Premier League,Manchester City,"CM,CDM,CAM",3,0,0,1,1,0,750,850
+https://www.futbin.com/26/player/17359/thomas-partey,Thomas Partey,M,83,Gold,59,71,80,77,80,82,3,3,3,0,Ghana,LALIGA EA SPORTS,Villarreal CF,"CDM,RB,CM",3,0,1,1,0,0,750,800
+https://www.futbin.com/26/player/17360/emily-sonnett,Emily Sonnett,F,83,Gold,76,57,75,74,84,83,3,3,4,0,United States,NWSL,NJ/NY Gotham,CB,1,1,0,0,0,0,800,850
+https://www.futbin.com/26/player/17364/luka-modric,Luka Modrić,M,83,Gold,68,74,86,86,70,62,4,4,4,0,Croatia,Serie A TIM,Milano FC,"CM,CDM,CAM",3,0,0,1,1,0,800,850
+https://www.futbin.com/26/player/17365/matheus-santos-carneiro-da-cunha,Matheus Santos Carneiro Da Cunha,M,83,Gold,77,85,79,84,44,75,4,4,5,0,Brazil,Premier League,Manchester Utd,"CAM,ST,LW",3,0,0,0,1,1,900,900
+https://www.futbin.com/26/player/17366/martin-zubimendi-ibanez,Martín Zubimendi Ibáñez,M,83,Gold,66,67,79,79,80,73,3,4,2,0,Spain,Premier League,Arsenal,"CDM,CM",2,0,0,1,0,0,800,900
+https://www.futbin.com/26/player/17368/pablo-martin-paez-gavira,Pablo Martín Páez Gavira,M,83,Gold,76,66,78,85,68,70,3,3,4,0,Spain,LALIGA EA SPORTS,FC Barcelona,"CM,CAM",2,0,0,1,1,0,750,850
+https://www.futbin.com/26/player/17369/eberechi-eze,Eberechi Eze,M,83,Gold,74,80,81,87,50,68,4,4,7,0,England,Premier League,Arsenal,"CAM,ST,LW",3,0,0,0,1,1,1200,1300
+https://www.futbin.com/26/player/17370/alejandro-balde-martinez,Alejandro Balde Martínez,M,83,Gold,91,50,75,79,78,67,3,4,3,0,Spain,LALIGA EA SPORTS,FC Barcelona,"LB,LM",2,0,1,0,1,0,950,1300
+https://www.futbin.com/26/player/17372/fran-kirby,Fran Kirby,F,83,Gold,84,82,77,86,42,60,4,4,2,0,England,Barclays WSL,Brighton,"CAM,CM,RW",3,0,0,1,1,0,900,850
+https://www.futbin.com/26/player/17373/boubacar-kamara,Boubacar Kamara,M,83,Gold,64,55,74,75,83,80,3,3,1,0,France,Premier League,Aston Villa,"CDM,CM",2,0,0,1,0,0,800,800
+https://www.futbin.com/26/player/17374/ferran-torres-garcia,Ferran Torres García,M,83,Gold,83,81,79,83,35,68,4,4,2,0,Spain,LALIGA EA SPORTS,FC Barcelona,"LW,LM,RW,ST",4,0,0,0,1,1,850,900
+https://www.futbin.com/26/player/17375/linda-dallmann,Linda Dallmann,F,83,Gold,77,76,80,87,46,58,4,4,3,0,Germany,GPFBL,FC Bayern München,"RM,CAM,RW",3,0,0,0,1,0,750,850
+https://www.futbin.com/26/player/17376/moise-kean,Moise Kean,M,83,Gold,86,82,58,81,40,74,3,3,3,0,Italy,Serie A TIM,Fiorentina,ST,1,0,0,0,0,1,750,800
+https://www.futbin.com/26/player/17377/ronald-araujo,Ronald Araujo,M,83,Gold,80,53,63,61,81,83,2,3,6,0,Uruguay,LALIGA EA SPORTS,FC Barcelona,"CB,RB",2,1,1,0,0,0,950,1500
+https://www.futbin.com/26/player/17378/griedge-mbock,Griedge Mbock,F,83,Gold,64,55,66,66,84,83,2,3,2,0,France,D1 Arkema,Paris SG,CB,1,1,0,0,0,0,1400,850
+https://www.futbin.com/26/player/17379/elena-linari,Elena Linari,F,83,Gold,69,46,63,68,83,81,2,4,1,0,Italy,Barclays WSL,London City Lionesses,CB,1,1,0,0,0,0,800,750
+https://www.futbin.com/26/player/17380/robin-le-normand,Robin Le Normand,M,83,Gold,65,28,59,63,84,80,2,3,2,0,Spain,LALIGA EA SPORTS,Atlético de Madrid,CB,1,1,0,0,0,0,750,800
+https://www.futbin.com/26/player/17381/vanessa-gilles,Vanessa Gilles,F,83,Gold,58,38,54,55,86,81,2,3,4,1,Canada,GPFBL,FC Bayern München,CB,1,1,0,0,0,0,750,800
+https://www.futbin.com/26/player/18928/antoine-semenyo,Antoine Semenyo,M,83,Special,83,82,77,85,44,82,3,5,4,0,Ghana,Premier League,AFC Bournemouth,"RM,LM,RW",3,0,0,0,1,0,16500,13500
+https://www.futbin.com/26/player/18929/fermin-lopez-marin,Fermín López Marín,M,83,Special,79,80,80,85,65,61,3,4,3,0,Spain,LALIGA EA SPORTS,FC Barcelona,"CAM,CM,ST,LW",4,0,0,1,1,1,57500,51500
+https://www.futbin.com/26/player/18930/thomas-muller,Thomas Müller,M,83,Special,72,83,85,83,58,72,3,4,3,0,Germany,MLS,Whitecaps FC,"CAM,RM,ST",3,0,0,0,1,1,17750,14250
+https://www.futbin.com/26/player/18948/ilkay-gundogan,İlkay Gündoğan,M,83,Gold,54,79,83,80,74,67,3,4,3,0,Germany,Trendyol Süper Lig,Galatasaray,"CM,CDM,CAM",3,0,0,1,1,0,750,850
+https://www.futbin.com/26/player/18950/adrien-rabiot,Adrien Rabiot,M,83,Gold,81,79,81,80,77,84,3,3,3,0,France,Serie A TIM,Milano FC,"CAM,CM",2,0,0,1,1,0,800,800
+https://www.futbin.com/26/player/18952/piero-hincapie,Piero Hincapié,M,83,Gold,84,41,65,72,84,82,3,2,2,1,Ecuador,Premier League,Arsenal,"CB,LB,LM",3,1,1,0,1,0,1900,3600
+https://www.futbin.com/26/player/19903/lorenzo-pellegrini,Lorenzo Pellegrini,M,83,Special,79,81,83,84,77,77,3,4,3,0,Italy,Serie A TIM,AS Roma,"CAM,CM",2,0,0,1,1,0,16250,18500
+https://www.futbin.com/26/player/19938/diego-chara,Diego Chará,M,83,Special,75,65,73,76,80,83,3,4,4,0,Colombia,MLS,Portland Timbers-Thorns,"CDM,CB,CM",3,1,0,1,0,0,13250,13000
+https://www.futbin.com/26/player/19939/marwane-saadane,Marwane Saadane,M,83,Special,74,62,73,74,82,88,2,3,5,0,Morocco,ROSHN Saudi League,Al Fateh,CB,1,1,0,0,0,0,15000,14250
+https://www.futbin.com/26/player/19940/laura-requena-sanchez,Laura Requena Sánchez,F,83,Special,84,82,81,84,55,81,3,3,4,0,Spain,Liga F,Granada CF,"ST,LM,CAM",3,0,0,0,1,1,11500,12000
+https://www.futbin.com/26/player/19956/gift-monday,Gift Monday,F,83,Special,90,80,75,83,64,81,3,3,4,0,Nigeria,NWSL,Washington Spirit,"ST,LM,LW",3,0,0,0,1,1,12750,12500
+https://www.futbin.com/26/player/19994/carles-gil-pareja,Carles Gil Pareja,M,83,Special,80,80,85,84,42,66,4,4,5,0,Spain,MLS,New England,"CAM,RM,CM",3,0,0,1,1,0,11500,11750
+https://www.futbin.com/26/player/19995/angel-gomes,Angel Gomes,M,83,Special,76,78,82,85,80,74,4,4,5,0,England,Ligue 1 McDonald's,OM,"CM,CDM,CAM",3,0,0,1,1,0,16000,30000
+https://www.futbin.com/26/player/20009/vivien-endemann,Vivien Endemann,F,83,Special,88,79,78,82,49,74,3,4,3,0,Germany,GPFBL,VfL Wolfsburg,"RW,RM",2,0,0,0,1,0,12500,12500
+https://www.futbin.com/26/player/20010/rosemonde-kouassi,Rosemonde Kouassi,F,83,Special,95,82,76,83,41,79,4,4,3,1,Côte d'Ivoire,NWSL,Washington Spirit,"LW,RM,LM",3,0,0,0,1,0,13500,13750
+https://www.futbin.com/26/player/20011/lynn-wilms,Lynn Wilms,F,83,Special,82,70,80,77,82,81,2,3,3,0,Netherlands,Barclays WSL,Aston Villa,"CB,RB,RM",3,1,1,0,1,0,12500,12250
+https://www.futbin.com/26/player/20050/manaka-matsukubo,Manaka Matsukubo,F,83,Special,83,85,83,87,60,72,3,3,5,0,Japan,NWSL,NC Courage,"ST,CM,CAM",3,0,0,1,1,1,13750,13500
+https://www.futbin.com/26/player/20051/tyler-morton,Tyler Morton,M,83,Special,80,70,87,84,81,76,3,3,4,0,England,Ligue 1 McDonald's,OL,"CDM,CM",2,0,0,1,0,0,12250,13000
+https://www.futbin.com/26/player/20073/esmee-brugts,Esmee Brugts,F,83,Special,83,76,81,83,80,76,3,3,3,0,Netherlands,Liga F,FC Barcelona,"LB,LM,ST,LW",4,0,1,0,1,1,12750,12000
+https://www.futbin.com/26/player/20107/martin-ojeda,Martín Ojeda,M,83,Special,86,83,82,82,45,75,4,3,5,0,Argentina,MLS,Orlando City,"CAM,RM,CM,LM",4,0,0,1,1,0,12250,13000
+https://www.futbin.com/26/player/20108/jakub-kaminski,Jakub Kamiński,M,83,Special,87,80,80,85,65,70,3,3,5,0,Poland,Bundesliga,1. FC Köln,"LM,LW",2,0,0,0,1,0,21250,31750
+https://www.futbin.com/26/player/20186/harry-maguire,Harry Maguire,M,83,Special,75,60,74,70,83,85,2,3,3,0,England,Premier League,Manchester Utd,CB,1,1,0,0,0,0,15000,15000
+https://www.futbin.com/26/player/20296/gabriel-davi-gomes-sara,Gabriel Davi Gomes Sara,M,83,Special,79,79,86,83,71,81,4,4,5,0,Brazil,Trendyol Süper Lig,Galatasaray,"CM,RM,CAM",3,0,0,1,1,0,21250,19250
+https://www.futbin.com/26/player/20384/maria-molina-molero,María Molina Molero,F,83,Special,78,54,72,75,83,84,2,2,3,0,Spain,Liga F,Real Sociedad,CB,1,1,0,0,0,0,12250,12000
+https://www.futbin.com/26/player/20385/jizz-hornkamp,Jizz Hornkamp,M,83,Special,83,87,75,81,70,82,2,3,3,0,Netherlands,Eredivisie,Heracles Almelo,ST,1,0,0,0,0,1,12250,11750
+https://www.futbin.com/26/player/20386/wouter-burger,Wouter Burger,M,83,Special,83,75,82,80,82,88,3,4,3,0,Netherlands,Bundesliga,TSG Hoffenheim,"CM,CDM",2,0,0,1,0,0,12500,12000
+https://www.futbin.com/26/player/20387/al-hassan-toure,Al Hassan Touré,M,83,Special,92,80,79,83,51,86,4,3,3,0,Australia,A-League,Sydney FC,"LM,RM,ST,LW",4,0,0,0,1,1,12250,12000
+https://www.futbin.com/26/player/20388/gauthier-hein,Gauthier Hein,M,83,Special,84,84,82,86,44,67,4,3,5,0,France,Ligue 1 McDonald's,FC Metz,"CM,RM,CAM,ST",4,0,0,1,1,1,12250,12000
+https://www.futbin.com/26/player/20389/kieffer-moore,Kieffer Moore,M,83,Special,81,84,76,80,59,88,3,3,3,0,Wales,EFL Championship,Wrexham AFC,ST,1,0,0,0,0,1,12250,12000
+https://www.futbin.com/26/player/20390/divin-mubama,Divin Mubama,M,83,Special,91,83,71,82,51,84,2,3,3,0,England,EFL Championship,Stoke City,ST,1,0,0,0,0,1,12250,12000
+https://www.futbin.com/26/player/20391/ismail-yuksek,İsmail Yüksek,M,83,Special,80,67,78,80,81,84,3,3,3,0,Türkiye,Trendyol Süper Lig,Fenerbahçe,"CDM,CM",2,0,0,1,0,0,12250,12000
+https://www.futbin.com/26/player/20392/haris-tabakovic,Haris Tabaković,M,83,Special,81,83,75,80,39,88,2,3,5,0,Bosnia and Herzegovina,Bundesliga,M'gladbach,ST,1,0,0,0,0,1,12250,11750
+https://www.futbin.com/26/player/20393/anton-krivotsyuk,Anton Krivotsyuk,M,83,Special,87,55,73,77,83,86,3,3,3,0,Azerbaijan,K League 1,Daejeon Citizen,"CB,LB",2,1,1,0,0,0,12750,12500
+https://www.futbin.com/26/player/20394/jon-gorrotxategi,Jon Gorrotxategi,M,83,Special,82,71,79,80,82,87,2,3,3,0,Spain,LALIGA EA SPORTS,Real Sociedad,"CDM,CM",2,0,0,1,0,0,12500,12250
+https://www.futbin.com/26/player/20395/niccolo-pierozzi,Niccolò Pierozzi,M,83,Special,87,77,80,86,81,80,3,3,3,0,Italy,Serie BKT,Palermo,"RM,RB",2,0,1,0,1,0,12250,12000
+https://www.futbin.com/26/player/20396/esteban-lepaul,Estéban Lepaul,M,83,Special,85,85,76,83,45,79,3,3,3,0,France,Ligue 1 McDonald's,Stade Rennais FC,"ST,CM,CAM",3,0,0,1,1,1,12250,12000
+https://www.futbin.com/26/player/20397/saeed-al-rubaie,Saeed Al Rubaie,M,83,Special,81,44,69,68,83,89,2,2,3,0,Saudi Arabia,ROSHN Saudi League,Al Okhdood,CB,1,1,0,0,0,0,12250,12000
+https://www.futbin.com/26/player/20499/mika-marmol-medina,Mika Mármol Medina,M,83,Special,87,48,76,80,83,82,3,3,3,0,Spain,LALIGA HYPERMOTION,UD Las Palmas,"CB,LB",2,1,1,0,0,0,12000,11750
+https://www.futbin.com/26/player/20500/kieran-tierney,Kieran Tierney,M,83,Special,85,68,83,82,81,80,3,3,3,0,Scotland,Scottish Premiership,Celtic,"LB,LM",2,0,1,0,1,0,12000,12000
+https://www.futbin.com/26/player/20501/guus-til,Guus Til,M,83,Special,85,84,80,83,70,81,3,3,3,0,Netherlands,Eredivisie,PSV,"ST,CM,CAM",3,0,0,1,1,1,12250,12000
+https://www.futbin.com/26/player/20502/philipp-sander,Philipp Sander,M,83,Special,78,73,83,84,83,80,3,3,3,0,Germany,Bundesliga,M'gladbach,"CB,CDM,CM",3,1,0,1,0,0,12000,12000
+https://www.futbin.com/26/player/20503/dan-agyei,Dan Agyei,M,83,Special,94,83,75,84,53,87,3,3,3,0,England,Trendyol Süper Lig,Kocaelispor,"RM,LM,RW,ST",4,0,0,0,1,1,12000,12000
+https://www.futbin.com/26/player/20504/amario-cozier-duberry,Amario Cozier-Duberry,M,83,Special,92,80,80,87,48,67,4,2,3,0,England,EFL League One,Bolton,"RM,LM,RW",3,0,0,0,1,0,12000,12000
+https://www.futbin.com/26/player/20505/exequiel-zeballos,Exequiel Zeballos,M,83,Special,93,77,80,86,42,66,5,3,3,0,Argentina,LPF,Boca Juniors,"CAM,RM,RW,LW",4,0,0,0,1,0,12250,12000
+https://www.futbin.com/26/player/20506/roger-martinez,Roger Martínez,M,83,Special,84,83,79,86,53,89,3,4,3,0,Colombia,ROSHN Saudi League,Al Taawoun,"ST,CAM,LW",3,0,0,0,1,1,12250,12000
+https://www.futbin.com/26/player/20507/freya-godfrey,Freya Godfrey,F,83,Special,85,84,75,83,41,79,3,3,3,0,England,Barclays WSL,London City Lionesses,"RM,RW,ST",3,0,0,0,1,1,12250,12000
+https://www.futbin.com/26/player/20508/jaedyn-shaw,Jaedyn Shaw,F,83,Special,91,84,83,84,53,75,3,3,3,0,United States,NWSL,NJ/NY Gotham,"ST,CAM,LW",3,0,0,0,1,1,12250,11750
+https://www.futbin.com/26/player/20509/wesley-said,Wesley Saïd,M,83,Special,83,84,78,87,40,70,4,3,3,0,France,Ligue 1 McDonald's,RC Lens,"LW,LM,ST",3,0,0,0,1,1,12000,12000
+https://www.futbin.com/26/player/20510/ibrahim-maza,Ibrahim Maza,M,83,Special,87,80,81,90,52,76,4,3,3,0,Algeria,Bundesliga,Leverkusen,"CM,CAM",2,0,0,1,1,0,12000,12000
+https://www.futbin.com/26/player/20512/idrissa-toure,Idrissa Touré,M,83,Special,85,75,82,83,76,89,3,3,3,0,Germany,Serie A TIM,Pisa,"RB,RM",2,0,1,0,1,0,12000,12250
+https://www.futbin.com/26/player/20513/eduardo-david-espiau-hernandez,Eduardo David Espiau Hernández,M,83,Special,88,83,78,81,43,85,3,3,3,0,Spain,PKO BP Ekstraklasa,Arka Gdynia,ST,1,0,0,0,0,1,12000,12000
+https://www.futbin.com/26/player/20597/richonell-margaret,Richonell Margaret,M,83,Special,92,81,79,84,44,79,3,2,3,0,Suriname,Eredivisie,Go Ahead Eagles,"LM,RM,ST,LW",4,0,0,0,1,1,12250,11750
+https://www.futbin.com/26/player/20598/meschack-elia,Meschack Elia,M,83,Special,92,82,81,87,39,83,3,4,3,0,Congo DR,Trendyol Süper Lig,Alanyaspor,"RM,RW,ST",3,0,0,0,1,1,11750,11750
+https://www.futbin.com/26/player/20599/juninho-bacuna,Juninho Bacuna,M,83,Special,87,82,83,86,78,88,4,4,3,0,Curaçao,Trendyol Süper Lig,Gaziantep,"LM,CDM,CM,LW",4,0,0,1,1,0,12250,11750
