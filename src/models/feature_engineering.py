@@ -148,7 +148,9 @@ def create_club_target_encoding(df, target_col='price_w1', smoothing=SMOOTHING_F
 
 
 def create_card_category_features(df):
-    """Create one-hot encoded features for card category."""
+    """Creates one-hot encoded features for card category.
+    Card categories: Gold, Special, Icons_Heroes
+    """
     print("Creating card category features")
     
     category_dummies = pd.get_dummies(df['card_category'], prefix='card', dtype=int)
@@ -157,7 +159,6 @@ def create_card_category_features(df):
     print(f"  Created {len(category_dummies.columns)} card category features")
     return category_dummies
 
-
 def transform_target(y, inverse=False):
     """Apply log transformation to target variable."""
     if inverse:
@@ -165,32 +166,118 @@ def transform_target(y, inverse=False):
     else:
         return np.log1p(y)
 
+# MAIN PREPROCESSING PIPELINE
+def prepare_features(df, target_col='price_w1'):
+    """
+    Main pipeline that combines all feature engineering steps.
+    
+    Args:
+        df: Raw DataFrame with player data
+        target_col: Name of target column (price)
+        
+    Returns:
+        X: Feature matrix (dataframe with 41 features)
+        y: Target vector (log-transformed prices)
+        scaler: Fitted StandardScaler (to use on test data)
+        club_encoding_map: Club encoding mapping (to use on test data)
+        feature_names: List of all feature names
+    """
+    print("\nPREPARING FEATURES")
+    
+    df = df.copy()
+    
+    # Target variable (log-transformed)
+    y = transform_target(df[target_col])
+    print(f"Target: log-transformed {target_col}")
+    
+    # Numerical features (standardized)
+    print("Standardizing numerical features")
+    scaler = StandardScaler()
+    X_numerical = pd.DataFrame(
+        scaler.fit_transform(df[NUMERICAL_FEATURES]),
+        columns=NUMERICAL_FEATURES,
+        index=df.index
+    )
+    print(f"  Standardized {len(NUMERICAL_FEATURES)} numerical features")
+    
+    # Position clusters (binary, as-is)
+    X_positions = df[POSITION_CLUSTERS].copy()
+    print(f"Position clusters: {len(POSITION_CLUSTERS)} features")
+    
+    # Nationality features (one-hot)
+    X_nationality = create_nationality_features(df)
+    X_nationality.index = df.index
+    
+    # League features (one-hot)
+    X_league = create_league_features(df)
+    X_league.index = df.index
+    
+    # Card category features (one-hot)
+    X_card = create_card_category_features(df)
+    X_card.index = df.index
+    
+    # Club target encoding
+    club_encoded, club_encoding_map = create_club_target_encoding(df, target_col)
+    X_club = pd.DataFrame({'club_encoded': club_encoded}, index=df.index)
+    
+    # Combine all features
+    X = pd.concat([
+        X_numerical,
+        X_positions,
+        X_nationality,
+        X_league,
+        X_card,
+        X_club
+    ], axis=1)
+    
+    feature_names = list(X.columns)
+    
+    print("FEATURE PREPARATION COMPLETE")
+    print(f"\nTotal features: {len(feature_names)}")
+    print(f"Total samples: {len(X)}")
+    
+    return X, y, scaler, club_encoding_map, feature_names
+
+
 # TESTING THE FEATURE ENGINEERING FUNCTIONS
 if __name__ == "__main__":
     # Load data
     df = load_data()
     
-    # Test each function
-    print("TESTING FEATURE ENGINEERING FUNCTIONS")
+    # Prepare features using main pipeline
+    X, y, scaler, club_encoding_map, feature_names = prepare_features(df)
     
-    # Nationality features
-    nat_features = create_nationality_features(df)
-    print(f"  Columns: {list(nat_features.columns)}")
+    #SUMMARY
+    print("\nSUMMARY")
+    print(f"Feature matrix shape: {X.shape}")
+    print(f"Target vector shape: {y.shape}")
     
-    # League features
-    league_features = create_league_features(df)
-    print(f"  Columns: {list(league_features.columns)}")
+    print(f"\nFeatures by category:")
+    print(f"  Numerical (standardized): {len(NUMERICAL_FEATURES)}")
+    print(f"  Position clusters: {len(POSITION_CLUSTERS)}")
+    print(f"  Nationality: 11")
+    print(f"  League: 9")
+    print(f"  Card category: 3")
+    print(f"  Club encoded: 1")
+    print(f"  TOTAL: {len(feature_names)}")
     
-    # Club target encoding
-    club_encoded, club_map = create_club_target_encoding(df)
-    print(f"  Top 3 clubs: {sorted(club_map.items(), key=lambda x: x[1], reverse=True)[:3]}")
+    # Detailed feature list of all 41 features
+    print(f"\nAll features:")
+    for i, name in enumerate(feature_names, 1):
+        print(f"  {i:2d}. {name}")
     
-    # Card category features
-    card_features = create_card_category_features(df)
-    print(f"  Columns: {list(card_features.columns)}")
+    # Show target stats for log-transformed prices
+    print(f"\nTarget (log-transformed price):")
+    print(f"  Min: {y.min():.2f}")
+    print(f"  Max: {y.max():.2f}")
+    print(f"  Mean: {y.mean():.2f}")
     
-    # Target transformation
-    y = transform_target(df['price_w1'])
-    print(f"\nTarget transformation:")
-    print(f"  Original: min={df['price_w1'].min()}, max={df['price_w1'].max()}")
-    print(f"  Log-transformed: min={y.min():.2f}, max={y.max():.2f}")
+    # Show top 5 clubs by encoded value
+    print(f"\nTop 5 clubs by encoded value:")
+    sorted_clubs = sorted(
+        [(k, v) for k, v in club_encoding_map.items() if k != '__global_mean__'],
+        key=lambda x: x[1], 
+        reverse=True
+    )
+    for club, value in sorted_clubs[:5]:
+        print(f"  {club}: {value:,.0f}")
