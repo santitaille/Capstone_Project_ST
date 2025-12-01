@@ -13,15 +13,23 @@ import pandas as pd
 
 from sklearn.ensemble import RandomForestRegressor
 
-from feature_engineering import load_data, prepare_features
-from evaluation_metrics import evaluate_predictions
+import sys
+from pathlib import Path
+# Add src to path
+SRC_ROOT = Path(__file__).resolve().parent.parent
+if str(SRC_ROOT) not in sys.path:
+    sys.path.insert(0, str(SRC_ROOT))
+
+from preprocessing.feature_engineering import load_data, prepare_features
+from models.evaluation_metrics import evaluate_predictions
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
 
-if __name__ == "__main__":
+def main():
+    """Run Random Forest"""
     try:
         # Load full dataset (players_complete.csv)
         df = load_data()
@@ -107,7 +115,10 @@ if __name__ == "__main__":
             "pred_price_w2": np.expm1(y_test_pred_log).round(0),
         })
 
-        results_path = "/files/Capstone_Project_ST/data/processed/predictions_random_forest_w2.csv"
+        PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+        results_path = PROJECT_ROOT / "results" / "predictions" / "predictions_random_forest_w2.csv"
+        # Make sure directory exists:
+        results_path.parent.mkdir(parents=True, exist_ok=True)
         results_df.to_csv(results_path, index=False, float_format='%.0f')
         logger.info(f"Predictions saved to: {results_path}")
 
@@ -129,3 +140,6 @@ if __name__ == "__main__":
     except Exception as e:
         logger.error(f"Unexpected error during random forest modeling: {e}")
         raise
+
+if __name__ == "__main__":
+    main()
