@@ -1,0 +1,802 @@
+player_name,rating,card_category,price_w2,pred_price_w2,price_diff,price_diff_pct,status
+Antonio Nusa,85,Special,17250,55371,38121,220.9913043478261,Underpriced
+Omar Marmoush,84,Gold,1500,4023,2523,168.2,Underpriced
+João Pedro Gonçalves Neves,86,Special,13500,35421,21921,162.37777777777777,Underpriced
+Pichon,88,Icons_Heroes,105000,261625,156625,149.16666666666666,Underpriced
+Schelin,90,Icons_Heroes,360000,848686,488686,135.7461111111111,Underpriced
+Tijjani Reijnders,87,Special,230000,540671,310671,135.07434782608695,Underpriced
+Hakan Çalhanoğlu,87,Special,15750,36978,21228,134.78095238095239,Underpriced
+Ljungberg,87,Special,22750,49943,27193,119.52967032967032,Underpriced
+Lionel Messi,87,Special,57000,119149,62149,109.03333333333333,Underpriced
+Vinícius José De Oliveira Júnior,90,Special,820000,1637590,817590,99.70609756097562,Underpriced
+Simone Laudehr,88,Icons_Heroes,45000,89283,44283,98.40666666666667,Underpriced
+Alexia Putellas Segura,92,Special,360000,688419,328419,91.22749999999999,Underpriced
+Rose Lavelle,88,Special,30000,56260,26260,87.53333333333333,Underpriced
+Giuly,87,Special,49000,90189,41189,84.05918367346939,Underpriced
+Anass Zaroury,86,Special,15250,27970,12720,83.40983606557377,Underpriced
+Mayra Ramírez,83,Gold,1000,1817,817,81.69999999999999,Underpriced
+Cantona,89,Icons_Heroes,499000,901862,402862,80.73386773547094,Underpriced
+Dos Santos Futre,88,Icons_Heroes,183000,327249,144249,78.82459016393443,Underpriced
+Dos Santos Futre,89,Special,705000,1211810,506810,71.88794326241134,Underpriced
+Luis Díaz,86,Special,44750,75771,31021,69.32067039106146,Underpriced
+Campos,88,Special,15250,25675,10425,68.36065573770492,Underpriced
+Grace Geyoro,86,Gold,6900,11557,4657,67.4927536231884,Underpriced
+Kessler,88,Icons_Heroes,34000,56842,22842,67.18235294117648,Underpriced
+Paulo Dybala,88,Special,141000,234695,93695,66.45035460992908,Underpriced
+Cody Gakpo,86,Special,24500,40488,15988,65.25714285714285,Underpriced
+Madeira Caeiro Figo,89,Icons_Heroes,235000,386906,151906,64.64085106382979,Underpriced
+Jude Bellingham,91,Special,236000,388105,152105,64.45127118644068,Underpriced
+Butragueño Santos,89,Icons_Heroes,668000,1096400,428400,64.1317365269461,Underpriced
+Smith,89,Icons_Heroes,239000,390894,151894,63.55397489539749,Underpriced
+Cha,86,Icons_Heroes,168000,272850,104850,62.410714285714285,Underpriced
+Joško Gvardiol,86,Special,41250,66787,25537,61.907878787878786,Underpriced
+Mcmanaman,87,Icons_Heroes,34500,55472,20972,60.788405797101454,Underpriced
+Sánchez,89,Icons_Heroes,259000,415057,156057,60.25366795366796,Underpriced
+Carlos Alberto Torres,91,Icons_Heroes,833000,1318628,485628,58.29867947178872,Underpriced
+Giuly,86,Icons_Heroes,22250,35156,12906,58.00449438202248,Underpriced
+Laia Aleixandri López,86,Special,12750,20110,7360,57.72549019607843,Underpriced
+Brolin,87,Icons_Heroes,67000,105281,38281,57.13582089552239,Underpriced
+Scott Mctominay,87,Special,65000,101554,36554,56.23692307692308,Underpriced
+Nedved,88,Icons_Heroes,110000,171520,61520,55.92727272727272,Underpriced
+Erling Haaland,91,Special,370000,569219,199219,53.842972972972966,Underpriced
+Clara Mateo,86,Special,14750,22685,7935,53.79661016949152,Underpriced
+Enzo Francescoli,88,Icons_Heroes,88000,134660,46660,53.02272727272728,Underpriced
+Abily,90,Icons_Heroes,400000,611868,211868,52.967,Underpriced
+Miyama,90,Icons_Heroes,171000,261099,90099,52.68947368421053,Underpriced
+Caroline Graham Hansen,90,Gold,163000,248487,85487,52.44601226993865,Underpriced
+Charlton,92,Icons_Heroes,1040000,1575992,535992,51.5376923076923,Underpriced
+Lukáš Haraslín,87,Special,15500,23475,7975,51.45161290322581,Underpriced
+Klara Bühl,88,Special,19000,28755,9755,51.3421052631579,Underpriced
+Christian Pulisic,87,Special,43000,64816,21816,50.734883720930235,Underpriced
+Sneijder,88,Icons_Heroes,181000,272309,91309,50.44696132596685,Underpriced
+Katie Mccabe,88,Special,20750,31173,10423,50.23132530120482,Underpriced
+Giovanni Di Lorenzo,83,Gold,850,1275,425,50.0,Underpriced
+Franc. Dos Santos,92,Icons_Heroes,801000,1196515,395515,49.377652933832714,Underpriced
+Alejandro Grimaldo García,87,Special,34000,50602,16602,48.82941176470588,Underpriced
+Berbatov,87,Icons_Heroes,19500,28967,9467,48.54871794871795,Underpriced
+Petit,87,Icons_Heroes,209000,309692,100692,48.17799043062201,Underpriced
+Ginola,89,Icons_Heroes,1100000,1625286,525286,47.75327272727273,Underpriced
+Débora C. De Oliveira,89,Special,136000,199809,63809,46.91838235294118,Underpriced
+Declan Rice,88,Special,37250,54641,17391,46.68724832214765,Underpriced
+María Pilar León Cebrián,90,Special,35500,52025,16525,46.54929577464789,Underpriced
+Alejandro Grimaldo García,86,Special,18750,27474,8724,46.528000000000006,Underpriced
+Di Natale,89,Special,919000,1341758,422758,46.001958650707294,Underpriced
+Serge Gnabry,85,Special,12000,17493,5493,45.775,Underpriced
+Zambrotta,86,Icons_Heroes,210000,305487,95487,45.47,Underpriced
+Lineth Beerensteyn,86,Special,11250,16351,5101,45.342222222222226,Underpriced
+Daniel Ballard,86,Special,13500,19588,6088,45.096296296296295,Underpriced
+Florian Wirtz,89,Gold,30250,43888,13638,45.08429752066116,Underpriced
+Iñaki Williams Arthuer,83,Gold,900,1298,398,44.22222222222222,Underpriced
+Marcos Aoás Corrêa,87,Gold,11000,15825,4825,43.86363636363637,Underpriced
+Rafael A. Ferreira Silva,84,Special,20000,28653,8653,43.265,Underpriced
+Rafael Da Conceição Leão,86,Special,529000,753939,224939,42.521550094517956,Underpriced
+Erling Haaland,92,Special,890000,1265169,375169,42.153820224719105,Underpriced
+Ewa Pajor,88,Gold,14750,20927,6177,41.877966101694916,Underpriced
+Malo Gusto,84,Special,14000,19795,5795,41.39285714285714,Underpriced
+Donovan,86,Icons_Heroes,20000,28241,8241,41.205000000000005,Underpriced
+Vinícius José De Oliveira Júnior,90,Special,1990000,2803756,813756,40.89226130653266,Underpriced
+Vieira De Oliveira,89,Icons_Heroes,293000,412250,119250,40.69965870307167,Underpriced
+Adrien Rabiot,83,Gold,800,1125,325,40.625,Underpriced
+Riquelme,88,Icons_Heroes,82000,115303,33303,40.613414634146345,Underpriced
+Débora C. De Oliveira,88,Gold,14750,20698,5948,40.32542372881356,Underpriced
+Kuyt,86,Icons_Heroes,23500,32957,9457,40.242553191489364,Underpriced
+Rosický,86,Icons_Heroes,26000,36433,10433,40.12692307692308,Underpriced
+Van Persie,88,Icons_Heroes,207000,289827,82827,40.01304347826087,Underpriced
+Álvaro Borja Morata Martín,87,Special,13250,18506,5256,39.66792452830188,Underpriced
+Smolarek,86,Icons_Heroes,84500,117989,33489,39.63195266272189,Underpriced
+Kohler,89,Icons_Heroes,58000,80302,22302,38.45172413793104,Underpriced
+Ayew,89,Icons_Heroes,200000,276606,76606,38.303,Underpriced
+Mohamed Salah,92,Special,595000,822831,227831,38.2909243697479,Underpriced
+Cher Ndour,86,Special,17500,24161,6661,38.06285714285714,Underpriced
+Carragher,86,Icons_Heroes,27250,37526,10276,37.710091743119264,Underpriced
+Jeremie Frimpong,86,Special,145000,198673,53673,37.01586206896552,Underpriced
+Antoine Griezmann,87,Special,102000,139602,37602,36.86470588235294,Underpriced
+Pernille Harder,87,Special,12000,16399,4399,36.65833333333333,Underpriced
+Ada Hegerberg,87,Special,12500,17082,4582,36.656,Underpriced
+Nathan Tella,86,Special,12000,16376,4376,36.46666666666666,Underpriced
+Bergkamp,90,Icons_Heroes,170000,231829,61829,36.370000000000005,Underpriced
+Prinz,92,Icons_Heroes,125000,170267,45267,36.2136,Underpriced
+Desailly,88,Icons_Heroes,560000,762643,202643,36.18625,Underpriced
+Anthony Gordon,87,Special,234000,318288,84288,36.02051282051282,Underpriced
+Cole,87,Icons_Heroes,65500,89014,23514,35.89923664122137,Underpriced
+Dominik Szoboszlai,83,Gold,800,1086,286,35.75,Underpriced
+Crouch,87,Special,27750,37533,9783,35.25405405405405,Underpriced
+Jones,89,Icons_Heroes,142000,191749,49749,35.03450704225352,Underpriced
+Florian Wirtz,89,Special,407000,549389,142389,34.98501228501228,Underpriced
+Julián Alvarez,87,Gold,10750,14486,3736,34.753488372093024,Underpriced
+Joshua Kimmich,89,Special,144000,193887,49887,34.643750000000004,Underpriced
+Griedge Mbock,83,Gold,850,1144,294,34.588235294117645,Underpriced
+Bernardo Mota Carvalho E Silva,84,Gold,1400,1879,479,34.214285714285715,Underpriced
+Cruyff,93,Icons_Heroes,3928000,5261602,1333602,33.951171079429734,Underpriced
+Ousmane Dembélé,90,Special,3100000,4151558,1051558,33.92122580645161,Underpriced
+Wouter Burger,83,Special,12000,16061,4061,33.84166666666666,Underpriced
+Cahill,85,Icons_Heroes,13000,17345,4345,33.42307692307692,Underpriced
+Del Piero,90,Icons_Heroes,470000,625219,155219,33.02531914893617,Underpriced
+Mascherano,89,Special,147000,195055,48055,32.69047619047619,Underpriced
+Caroline Weir,87,Special,13500,17913,4413,32.68888888888889,Underpriced
+Dan Ndoye,84,Special,12000,15920,3920,32.666666666666664,Underpriced
+Antony Matheus Dos Santos,85,Special,17250,22860,5610,32.52173913043478,Underpriced
+César Costa,87,Icons_Heroes,38000,50353,12353,32.50789473684211,Underpriced
+Gomez,88,Icons_Heroes,25750,34105,8355,32.44660194174757,Underpriced
+Tévez,88,Icons_Heroes,204000,269277,65277,31.998529411764704,Underpriced
+Ben Davies,84,Special,12000,15769,3769,31.40833333333333,Underpriced
+Keira Walsh,86,Special,14000,18354,4354,31.1,Underpriced
+Yeremay Hernández Cubas,86,Special,12250,16046,3796,30.987755102040815,Underpriced
+Rodrygo Silva De Goes,86,Special,49000,64096,15096,30.80816326530612,Underpriced
+Virgil Van Dijk,90,Gold,55000,71930,16930,30.78181818181818,Underpriced
+Ellie Carpenter,86,Special,12250,15936,3686,30.089795918367347,Underpriced
+Hamšík,88,Special,579000,751604,172604,29.81070811744387,Underpriced
+Müller,92,Icons_Heroes,341000,442405,101405,29.737536656891493,Underpriced
+Igor Jesus Maciel Da Cruz,86,Special,22500,29177,6677,29.675555555555555,Underpriced
+Morgan,91,Icons_Heroes,1790000,2314980,524980,29.32849162011173,Underpriced
+Milito,88,Icons_Heroes,32500,42000,9500,29.230769230769234,Underpriced
+Ibrahim Maza,83,Special,12000,15470,3470,28.916666666666668,Underpriced
+Seydou Doumbia,85,Icons_Heroes,96500,124356,27856,28.86632124352332,Underpriced
+Nicholas Williams Arthuer,86,Gold,27000,34784,7784,28.82962962962963,Underpriced
+Leny Yoro,86,Special,64000,82387,18387,28.7296875,Underpriced
+Antonio Rüdiger,86,Gold,8300,10680,2380,28.674698795180724,Underpriced
+Rosemonde Kouassi,83,Special,13750,17665,3915,28.472727272727273,Underpriced
+Di Natale,88,Icons_Heroes,556000,712838,156838,28.208273381294962,Underpriced
+Esmee Brugts,83,Special,12000,15382,3382,28.183333333333334,Underpriced
+Cristiano Ronaldo Dos Santos Aveiro,88,Special,595000,760512,165512,27.81714285714286,Underpriced
+Šuker,87,Icons_Heroes,72000,91951,19951,27.709722222222222,Underpriced
+Bruno Guimarães Moura,87,Special,24750,31563,6813,27.527272727272727,Underpriced
+Benedict Hollerbach,86,Special,18500,23520,5020,27.135135135135137,Underpriced
+Vinícius José De Oliveira Júnior,89,Gold,315000,399600,84600,26.857142857142858,Underpriced
+Nakata,87,Icons_Heroes,38000,48190,10190,26.81578947368421,Underpriced
+Eberechi Eze,86,Special,100000,126748,26748,26.748,Underpriced
+Harry Kane,91,Special,505000,638183,133183,26.372871287128714,Underpriced
+Willi Orban,86,Special,16000,20169,4169,26.05625,Underpriced
+Jon Gorrotxategi,83,Special,12250,15439,3189,26.032653061224494,Underpriced
+Baggio,91,Icons_Heroes,238000,299514,61514,25.846218487394957,Underpriced
+Sneijder,89,Special,277000,347779,70779,25.551985559566788,Underpriced
+Claudia Pina Medina,86,Gold,7700,9664,1964,25.506493506493506,Underpriced
+Best,90,Icons_Heroes,660000,826924,166924,25.291515151515153,Underpriced
+Marchisio,87,Icons_Heroes,160000,200203,40203,25.126875,Underpriced
+Viktor Gyökeres,87,Gold,13000,16254,3254,25.030769230769227,Underpriced
+Vialli,89,Icons_Heroes,40000,50001,10001,25.0025,Underpriced
+Da Silva Ferreira,91,Icons_Heroes,2670000,3334758,664758,24.897303370786517,Underpriced
+Bryan Mbeumo,87,Special,83000,103516,20516,24.718072289156627,Underpriced
+Sara Däbritz,86,Special,19500,24273,4773,24.476923076923075,Underpriced
+Cannavaro,89,Icons_Heroes,419000,521367,102367,24.43126491646778,Underpriced
+Ventura Filho,89,Icons_Heroes,1460000,1815948,355948,24.38,Underpriced
+Georgia Stanway,86,Special,14750,18317,3567,24.183050847457626,Underpriced
+Griedge Mbock,86,Special,19000,23555,4555,23.973684210526315,Underpriced
+Bernardo Mota Carvalho E Silva,87,Special,147000,181991,34991,23.803401360544218,Underpriced
+Owen,88,Icons_Heroes,150000,185621,35621,23.747333333333334,Underpriced
+Hernández Creus,91,Icons_Heroes,400000,493667,93667,23.41675,Underpriced
+Jean-Philippe Mateta,84,Special,12000,14789,2789,23.241666666666667,Underpriced
+Robert Lewandowski,88,Gold,14500,17864,3364,23.200000000000003,Underpriced
+Tabitha Chawinga,86,Special,15250,18782,3532,23.160655737704918,Underpriced
+Khadija Shaw,90,Special,33250,40899,7649,23.004511278195487,Underpriced
+Matuidi,87,Special,500000,614840,114840,22.968,Underpriced
+Bruno Miguel Borges Fernandes,87,Gold,10750,13211,2461,22.893023255813954,Underpriced
+Robert Lewandowski,88,Special,240000,294297,54297,22.62375,Underpriced
+Angelo Stiller,85,Special,12500,15315,2815,22.52,Underpriced
+Wendie Renard,86,Special,26000,31852,5852,22.507692307692306,Underpriced
+Alphonso Davies,84,Gold,1800,2204,404,22.444444444444443,Underpriced
+Juan Cuadrado,86,Special,17750,21708,3958,22.298591549295775,Underpriced
+Álvaro Fernández Carreras,86,Special,76000,92862,16862,22.186842105263157,Underpriced
+Timothy Weah,85,Special,18500,22604,4104,22.183783783783785,Underpriced
+Lamine Yamal Nasraoui Ebana,89,Gold,60500,73858,13358,22.079338842975208,Underpriced
+Stoichkov,89,Icons_Heroes,601000,733329,132329,22.018136439267888,Underpriced
+Hernández,86,Icons_Heroes,74000,90202,16202,21.894594594594594,Underpriced
+Mikel Oyarzabal Ugarte,85,Special,11500,14017,2517,21.88695652173913,Underpriced
+Guus Til,83,Special,12000,14622,2622,21.85,Underpriced
+Ribéry,88,Icons_Heroes,585000,712624,127624,21.816068376068376,Underpriced
+Federico Valverde,89,Gold,142000,172671,30671,21.599295774647885,Underpriced
+Michael Olise,87,Special,142000,172565,30565,21.524647887323944,Underpriced
+Yoan Bonny,86,Special,170000,206564,36564,21.508235294117647,Underpriced
+Olga Carmona García,84,Gold,1400,1700,300,21.428571428571427,Underpriced
+Mohamed Salah,91,Gold,124000,150520,26520,21.387096774193548,Underpriced
+Lena Oberdorf,86,Special,22250,26987,4737,21.289887640449436,Underpriced
+Orri Óskarsson,85,Special,11250,13644,2394,21.279999999999998,Underpriced
+Florian Thauvin,85,Special,13500,16372,2872,21.274074074074072,Underpriced
+Ezri Konsa,85,Special,12000,14551,2551,21.258333333333333,Underpriced
+Exequiel Zeballos,83,Special,12000,14526,2526,21.05,Underpriced
+Puskás,92,Icons_Heroes,1285000,1551184,266184,20.714708171206226,Underpriced
+Cole Palmer,87,Gold,10750,12974,2224,20.688372093023254,Underpriced
+Raphael Dias Belloli,89,Gold,99500,119979,20479,20.581909547738693,Underpriced
+Gabriel Dos S. Magalhães,88,Gold,14750,17748,2998,20.32542372881356,Underpriced
+Márquez,88,Icons_Heroes,88000,105839,17839,20.271590909090907,Underpriced
+Alexia Putellas Segura,91,Gold,151000,181445,30445,20.16225165562914,Underpriced
+Géraldine Reuteler,84,Gold,1400,1682,282,20.142857142857142,Underpriced
+Crespo,86,Icons_Heroes,70000,84066,14066,20.094285714285714,Underpriced
+Litmanen,88,Icons_Heroes,22000,26401,4401,20.004545454545454,Underpriced
+Laudrup,88,Icons_Heroes,89500,107223,17723,19.802234636871507,Fair Value
+Völler,89,Icons_Heroes,192000,229371,37371,19.4640625,Fair Value
+Martin Ødegaard,87,Gold,10750,12826,2076,19.311627906976746,Fair Value
+Zanetti,89,Icons_Heroes,206000,245643,39643,19.244174757281556,Fair Value
+Pedro António Pereira Gonçalves,86,Special,12750,15202,2452,19.231372549019607,Fair Value
+Romée Leuchter,84,Special,11750,14009,2259,19.22553191489362,Fair Value
+Al Owairan,85,Icons_Heroes,115000,136908,21908,19.050434782608697,Fair Value
+Jordan Ayew,85,Special,11000,13094,2094,19.03636363636364,Fair Value
+Scott,85,Icons_Heroes,26000,30949,4949,19.034615384615385,Fair Value
+Anthony Gordon,83,Gold,850,1010,160,18.823529411764707,Fair Value
+Alejandro Berenguer Remiro,85,Special,11250,13328,2078,18.47111111111111,Fair Value
+Ewa Pajor,89,Special,289000,340006,51006,17.649134948096886,Fair Value
+Hierro Ruiz,88,Icons_Heroes,139000,163512,24512,17.63453237410072,Fair Value
+Madison Haley,85,Special,10750,12640,1890,17.58139534883721,Fair Value
+Ljungberg,86,Icons_Heroes,27000,31711,4711,17.44814814814815,Fair Value
+Kylian Mbappé,92,Special,5970000,7003482,1033482,17.311256281407037,Fair Value
+Carlos Henrique Venancio Casimiro,84,Special,11750,13784,2034,17.31063829787234,Fair Value
+Khadija Shaw,90,Special,73500,86095,12595,17.136054421768705,Fair Value
+Arantes Nascimento,95,Icons_Heroes,4795000,5612336,817336,17.045589155370177,Fair Value
+Sophia Wilson,88,Gold,19250,22524,3274,17.007792207792207,Fair Value
+Sherida Spitse,85,Special,11000,12867,1867,16.972727272727273,Fair Value
+Tara Elimbi Gilbert,86,Special,12000,14012,2012,16.766666666666666,Fair Value
+Lautaro Martínez,88,Gold,14750,17222,2472,16.759322033898304,Fair Value
+Heung Min Son,88,Special,229000,267171,38171,16.668558951965064,Fair Value
+Rijkaard,87,Icons_Heroes,200000,233296,33296,16.648,Fair Value
+Juninho Bacuna,83,Special,11750,13660,1910,16.25531914893617,Fair Value
+Kadidiatou Diani,88,Gold,15000,17435,2435,16.233333333333334,Fair Value
+Croix Bethune,84,Special,12000,13912,1912,15.933333333333334,Fair Value
+Jaden Philogene,84,Special,17250,19976,2726,15.802898550724636,Fair Value
+Gattuso,86,Icons_Heroes,79000,91449,12449,15.758227848101267,Fair Value
+Erling Haaland,90,Gold,35500,41057,5557,15.653521126760564,Fair Value
+João Maria Palhinha Gonçalves,83,Gold,750,866,116,15.466666666666667,Fair Value
+Dempsey,85,Icons_Heroes,12750,14716,1966,15.419607843137253,Fair Value
+Torres Sanz,87,Icons_Heroes,320000,368902,48902,15.281875,Fair Value
+Caroline Weir,86,Special,13750,15826,2076,15.09818181818182,Fair Value
+Oihan Sancet Tirapu,84,Gold,1400,1611,211,15.071428571428571,Fair Value
+Vieira,88,Icons_Heroes,1230000,1413265,183265,14.89959349593496,Fair Value
+Carles Gil Pareja,83,Special,11750,13482,1732,14.740425531914894,Fair Value
+Achraf Hakimi,89,Gold,64000,73375,9375,14.6484375,Fair Value
+Sergej Milinković-Savić,84,Gold,1400,1605,205,14.642857142857144,Fair Value
+Zola,87,Icons_Heroes,289000,331231,42231,14.61280276816609,Fair Value
+Lineth Beerensteyn,84,Gold,1400,1604,204,14.571428571428571,Fair Value
+Keane,86,Icons_Heroes,77000,88215,11215,14.564935064935064,Fair Value
+Pedro González López,89,Gold,24000,27460,3460,14.416666666666666,Fair Value
+Scholes,88,Icons_Heroes,101000,115537,14537,14.393069306930691,Fair Value
+Trent Alexander-Arnold,86,Gold,6700,7659,959,14.313432835820898,Fair Value
+Harry Kane,90,Special,102000,116505,14505,14.220588235294118,Fair Value
+Klara Bühl,87,Special,18750,21410,2660,14.186666666666667,Fair Value
+Lotte Wubben-Moy,85,Special,11500,13107,1607,13.973913043478262,Fair Value
+Nicolae Stanciu,86,Special,13750,15661,1911,13.898181818181818,Fair Value
+Naomi Girma,85,Gold,3700,4211,511,13.81081081081081,Fair Value
+Alexander Isak,88,Gold,14500,16486,1986,13.696551724137931,Fair Value
+Córdoba,87,Icons_Heroes,265000,300790,35790,13.505660377358492,Fair Value
+Nathan Aké,83,Gold,850,962,112,13.176470588235295,Fair Value
+Morientes Sánchez,89,Icons_Heroes,60000,67898,7898,13.163333333333332,Fair Value
+Leroy Sané,84,Special,12000,13568,1568,13.066666666666665,Fair Value
+Salma Celeste Paralluelo Ayingono,86,Special,365000,412544,47544,13.025753424657536,Fair Value
+Seger,90,Icons_Heroes,158000,178551,20551,13.006962025316456,Fair Value
+Jade Le Guilly,84,Special,11000,12415,1415,12.863636363636363,Fair Value
+Thomas Müller,86,Special,12750,14389,1639,12.854901960784312,Fair Value
+Hazard,88,Icons_Heroes,688000,774980,86980,12.642441860465118,Fair Value
+Ousmane Dembélé,90,Gold,539000,606195,67195,12.46660482374768,Fair Value
+Mateo Retegui,83,Gold,750,843,93,12.4,Fair Value
+Georges,87,Icons_Heroes,89500,100595,11095,12.396648044692737,Fair Value
+Saki Kumagai,85,Special,12000,13487,1487,12.391666666666666,Fair Value
+Kim Little,87,Special,23250,26128,2878,12.378494623655914,Fair Value
+González Blanco,90,Icons_Heroes,428000,480524,52524,12.27196261682243,Fair Value
+Bradley Barcola,84,Gold,1400,1571,171,12.214285714285714,Fair Value
+Jorge Resurrección,84,Special,13250,14854,1604,12.10566037735849,Fair Value
+Pirlo,90,Icons_Heroes,225000,252122,27122,12.054222222222222,Fair Value
+Karim Adeyemi,86,Special,232000,259844,27844,12.001724137931035,Fair Value
+Khvicha Kvaratskhelia,87,Gold,10750,12019,1269,11.804651162790698,Fair Value
+Lineker,89,Icons_Heroes,82000,91654,9654,11.773170731707317,Fair Value
+Wright,87,Icons_Heroes,85000,94905,9905,11.652941176470588,Fair Value
+Lauren James,85,Gold,3700,4130,430,11.621621621621623,Fair Value
+Pernille Harder,87,Special,15250,17004,1754,11.501639344262294,Fair Value
+Dan Agyei,83,Special,12000,13376,1376,11.466666666666667,Fair Value
+Touré,88,Special,1299000,1447922,148922,11.464357197844496,Fair Value
+Aurélien Tchouaméni,84,Gold,2300,2558,258,11.217391304347826,Fair Value
+Iván Romero De Ávila,84,Special,12250,13529,1279,10.440816326530612,Fair Value
+Sadio Mané,83,Gold,750,828,78,10.4,Fair Value
+Lizarazu,88,Icons_Heroes,150000,165582,15582,10.388,Fair Value
+Nicolò Barella,87,Gold,11000,12140,1140,10.363636363636363,Fair Value
+Hugo Ekitiké,83,Gold,900,992,92,10.222222222222223,Fair Value
+Da Silva Rocha,90,Icons_Heroes,1174000,1291648,117648,10.021124361158433,Fair Value
+Pierre-Emerick Aubameyang,86,Special,27750,30505,2755,9.927927927927929,Fair Value
+Sakina Karchaoui,88,Special,285000,313275,28275,9.921052631578947,Fair Value
+Van Basten,91,Icons_Heroes,191000,209792,18792,9.838743455497383,Fair Value
+Jules Koundé,87,Gold,40000,43870,3870,9.675,Fair Value
+Denzel Dumfries,84,Gold,1400,1535,135,9.642857142857144,Fair Value
+Cristiano Ronaldo Dos Santos Aveiro,89,Special,889000,974277,85277,9.592463442069741,Fair Value
+Maika Hamano,86,Special,11500,12602,1102,9.582608695652175,Fair Value
+Rúben Santos Gato Alves Dias,86,Gold,6800,7448,648,9.529411764705882,Fair Value
+Kompany,88,Icons_Heroes,329000,360079,31079,9.446504559270517,Fair Value
+Allegra Poljak,86,Special,11750,12856,1106,9.412765957446808,Fair Value
+Gauthier Hein,83,Special,12000,13124,1124,9.366666666666665,Fair Value
+Mikel Merino Zazón,83,Gold,900,984,84,9.333333333333334,Fair Value
+Foudy,90,Icons_Heroes,135000,147596,12596,9.330370370370371,Fair Value
+Beth Mead,87,Gold,10500,11478,978,9.314285714285713,Fair Value
+Baresi,91,Icons_Heroes,185000,202175,17175,9.283783783783782,Fair Value
+Caroline Graham Hansen,90,Special,2190000,2392576,202576,9.250045662100456,Fair Value
+Wesley Saïd,83,Special,12000,13095,1095,9.125,Fair Value
+Keane,86,Icons_Heroes,99500,108523,9023,9.068341708542714,Fair Value
+Leandro Trossard,83,Gold,850,927,77,9.058823529411764,Fair Value
+Benjamin Pavard,84,Gold,1400,1526,126,9.0,Fair Value
+Cafu,91,Icons_Heroes,799000,870363,71363,8.93153942428035,Fair Value
+Kosovare Asllani,86,Special,11000,11974,974,8.854545454545455,Fair Value
+Moisés Caicedo,88,Special,98000,106658,8658,8.83469387755102,Fair Value
+Artem Dovbyk,83,Gold,800,870,70,8.75,Fair Value
+Makélélé,87,Icons_Heroes,299000,325125,26125,8.737458193979933,Fair Value
+Nicolas Seiwald,85,Special,10750,11689,939,8.734883720930233,Fair Value
+Kaishū Sano,84,Special,12000,13037,1037,8.641666666666667,Fair Value
+Noor,85,Icons_Heroes,14000,15200,1200,8.571428571428571,Fair Value
+Xavi Simons,84,Gold,1400,1519,119,8.5,Fair Value
+Saeed Al Rubaie,83,Special,12000,13005,1005,8.375,Fair Value
+Lena Lattwein,83,Gold,800,867,67,8.375,Fair Value
+Enzo Fernández,84,Gold,1400,1517,117,8.357142857142858,Fair Value
+Da Silva Júnior,87,Icons_Heroes,276000,298881,22881,8.290217391304349,Fair Value
+Vidic,87,Icons_Heroes,294000,318321,24321,8.272448979591838,Fair Value
+Borba Ferreira,90,Icons_Heroes,420000,454700,34700,8.261904761904763,Fair Value
+Marten De Roon,85,Special,12750,13781,1031,8.086274509803921,Fair Value
+Wendie Renard,85,Gold,3700,3991,291,7.864864864864865,Fair Value
+Naomi Girma,87,Special,35750,38542,2792,7.80979020979021,Fair Value
+Van Nistelrooy,89,Icons_Heroes,90000,96941,6941,7.712222222222222,Fair Value
+Jule Brand,83,Gold,900,969,69,7.666666666666666,Fair Value
+Antunes Coimbra,91,Icons_Heroes,3389000,3648396,259396,7.654057244024787,Fair Value
+Alejandro Baena Rodríguez,84,Gold,1400,1504,104,7.428571428571429,Fair Value
+Harry Kane,89,Gold,24000,25762,1762,7.341666666666667,Fair Value
+Jess Park,84,Special,12250,13146,896,7.314285714285715,Fair Value
+Athenea Del Castillo,83,Gold,850,912,62,7.294117647058823,Fair Value
+Maximilian Beier,85,Special,18500,19848,1348,7.286486486486486,Fair Value
+Beasley,85,Icons_Heroes,24250,26009,1759,7.2536082474226795,Fair Value
+Al Jaber,86,Icons_Heroes,18000,19286,1286,7.144444444444445,Fair Value
+Max Aarons,84,Special,10750,11511,761,7.079069767441861,Fair Value
+Fridolina Rolfö,84,Gold,1400,1496,96,6.857142857142858,Fair Value
+Nicole Anyomi,83,Gold,1100,1174,74,6.7272727272727275,Fair Value
+Francisco F. Da Conceição,85,Special,29250,31203,1953,6.676923076923077,Fair Value
+Trai Hume,84,Special,11750,12533,783,6.663829787234042,Fair Value
+Irene Paredes Hernández,88,Special,98000,104449,6449,6.58061224489796,Fair Value
+Pirès,87,Icons_Heroes,82500,87847,5347,6.4812121212121205,Fair Value
+Lucas Tolentino Coelho De Lima,84,Special,16000,17027,1027,6.418749999999999,Fair Value
+María Francesca Caldentey Oliver,89,Special,86500,92027,5527,6.389595375722544,Fair Value
+Jamal Musiala,88,Gold,15500,16468,968,6.245161290322581,Fair Value
+Ademola Lookman,84,Gold,1400,1487,87,6.214285714285714,Fair Value
+Barnes,87,Icons_Heroes,157000,166648,9648,6.145222929936306,Fair Value
+Sawa,91,Icons_Heroes,680000,721238,41238,6.064411764705882,Fair Value
+Mikel Oyarzabal Ugarte,86,Special,26000,27573,1573,6.05,Fair Value
+Lauren Hemp,87,Gold,10500,11132,632,6.019047619047619,Fair Value
+Solskjær,86,Icons_Heroes,30750,32574,1824,5.931707317073171,Fair Value
+Cody Gakpo,84,Gold,1400,1482,82,5.857142857142858,Fair Value
+Govou,86,Icons_Heroes,110000,116214,6214,5.649090909090909,Fair Value
+Ismael Saibari,84,Special,12250,12939,689,5.624489795918367,Fair Value
+Blanc,88,Icons_Heroes,430000,454128,24128,5.611162790697674,Fair Value
+Patricia Guijarro Gutiérrez,89,Gold,23750,25056,1306,5.498947368421052,Fair Value
+Rooney,88,Icons_Heroes,468000,493284,25284,5.402564102564102,Fair Value
+Shevchenko,88,Icons_Heroes,128000,134686,6686,5.2234375,Fair Value
+Lima Do Amor,86,Icons_Heroes,149000,156680,7680,5.154362416107382,Fair Value
+Giovanni Di Lorenzo,86,Special,76000,79892,3892,5.121052631578947,Fair Value
+Thomas Müller,83,Special,14250,14956,706,4.954385964912281,Fair Value
+Catarina Cantanhede Macario,83,Gold,850,892,42,4.941176470588235,Fair Value
+Elena Linari,83,Gold,750,787,37,4.933333333333334,Fair Value
+João Pedro Cavaco Cancelo,84,Gold,1400,1467,67,4.785714285714286,Fair Value
+Jude Bellingham,90,Gold,36000,37703,1703,4.730555555555556,Fair Value
+Idrissa Touré,83,Special,12250,12827,577,4.710204081632654,Fair Value
+Niccolò Pierozzi,83,Special,12000,12558,558,4.65,Fair Value
+Dalglish,89,Icons_Heroes,890000,931146,41146,4.62314606741573,Fair Value
+Beatriz Zaneratto João,84,Special,12250,12775,525,4.285714285714286,Fair Value
+William Saliba,87,Gold,23750,24731,981,4.130526315789473,Fair Value
+Thomas Partey,83,Gold,800,833,33,4.125,Fair Value
+Christian Pulisic,86,Special,49250,51275,2025,4.111675126903553,Fair Value
+Linda Caicedo,85,Gold,3600,3746,146,4.055555555555555,Fair Value
+Géraldine Reuteler,85,Special,10750,11164,414,3.8511627906976744,Fair Value
+Henry,91,Icons_Heroes,2075000,2154738,79738,3.842795180722892,Fair Value
+Pablo Fornals Malla,85,Special,14000,14534,534,3.8142857142857145,Fair Value
+Emelyne Laurent,86,Special,12750,13228,478,3.7490196078431377,Fair Value
+Mykola Matviienko,84,Special,10500,10883,383,3.6476190476190475,Fair Value
+Pedro António Pereira Gonçalves,83,Gold,800,829,29,3.6249999999999996,Fair Value
+Estéban Lepaul,83,Special,12000,12430,430,3.5833333333333335,Fair Value
+Danny Da Costa,84,Special,11750,12168,418,3.5574468085106385,Fair Value
+Rasmus Højlund,87,Special,74000,76600,2600,3.5135135135135136,Fair Value
+André-Franck Zambo Anguissa,84,Special,12000,12416,416,3.4666666666666663,Fair Value
+Korbin Shrader,84,Special,12250,12674,424,3.4612244897959186,Fair Value
+Vítor Machado Ferreira,90,Special,100000,103451,3451,3.451,Fair Value
+Selma Bacha,85,Gold,3800,3931,131,3.4473684210526314,Fair Value
+Kenneth Taylor,84,Special,11500,11894,394,3.4260869565217393,Fair Value
+Chloe Kelly,87,Gold,10500,10856,356,3.3904761904761904,Fair Value
+Boubacar Kamara,83,Gold,800,827,27,3.375,Fair Value
+Ferran Torres García,83,Gold,900,930,30,3.3333333333333335,Fair Value
+Denise O'Sullivan,85,Special,21000,21698,698,3.323809523809524,Fair Value
+Moussa Diaby,84,Gold,1400,1445,45,3.214285714285714,Fair Value
+Rúben Diogo Da Silva Neves,86,Special,16000,16503,503,3.14375,Fair Value
+Kluivert,87,Icons_Heroes,72500,74737,2237,3.0855172413793106,Fair Value
+Drogba,89,Icons_Heroes,416000,428673,12673,3.0463942307692307,Fair Value
+Divin Mubama,83,Special,12000,12357,357,2.9749999999999996,Fair Value
+Hamm,93,Icons_Heroes,5700000,5867050,167050,2.930701754385965,Fair Value
+Rodrigo De Paul,84,Gold,1400,1441,41,2.928571428571429,Fair Value
+Alonso Olano,87,Icons_Heroes,96000,98651,2651,2.7614583333333336,Fair Value
+Riise,86,Icons_Heroes,55000,56495,1495,2.7181818181818183,Fair Value
+Eseosa Aigbogun,84,Special,11000,11283,283,2.5727272727272728,Fair Value
+Victor Edvardsen,84,Special,10500,10768,268,2.5523809523809526,Fair Value
+James Maddison,84,Gold,1400,1433,33,2.357142857142857,Fair Value
+Christian Pulisic,84,Gold,1400,1433,33,2.357142857142857,Fair Value
+Meschack Elia,83,Special,11750,12018,268,2.2808510638297874,Fair Value
+Gianluca Mancini,85,Special,14000,14317,317,2.2642857142857142,Fair Value
+Francesco Acerbi,84,Gold,1400,1431,31,2.214285714285714,Fair Value
+Roger Martínez,83,Special,12000,12265,265,2.2083333333333335,Fair Value
+Lindsey Heaps,88,Special,83500,85340,1840,2.2035928143712575,Fair Value
+Luka Modrić,83,Gold,850,868,18,2.1176470588235294,Fair Value
+Francisco Román Alarcón Suárez,84,Gold,1400,1429,29,2.071428571428571,Fair Value
+Kevin De Bruyne,87,Gold,10750,10969,219,2.0372093023255813,Fair Value
+Steph Catley,84,Gold,1400,1427,27,1.9285714285714284,Fair Value
+Koeman,88,Icons_Heroes,145000,147768,2768,1.9089655172413793,Fair Value
+Puyol Saforcada,89,Icons_Heroes,183000,186489,3489,1.9065573770491804,Fair Value
+Bukayo Saka,88,Gold,14500,14776,276,1.903448275862069,Fair Value
+Aleix García Serrano,83,Gold,800,815,15,1.875,Fair Value
+Pernille Harder,86,Gold,6900,7025,125,1.8115942028985508,Fair Value
+Mascherano,88,Icons_Heroes,67500,68623,1123,1.6637037037037037,Fair Value
+Vanessa Gilles,83,Gold,800,813,13,1.625,Fair Value
+Cristian Romero,86,Special,32000,32498,498,1.55625,Fair Value
+Domenico Berardi,85,Special,12000,12168,168,1.4000000000000001,Fair Value
+Joško Gvardiol,84,Gold,1600,1621,21,1.3125,Fair Value
+Dolores Isabel Jácome Da Silva,84,Special,10500,10633,133,1.2666666666666666,Fair Value
+Ruben Kluivert,84,Special,12750,12911,161,1.2627450980392156,Fair Value
+Dominik Szoboszlai,87,Special,130000,131548,1548,1.1907692307692308,Fair Value
+Ayoze Pérez Gutiérrez,83,Gold,950,959,9,0.9473684210526316,Fair Value
+Sandro Tonali,86,Gold,6900,6946,46,0.6666666666666667,Fair Value
+Lindsey Heaps,87,Gold,10500,10566,66,0.6285714285714286,Fair Value
+Mika Mármol Medina,83,Special,11750,11804,54,0.4595744680851064,Fair Value
+Dayot Upamecano,85,Gold,3700,3717,17,0.45945945945945943,Fair Value
+Paulo Dybala,86,Gold,6800,6830,30,0.4411764705882353,Fair Value
+Glódís Perla Viggósdóttir,84,Gold,1400,1406,6,0.4285714285714286,Fair Value
+Barbra Banda,85,Gold,3600,3609,9,0.25,Fair Value
+Larsson,86,Icons_Heroes,75000,75142,142,0.18933333333333333,Fair Value
+Verón,86,Icons_Heroes,75000,75139,139,0.18533333333333332,Fair Value
+Ibrahima Konaté,86,Gold,6800,6808,8,0.1176470588235294,Fair Value
+Fiamma Benítez Ianuzzi,84,Special,12750,12761,11,0.08627450980392157,Fair Value
+Marie Katoto,88,Gold,14500,14497,-3,-0.020689655172413793,Fair Value
+Schweinsteiger,88,Icons_Heroes,142000,141937,-63,-0.04436619718309859,Fair Value
+Giulia Gwinn,84,Gold,1400,1399,-1,-0.07142857142857142,Fair Value
+Michael Olise,86,Gold,6600,6589,-11,-0.16666666666666669,Fair Value
+Aitana Bonmatí Conca,91,Gold,230000,229558,-442,-0.19217391304347825,Fair Value
+Jessie Fleming,86,Special,10750,10727,-23,-0.21395348837209305,Fair Value
+Daniëlle Van De Donk,83,Gold,900,897,-3,-0.33333333333333337,Fair Value
+Kingsley Coman,83,Gold,850,847,-3,-0.35294117647058826,Fair Value
+Daniel Vivian Moreno,84,Gold,1400,1395,-5,-0.35714285714285715,Fair Value
+Okocha,88,Icons_Heroes,255000,253973,-1027,-0.40274509803921565,Fair Value
+Benjamin White,83,Gold,950,946,-4,-0.42105263157894735,Fair Value
+Kevin Rodríguez,84,Special,11750,11700,-50,-0.425531914893617,Fair Value
+Aldana Cometti,85,Special,10750,10704,-46,-0.4279069767441861,Fair Value
+Maradona,95,Icons_Heroes,3890000,3872484,-17516,-0.4502827763496144,Fair Value
+Marchisio,88,Special,300000,298521,-1479,-0.49300000000000005,Fair Value
+Serhou Guirassy,87,Gold,10500,10446,-54,-0.5142857142857142,Fair Value
+Williams,86,Icons_Heroes,26500,26340,-160,-0.6037735849056604,Fair Value
+Lauren James,87,Special,254000,252446,-1554,-0.6118110236220472,Fair Value
+Šašic,89,Icons_Heroes,25000,24816,-184,-0.736,Fair Value
+Stanislav Lobotka,83,Gold,800,794,-6,-0.75,Fair Value
+Robin Le Normand,83,Gold,800,794,-6,-0.75,Fair Value
+Melchie Dumornay,86,Gold,6700,6648,-52,-0.7761194029850746,Fair Value
+Kanu,86,Icons_Heroes,13250,13138,-112,-0.8452830188679246,Fair Value
+Désiré Doué,85,Gold,4100,4061,-39,-0.9512195121951219,Fair Value
+Giada Greggi,84,Gold,1400,1386,-14,-1.0,Fair Value
+Lena Oberdorf,84,Gold,1400,1385,-15,-1.0714285714285714,Fair Value
+Simone Laudehr,90,Special,174000,172055,-1945,-1.117816091954023,Fair Value
+Jovana Damnjanović,84,Special,11500,11371,-129,-1.1217391304347826,Fair Value
+Papin,89,Icons_Heroes,52500,51880,-620,-1.180952380952381,Fair Value
+Dos Santos Leite,89,Icons_Heroes,718000,709349,-8651,-1.2048746518105848,Fair Value
+Emily Sonnett,83,Gold,850,839,-11,-1.2941176470588236,Fair Value
+Youri Tielemans,85,Gold,3700,3652,-48,-1.2972972972972971,Fair Value
+Mikael Ishak,85,Special,11000,10851,-149,-1.3545454545454547,Fair Value
+João Félix Sequeira,86,Special,86000,84811,-1189,-1.3825581395348836,Fair Value
+Mason Greenwood,84,Special,14500,14285,-215,-1.4827586206896552,Fair Value
+Dominique Janssen,83,Gold,850,837,-13,-1.5294117647058825,Fair Value
+Nicolás Otamendi,86,Special,19500,19199,-301,-1.5435897435897437,Fair Value
+Trinity Rodman,85,Gold,4000,3938,-62,-1.55,Fair Value
+Antoine Semenyo,83,Special,13500,13288,-212,-1.5703703703703702,Fair Value
+Glódís Perla Viggósdóttir,85,Special,11000,10824,-176,-1.6,Fair Value
+Al Owairan,86,Special,169000,166259,-2741,-1.6218934911242604,Fair Value
+Konrad Laimer,84,Special,15000,14749,-251,-1.6733333333333333,Fair Value
+Tim Ream,85,Special,11250,11058,-192,-1.7066666666666668,Fair Value
+Franz Beckenbauer,92,Icons_Heroes,1080000,1061208,-18792,-1.7399999999999998,Fair Value
+Thuram,88,Icons_Heroes,1499000,1471070,-27930,-1.8632421614409607,Fair Value
+Jaedyn Shaw,83,Special,11750,11531,-219,-1.8638297872340428,Fair Value
+Iago Aspas Juncal,83,Gold,850,834,-16,-1.8823529411764703,Fair Value
+Damaris Berta Egurrola Wienke,84,Gold,1400,1373,-27,-1.9285714285714284,Fair Value
+Eduardo David Espiau Hernández,83,Special,12000,11761,-239,-1.9916666666666667,Fair Value
+Sara Doorsoun,84,Gold,1400,1372,-28,-2.0,Fair Value
+Riyad Mahrez,85,Special,12500,12245,-255,-2.04,Fair Value
+Mary Alice Vignola,85,Special,11750,11507,-243,-2.068085106382979,Fair Value
+Matheus Santos Carneiro Da Cunha,83,Gold,900,881,-19,-2.111111111111111,Fair Value
+Víctor Ibarbo,85,Icons_Heroes,81500,79742,-1758,-2.1570552147239264,Fair Value
+Cédric Bakambu,85,Special,12250,11981,-269,-2.195918367346939,Fair Value
+Touré,87,Icons_Heroes,575000,561982,-13018,-2.2640000000000002,Fair Value
+Morten Hjulmand,83,Gold,850,830,-20,-2.3529411764705883,Fair Value
+Malik Tillman,85,Special,19750,19248,-502,-2.5417721518987344,Fair Value
+Moise Kean,83,Gold,800,779,-21,-2.625,Fair Value
+Leah Williamson,87,Gold,10750,10466,-284,-2.641860465116279,Fair Value
+Trinity Rodman,87,Special,235000,228787,-6213,-2.6438297872340426,Fair Value
+Al Hassan Touré,83,Special,12000,11675,-325,-2.7083333333333335,Fair Value
+Esther González Rodríguez,84,Gold,1400,1360,-40,-2.857142857142857,Fair Value
+Eto'O,89,Icons_Heroes,1385000,1344500,-40500,-2.9241877256317688,Fair Value
+Janina Minge,84,Gold,1400,1359,-41,-2.928571428571429,Fair Value
+Moore,90,Icons_Heroes,140000,135848,-4152,-2.9657142857142857,Fair Value
+Lampard,87,Icons_Heroes,137000,132848,-4152,-3.0306569343065695,Fair Value
+Alexis Mac Allister,87,Gold,10750,10424,-326,-3.032558139534884,Fair Value
+Dejan Kulusevski,83,Gold,850,824,-26,-3.058823529411765,Fair Value
+Danilho Doekhi,84,Special,12500,12116,-384,-3.072,Fair Value
+Alejandro Francés Torrijo,84,Special,11250,10894,-356,-3.164444444444445,Fair Value
+Barbara Bonansea,83,Gold,850,823,-27,-3.176470588235294,Fair Value
+Jérémy Doku,84,Special,58000,56138,-1862,-3.2103448275862068,Fair Value
+İsmail Yüksek,83,Special,12000,11611,-389,-3.241666666666667,Fair Value
+Dominik Szoboszlai,87,Special,100000,96593,-3407,-3.4070000000000005,Fair Value
+José María Giménez,83,Gold,850,821,-29,-3.4117647058823533,Fair Value
+Ellie Carpenter,84,Gold,1400,1349,-51,-3.642857142857143,Fair Value
+Arianna Caruso,83,Gold,850,819,-31,-3.6470588235294117,Fair Value
+Amario Cozier-Duberry,83,Special,12000,11559,-441,-3.675,Fair Value
+Jarrod Bowen,83,Gold,850,817,-33,-3.882352941176471,Fair Value
+Míchel Salgado,87,Icons_Heroes,137000,131540,-5460,-3.985401459854015,Fair Value
+Matthäus,90,Icons_Heroes,1400000,1344164,-55836,-3.9882857142857144,Fair Value
+Lucy Bronze,88,Special,76000,72963,-3037,-3.9960526315789475,Fair Value
+Sara Däbritz,84,Gold,1400,1343,-57,-4.071428571428572,Fair Value
+Anton Krivotsyuk,83,Special,12500,11991,-509,-4.072,Fair Value
+Philipp Sander,83,Special,12000,11493,-507,-4.2250000000000005,Fair Value
+Klose,88,Icons_Heroes,92500,88531,-3969,-4.290810810810811,Fair Value
+Forlán,88,Icons_Heroes,118000,112728,-5272,-4.467796610169492,Fair Value
+Lahm,89,Icons_Heroes,230000,219609,-10391,-4.517826086956521,Fair Value
+Millie Bright,87,Gold,10750,10259,-491,-4.567441860465117,Fair Value
+Anis Hadj-Moussa,85,Special,12500,11911,-589,-4.712000000000001,Fair Value
+Henrikh Mkhitaryan,83,Gold,800,762,-38,-4.75,Fair Value
+Hugo Ekitiké,86,Special,106000,100948,-5052,-4.766037735849057,Fair Value
+Cole Palmer,88,Special,440000,418945,-21055,-4.785227272727273,Fair Value
+Hagi,88,Icons_Heroes,150000,142822,-7178,-4.785333333333333,Fair Value
+Pablo Martín Páez Gavira,83,Gold,850,809,-41,-4.823529411764706,Fair Value
+Lisa Karl,84,Special,11500,10943,-557,-4.843478260869565,Fair Value
+Victor Osimhen,87,Gold,10750,10218,-532,-4.948837209302326,Fair Value
+Scott Mctominay,85,Gold,3600,3418,-182,-5.055555555555555,Fair Value
+Delphine Cascarino,85,Gold,3700,3507,-193,-5.216216216216217,Fair Value
+Manuel Locatelli,84,Gold,1400,1326,-74,-5.285714285714286,Fair Value
+Da Silva Ferreira,89,Icons_Heroes,690000,653473,-36527,-5.293768115942029,Fair Value
+Freya Godfrey,83,Special,12000,11339,-661,-5.508333333333333,Fair Value
+Daniel Carvajal Ramos,85,Gold,3700,3496,-204,-5.513513513513513,Fair Value
+Crouch,85,Icons_Heroes,15000,14161,-839,-5.593333333333334,Fair Value
+Tyler Morton,83,Special,13000,12272,-728,-5.6000000000000005,Fair Value
+Chiellini,88,Icons_Heroes,650000,612247,-37753,-5.8081538461538464,Fair Value
+Denzel Dumfries,86,Special,39000,36734,-2266,-5.810256410256411,Fair Value
+Bryan Mbeumo,85,Gold,3700,3484,-216,-5.837837837837838,Fair Value
+Temwa Chawinga,86,Gold,6800,6403,-397,-5.838235294117647,Fair Value
+Alejandro Balde Martínez,83,Gold,1300,1224,-76,-5.846153846153846,Fair Value
+Caroline Weir,85,Gold,3600,3388,-212,-5.888888888888888,Fair Value
+Tabitha Chawinga,85,Gold,3700,3480,-220,-5.9459459459459465,Fair Value
+Lionel Messi,86,Gold,6900,6488,-412,-5.971014492753623,Fair Value
+Erin Cuthbert,85,Gold,3700,3476,-224,-6.054054054054054,Fair Value
+Unai López Cabrera,85,Special,29500,27681,-1819,-6.166101694915254,Fair Value
+Nathan Collins,85,Special,12750,11961,-789,-6.188235294117647,Fair Value
+Georgia Stanway,85,Gold,3600,3376,-224,-6.222222222222222,Fair Value
+Campbell,86,Icons_Heroes,240000,225022,-14978,-6.240833333333334,Fair Value
+Sakina Karchaoui,87,Gold,11250,10541,-709,-6.3022222222222215,Fair Value
+Alejandro Balde Martínez,86,Special,282000,264121,-17879,-6.340070921985816,Fair Value
+Alba Redondo Ferrer,84,Gold,1400,1310,-90,-6.428571428571428,Fair Value
+Lynn Wilms,83,Special,12250,11452,-798,-6.514285714285714,Fair Value
+Jizz Hornkamp,83,Special,11750,10982,-768,-6.536170212765957,Fair Value
+Daniel Olmo Carvajal,85,Gold,3700,3453,-247,-6.675675675675675,Fair Value
+Xavi Simons,86,Special,72000,67189,-4811,-6.6819444444444445,Fair Value
+Mattia Zaccagni,84,Gold,1400,1306,-94,-6.714285714285714,Fair Value
+Alessandro Bastoni,87,Gold,10500,9791,-709,-6.752380952380952,Fair Value
+Shearer,89,Icons_Heroes,85000,79102,-5898,-6.938823529411765,Fair Value
+Riccardo Orsolini,85,Special,15500,14406,-1094,-7.058064516129033,Fair Value
+Maghnes Akliouche,84,Special,14500,13460,-1040,-7.1724137931034475,Fair Value
+Jordi Alba Ramos,84,Special,14500,13456,-1044,-7.199999999999999,Fair Value
+Jonathan Tah,87,Gold,10750,9965,-785,-7.3023255813953485,Fair Value
+Essien,86,Icons_Heroes,294000,272379,-21621,-7.354081632653061,Fair Value
+Sam Kerr,87,Gold,10750,9953,-797,-7.413953488372094,Fair Value
+Riyad Mahrez,84,Gold,1400,1296,-104,-7.428571428571429,Fair Value
+Ollie Watkins,84,Gold,1400,1296,-104,-7.428571428571429,Fair Value
+Daniel Svensson,84,Special,11000,10178,-822,-7.472727272727273,Fair Value
+Federico Dimarco,85,Gold,3800,3514,-286,-7.526315789473684,Fair Value
+İlkay Gündoğan,83,Gold,850,786,-64,-7.529411764705881,Fair Value
+Lucy Bronze,87,Gold,10750,9939,-811,-7.544186046511628,Fair Value
+Alejandro Grimaldo García,84,Gold,1300,1199,-101,-7.769230769230768,Fair Value
+Vanessa Dibernardo,83,Gold,800,737,-63,-7.875,Fair Value
+Irene Paredes Hernández,88,Gold,14750,13577,-1173,-7.952542372881356,Fair Value
+Daniele De Rossi,87,Icons_Heroes,319000,293396,-25604,-8.026332288401255,Fair Value
+Luis Díaz,85,Gold,3800,3493,-307,-8.078947368421051,Fair Value
+Alessia Russo,89,Gold,24000,22049,-1951,-8.129166666666666,Fair Value
+Alexandra Popp,85,Gold,3700,3399,-301,-8.135135135135135,Fair Value
+Frida Maanum,84,Gold,1400,1286,-114,-8.142857142857144,Fair Value
+Karim Benzema,85,Gold,3700,3398,-302,-8.162162162162161,Fair Value
+Romelu Lukaku,84,Gold,1400,1285,-115,-8.214285714285714,Fair Value
+Martín Zubimendi Ibáñez,83,Gold,900,826,-74,-8.222222222222223,Fair Value
+Mateo Kovačić,83,Gold,850,780,-70,-8.235294117647058,Fair Value
+Archie Brown,85,Special,23000,21090,-1910,-8.304347826086957,Fair Value
+Rebeca Bernal,84,Special,12500,11460,-1040,-8.32,Fair Value
+Gerrard,88,Icons_Heroes,212000,194335,-17665,-8.33254716981132,Fair Value
+Harry Maguire,83,Special,15000,13749,-1251,-8.34,Fair Value
+Kieffer Moore,83,Special,12000,10989,-1011,-8.425,Fair Value
+Dennis Man,86,Special,33250,30446,-2804,-8.433082706766918,Fair Value
+Yui Hasegawa,85,Gold,3600,3294,-306,-8.5,Fair Value
+Rush,87,Icons_Heroes,71500,65399,-6101,-8.532867132867134,Fair Value
+Patrik Schick,85,Gold,3700,3376,-324,-8.756756756756756,Fair Value
+Nazário De Lima,94,Icons_Heroes,9390000,8565229,-824771,-8.783503727369542,Fair Value
+Gutiérrez Hernández,86,Icons_Heroes,43000,39217,-3783,-8.79767441860465,Fair Value
+Fran Kirby,83,Gold,850,775,-75,-8.823529411764707,Fair Value
+Daniele De Rossi,88,Special,705000,642519,-62481,-8.862553191489361,Fair Value
+Beckham,88,Icons_Heroes,226000,205947,-20053,-8.873008849557522,Fair Value
+Vivien Endemann,83,Special,12500,11378,-1122,-8.976,Fair Value
+Nesta,89,Icons_Heroes,195000,177019,-17981,-9.221025641025642,Fair Value
+Richonell Margaret,83,Special,11750,10661,-1089,-9.268085106382978,Fair Value
+Kim Little,85,Gold,3500,3174,-326,-9.314285714285713,Fair Value
+Maya Le Tissier,88,Special,88000,79803,-8197,-9.314772727272727,Fair Value
+Marc Cucurella Saseta,84,Gold,1400,1269,-131,-9.357142857142858,Fair Value
+Selina Cerci,83,Gold,950,861,-89,-9.368421052631579,Fair Value
+Amir Rrahmani,83,Gold,800,725,-75,-9.375,Fair Value
+Alex Greenwood,84,Gold,1400,1266,-134,-9.571428571428571,Fair Value
+Antoine Griezmann,85,Gold,3700,3343,-357,-9.64864864864865,Fair Value
+Lorenzo Pellegrini,83,Special,18500,16694,-1806,-9.762162162162163,Fair Value
+Rodrigo Mora De Carvalho,85,Special,13750,12405,-1345,-9.781818181818181,Fair Value
+Park,86,Icons_Heroes,35250,31783,-3467,-9.835460992907802,Fair Value
+Christian Günter,84,Special,14000,12604,-1396,-9.971428571428572,Fair Value
+Maya Le Tissier,84,Gold,1400,1260,-140,-10.0,Fair Value
+Moisés Caicedo,87,Gold,11000,9891,-1109,-10.081818181818182,Fair Value
+Totti,89,Icons_Heroes,979000,879450,-99550,-10.168539325842698,Fair Value
+Nicholas Williams Arthuer,87,Special,930000,831122,-98878,-10.632043010752689,Fair Value
+Iniesta Luján,92,Icons_Heroes,958000,855048,-102952,-10.746555323590815,Fair Value
+Gianluca Mancini,83,Gold,900,803,-97,-10.777777777777779,Fair Value
+Ingrid Syrstad Engen,84,Gold,1400,1249,-151,-10.785714285714286,Fair Value
+Gleison Bremer Silva Nascimento,85,Gold,4900,4371,-529,-10.795918367346939,Fair Value
+Guéla Doué,84,Special,10500,9365,-1135,-10.809523809523808,Fair Value
+Haris Tabaković,83,Special,11750,10473,-1277,-10.868085106382978,Fair Value
+Lea Schüller,86,Gold,6700,5970,-730,-10.895522388059701,Fair Value
+Santos Do Nascimen.,86,Icons_Heroes,505000,449761,-55239,-10.938415841584158,Fair Value
+Cole,86,Icons_Heroes,192000,170981,-21019,-10.947395833333333,Fair Value
+Alexander Sørloth,84,Gold,1400,1246,-154,-11.0,Fair Value
+Matheus De Barros Da Silva,84,Special,15750,14017,-1733,-11.003174603174603,Fair Value
+Capdevila Méndez,86,Icons_Heroes,77500,68944,-8556,-11.04,Fair Value
+Lucas Torreira,83,Gold,900,799,-101,-11.222222222222221,Fair Value
+Julian Brandt,83,Gold,900,799,-101,-11.222222222222221,Fair Value
+Bale,88,Icons_Heroes,1540000,1365464,-174536,-11.333506493506494,Fair Value
+Cristiano Ronaldo Dos Santos Aveiro,85,Gold,6200,5494,-706,-11.387096774193548,Fair Value
+Angelo Stiller,83,Gold,850,753,-97,-11.411764705882353,Fair Value
+Cristiana Girelli,85,Gold,3700,3269,-431,-11.64864864864865,Fair Value
+Willian Pacho,86,Gold,10000,8827,-1173,-11.73,Fair Value
+Kevin De Bruyne,88,Special,178000,157110,-20890,-11.735955056179776,Fair Value
+Willi Orban,84,Gold,1400,1235,-165,-11.785714285714285,Fair Value
+Guro Reiten,88,Gold,14250,12563,-1687,-11.83859649122807,Fair Value
+Kenza Dali,83,Gold,850,749,-101,-11.882352941176471,Fair Value
+Ashley Lawrence,84,Gold,1400,1233,-167,-11.928571428571429,Fair Value
+Kewell,87,Icons_Heroes,134000,117993,-16007,-11.9455223880597,Fair Value
+Georges,88,Special,329000,289614,-39386,-11.971428571428572,Fair Value
+Kylian Mbappé,91,Gold,1650000,1450934,-199066,-12.06460606060606,Fair Value
+Désiré Doué,87,Special,267000,234487,-32513,-12.177153558052435,Fair Value
+Stefan De Vrij,84,Gold,1400,1229,-171,-12.214285714285714,Fair Value
+María Molina Molero,83,Special,12000,10531,-1469,-12.241666666666665,Fair Value
+Gabriel Davi Gomes Sara,83,Special,19250,16891,-2359,-12.254545454545454,Fair Value
+Marta Vieira Da Silva,85,Gold,3700,3244,-456,-12.324324324324325,Fair Value
+Dávid Hancko,83,Gold,900,789,-111,-12.333333333333334,Fair Value
+Rúben Diogo Da Silva Neves,84,Gold,1400,1224,-176,-12.571428571428573,Fair Value
+Ryan Yates,85,Special,18000,15720,-2280,-12.666666666666668,Fair Value
+Kroos,90,Icons_Heroes,350000,305465,-44535,-12.724285714285713,Fair Value
+Angelo Stiller,85,Special,17250,15023,-2227,-12.910144927536232,Fair Value
+Crystal Dunn,85,Special,36000,31306,-4694,-13.038888888888888,Fair Value
+Hazard,89,Special,1885000,1634655,-250345,-13.280901856763927,Fair Value
+Exequiel Palacios,84,Gold,1400,1213,-187,-13.357142857142856,Fair Value
+Declan Rice,87,Gold,10750,9298,-1452,-13.506976744186048,Fair Value
+Gift Monday,83,Special,12500,10785,-1715,-13.719999999999999,Fair Value
+Ella Toone,85,Gold,3700,3191,-509,-13.756756756756758,Fair Value
+Hamšík,87,Icons_Heroes,225000,193721,-31279,-13.901777777777777,Fair Value
+Emily Fox,84,Gold,1400,1205,-195,-13.928571428571429,Fair Value
+Diego Chará,83,Special,13000,11171,-1829,-14.06923076923077,Fair Value
+Débora C. De Oliveira,89,Special,324000,278197,-45803,-14.136728395061729,Fair Value
+Vítor Machado Ferreira,89,Gold,24000,20591,-3409,-14.204166666666667,Fair Value
+Marcus Thuram,85,Gold,3700,3173,-527,-14.243243243243242,Fair Value
+Phil Foden,85,Gold,3600,3081,-519,-14.416666666666666,Fair Value
+Joshua Kimmich,89,Gold,24000,20537,-3463,-14.429166666666667,Fair Value
+Bompastor,86,Icons_Heroes,47250,40431,-6819,-14.431746031746032,Fair Value
+Bruno Guimarães Moura,86,Gold,6700,5722,-978,-14.597014925373134,Fair Value
+Iñigo Martínez Berridi,85,Gold,3700,3150,-550,-14.864864864864865,Fair Value
+Gullit,90,Icons_Heroes,3465000,2943856,-521144,-15.040230880230881,Fair Value
+Matuidi,86,Icons_Heroes,268000,227469,-40531,-15.123507462686566,Fair Value
+Federico Valverde,89,Special,1497000,1270021,-226979,-15.162257849031397,Fair Value
+Nikola Milenković,83,Gold,800,678,-122,-15.25,Fair Value
+Rodrigo Hernández Cascante,90,Gold,32750,27732,-5018,-15.322137404580152,Fair Value
+Heung Min Son,85,Gold,3800,3217,-583,-15.342105263157896,Fair Value
+Ada Hegerberg,87,Gold,10750,9091,-1659,-15.432558139534883,Fair Value
+Lamine Yamal Nasraoui Ebana,89,Special,1799000,1521063,-277937,-15.44952751528627,Fair Value
+Nuno Alexandre Tavares Mendes,86,Gold,41000,34634,-6366,-15.526829268292683,Fair Value
+Granit Xhaka,85,Gold,3700,3121,-579,-15.64864864864865,Fair Value
+João Pedro Gonçalves Neves,86,Special,64000,53982,-10018,-15.653125000000001,Fair Value
+Maldini,92,Icons_Heroes,2450000,2064174,-385826,-15.748000000000001,Fair Value
+Piotr Zieliński,85,Special,12500,10525,-1975,-15.8,Fair Value
+Claudia Pina Medina,87,Special,901000,757447,-143553,-15.932630410654827,Fair Value
+Laura Requena Sánchez,83,Special,12000,10086,-1914,-15.950000000000001,Fair Value
+Vangelis Pavlidis,84,Special,12000,10084,-1916,-15.966666666666669,Fair Value
+Stam,87,Icons_Heroes,1120000,941076,-178924,-15.975357142857144,Fair Value
+Kadeisha Buchanan,83,Gold,850,714,-136,-16.0,Fair Value
+Kouadio Manu Koné,86,Special,124000,103892,-20108,-16.216129032258063,Fair Value
+Linda Dallmann,83,Gold,850,712,-138,-16.235294117647058,Fair Value
+Sjoeke Nüsken,84,Gold,1400,1170,-230,-16.428571428571427,Fair Value
+João Pedro Gonçalves Neves,85,Gold,4700,3905,-795,-16.914893617021278,Fair Value
+Ledley King,86,Icons_Heroes,180000,149362,-30638,-17.02111111111111,Fair Value
+João Félix Sequeira,84,Special,59000,48924,-10076,-17.077966101694916,Fair Value
+Nico Schlotterbeck,85,Gold,3700,3062,-638,-17.243243243243242,Fair Value
+Iñigo Martínez Berridi,86,Special,25500,21080,-4420,-17.333333333333336,Fair Value
+Yao Kouassi,85,Icons_Heroes,120000,99063,-20937,-17.447499999999998,Fair Value
+Klara Bühl,86,Gold,6700,5517,-1183,-17.65671641791045,Fair Value
+Lionel Messi,88,Special,479000,392475,-86525,-18.063674321503132,Fair Value
+Eberechi Eze,83,Gold,1300,1063,-237,-18.23076923076923,Fair Value
+Frenkie De Jong,87,Gold,50500,41290,-9210,-18.237623762376238,Fair Value
+Ryan Gravenberch,85,Gold,6300,5149,-1151,-18.26984126984127,Fair Value
+Trent Alexander-Arnold,87,Special,174000,141926,-32074,-18.433333333333334,Fair Value
+Fermín López Marín,83,Special,51500,41980,-9520,-18.485436893203882,Fair Value
+Mallory Swanson,87,Gold,10750,8759,-1991,-18.52093023255814,Fair Value
+Éder Gabriel Militão,87,Special,854000,695805,-158195,-18.52400468384075,Fair Value
+Ian Maatsen,87,Special,222000,179454,-42546,-19.164864864864864,Fair Value
+Julia Zigiotti,84,Special,11750,9494,-2256,-19.2,Fair Value
+Laura Freigang,85,Gold,3600,2907,-693,-19.25,Fair Value
+Martin Ødegaard,87,Special,195000,157390,-37610,-19.287179487179486,Fair Value
+Melvine Malard,84,Special,19750,15918,-3832,-19.40253164556962,Fair Value
+Aurélien Tchouaméni,86,Special,240000,193311,-46689,-19.45375,Fair Value
+Zidane,94,Icons_Heroes,2975000,2389051,-585949,-19.695764705882354,Fair Value
+Leah Williamson,88,Special,122000,97821,-24179,-19.81885245901639,Fair Value
+Manuela Giugliano,85,Gold,3700,2966,-734,-19.83783783783784,Fair Value
+Khéphren Thuram,85,Special,99500,79439,-20061,-20.161809045226132,Overpriced
+María Francesca Caldentey Oliver,89,Gold,24000,19161,-4839,-20.1625,Overpriced
+Bruno Miguel Borges Fernandes,88,Special,410000,325936,-84064,-20.503414634146342,Overpriced
+Martín Ojeda,83,Special,13000,10317,-2683,-20.638461538461538,Overpriced
+Marc Cucurella Saseta,86,Special,73500,58171,-15329,-20.855782312925168,Overpriced
+Millie Bright,88,Special,64500,50865,-13635,-21.13953488372093,Overpriced
+Antony Matheus Dos Santos,86,Special,69500,54734,-14766,-21.246043165467626,Overpriced
+Keira Walsh,85,Gold,3700,2900,-800,-21.62162162162162,Overpriced
+Kieran Tierney,83,Special,12000,9399,-2601,-21.675,Overpriced
+Kenan Yildiz,87,Special,230000,180003,-49997,-21.73782608695652,Overpriced
+Benjamin Pavard,86,Special,91500,71462,-20038,-21.89945355191257,Overpriced
+Douglas Sisenando,88,Icons_Heroes,294000,229238,-64762,-22.027891156462584,Overpriced
+Sandy Baltimore,85,Gold,3700,2880,-820,-22.162162162162165,Overpriced
+Cody Gakpo,87,Special,299000,232507,-66493,-22.238461538461536,Overpriced
+Felix Nmecha,86,Special,339000,263387,-75613,-22.3047197640118,Overpriced
+Vivianne Miedema,85,Gold,3700,2865,-835,-22.56756756756757,Overpriced
+Tijjani Reijnders,87,Special,670000,518404,-151596,-22.626268656716416,Overpriced
+Míchel Salgado,88,Special,310000,238675,-71325,-23.008064516129032,Overpriced
+Clara Mateo,85,Gold,3700,2836,-864,-23.35135135135135,Overpriced
+Oscar Bobb,85,Special,27750,21249,-6501,-23.427027027027027,Overpriced
+Richard Ríos,87,Special,150000,114815,-35185,-23.456666666666667,Overpriced
+Caitlin Foord,85,Gold,3700,2822,-878,-23.72972972972973,Overpriced
+Juan David Cabal,85,Special,46500,35261,-11239,-24.169892473118278,Overpriced
+Marwane Saadane,83,Special,14250,10792,-3458,-24.266666666666666,Overpriced
+Ona Batlle Pascual,86,Gold,6700,5069,-1631,-24.343283582089555,Overpriced
+Ryan Gravenberch,86,Special,168000,126587,-41413,-24.65059523809524,Overpriced
+Ronald Araujo,83,Gold,1500,1128,-372,-24.8,Overpriced
+Glódís Perla Viggósdóttir,86,Special,19000,14280,-4720,-24.842105263157897,Overpriced
+Hakan Çalhanoğlu,86,Gold,6700,5026,-1674,-24.98507462686567,Overpriced
+Manaka Matsukubo,83,Special,13500,10107,-3393,-25.133333333333336,Overpriced
+Rose Lavelle,87,Gold,10500,7832,-2668,-25.409523809523808,Overpriced
+María Pilar León Cebrián,89,Gold,25750,19002,-6748,-26.205825242718443,Overpriced
+Ibrahimovic,91,Icons_Heroes,2770000,2037244,-732756,-26.45328519855596,Overpriced
+David Raum,84,Special,18750,13699,-5051,-26.938666666666666,Overpriced
+Svenja Huth,85,Gold,3700,2701,-999,-27.0,Overpriced
+De Assis Moreira,93,Icons_Heroes,4649000,3391911,-1257089,-27.039987093998707,Overpriced
+Rodrygo Silva De Goes,85,Gold,4800,3489,-1311,-27.3125,Overpriced
+Fabián Ruiz Peña,85,Gold,3900,2834,-1066,-27.333333333333332,Overpriced
+Julián Alvarez,88,Special,379000,274263,-104737,-27.635092348284964,Overpriced
+Éder Gabriel Militão,86,Special,327000,235875,-91125,-27.866972477064223,Overpriced
+Elisabeth Terland,85,Special,12000,8604,-3396,-28.299999999999997,Overpriced
+Katie Mccabe,87,Gold,11000,7796,-3204,-29.12727272727273,Overpriced
+Giovanni Di Lorenzo,85,Special,42000,29744,-12256,-29.18095238095238,Overpriced
+Corentin Tolisso,85,Special,56500,39824,-16676,-29.515044247787607,Overpriced
+Boattin,84,Gold,1500,1045,-455,-30.333333333333336,Overpriced
+Ferdinand,88,Icons_Heroes,1180000,819791,-360209,-30.526186440677964,Overpriced
+Vieira Da Silva,89,Icons_Heroes,900000,625167,-274833,-30.537,Overpriced
+Éder Gabriel Militão,84,Gold,8900,6155,-2745,-30.842696629213485,Overpriced
+Luka Modrić,85,Special,37000,25504,-11496,-31.07027027027027,Overpriced
+Marcos Llorente Moreno,86,Special,315000,214445,-100555,-31.922222222222224,Overpriced
+Virgil Van Dijk,90,Special,1810000,1230271,-579729,-32.029226519337016,Overpriced
+Bradley Barcola,87,Special,480000,321144,-158856,-33.095,Overpriced
+Salma Celeste Paralluelo Ayingono,84,Gold,17000,11254,-5746,-33.800000000000004,Overpriced
+Micky Van De Ven,84,Special,210000,138080,-71920,-34.24761904761905,Overpriced
+Anders Dreyer,84,Special,14250,9366,-4884,-34.27368421052632,Overpriced
+Khadija Shaw,89,Gold,26000,16833,-9167,-35.25769230769231,Overpriced
+N'Golo Kanté,85,Gold,4800,3086,-1714,-35.70833333333333,Overpriced
+Murillo Costa Dos Santos,83,Gold,2500,1578,-922,-36.88,Overpriced
+Pau Cubarsí Paredes,85,Special,75000,47087,-27913,-37.217333333333336,Overpriced
+Eduardo Camavinga,83,Gold,2200,1371,-829,-37.68181818181818,Overpriced
+Jeremie Frimpong,83,Gold,2200,1338,-862,-39.18181818181819,Overpriced
+Jakub Kamiński,83,Special,31750,19152,-12598,-39.67874015748031,Overpriced
+Luis Díaz,86,Special,153000,91686,-61314,-40.07450980392157,Overpriced
+Selma Bacha,86,Special,181000,107182,-73818,-40.78342541436464,Overpriced
+Rafael Da Conceição Leão,84,Gold,16250,9484,-6766,-41.636923076923075,Overpriced
+Andrew Robertson,86,Special,151000,86350,-64650,-42.81456953642384,Overpriced
+Estêvão Willian Almeida,86,Special,283000,156944,-126056,-44.54275618374559,Overpriced
+Jordan Henderson,85,Special,48000,26039,-21961,-45.75208333333333,Overpriced
+William Saliba,88,Special,1180000,636440,-543560,-46.06440677966101,Overpriced
+Tijjani Reijnders,86,Gold,37250,19908,-17342,-46.55570469798658,Overpriced
+Marcos Llorente Moreno,84,Gold,16500,8760,-7740,-46.909090909090914,Overpriced
+Piero Hincapié,83,Gold,3600,1901,-1699,-47.19444444444444,Overpriced
+Angel Gomes,83,Special,30000,15538,-14462,-48.20666666666666,Overpriced
+Aleksandar Pavlović,87,Special,297000,152377,-144623,-48.694612794612794,Overpriced
+Silveira Carvalho,88,Icons_Heroes,180000,91118,-88882,-49.37888888888889,Overpriced
+Edson Álvarez,86,Special,36000,17453,-18547,-51.51944444444444,Overpriced
+Theo Hernández,84,Gold,24000,9555,-14445,-60.18750000000001,Overpriced
