@@ -12,14 +12,14 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
+from sklearn.metrics import r2_score
 
-import sys
-from pathlib import Path
+
+# Setup paths for imports
 SRC_ROOT = Path(__file__).resolve().parent.parent
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-# Then import works:
 from preprocessing.feature_engineering import load_data, prepare_features
 
 # Setup logging
@@ -36,8 +36,6 @@ def main():
     try:
         # Load data
         df = load_data()
-        logger.info("Starting OLS coefficient analysis")
-        print()
 
         # Prepare features (Week 1 only, to analyze relationships)
         x_train, y_train_log, scaler, club_map, feature_names = prepare_features(
@@ -57,10 +55,14 @@ def main():
 
         # Fit OLS regression model
         logger.info("Fitting OLS regression model...")
-        ols_model = sm.OLS(y_train_log_np, x_train_with_const).fit()
-        logger.info("Model R²: %.4f, Adjusted R²: %.4f", 
-                   ols_model.rsquared, ols_model.rsquared_adj)
         print()
+        ols_model = sm.OLS(y_train_log_np, x_train_with_const).fit()
+
+        # Going back to normal scale
+        y_pred_log = ols_model.fittedvalues
+        y_pred_price = np.expm1(y_pred_log)
+        y_true_price = np.expm1(y_train_log)
+        r2_price = r2_score(y_true_price, y_pred_price)
 
         # Extract coefficient information into clean DataFrame
         conf_int = ols_model.conf_int()
@@ -87,12 +89,32 @@ def main():
         # Save coefficient table
         OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
         coef_df_sorted.to_csv(OUTPUT_FILE, index=False)
-        logger.info("Results saved to %s", OUTPUT_FILE)
 
-        # Summary
+        # Calculated for summary
+        features_only = coef_df_sorted[coef_df_sorted['feature'] != 'intercept']
+        top3_positive = features_only.nlargest(3, 'coefficient')
+        top3_negative = features_only.nsmallest(3, 'coefficient')
+        
+        # Format for display at summary
+        top3 = ", ".join([f"{row['feature']} ({row['coefficient']:+.2f})" 
+            for _, row in top3_positive.iterrows()])
+        bottom3 = ", ".join([f"{row['feature']} ({row['coefficient']:+.2f})" 
+            for _, row in top3_negative.iterrows()])
+
+        # Calculated for summary
         significant_count = (coef_df['p_value'] < 0.05).sum() - 1
-        logger.info("Analysis complete: %d/%d features significant (p < 0.05)",
-            significant_count, len(feature_names))
+        
+        # Summary
+        logger.info("OLS Coefficients Analysis Summary:")
+        logger.info("------------------------------------------------------------")
+        logger.info("R²: %.3f", r2_price)
+        logger.info("%d/%d features significant (p < 0.05)", significant_count, len(feature_names))
+        logger.info("")
+        logger.info("Top/Bottom 3 drivers:")
+        logger.info("  + %s", top3)
+        logger.info("  - %s", bottom3)
+        logger.info("------------------------------------------------------------")
+        logger.info("  → Saved: results/tables/ols_coefficients.csv")
         print()
 
     except FileNotFoundError as e:

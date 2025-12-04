@@ -26,14 +26,14 @@ OUTPUT_DIR = PROJECT_ROOT / "results" / "figures"
 
 # Style configurations
 sns.set_style("whitegrid")
-plt.rcParams['figure.figsize'] = (12, 6)
+plt.rcParams['figure.figsize'] = (12, 8)
 
 
-def main():
+def main() -> None:
     """Run EDA analysis and generate visualizations."""
     try:
         # Load data
-        logger.info("Loading data from %s", DATA_FILE)
+        logger.info("Loading data from %s", DATA_FILE.relative_to(PROJECT_ROOT))
         df = pd.read_csv(DATA_FILE)
         logger.info("Loaded %d players", len(df))
         print()
@@ -41,8 +41,7 @@ def main():
         # Create output directory
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-        logger.info("Generating 6 EDA visualizations...")
-        print()
+        logger.info("Generating 6 EDA figures...")
 
         # VISUALIZATION 1: PRICE DISTRIBUTION (NORMAL AND LOG SCALE)
         _, axes = plt.subplots(1, 2, figsize=(14, 5))
@@ -64,7 +63,7 @@ def main():
 
         plt.tight_layout()
         plt.savefig(OUTPUT_DIR / '01_price_distribution.png', dpi=300, bbox_inches='tight')
-        logger.info("→ 01_price_distribution.png")
+        logger.info("  → Saved: 01_price_distribution.png")
         plt.close()
 
         # VISUALIZATION 2: RATING VS PRICE BY CARD CATEGORY
@@ -81,7 +80,7 @@ def main():
         plt.tight_layout()
 
         plt.savefig(OUTPUT_DIR / '02_rating_vs_price.png', dpi=300, bbox_inches='tight')
-        logger.info("→ 02_rating_vs_price.png")
+        logger.info("  → Saved: 02_rating_vs_price.png")
         plt.close()
 
         # VISUALIZATION 3: PRICE BY CARD CATEGORY
@@ -96,7 +95,7 @@ def main():
         plt.tight_layout()
 
         plt.savefig(OUTPUT_DIR / '03_price_by_category.png', dpi=300, bbox_inches='tight')
-        logger.info("→ 03_price_by_category.png")
+        logger.info("  → Saved: 03_price_by_category.png")
         plt.close()
 
         # VISUALIZATION 4: PRICE BY POSITION CLUSTER
@@ -129,13 +128,13 @@ def main():
 
         plt.tight_layout()
         plt.savefig(OUTPUT_DIR / '04_price_by_position.png', dpi=300, bbox_inches='tight')
-        logger.info("→ 04_price_by_position.png")
+        logger.info("  → Saved: 04_price_by_position.png")
         plt.close()
 
         # VISUALIZATION 5: CORRELATION MATRIX
         numeric_cols = ['rating', 'pace', 'shooting', 'passing', 'dribbling',
-                       'defending', 'physical', 'skill_moves', 'weak_foot',
-                       'num_playstyles', 'num_playstyles_plus', 'num_positions', 'price_w1']
+            'defending', 'physical', 'skill_moves', 'weak_foot',
+            'num_playstyles', 'num_playstyles_plus', 'num_positions', 'price_w1']
 
         numeric_cols = [col for col in numeric_cols if col in df.columns]
         corr_matrix = df[numeric_cols].corr()
@@ -148,7 +147,7 @@ def main():
 
         plt.tight_layout()
         plt.savefig(OUTPUT_DIR / '05_correlation_matrix.png', dpi=300, bbox_inches='tight')
-        logger.info("→ 05_correlation_matrix.png")
+        logger.info("  → Saved: 05_correlation_matrix.png")
         plt.close()
 
         # VISUALIZATION 6: TOP 4 ATTRIBUTES VS PRICE
@@ -180,17 +179,28 @@ def main():
 
         plt.tight_layout()
         plt.savefig(OUTPUT_DIR / '06_top4_attributes.png', dpi=300, bbox_inches='tight')
-        logger.info("→ 06_top4_attributes.png")
+        logger.info("  → Saved: 06_top4_attributes.png")
         plt.close()
 
-        # SUMMARY
+        # Summary
         print()
-        logger.info("EDA complete: 6 visualizations saved to results/figures/")
-        logger.info("Price range: %s - %s credits",
-                   f"{df['price_w1'].min():,.0f}",
-                   f"{df['price_w1'].max():,.0f}")
+        logger.info("EDA Summary Statistics:")
+        logger.info("------------------------------------------------------------")
         logger.info("Strongest correlation with price: %s (r = %.3f)",
-                   price_corr.index[1], price_corr.iloc[1])
+            price_corr.index[1], price_corr.iloc[1])
+        logger.info("")
+        logger.info("Price Ranges by Category:")
+
+        for category in ['Gold', 'Special', 'Icons_Heroes']:
+            cat_data = df[df['card_category'] == category]['price_w1']
+            if len(cat_data) > 0:
+                logger.info("  %-13s: %7s - %9s credits (median: %7s credits)",
+                    f"{category}",
+                    f"{cat_data.min():,.0f}",
+                    f"{cat_data.max():,.0f}",
+                    f"{cat_data.median():,.0f}")
+
+        logger.info("------------------------------------------------------------")
         print()
 
     except FileNotFoundError as e:

@@ -18,14 +18,19 @@ Target encoded categorical feature:
 
 Prices are log-transformed for better distribution.
 
-Gender was excluded as it is highly correlated with league.
+Gender was excluded as it is 100% correlated with league.
 """
 
 import logging
 from pathlib import Path
+from typing import Optional, Tuple, Dict, List
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
+
+# Checks if features have already been printed in main.py
+class _FeatureConfig:
+    logged = False
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -61,24 +66,29 @@ POSITION_CLUSTERS = [
 DEFAULT_SMOOTHING = 10
 
 
-def load_data(file_path=None):
+def load_data(file_path: Optional[Path] = None) -> pd.DataFrame:
     """Load the dataset from CSV file."""
     if file_path is None:
         file_path = DATA_FILE
 
-    logger.info("Loading data from %s", file_path)
+    # Suppress logging after first call
+    if _FeatureConfig.logged:
+        logger.setLevel(logging.WARNING)
+
+    logger.info("Loading data from %s", DATA_FILE.relative_to(PROJECT_ROOT))
     df = pd.read_csv(file_path)
-    logger.info("Loaded %d players with %d columns", len(df), len(df.columns))
+    logger.info("Loaded %d players with %d features", len(df), len(df.columns))
+    if not _FeatureConfig.logged: # So there is no empty lines in the main.py terminal when I import it
+        print()
     return df
 
 
-def create_nationality_features(df):
+def create_nationality_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Creates one-hot encoded features for nationality.
     Top nationalities get their own column, others grouped as 'OTHER'.
     Top nationalities represent ~70% of players.
     """
-    logger.info("Creating nationality features")
     df = df.copy()
 
     # Group rare nationalities as OTHER
@@ -101,17 +111,17 @@ def create_nationality_features(df):
     # Sort columns for consistency
     nationality_dummies = nationality_dummies.reindex(sorted(nationality_dummies.columns), axis=1)
 
-    logger.info("  Created %d nationality features", len(nationality_dummies.columns))
+    logger.info("  %-12s: %3d features (Top 10 + 'OTHER' - representing 70%%)", "Nationality", 
+        len(nationality_dummies.columns))
     return nationality_dummies
 
 
-def create_league_features(df):
+def create_league_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Creates one-hot encoded features for league.
     Top leagues get their own column, others grouped as 'OTHER'.
     Top leagues represent ~75% of players.
     """
-    logger.info("Creating league features")
     df = df.copy()
 
     # Group rare leagues as OTHER
@@ -135,20 +145,19 @@ def create_league_features(df):
     # Sort columns for consistency
     league_dummies = league_dummies.reindex(sorted(league_dummies.columns), axis=1)
 
-    logger.info("  Created %d league features", len(league_dummies.columns))
+    logger.info("  %-12s: %3d features (Top 8 + 'OTHER' - representing 75%%)", "Leagues", len(league_dummies.columns))
     return league_dummies
 
 
-def create_card_category_features(df):
+def create_card_category_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Creates one-hot encoded features for card category.
     Card categories: Gold, Special, Icons_Heroes.
-    Unknown categories are grouped as 'OTHER' (safety measure).
+    Unknown categories are grouped as 'OTHER' (should not be the case).
     """
-    logger.info("Creating card category features")
     df = df.copy()
 
-    # Group unknown categories as OTHER (safety measure)
+    # Group unknown categories as OTHER (should not be the case)
     df['card_grouped'] = df['card_category'].apply(
         lambda x: x if x in CARD_CATEGORIES else 'OTHER')
 
@@ -156,31 +165,29 @@ def create_card_category_features(df):
     category_dummies = pd.get_dummies(df['card_grouped'], prefix='card', dtype=int)
     category_dummies.columns = [col.lower().replace(' ', '_') for col in category_dummies.columns]
 
-    # Ensure all expected columns exist (only the 3 known categories, no OTHER)
+    # Ensure all expected columns exist (only the 3 known categories, no 'OTHER')
     expected_cols = [f'card_{c.lower()}' for c in CARD_CATEGORIES]
     for col in expected_cols:
         if col not in category_dummies.columns:
             category_dummies[col] = 0
 
-    # Keep only expected columns (remove OTHER if it was created)
+    # Keep only expected columns (remove 'OTHER' if it was created)
     category_dummies = category_dummies[
         [col for col in category_dummies.columns if col in expected_cols]]
 
     # Sort columns for consistency
     category_dummies = category_dummies.reindex(sorted(category_dummies.columns), axis=1)
 
-    logger.info("  Created %d card category features", len(category_dummies.columns))
+    logger.info("  %-12s: %3d features (Gold, Special, Icons_Heroes)", "Category", len(category_dummies.columns))
     return category_dummies
 
 
-def create_club_encoding_map(df, target_col, smoothing=DEFAULT_SMOOTHING):
+def create_club_encoding_map(df: pd.DataFrame, target_col: str,
+    smoothing: int = DEFAULT_SMOOTHING) -> Dict[str, float]:
     """
     Create club target encoding map from training data only.
-    Use smoothing to prevent overfitting on rare clubs.
-    Return dictionary mapping club names to encoded values.
+    Use smoothing (10) to prevent overfitting on rare clubs.
     """
-    logger.info("Creating club encoding map (smoothing=%d)", smoothing)
-
     global_mean = df[target_col].mean()
 
     # Calculate club statistics
@@ -195,67 +202,70 @@ def create_club_encoding_map(df, target_col, smoothing=DEFAULT_SMOOTHING):
     club_encoding_map = club_stats['smoothed_mean'].to_dict()
     club_encoding_map['__global_mean__'] = global_mean
 
-    logger.info("  Created encoding map for %d clubs", len(club_encoding_map) - 1)
+    logger.info("  %-12s: %3d encoded (Target Encoding, smooth=10)", "Clubs", len(club_encoding_map) - 1)
+    if not _FeatureConfig.logged: # So there is no empty lines in the main.py terminal when I import it
+        print()
     return club_encoding_map
 
 
-def apply_club_encoding(df, club_encoding_map):
+def apply_club_encoding(df: pd.DataFrame, club_encoding_map: Dict[str, float]) -> pd.Series:
     """
     Apply pre-computed club encoding to data.
     Unknown clubs get global mean (to avoid data leakage).
-    Return series with encoded club values.
     """
     global_mean = club_encoding_map.get('__global_mean__', 0)
     club_encoded = df['club'].map(club_encoding_map).fillna(global_mean)
     return club_encoded
 
 
-def transform_target(y, inverse=False):
+def transform_target(y: pd.Series, inverse: bool = False) -> pd.Series:
     """Apply log transformation to target variable."""
     if inverse:
         return np.expm1(y)
     return np.log1p(y)
 
 
-# MAIN PREPROCESSING PIPELINE
-def prepare_features(df, target_col='price_w1', scaler=None, club_encoding_map=None,
-    smoothing=DEFAULT_SMOOTHING, feature_names=None):
+def prepare_features(df: pd.DataFrame,
+    target_col: str = 'price_w1',
+    scaler: Optional[StandardScaler] = None,
+    club_encoding_map: Optional[Dict[str, float]] = None,
+    smoothing: int = DEFAULT_SMOOTHING,
+    feature_names: Optional[List[str]] = None) -> Tuple[pd.DataFrame, pd.Series,
+        StandardScaler, Dict[str, float], List[str]]:
     """
-    Transform raw player data into 41 ML-ready features.
-    Returns feature matrix x, target y, and fitted objects for test data.
+    Transform raw player data into ML features.
     """
-    logger.info("Preparing features")
+    # Suppress logger after first call (in main.py) to avoid repetition
+    if _FeatureConfig.logged:
+        logger.setLevel(logging.WARNING)
+    else:
+        _FeatureConfig.logged = True
 
     is_training = scaler is None
-    mode = "TRAINING" if is_training else "TEST"
-    logger.info("Mode: %s", mode)
-
     df = df.copy()
 
     # Target variable (log-transformed)
     y = transform_target(df[target_col])
-    logger.info("Target: log-transformed %s", target_col)
 
     # Numerical features (standardized)
-    logger.info("Standardizing numerical features")
     if is_training:
         scaler = StandardScaler()
         x_numerical = pd.DataFrame(
             scaler.fit_transform(df[NUMERICAL_FEATURES]),
             columns=NUMERICAL_FEATURES,
-            index=df.index
-        )
+            index=df.index)
     else:
         x_numerical = pd.DataFrame(
             scaler.transform(df[NUMERICAL_FEATURES]),
             columns=NUMERICAL_FEATURES,
-            index=df.index
-        )
-    logger.info("  Standardized %d numerical features", len(NUMERICAL_FEATURES))
+            index=df.index)
+
+    logger.info("Feature Engineering Summary:")
+    logger.info("  %-12s: %3d features (Standardized)", "Numerical", len(NUMERICAL_FEATURES))
 
     # Position clusters (binary, as-is)
     x_positions = df[POSITION_CLUSTERS].copy()
-    logger.info("Position clusters: %d features", len(POSITION_CLUSTERS))
+    logger.info("  %-12s: %3d clusters (Center Backs, Fullbacks, Midfielders, Attacking Midfielders, Strikers)", "Position", len(POSITION_CLUSTERS))
 
     # Nationality features (one-hot)
     x_nationality = create_nationality_features(df)
@@ -272,8 +282,6 @@ def prepare_features(df, target_col='price_w1', scaler=None, club_encoding_map=N
     # Club target encoding (fit only on training data)
     if is_training:
         club_encoding_map = create_club_encoding_map(df, target_col, smoothing)
-    else:
-        logger.info("Applying pre-computed club encoding")
     club_encoded = apply_club_encoding(df, club_encoding_map)
     x_club = pd.DataFrame({'club_encoded': club_encoded}, index=df.index)
 
@@ -287,16 +295,16 @@ def prepare_features(df, target_col='price_w1', scaler=None, club_encoding_map=N
         x_club
     ], axis=1)
 
-    # In test mode, reindex to match training features exactly
+    # In test mode, reindex to match training features
     if not is_training and feature_names is not None:
         x = x.reindex(columns=feature_names, fill_value=0)
-        logger.info("Reindexed to match training features")
 
     # Get feature names (from training) or use current columns
     if is_training:
         feature_names = list(x.columns)
 
-    logger.info("Feature preparation complete: %d features, %d samples", len(feature_names), len(x))
-    print()
+    logger.info("Feature preparation complete: %d players with %d features", len(x), len(feature_names))
+    if not _FeatureConfig.logged: # So there is no empty lines in the main.py terminal when I import it
+        print()
 
     return x, y, scaler, club_encoding_map, feature_names

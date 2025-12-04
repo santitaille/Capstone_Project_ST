@@ -16,7 +16,6 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 import logging
-import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -36,28 +35,24 @@ logger = logging.getLogger(__name__)
 sns.set_style("whitegrid")
 plt.rcParams['figure.figsize'] = (12, 8)
 
-# Configuration
+# Setup paths (this file is at src/analysis/ols_visualization.py)
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 INPUT_FILE = PROJECT_ROOT / "results" / "tables" / "ols_coefficients.csv"
 OUTPUT_DIR = PROJECT_ROOT / "results" / "figures"
 
-def main():
+def main() -> None:
     """Run OLS visualizations"""
     try:
         # Load OLS coefficients
         df = pd.read_csv(INPUT_FILE)
-        logger.info("Loaded %d coefficients from CSV", len(df))
-        print()
 
         # Create output directory
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-        # Remove intercept for visualization (not meaningful to compare with features)
+        # Remove intercept for visualization
         df_features = df[df['feature'] != 'intercept'].copy()
 
-        logger.info("Generating 3 OLS visualizations...")
-        print()
-
+        logger.info("Generating 3 OLS figures...")
 
         # VISUALIZATION 1: COEFFICIENT PLOT WITH CONFIDENCE INTERVALS
         # Get top 20 features by absolute coefficient value
@@ -88,7 +83,7 @@ def main():
             # Plot CI line
             ax.plot([row['ci_lower'], row['ci_upper']], [y_pos, y_pos],
                 color=color, alpha=alpha, linewidth=2)
- 
+
             # Plot coefficient point
             ax.scatter(row['coefficient'], y_pos, color=color, s=100, zorder=3, alpha=alpha)
 
@@ -102,7 +97,7 @@ def main():
         ax.set_ylabel('Feature', fontsize=12)
         ax.set_title('OLS Coefficients with Confidence Intervals (Top 20 Features)',
             fontsize=14, fontweight='bold')
-        
+
         # Add legend
         legend_elements = [
             Line2D([0], [0], color='darkgreen', lw=2, label='*** (p < 0.001)'),
@@ -110,19 +105,15 @@ def main():
             Line2D([0], [0], color='orange', lw=2, label='* (p < 0.05)'),
             Line2D([0], [0], color='gray', lw=2, label='ns (not significant)')]
         ax.legend(handles=legend_elements, loc='lower right', fontsize=10)
-        
         ax.grid(axis='x', alpha=0.3)
         plt.tight_layout()
-        
-        # Save visualization
+
         output_path = OUTPUT_DIR / '07_ols_coefficient_plot.png'
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
-        logger.info("→ 07_ols_coefficient_plot.png")
+        logger.info("  → Saved: 07_ols_coefficient_plot.png")
         plt.close()
-        print()
 
-
-        # VISUALIZATION 2: TOP FEATURES BAR CHART        
+        # VISUALIZATION 2: TOP FEATURES BAR CHART
         # Get top positive and negative features
         positive_features = df_features[df_features['coefficient'] > 0].nlargest(15, 'coefficient')
         negative_features = df_features[df_features['coefficient'] < 0].nsmallest(5, 'coefficient')
@@ -140,15 +131,9 @@ def main():
 
         # Add significance stars
         for idx, (bar, row) in enumerate(zip(bars, combined.itertuples())):
-            # Add value label
             x_pos = row.coefficient
-            if x_pos > 0:
-                ha = 'left'
-                x_pos += 0.05
-            else:
-                ha = 'right'
-                x_pos -= 0.05
-
+            ha = 'left' if x_pos > 0 else 'right'
+            x_pos += 0.05 if x_pos > 0 else -0.05
             label = f"{row.coefficient:.2f} {row.sig_level}"
             ax.text(x_pos, idx, label, va='center', ha=ha, fontsize=9, fontweight='bold')
 
@@ -162,17 +147,13 @@ def main():
         ax.set_ylabel('Feature', fontsize=12)
         ax.set_title('Top Features Driving Player Prices (OLS Regression)', 
             fontsize=14, fontweight='bold')
-
         ax.grid(axis='x', alpha=0.3)
         plt.tight_layout()
 
-        # Save visualization
         output_path = OUTPUT_DIR / '08_ols_top_features.png'
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
-        logger.info("→ 08_ols_top_features.png")
+        logger.info("  → Saved: 08_ols_top_features.png")
         plt.close()
-        print()
-
 
         # VISUALIZATION 3: RESIDUALS DIAGNOSTICS
         # Load data and prepare features (same as ols_coefficient_analysis.py)
@@ -239,24 +220,18 @@ def main():
         # Add normal curve to compare
         mu, sigma = residuals.mean(), residuals.std()
         x = np.linspace(residuals.min(), residuals.max(), 100)
-        axes[1, 1].plot(x, len(residuals) * (residuals.max() - residuals.min()) / 50 * 
-                       stats.norm.pdf(x, mu, sigma), 
-                       'r-', linewidth=2, label='Normal Distribution')
+        axes[1, 1].plot(x, len(residuals) * (residuals.max() - residuals.min()) / 50 *
+            stats.norm.pdf(x, mu, sigma), 'r-', linewidth=2, label='Normal Distribution')
         axes[1, 1].legend(fontsize=9)
 
         plt.suptitle('OLS Regression Diagnostics', fontsize=16, fontweight='bold', y=1.00)
         plt.tight_layout()
 
-        # Save visualization
         output_path = OUTPUT_DIR / '09_ols_residuals_diagnostics.png'
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
-        logger.info("→ 09_ols_residuals_diagnostics.png")
+        logger.info("  → Saved: 09_ols_residuals_diagnostics.png")
         plt.close()
         print()
-
-
-        # SUMMARY
-        logger.info("OLS visualizations complete: 3 plots saved to results/figures/")
 
     except FileNotFoundError as e:
         logger.error("File not found: %s", e)
