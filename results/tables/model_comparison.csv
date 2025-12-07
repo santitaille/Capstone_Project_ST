@@ -1,7 +1,7 @@
 Model,R²,RMSE,MAE,Improvement_over_Baseline
-XGBoost,0.9558,137993,42997,51.0
-Random Forest,0.8596,245831,63961,35.8
+XGBoost,0.956,137993,42997,51.0
+Random Forest,0.86,245831,63961,35.9
 Neural Network (MLP),0.669,377422,92889,5.7
-Baseline 2: Median by OVR x Category,0.6329,397507,129361,0.0
-Linear Regression,0.6315,398273,116050,-0.2
-Baseline 1: Median by OVR,0.6078,410874,142364,-4.0
+Baseline 2: Median by Rating + Card,0.633,397507,129361,0.0
+Linear Regression,0.631,398273,116050,-0.3
+Baseline 1: Median by Rating,0.608,410874,142364,-3.9
