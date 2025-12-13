@@ -1,10 +1,10 @@
 """
-OLS Coefficient Visualizations
+OLS Coefficient Visualizations for EA FC 26 Player Price Prediction.
 
-Generates 3 visualizations from the OLS coefficient analysis results:
-1. Coefficient plot with confidence intervals (top 20 features)
-2. Top features bar chart (top 15 positive + top 5 negative)
-3. Residuals diagnostics (4-panel plot)
+Generates:
+* Figure 07: Coefficient plot with confidence intervals (top 20 features) (PNG)
+* Figure 08: Top features bar chart (top 15 positive + top 5 negative) (PNG)
+* Figure 09: Residuals diagnostics (4-panel plot) (PNG)
 """
 
 import sys
@@ -15,6 +15,8 @@ SRC_ROOT = Path(__file__).resolve().parent.parent
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
+# False positive warnings, so to have no warnings
+# pylint: disable=wrong-import-position,import-error
 import logging
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -28,17 +30,18 @@ from matplotlib.lines import Line2D
 from preprocessing.feature_engineering import load_data, prepare_features
 
 # Setup logging
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
 # Style configurations
 sns.set_style("whitegrid")
-plt.rcParams['figure.figsize'] = (12, 8)
+plt.rcParams["figure.figsize"] = (12, 8)
 
-# Setup paths (this file is at src/analysis/ols_visualization.py)
+# Setup paths
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 INPUT_FILE = PROJECT_ROOT / "results" / "tables" / "ols_coefficients.csv"
 OUTPUT_DIR = PROJECT_ROOT / "results" / "figures"
+
 
 def main() -> None:
     """Run OLS visualizations"""
@@ -50,113 +53,134 @@ def main() -> None:
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
         # Remove intercept for visualization
-        df_features = df[df['feature'] != 'intercept'].copy()
+        df_features = df[df["feature"] != "intercept"].copy()
 
-        logger.info("Generating 3 OLS figures...")
-
-        # VISUALIZATION 1: COEFFICIENT PLOT WITH CONFIDENCE INTERVALS
+        # Figure 1: Coefficient plot with confidence intervals
         # Get top 20 features by absolute coefficient value
-        top20 = df_features.nlargest(20, 'abs_coefficient').copy()
+        top20 = df_features.nlargest(20, "abs_coefficient").copy()
         # Sort by coefficient value (not absolute) for better visualization
-        top20 = top20.sort_values('coefficient')
+        top20 = top20.sort_values("coefficient")
 
-        fig, ax = plt.subplots(figsize=(10, 10))
+        _, ax = plt.subplots(figsize=(10, 10))
 
         # Plot confidence intervals as horizontal lines
-        for idx, row in top20.iterrows():
-            y_pos = range(len(top20)).__getitem__(top20.index.get_loc(idx))
+        for y_pos, (idx, row) in enumerate(top20.iterrows()):
 
             # Color based on significance
-            if row['sig_level'] == '***':
-                color = 'darkgreen'
+            if row["sig_level"] == "***":
+                color = "darkgreen"
                 alpha = 1.0
-            elif row['sig_level'] == '**':
-                color = 'green'
+            elif row["sig_level"] == "**":
+                color = "green"
                 alpha = 0.8
-            elif row['sig_level'] == '*':
-                color = 'orange'
+            elif row["sig_level"] == "*":
+                color = "orange"
                 alpha = 0.7
             else:
-                color = 'gray'
+                color = "gray"
                 alpha = 0.5
 
             # Plot CI line
-            ax.plot([row['ci_lower'], row['ci_upper']], [y_pos, y_pos],
-                color=color, alpha=alpha, linewidth=2)
+            ax.plot(
+                [row["ci_lower"], row["ci_upper"]],
+                [y_pos, y_pos],
+                color=color,
+                alpha=alpha,
+                linewidth=2,
+            )
 
             # Plot coefficient point
-            ax.scatter(row['coefficient'], y_pos, color=color, s=100, zorder=3, alpha=alpha)
+            ax.scatter(
+                row["coefficient"], y_pos, color=color, s=100, zorder=3, alpha=alpha
+            )
 
         # Add vertical line at 0
-        ax.axvline(x=0, color='black', linestyle='--', linewidth=1, alpha=0.3)
+        ax.axvline(x=0, color="black", linestyle="--", linewidth=1, alpha=0.3)
 
         # Labels and formatting
         ax.set_yticks(range(len(top20)))
-        ax.set_yticklabels(top20['feature'])
-        ax.set_xlabel('Coefficient (with 95% Confidence Interval)', fontsize=12)
-        ax.set_ylabel('Feature', fontsize=12)
-        ax.set_title('OLS Coefficients with Confidence Intervals (Top 20 Features)',
-            fontsize=14, fontweight='bold')
+        ax.set_yticklabels(top20["feature"])
+        ax.set_xlabel("Coefficient (with 95% Confidence Interval)", fontsize=12)
+        ax.set_ylabel("Feature", fontsize=12)
+        ax.set_title(
+            "OLS Coefficients with Confidence Intervals (Top 20 Features)",
+            fontsize=14,
+            fontweight="bold",
+        )
 
         # Add legend
         legend_elements = [
-            Line2D([0], [0], color='darkgreen', lw=2, label='*** (p < 0.001)'),
-            Line2D([0], [0], color='green', lw=2, label='** (p < 0.01)'),
-            Line2D([0], [0], color='orange', lw=2, label='* (p < 0.05)'),
-            Line2D([0], [0], color='gray', lw=2, label='ns (not significant)')]
-        ax.legend(handles=legend_elements, loc='lower right', fontsize=10)
-        ax.grid(axis='x', alpha=0.3)
+            Line2D([0], [0], color="darkgreen", lw=2, label="*** (p < 0.001)"),
+            Line2D([0], [0], color="green", lw=2, label="** (p < 0.01)"),
+            Line2D([0], [0], color="orange", lw=2, label="* (p < 0.05)"),
+            Line2D([0], [0], color="gray", lw=2, label="ns (not significant)"),
+        ]
+        ax.legend(handles=legend_elements, loc="lower right", fontsize=10)
+        ax.grid(axis="x", alpha=0.3)
         plt.tight_layout()
 
-        output_path = OUTPUT_DIR / '07_ols_coefficient_plot.png'
-        plt.savefig(output_path, dpi=300, bbox_inches='tight')
+        output_path = OUTPUT_DIR / "07_ols_coefficient_plot.png"
+        plt.savefig(output_path, dpi=300, bbox_inches="tight")
         logger.info("  → Saved: 07_ols_coefficient_plot.png")
         plt.close()
 
-        # VISUALIZATION 2: TOP FEATURES BAR CHART
+        # Figure 2: Top feature bar chart
         # Get top positive and negative features
-        positive_features = df_features[df_features['coefficient'] > 0].nlargest(15, 'coefficient')
-        negative_features = df_features[df_features['coefficient'] < 0].nsmallest(5, 'coefficient')
+        positive_features = df_features[df_features["coefficient"] > 0].nlargest(
+            15, "coefficient"
+        )
+        negative_features = df_features[df_features["coefficient"] < 0].nsmallest(
+            5, "coefficient"
+        )
 
         # Combine
         combined = pd.concat([positive_features, negative_features])
-        combined = combined.sort_values('coefficient')
+        combined = combined.sort_values("coefficient")
 
-        fig, ax = plt.subplots(figsize=(10, 8))
+        _, ax = plt.subplots(figsize=(10, 8))
 
         # Create bar chart
-        colors = ['red' if c < 0 else 'steelblue' for c in combined['coefficient']]
-        bars = ax.barh(range(len(combined)), combined['coefficient'], 
-            color=colors, alpha=0.7, edgecolor='black')
+        colors = ["red" if c < 0 else "steelblue" for c in combined["coefficient"]]
+        bars = ax.barh(
+            range(len(combined)),
+            combined["coefficient"],
+            color=colors,
+            alpha=0.7,
+            edgecolor="black",
+        )
 
         # Add significance stars
-        for idx, (bar, row) in enumerate(zip(bars, combined.itertuples())):
+        for idx, (_, row) in enumerate(zip(bars, combined.itertuples())):
             x_pos = row.coefficient
-            ha = 'left' if x_pos > 0 else 'right'
+            ha = "left" if x_pos > 0 else "right"
             x_pos += 0.05 if x_pos > 0 else -0.05
             label = f"{row.coefficient:.2f} {row.sig_level}"
-            ax.text(x_pos, idx, label, va='center', ha=ha, fontsize=9, fontweight='bold')
+            ax.text(
+                x_pos, idx, label, va="center", ha=ha, fontsize=9, fontweight="bold"
+            )
 
         # Add vertical line at 0
-        ax.axvline(x=0, color='black', linestyle='-', linewidth=1)
+        ax.axvline(x=0, color="black", linestyle="-", linewidth=1)
 
         # Labels and formatting
         ax.set_yticks(range(len(combined)))
-        ax.set_yticklabels(combined['feature'])
-        ax.set_xlabel('Coefficient Value', fontsize=12)
-        ax.set_ylabel('Feature', fontsize=12)
-        ax.set_title('Top Features Driving Player Prices (OLS Regression)', 
-            fontsize=14, fontweight='bold')
-        ax.grid(axis='x', alpha=0.3)
+        ax.set_yticklabels(combined["feature"])
+        ax.set_xlabel("Coefficient Value", fontsize=12)
+        ax.set_ylabel("Feature", fontsize=12)
+        ax.set_title(
+            "Top Features Driving Player Prices (OLS Regression)",
+            fontsize=14,
+            fontweight="bold",
+        )
+        ax.grid(axis="x", alpha=0.3)
         plt.tight_layout()
 
-        output_path = OUTPUT_DIR / '08_ols_top_features.png'
-        plt.savefig(output_path, dpi=300, bbox_inches='tight')
+        output_path = OUTPUT_DIR / "08_ols_top_features.png"
+        plt.savefig(output_path, dpi=300, bbox_inches="tight")
         logger.info("  → Saved: 08_ols_top_features.png")
         plt.close()
 
-        # VISUALIZATION 3: RESIDUALS DIAGNOSTICS
-        # Load data and prepare features (same as ols_coefficient_analysis.py)
+        # Figure 3: Residuals disgnostics
         df_data = load_data()
         x_train, y_train_log, _, _, _ = prepare_features(
             df_data,
@@ -164,7 +188,8 @@ def main() -> None:
             scaler=None,
             club_encoding_map=None,
             smoothing=10,
-            feature_names=None)
+            feature_names=None,
+        )
 
         # Fit OLS model
         x_train_np = x_train.values
@@ -178,68 +203,85 @@ def main() -> None:
         standardized_residuals = residuals / np.sqrt(np.var(residuals))
 
         # Create 2x2 subplot for diagnostics
-        fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+        _, axes = plt.subplots(2, 2, figsize=(14, 10))
 
         # Plot 1: Residuals vs Fitted
         axes[0, 0].scatter(fitted_values, residuals, alpha=0.5, s=20)
-        axes[0, 0].axhline(y=0, color='red', linestyle='--', linewidth=2)
-        axes[0, 0].set_xlabel('Fitted Values (Log-Price)', fontsize=11)
-        axes[0, 0].set_ylabel('Residuals', fontsize=11)
-        axes[0, 0].set_title('Residuals vs Fitted', fontsize=12, fontweight='bold')
+        axes[0, 0].axhline(y=0, color="red", linestyle="--", linewidth=2)
+        axes[0, 0].set_xlabel("Fitted Values (Log-Price)", fontsize=11)
+        axes[0, 0].set_ylabel("Residuals", fontsize=11)
+        axes[0, 0].set_title("Residuals vs Fitted", fontsize=12, fontweight="bold")
         axes[0, 0].grid(alpha=0.3)
 
         # Add lowess smoothing line to check for patterns
         smoothed = lowess(residuals, fitted_values, frac=0.3)
-        axes[0, 0].plot(smoothed[:, 0], smoothed[:, 1], color='blue', linewidth=2, label='LOWESS')
+        axes[0, 0].plot(
+            smoothed[:, 0], smoothed[:, 1], color="blue", linewidth=2, label="LOWESS"
+        )
         axes[0, 0].legend(fontsize=9)
 
         # Plot 2: Q-Q Plot (Normal Probability Plot)
         stats.probplot(residuals, dist="norm", plot=axes[0, 1])
-        axes[0, 1].set_title('Normal Q-Q Plot', fontsize=12, fontweight='bold')
+        axes[0, 1].set_title("Normal Q-Q Plot", fontsize=12, fontweight="bold")
         axes[0, 1].grid(alpha=0.3)
 
         # Plot 3: Scale-Location (Spread-Location)
-        axes[1, 0].scatter(fitted_values, np.sqrt(np.abs(standardized_residuals)), alpha=0.5, s=20)
-        axes[1, 0].set_xlabel('Fitted Values (Log-Price)', fontsize=11)
-        axes[1, 0].set_ylabel('√|Standardized Residuals|', fontsize=11)
-        axes[1, 0].set_title('Scale-Location', fontsize=12, fontweight='bold')
+        axes[1, 0].scatter(
+            fitted_values, np.sqrt(np.abs(standardized_residuals)), alpha=0.5, s=20
+        )
+        axes[1, 0].set_xlabel("Fitted Values (Log-Price)", fontsize=11)
+        axes[1, 0].set_ylabel("√|Standardized Residuals|", fontsize=11)
+        axes[1, 0].set_title("Scale-Location", fontsize=12, fontweight="bold")
         axes[1, 0].grid(alpha=0.3)
 
         # Add lowess smoothing line
-        smoothed_scale = lowess(np.sqrt(np.abs(standardized_residuals)), fitted_values, frac=0.3)
-        axes[1, 0].plot(smoothed_scale[:, 0], smoothed_scale[:, 1], color='blue', linewidth=2)
+        smoothed_scale = lowess(
+            np.sqrt(np.abs(standardized_residuals)), fitted_values, frac=0.3
+        )
+        axes[1, 0].plot(
+            smoothed_scale[:, 0], smoothed_scale[:, 1], color="blue", linewidth=2
+        )
 
         # Plot 4: Residuals Histogram
-        axes[1, 1].hist(residuals, bins=50, edgecolor='black', alpha=0.7)
-        axes[1, 1].set_xlabel('Residuals', fontsize=11)
-        axes[1, 1].set_ylabel('Frequency', fontsize=11)
-        axes[1, 1].set_title('Histogram of Residuals', fontsize=12, fontweight='bold')
-        axes[1, 1].axvline(x=0, color='red', linestyle='--', linewidth=2)
+        axes[1, 1].hist(residuals, bins=50, edgecolor="black", alpha=0.7)
+        axes[1, 1].set_xlabel("Residuals", fontsize=11)
+        axes[1, 1].set_ylabel("Frequency", fontsize=11)
+        axes[1, 1].set_title("Histogram of Residuals", fontsize=12, fontweight="bold")
+        axes[1, 1].axvline(x=0, color="red", linestyle="--", linewidth=2)
         axes[1, 1].grid(alpha=0.3)
 
         # Add normal curve to compare
         mu, sigma = residuals.mean(), residuals.std()
         x = np.linspace(residuals.min(), residuals.max(), 100)
-        axes[1, 1].plot(x, len(residuals) * (residuals.max() - residuals.min()) / 50 *
-            stats.norm.pdf(x, mu, sigma), 'r-', linewidth=2, label='Normal Distribution')
+        axes[1, 1].plot(
+            x,
+            len(residuals)
+            * (residuals.max() - residuals.min())
+            / 50
+            * stats.norm.pdf(x, mu, sigma),
+            "r-",
+            linewidth=2,
+            label="Normal Distribution",
+        )
         axes[1, 1].legend(fontsize=9)
 
-        plt.suptitle('OLS Regression Diagnostics', fontsize=16, fontweight='bold', y=1.00)
+        plt.suptitle(
+            "OLS Regression Diagnostics", fontsize=16, fontweight="bold", y=1.00
+        )
         plt.tight_layout()
 
-        output_path = OUTPUT_DIR / '09_ols_residuals_diagnostics.png'
-        plt.savefig(output_path, dpi=300, bbox_inches='tight')
+        output_path = OUTPUT_DIR / "09_ols_residuals_diagnostics.png"
+        plt.savefig(output_path, dpi=300, bbox_inches="tight")
         logger.info("  → Saved: 09_ols_residuals_diagnostics.png")
         plt.close()
-        print()
 
     except FileNotFoundError as e:
         logger.error("File not found: %s", e)
-        logger.error("Run ols_coefficient_analysis.py first to generate the CSV")
+        raise
 
     except KeyError as e:
         logger.error("Column not found: %s", e)
-        logger.error("Check that the CSV has the correct columns")
+        raise
 
     except Exception as e:
         logger.error("Unexpected error during visualization: %s", e)

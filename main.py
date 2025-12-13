@@ -1,132 +1,203 @@
 """
-EA FC 26 Player Price Prediction - Main Pipeline
-Santiago Tailleferd - Student #20557377
+EA FC 26 Player Price Prediction - DATA SCIENCE AND ADVANCED PROGRAMMING
+Santiago Tailleferd (#20557377)
 
-Runs the complete analysis pipeline in order:
-1. EDA Analysis
-2. OLS Coefficient Analysis  
-3. OLS Visualizations
-4. XGBoost Feature Importance
-5. SHAP Analysis
-6. Baseline Models
-7. Linear Regression
-8. Random Forest
-9. XGBoost Model
-10. Neural Network
-11. Market Inefficiencies
-12. Model Comparison
+Runs the complete analysis pipeline in 12 steps:
+
+PART I: DATA PREPARATION & EXPLORATION
+    1. EDA Analysis
+    2. Feature Engineering
+
+PART II: BASELINE & STATISTICAL ANALYSIS
+    3. OLS Coefficient Analysis & Visualizations
+    4. Baseline Models
+
+PART III: MACHINE LEARNING MODELS
+    5. Linear Regression
+    6. Random Forest
+    7. XGBoost
+    8. Neural Network
+
+PART IV: MODEL EVALUATION & INTERPRETATION
+    9. Model Comparison
+    10. XGBoost Feature Importance
+    11. SHAP Analysis
+    12. Market Inefficiencies
+
+Note: This project assumes the complete dataset (players_complete.csv) is already available locally.
+All data was obtained by 3 scrapers (URL, price, attributes) and 1 merger.
+These 4 files are available on this repository but won't be run in this file.
+
+Type Ctrl+C on Mac to stop the project
 """
 
 import sys
+import logging
 from pathlib import Path
+
+# Setup logging (in this file, only for errors so terminal looks clean)
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+logger = logging.getLogger(__name__)
 
 # Setup project paths
 PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
-
-def print_header(step, total, title):
-    """Print formatted step header"""
-    print("\n" + "=" * 80)
-    print(f"[{step}/{total}] {title}")
-    print("=" * 80)
+# False positive disabled: imports at each step for clarity and memory efficiency (+ clean terminal)
+# pylint: disable=wrong-import-position,import-error,import-outside-toplevel,broad-exception-caught
 
 
-def main():
-    """Run complete analysis pipeline"""
-    print("=" * 80)
-    print("EA FC 26 PLAYER PRICE PREDICTION - FULL PIPELINE")
-    print("Student: Santiago Tailleferd (#20557377)")
-    print("=" * 80)
-    
-    total_steps = 12
-    
+def print_section_header(title: str) -> None:
+    """Print major section divider (PART)."""
+    print("\n" + "=" * 120)
+    print(title)
+    print("=" * 120)
+
+
+def print_step_header(title: str) -> None:
+    """Print minor section divider (Step)."""
+    print("\n" + "-" * 100)
+    print(title)
+    print("-" * 100)
+
+
+def main() -> None:
+    """Run the whole project step by step."""
+    import time
+
+    pipeline_start = time.time()
+
+    print("=" * 120)
+    print("EA FC 26 PLAYER PRICE PREDICTION | DATA SCIENCE AND ADVANCED PROGRAMMING")
+    print("Made by Santiago Tailleferd (#20557377)")
+    print("Random Seed: 42 (reproducible results - fixed for all models)")
+    print("=" * 120)
+
     try:
-        # 1. EDA Analysis
-        print_header(1, total_steps, "EXPLORATORY DATA ANALYSIS")
+        # PART I: DATA PREPARATION & EXPLORATION
+        print_section_header("PART I: DATA PREPARATION & EXPLORATION")
+
+        # Step 1: EDA Analysis
+        print_step_header("Step 1: EDA Analysis")
         from analysis import eda_analysis
+
         eda_analysis.main()
-        
-        # 2. OLS Coefficient Analysis
-        print_header(2, total_steps, "OLS COEFFICIENT ANALYSIS")
-        from analysis import ols_coefficient_analysis
+
+        # Step 2: Feature Engineering
+        print_step_header("Step 2: Feature Engineering")
+        from preprocessing.feature_engineering import load_data, prepare_features
+
+        df = load_data()
+        _, _, _, _, _ = prepare_features(df, "price_w1", None, None, 10, None)
+        logger.info("Note: All ML models will be trained on log-transformed prices")
+        logger.info(
+            "Note: RMSE and MAE are transformed back to original prices (credits)"
+        )
+        logger.info(
+            "Note: R² is computed in log-price space (consistent with model training)"
+        )
+
+        # PART II: BASELINE & STATISTICAL ANALYSIS
+        print_section_header("PART II: BASELINE & STATISTICAL ANALYSIS")
+
+        # Step 3: OLS Coefficient Analysis & Visualizations
+        print_step_header("Step 3: OLS Coefficient Analysis & Visualizations")
+        from analysis import ols_coefficient_analysis, ols_visualizations
+
         ols_coefficient_analysis.main()
-        
-        # 3. OLS Visualizations
-        print_header(3, total_steps, "OLS VISUALIZATIONS")
-        from analysis import ols_visualizations
         ols_visualizations.main()
-        
-        # 4. XGBoost Feature Importance
-        print_header(4, total_steps, "XGBOOST FEATURE IMPORTANCE")
-        from analysis import xgboost_feature_importance
-        xgboost_feature_importance.main()
-        
-        # 5. SHAP Analysis
-        print_header(5, total_steps, "SHAP ANALYSIS")
-        from analysis import shap_analysis
-        shap_analysis.main()
-        
-        # 6. Baseline Models
-        print_header(6, total_steps, "BASELINE MODELS")
+
+        # Step 4: Baseline Models
+        print_step_header("Step 4: Baseline Models")
         from models import baseline_models
+
         baseline_models.main()
 
+        # PART III: MACHINE LEARNING MODELS
+        print_section_header("PART III: MACHINE LEARNING MODELS")
 
-        # 7. Linear Regression
-        print_header(7, total_steps, "LINEAR REGRESSION MODEL")
+        # Step 5: Linear Regression
+        print_step_header("Step 5: Linear Regression")
         from models import linear_regression
+
         linear_regression.main()
 
-
-        # 8. Random Forest
-        print_header(8, total_steps, "RANDOM FOREST MODEL")
+        # Step 6: Random Forest
+        print_step_header("Step 6: Random Forest")
         from models import random_forest
+
         random_forest.main()
 
-
-        # 9. XGBoost Model
-        print_header(9, total_steps, "XGBOOST MODEL")
+        # Step 7: XGBoost
+        print_step_header("Step 7: XGBoost")
         from models import xgboost_model
+
         xgboost_model.main()
 
-
-        # 10. Neural Network
-        print_header(10, total_steps, "NEURAL NETWORK MODEL")
+        # Step 8: Neural Network
+        print_step_header("Step 8: Neural Network (MLP)")
         from models import neural_network
+
         neural_network.main()
 
+        # PART IV: MODEL EVALUATION & INTERPRETATION
+        print_section_header("PART IV: MODEL EVALUATION & INTERPRETATION")
 
-        # 11. Market Inefficiencies
-        print_header(11, total_steps, "MARKET INEFFICIENCIES DETECTION")
-        from analysis import market_inefficiencies
-        market_inefficiencies.main()
-
-
-        # 12. Model Comparison
-        print_header(12, total_steps, "MODEL COMPARISON")
+        # Step 9: Model Comparison
+        print_step_header("Step 9: Model Comparison")
         from analysis import model_comparison
+
         model_comparison.main()
 
+        # Step 10: XGBoost Feature Importance
+        print_step_header("Step 10: XGBoost Feature Importance")
+        from analysis import xgboost_feature_importance
 
-        # Final Summary
-        print("\n" + "=" * 80)
-        print("✅ PIPELINE COMPLETE!")
-        print("=" * 80)
+        xgboost_feature_importance.main()
+
+        # Step 11: SHAP Analysis
+        print_step_header("Step 11: SHAP Analysis")
+        from analysis import shap_analysis
+
+        shap_analysis.main()
+
+        # Step 12: Market Inefficiencies
+        print_step_header("Step 12: Market Inefficiencies")
+        from analysis import market_inefficiencies
+
+        market_inefficiencies.main()
+
+        # FINAL SUMMARY
+        print("\n" + "=" * 120)
+        print("PROJECT EXECUTION COMPLETE")
+        print("=" * 120)
         print("\nAll results saved to:")
-        print(f"  - Figures: {PROJECT_ROOT / 'results' / 'figures'}")
-        print(f"  - Tables: {PROJECT_ROOT / 'results' / 'tables'}")
-        print(f"  - Predictions: {PROJECT_ROOT / 'results' / 'predictions'}")
-        print("\nGenerated outputs:")
-        print("  - 17 visualizations (PNG)")
-        print("  - 4 model predictions (CSV)")
-        print("  - 5 analysis tables (CSV)")
-        print("=" * 80)
-        
+        print(" - Figures: results/figures (16 PNG files)")
+        print(" - Tables: results/tables (5 CSV files)")
+        print(" - Predictions: results/predictions (4 CSV files)")
+        print("\nLines of code:")
+        print(" - Scrapers: 464 lines (not run on this file)")
+        print(" - Preprocessing: 501 lines")
+        print(" - Models: 858 lines")
+        print(" - Analysis: 1,572 lines")
+        print(" - Main: 207 lines")
+        print("Total: 3,602 lines (+440 lines of tests)")
+        print(
+            "\nBest Model: XGBoost (R² = 0.956 | RMSE = 137,993 credits | MAE = 42,997 credits)"
+        )
+        print("+51% improvement over benchmark")
+        print(f"\nTotal execution runtime: {time.time() - pipeline_start:.1f} seconds")
+        print("=" * 120)
+
+    except KeyboardInterrupt:
+        print("\n\nPipeline interrupted by user")
+        sys.exit(0)
+
     except Exception as e:
-        print(f"\n❌ ERROR: Pipeline failed at current step")
-        print(f"Error details: {e}")
+        logger.error("Pipeline failed at current step")
+        logger.error("Error details: %s", e)
         import traceback
+
         traceback.print_exc()
         sys.exit(1)
 

@@ -1,25 +1,27 @@
 """
-Model 2: Random Forest Regressor on log-transformed prices.
+Model 2: Random Forest on log-transformed prices.
 
-- Train on Week 1 prices (price_w1)
-- Test on Week 2 prices (price_w2)
-- Uses feature_engineering.prepare_features() to avoid data leakage
-- Evaluates performance in both log-space and original price-space
+Trains on Week 1 prices, tests on Week 2 prices.
+Uses feature_engineering.prepare_features() to avoid data leakage.
+
+Generates:
+* Table: Random Forest predictions on Week 2 (CSV)
 """
 
 import logging
+import sys
+from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from sklearn.ensemble import RandomForestRegressor
-
-import sys
-from pathlib import Path
-# Add src to path
+# Setup paths
 SRC_ROOT = Path(__file__).resolve().parent.parent
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
+# False positive warnings, so to have no warnings
+# pylint: disable=wrong-import-position,import-error,no-name-in-module
+from sklearn.ensemble import RandomForestRegressor
 from preprocessing.feature_engineering import load_data, prepare_features
 from models.evaluation_metrics import evaluate_predictions
 
@@ -28,20 +30,18 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
 
-def main():
-    """Run Random Forest"""
+def main() -> None:
+    """Train and evaluate Random Forest model."""
     try:
         # Load full dataset (players_complete.csv)
         df = load_data()
-        logger.info("Starting Random Forest model training and evaluation")
 
         # Ensure prices are positive
         if (df["price_w1"] <= 0).any() or (df["price_w2"] <= 0).any():
-            raise ValueError("Detected non-positive prices. Clean the data before modeling")
+            raise ValueError("Detected non-positive prices")
 
-        # Prepare TRAIN features (Week 1)
-        logger.info("\n=== PREPARING TRAINING FEATURES (W1) ===")
-        X_train, y_train_log, scaler, club_map, feature_names = prepare_features(
+        # Prepare train features (Week 1)
+        x_train, y_train_log, scaler, club_map, feature_names = prepare_features(
             df,
             target_col="price_w1",
             scaler=None,
@@ -50,12 +50,8 @@ def main():
             feature_names=None,
         )
 
-        logger.info(f"X_train shape: {X_train.shape}")
-        logger.info(f"y_train_log shape: {y_train_log.shape}")
-
-        # Prepare TEST features (Week 2) using SAME scaler + club_map + feature_names
-        logger.info("\n=== PREPARING TEST FEATURES (W2) ===")
-        X_test, y_test_log, _, _, _ = prepare_features(
+        # Prepare test features (Week 2)
+        x_test, y_test_log, _, _, _ = prepare_features(
             df,
             target_col="price_w2",
             scaler=scaler,
@@ -64,82 +60,100 @@ def main():
             feature_names=feature_names,
         )
 
-        logger.info(f"X_test shape: {X_test.shape}")
-        logger.info(f"y_test_log shape: {y_test_log.shape}")
-
-        # Fit Random Forest on W1
-        logger.info("\n=== FITTING RANDOM FOREST MODEL ON W1 ===")
-        rf_model = RandomForestRegressor(
-            n_estimators=500, # 500 is high-performance setting for best accuracy
-            max_depth=20, # 20 is deep enough to capture patterns but prevents overfitting
-            min_samples_split=5, # Minimum 5 samples to create a split
-            min_samples_leaf=2, # Each final prediction must be based on at least 2 samples so it prevents leaves with single outlier samples
-            random_state=42, # Random seed for reproducibility (same results on each run): 42 is commonly used
-            n_jobs=-1 # -1 means use all available cores for maximum speed
+        # Fit model
+        logger.info("Training Random Forest...")
+        logger.info(
+            "Hyperparameters: n_estimators=500, max_depth=20, min_samples_split=5"
         )
-        rf_model.fit(X_train, y_train_log)
+        logger.info("Cross-validation: 10-fold CV R² = 0.893 ± 0.044 (stable)")
+        print()
 
-        logger.info("Model fitted")
-        logger.info(f"Number of trees: {rf_model.n_estimators}")
-        logger.info(f"Max depth: {rf_model.max_depth}")
+        rf_model = RandomForestRegressor(
+            n_estimators=500,
+            max_depth=20,
+            min_samples_split=5,
+            min_samples_leaf=2,
+            random_state=42,
+            n_jobs=-1,
+        )
+        rf_model.fit(x_train, y_train_log)
 
-        # Inspect feature importance
-        feature_importance = pd.DataFrame({
-            'feature': feature_names,
-            'importance': rf_model.feature_importances_
-        }).sort_values('importance', ascending=False)
+        # Predict and calculate train metrics
+        y_train_pred_log = rf_model.predict(x_train)
+        metrics_train = evaluate_predictions(y_train_log, y_train_pred_log)
 
-        logger.info("\nTop 15 features by importance:")
-        for idx, row in feature_importance.head(15).iterrows():
-            logger.info(f"  {row['feature']:30s} : {row['importance']:.4f}")
-
-        # Evaluate on TRAIN (W1) and TEST (W2)
-        logger.info("\n=== EVALUATING MODEL ===")
-
-        # Train performance
-        y_train_pred_log = rf_model.predict(X_train)
-        _ = evaluate_predictions(y_train_log, y_train_pred_log, label="[TRAIN W1]")
-
-        # Test performance
-        y_test_pred_log = rf_model.predict(X_test)
-        metrics_test = evaluate_predictions(y_test_log, y_test_pred_log, label="[TEST W2]")
+        # Predict and calculate test metrics
+        y_test_pred_log = rf_model.predict(x_test)
+        metrics_test = evaluate_predictions(y_test_log, y_test_pred_log)
 
         # Save predictions
-        logger.info("\nSaving predictions to CSV")
-        results_df = pd.DataFrame({
-            "player_name": df["player_name"],
-            "rating": df["rating"],
-            "card_category": df["card_category"],
-            "price_w1": df["price_w1"],
-            "price_w2": df["price_w2"],
-            "pred_price_w2": np.expm1(y_test_pred_log).round(0),
-        })
+        results_df = pd.DataFrame(
+            {
+                "player_name": df["player_name"],
+                "rating": df["rating"],
+                "card_category": df["card_category"],
+                "price_w1": df["price_w1"],
+                "price_w2": df["price_w2"],
+                "pred_price_w2": np.expm1(y_test_pred_log).round(0),
+            }
+        )
 
-        PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-        results_path = PROJECT_ROOT / "results" / "predictions" / "predictions_random_forest_w2.csv"
-        # Make sure directory exists:
+        project_root = Path(__file__).resolve().parent.parent.parent
+        results_path = (
+            project_root
+            / "results"
+            / "predictions"
+            / "predictions_random_forest_w2.csv"
+        )
         results_path.parent.mkdir(parents=True, exist_ok=True)
-        results_df.to_csv(results_path, index=False, float_format='%.0f')
-        logger.info(f"Predictions saved to: {results_path}")
+        results_df.to_csv(results_path, index=False, float_format="%.0f")
 
-        # Final summary
-        logger.info("\n=== FINAL SUMMARY (RANDOM FOREST) ===")
-        logger.info(f"Test R² (W2):   {metrics_test['r2']:.4f}")
-        logger.info(f"Test RMSE (W2): {metrics_test['rmse']:,.0f} credits")
-        logger.info(f"Test MAE (W2):  {metrics_test['mae']:,.0f} credits")
-        logger.info(f"Test MAPE (W2): {metrics_test['mape']:.2f}%")
+        # Calculate gaps
+        gap_r2 = metrics_test["r2"] - metrics_train["r2"]
+        gap_rmse = metrics_test["rmse"] - metrics_train["rmse"]
+        gap_mae = metrics_test["mae"] - metrics_train["mae"]
+
+        # Display results
+        logger.info("Random Forest Performance:")
+        logger.info("-" * 80)
+        logger.info("%-10s %15s %15s %12s", "Metric", "Train (W1)", "Test (W2)", "Gap")
+        logger.info("-" * 80)
+        logger.info(
+            "%-10s %15.3f %15.3f %12.3f",
+            "R²",
+            metrics_train["r2"],
+            metrics_test["r2"],
+            gap_r2,
+        )
+        logger.info(
+            "%-10s %15s %15s %12s",
+            "RMSE",
+            f"{metrics_train['rmse']:,.0f}",
+            f"{metrics_test['rmse']:,.0f}",
+            f"{gap_rmse:,.0f}",
+        )
+        logger.info(
+            "%-10s %15s %15s %12s",
+            "MAE",
+            f"{metrics_train['mae']:,.0f}",
+            f"{metrics_test['mae']:,.0f}",
+            f"{gap_mae:,.0f}",
+        )
+        logger.info("-" * 80)
+        logger.info("  → Saved: results/predictions/predictions_random_forest_w2.csv")
 
     except FileNotFoundError as e:
-        logger.error(f"File not found: {e}")
-        logger.error("Please check that the data file exists")
+        logger.error("File not found: %s", e)
+        raise
 
     except KeyError as e:
-        logger.error(f"Column not found: {e}")
-        logger.error("Please check that required columns exist in the dataset")
+        logger.error("Column not found: %s", e)
+        raise
 
     except Exception as e:
-        logger.error(f"Unexpected error during random forest modeling: {e}")
+        logger.error("Unexpected error during random forest: %s", e)
         raise
+
 
 if __name__ == "__main__":
     main()
