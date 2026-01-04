@@ -143,7 +143,7 @@ def main() -> None:
             "Hyperparameters: epochs=300, batch_size=32, early_stop_patience=20"
         )
         logger.info(
-            "Training stopped at epoch %d (validation loss plateaued)", epochs_trained
+            "Training stopped at epoch %d (validation loss stabilized)", epochs_trained
         )
         print()
 

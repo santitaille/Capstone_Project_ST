@@ -65,8 +65,8 @@ def main() -> None:
                 142364,  # Baseline 1
                 129361,  # Baseline 2
                 116050,  # Linear Regression
-                92889,  # Neural Network
-                63961,  # Random Forest
+                92889,   # Neural Network
+                63961,   # Random Forest
                 42997,
             ],
         }  # XGBoost
@@ -75,8 +75,8 @@ def main() -> None:
 
         # Add improvement over best baseline
         best_baseline_r2 = 0.633
-        df["Improvement_over_Baseline"] = (
-            (df["R²"] - best_baseline_r2) / best_baseline_r2 * 100
+        df["R² vs Benchmark"] = (
+            (df["R²"] - best_baseline_r2)  * 100
         ).round(1)
 
         # Sort by R² descending
@@ -97,14 +97,12 @@ def main() -> None:
             "R²",
             "RMSE",
             "MAE",
-            "vs Benchmark",
+            "R² vs Benchmark",
         )
         logger.info("-" * 80)
         for idx, row in df.iterrows():
-            if best_baseline_r2 > 0:
-                pct_diff = ((row["R²"] - best_baseline_r2) / best_baseline_r2) * 100
-            else:
-                pct_diff = 0.0
+            r2_diff = (row["R²"] - best_baseline_r2) * 100
+
             logger.info(
                 "%-6s %-36s %8s %12s %12s %14s",
                 idx + 1,
@@ -112,7 +110,7 @@ def main() -> None:
                 row["R²"],
                 f"{row['RMSE']:,.0f}",
                 f"{row['MAE']:,.0f}",
-                f"{pct_diff:+.1f}%",
+                f"{r2_diff:+.1f}%",
             )
         logger.info("-" * 80)
         winner = df.iloc[0]
