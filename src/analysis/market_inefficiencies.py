@@ -131,18 +131,18 @@ def main() -> None:
 
         # Top 15 underpriced
         top_underpriced = df[df["status"] == "Underpriced"].nlargest(
-            15, "price_diff_pct"
+            15, "price_diff"
         )
         axes[0].barh(
             range(len(top_underpriced)),
-            top_underpriced["price_diff_pct"],
+            top_underpriced["price_diff"],
             color="green",
             alpha=0.7,
             edgecolor="black",
         )
         axes[0].set_yticks(range(len(top_underpriced)))
         axes[0].set_yticklabels(top_underpriced["player_name"], fontsize=9)
-        axes[0].set_xlabel("Underpriced % (Predicted - Actual)", fontsize=11)
+        axes[0].set_xlabel("Underpriced (credits)", fontsize=11)
         axes[0].set_title(
             "Top 15 Underpriced Players (Best Buys)", fontsize=12, fontweight="bold"
         )
@@ -150,23 +150,25 @@ def main() -> None:
         axes[0].grid(axis="x", alpha=0.3)
 
         # Add percentage labels
-        for idx, val in enumerate(top_underpriced["price_diff_pct"]):
-            axes[0].text(val + 2, idx, f"+{val:.1f}%", va="center", fontsize=8)
+        for idx, (_, row) in enumerate(top_underpriced.iterrows()):
+            val = row["price_diff"]
+            pct = row["price_diff_pct"]
+            axes[0].text(val + val*0.02, idx, f"+{val:,.0f} ({pct:+.1f}%)", va="center", fontsize=8)
 
         # Top 15 overpriced
         top_overpriced = df[df["status"] == "Overpriced"].nsmallest(
-            15, "price_diff_pct"
+            15, "price_diff"
         )
         axes[1].barh(
             range(len(top_overpriced)),
-            top_overpriced["price_diff_pct"].abs(),
+            top_overpriced["price_diff"].abs(),
             color="red",
             alpha=0.7,
             edgecolor="black",
         )
         axes[1].set_yticks(range(len(top_overpriced)))
         axes[1].set_yticklabels(top_overpriced["player_name"], fontsize=9)
-        axes[1].set_xlabel("Overpriced % (Actual - Predicted)", fontsize=11)
+        axes[1].set_xlabel("Overpriced (credits)", fontsize=11)
         axes[1].set_title(
             "Top 15 Overpriced Players (Avoid/Sell)", fontsize=12, fontweight="bold"
         )
@@ -174,8 +176,10 @@ def main() -> None:
         axes[1].grid(axis="x", alpha=0.3)
 
         # Add percentage labels
-        for idx, val in enumerate(top_overpriced["price_diff_pct"].abs()):
-            axes[1].text(val + 2, idx, f"+{val:.1f}%", va="center", fontsize=8)
+        for idx, (_, row) in enumerate(top_overpriced.iterrows()):
+            val = abs(row["price_diff"])
+            pct = abs(row["price_diff_pct"])
+            axes[1].text(val + val*0.02, idx, f"+{val:,.0f} ({pct:.1f}%)", va="center", fontsize=8)
 
         plt.tight_layout()
         output_path = FIGURES_DIR / "16_trading_opportunities.png"
