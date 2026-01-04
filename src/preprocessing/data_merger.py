@@ -12,6 +12,7 @@ IMPORTANT:
 For second merge: uncomment lines marked with #W2 and comment lines marked with #W1.
 """
 
+from pathlib import Path
 import logging
 import os
 import pandas as pd
@@ -21,9 +22,10 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
 # Configuration
-ATTRIBUTES_FILE = "/files/Capstone_Project_ST/data/players_attributes.csv"
-WEEK1_FILE = "/files/Capstone_Project_ST/data/week1/prices_week1.csv"
-WEEK2_FILE = "/files/Capstone_Project_ST/data/week2/prices_week2.csv"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+ATTRIBUTES_FILE = PROJECT_ROOT / "data" / "players_attributes.csv"
+WEEK1_FILE = PROJECT_ROOT / "data" / "week1" / "prices_week1.csv"
+WEEK2_FILE = PROJECT_ROOT / "data" / "week2" / "prices_week2.csv"
 
 
 if __name__ == "__main__":
@@ -86,8 +88,8 @@ if __name__ == "__main__":
 
         # Save merged dataset
         # CAREFUL: only 1 line should be uncommented at a time
-        # OUTPUT_PATH = "/files/Capstone_Project_ST/data/processed/players_with_week1.csv" # UNCOMMENT FOR W1
-        OUTPUT_PATH = "/files/Capstone_Project_ST/data/processed/players_complete.csv"  # UNCOMMENT FOR W2
+        #OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "players_with_week1.csv"  # UNCOMMENT FOR W1
+        OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "players_complete.csv"
 
         os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
         df_merged.to_csv(OUTPUT_PATH, index=False)

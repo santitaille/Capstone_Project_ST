@@ -8,6 +8,7 @@ Generates:
 * Table: Player attributes for all scraped players (CSV)
 """
 
+from pathlib import Path
 from typing import Optional
 import time
 import os
@@ -21,8 +22,9 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
 # Configuration
-INPUT_FILE = "/files/Capstone_Project_ST/data/player_urls.csv"
-OUTPUT_DIR = "/files/Capstone_Project_ST/data"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+INPUT_FILE = PROJECT_ROOT / "data" / "player_urls.csv"
+OUTPUT_DIR = PROJECT_ROOT / "data"
 OUTPUT_FILE = "players_attributes.csv"
 
 headers = {"User-Agent": "Mozilla/5.0"}
@@ -287,7 +289,7 @@ if __name__ == "__main__":
     # Save scraped attributes to CSV file
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     df = pd.DataFrame(rows)
-    OUTPUT_PATH = f"{OUTPUT_DIR}/{OUTPUT_FILE}"
+    OUTPUT_PATH = OUTPUT_DIR / OUTPUT_FILE
     df.to_csv(OUTPUT_PATH, index=False)
 
     logger.info("Scraped %d player attributes to %s", len(df), OUTPUT_PATH)

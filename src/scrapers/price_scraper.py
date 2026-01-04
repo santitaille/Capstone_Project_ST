@@ -10,6 +10,7 @@ IMPORTANT:
 For second scrape: uncomment lines marked with #W2 and comment lines marked with #W1.
 """
 
+from pathlib import Path
 import time
 import re
 import os
@@ -25,9 +26,10 @@ logger = logging.getLogger(__name__)
 headers = {"User-Agent": "Mozilla/5.0"}
 
 # Configuration
-INPUT_FILE = "/files/Capstone_Project_ST/data/player_urls.csv"
-OUTPUT_DIR = "/files/Capstone_Project_ST/data/week2"  # Change week1 to week2
-OUTPUT_FILE = "prices_week2.csv"  # Change week1 to week2
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+INPUT_FILE = PROJECT_ROOT / "data" / "player_urls.csv"
+OUTPUT_DIR = PROJECT_ROOT / "data" / "week2" #Change from W1 to W2 to W3...
+OUTPUT_FILE = "prices_week2.csv" #Change from W1 to W2 to W3...
 
 # Had to exclude some players (removed from market after wrong inclusion)
 # So those players won't be part of the price scraping
@@ -91,6 +93,6 @@ if __name__ == "__main__":
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     df = pd.DataFrame(rows)
-    OUTPUT_PATH = f"{OUTPUT_DIR}/{OUTPUT_FILE}"
+    OUTPUT_PATH = OUTPUT_DIR / OUTPUT_FILE
     df.to_csv(OUTPUT_PATH, index=False)
     logger.info("Scraped %d player prices to %s", len(df), OUTPUT_PATH)

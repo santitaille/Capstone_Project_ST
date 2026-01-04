@@ -7,6 +7,7 @@ Generates:
 * Table: Player URLs for subsequent scraping (CSV)
 """
 
+from pathlib import Path
 import time
 import logging
 from typing import List
@@ -25,8 +26,8 @@ BASE_URL = (
     "pos_type=all&player_rating=83-99&eUnt=1"
 )
 TOTAL_PAGES = 27  # Tested first for small amount of pages
-OUTPUT_FILE = "/files/Capstone_Project_ST/data/player_urls.csv"
-
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+OUTPUT_FILE = PROJECT_ROOT / "data" / "player_urls.csv"
 
 def scrape_player_urls(base_url: str, total_pages: int) -> List[str]:
     """Scrape player URLs from Futbin website."""
