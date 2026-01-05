@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
         # Save merged dataset
         # CAREFUL: only 1 line should be uncommented at a time
-        #OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "players_with_week1.csv"  # UNCOMMENT FOR W1
+        # OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "players_with_week1.csv"  # UNCOMMENT FOR W1
         OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "players_complete.csv"
 
         os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)

@@ -12,6 +12,7 @@ Generates:
 
 import logging
 from pathlib import Path
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -41,63 +42,103 @@ def main() -> None:
         # Create output directory
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+        # So in the Figures, we can show "Icons/Heroes" instead of "Icons_Heroes"
+        df["card_category_display"] = df["card_category"].replace(
+            "Icons_Heroes", "Icons/Heroes"
+        )
+
         # Figure 1: Price distribution (normal and log scale)
-        _, axes = plt.subplots(1, 2, figsize=(14, 5))
+        _, axes = plt.subplots(1, 2, figsize=(12, 4))
 
         # Normal scale
-        axes[0].hist(df["price_w1"], bins=50, edgecolor="black", alpha=0.7)
+        axes[0].hist(
+            df["price_w1"], bins=50, color="#4878A8", edgecolor="black", alpha=0.7
+        )
         axes[0].set_xlabel("Price (Week 1)", fontsize=12)
-        axes[0].set_ylabel("Frequency", fontsize=12)
-        axes[0].set_title("Price Distribution", fontsize=14, fontweight="bold")
+        axes[0].set_ylabel("Frequency", fontsize=12, labelpad=10)
+        axes[0].set_title(
+            "Price Distribution (Normal Scale)", fontsize=14, fontweight="bold"
+        )
+        axes[0].tick_params(labelsize=10)
         axes[0].grid(alpha=0.3)
 
-        # Log scale
-        axes[1].hist(df["price_w1"], bins=50, edgecolor="black", alpha=0.7)
-        axes[1].set_xlabel("Price (Week 1)", fontsize=12)
-        axes[1].set_ylabel("Frequency (log scale)", fontsize=12)
+        axes[1].hist(
+            np.log1p(df["price_w1"]),
+            bins=50,
+            color="#4878A8",
+            edgecolor="black",
+            alpha=0.7,
+        )
+        axes[1].set_xlabel("Log Price (Week 1)", fontsize=12)
         axes[1].set_title(
             "Price Distribution (Log Scale)", fontsize=14, fontweight="bold"
         )
-        axes[1].set_yscale("log")
+        axes[1].tick_params(labelsize=10)
         axes[1].grid(alpha=0.3)
 
-        plt.tight_layout()
-        plt.savefig(
-            OUTPUT_DIR / "01_price_distribution.png", dpi=300, bbox_inches="tight"
-        )
+        # Save
+        plt.subplots_adjust(left=0.1, right=0.95, top=0.9, bottom=0.15, wspace=0.3)
+        plt.savefig(OUTPUT_DIR / "01_price_distribution.png", dpi=300)
         plt.close()
 
         # Figure 2: Rating vs Price by card category
-        plt.figure(figsize=(12, 6))
-        for category in df["card_category"].unique():
-            subset = df[df["card_category"] == category]
-            plt.scatter(
-                subset["rating"], subset["price_w1"], label=category, alpha=0.6, s=30
-            )
-        plt.xlabel("Overall Rating (OVR)", fontsize=12)
-        plt.ylabel("Price (Week 1)", fontsize=12)
-        plt.title("Rating vs Price by Card Category", fontsize=14, fontweight="bold")
-        plt.legend()
-        plt.grid(alpha=0.3)
-        plt.tight_layout()
+        plt.figure(figsize=(12, 8))
+        colors = {"Gold": "#D4AF37", "Special": "#2E7D32", "Icons/Heroes": "#1976D2"}
 
-        plt.savefig(OUTPUT_DIR / "02_rating_vs_price.png", dpi=300, bbox_inches="tight")
+        for category in df["card_category_display"].unique():
+            subset = df[df["card_category_display"] == category]
+            plt.scatter(
+                subset["rating"],
+                subset["price_w1"],
+                label=category,
+                alpha=0.6,
+                s=30,
+                color=colors.get(category, "#808080"),
+            )
+
+        plt.xlabel("Overall Rating", fontsize=12, labelpad=10)
+        plt.yscale("log")
+        plt.ylabel("Price (Week 1, Log Scale)", fontsize=12, labelpad=10)
+        plt.title(
+            "Overall Rating vs Price by Card Category", fontsize=14, fontweight="bold"
+        )
+        plt.legend(fontsize=10)
+        plt.gca().tick_params(labelsize=10)
+        plt.grid(alpha=0.3)
+
+        # Save
+        plt.subplots_adjust(left=0.12, right=0.95, top=0.9, bottom=0.12)
+        plt.savefig(OUTPUT_DIR / "02_rating_vs_price.png", dpi=300)
         plt.close()
 
         # Figure 3: Price by card category
-        plt.figure(figsize=(10, 6))
-        df.boxplot(column="price_w1", by="card_category", ax=plt.gca())
+        plt.figure(figsize=(12, 8))
+        order = ["Gold", "Special", "Icons/Heroes"]
+        palette = {"Gold": "#D4AF37", "Special": "#2E7D32", "Icons/Heroes": "#1976D2"}
+
+        sns.boxplot(
+            data=df,
+            x="card_category_display",
+            y="price_w1",
+            order=order,
+            hue="card_category_display",
+            palette=palette,
+            legend=False,
+            ax=plt.gca(),
+        )
+
         plt.title("Price by Card Category", fontsize=14, fontweight="bold")
         plt.suptitle("")
-        plt.ylabel("Price (Week 1)", fontsize=12)
-        plt.xlabel("Card Category", fontsize=12)
+        plt.yscale("log")
+        plt.ylabel("Price (Week 1, Log Scale)", fontsize=12, labelpad=10)
+        plt.xlabel("Card Category", fontsize=12, labelpad=10)
         plt.xticks(rotation=0)
+        plt.gca().tick_params(labelsize=10)
         plt.grid(alpha=0.3)
-        plt.tight_layout()
 
-        plt.savefig(
-            OUTPUT_DIR / "03_price_by_category.png", dpi=300, bbox_inches="tight"
-        )
+        # Save
+        plt.subplots_adjust(left=0.12, right=0.95, top=0.9, bottom=0.12)
+        plt.savefig(OUTPUT_DIR / "03_price_by_category.png", dpi=300)
         plt.close()
 
         # Figure 4: Price by position cluster
@@ -123,18 +164,19 @@ def main() -> None:
             else:
                 position_prices.append(0)
 
-        plt.figure(figsize=(10, 6))
+        plt.figure(figsize=(12, 8))
         bars = plt.bar(
             position_names,
             position_prices,
-            color="steelblue",
+            color="#4878A8",
             edgecolor="black",
             alpha=0.7,
         )
-        plt.xlabel("Position Cluster", fontsize=12)
-        plt.ylabel("Average Price (Week 1)", fontsize=12)
+        plt.xlabel("Position Cluster", fontsize=12, labelpad=10)
+        plt.ylabel("Average Price (Week 1)", fontsize=12, labelpad=10)
         plt.title("Average Price by Position Cluster", fontsize=14, fontweight="bold")
         plt.xticks(rotation=45, ha="right")
+        plt.gca().tick_params(labelsize=10)
         plt.grid(axis="y", alpha=0.3)
 
         for plot_bar, price in zip(bars, position_prices):
@@ -145,13 +187,13 @@ def main() -> None:
                 f"{price:,.0f}",
                 ha="center",
                 va="bottom",
-                fontsize=10,
+                fontsize=9,
+                fontweight="bold",
             )
 
-        plt.tight_layout()
-        plt.savefig(
-            OUTPUT_DIR / "04_price_by_position.png", dpi=300, bbox_inches="tight"
-        )
+        # Save
+        plt.subplots_adjust(left=0.12, right=0.95, top=0.90, bottom=0.20)
+        plt.savefig(OUTPUT_DIR / "04_price_by_position.png", dpi=300)
         plt.close()
 
         # Figure 5: Correlation matrix
@@ -175,7 +217,7 @@ def main() -> None:
         corr_matrix = df[numeric_cols].corr()
         price_corr = corr_matrix["price_w1"].sort_values(ascending=False)
 
-        plt.figure(figsize=(12, 10))
+        plt.figure(figsize=(12, 12))
         sns.heatmap(
             corr_matrix,
             annot=True,
@@ -185,52 +227,59 @@ def main() -> None:
             square=True,
             linewidths=1,
             cbar_kws={"shrink": 0.8},
+            annot_kws={"size": 9},
         )
         plt.title(
-            "Correlation Matrix - Player Attributes", fontsize=14, fontweight="bold"
+            "Correlation Matrix: Player Attributes", fontsize=14, fontweight="bold"
         )
 
-        plt.tight_layout()
-        plt.savefig(
-            OUTPUT_DIR / "05_correlation_matrix.png", dpi=300, bbox_inches="tight"
-        )
+        # Save
+        plt.xticks(rotation=45, ha="right")
+        plt.gca().tick_params(labelsize=10)
+        plt.subplots_adjust(left=0.15, right=1, top=1.05, bottom=0)
+        plt.savefig(OUTPUT_DIR / "05_correlation_matrix.png", dpi=300)
         plt.close()
 
         # Figure 6: Top 4 attributes vs price
-        _, axes = plt.subplots(2, 2, figsize=(14, 10))
+        _, axes = plt.subplots(2, 2, figsize=(12, 8))
 
-        axes[0, 0].scatter(df["pace"], df["price_w1"], alpha=0.5, s=20, color="green")
-        axes[0, 0].set_xlabel("Pace", fontsize=11)
-        axes[0, 0].set_ylabel("Price (Week 1)", fontsize=11)
-        axes[0, 0].set_title("Pace vs Price", fontsize=12, fontweight="bold")
-        axes[0, 0].grid(alpha=0.3)
+        # Pace
+        axes[0, 0].scatter(df["pace"], df["price_w1"], alpha=0.5, s=30, color="#5BA85B")
+        axes[0, 0].set_yscale("log")
+        axes[0, 0].set_xlabel("Pace", fontsize=12)
+        axes[0, 0].set_ylabel("Price (Week 1, Log Scale)", fontsize=12, labelpad=10)
+        axes[0, 0].set_title("Pace vs Price", fontsize=14, fontweight="bold")
 
+        # Dribbling
         axes[0, 1].scatter(
-            df["dribbling"], df["price_w1"], alpha=0.5, s=20, color="orange"
+            df["dribbling"], df["price_w1"], alpha=0.5, s=30, color="#FF8C00"
         )
-        axes[0, 1].set_xlabel("Dribbling", fontsize=11)
-        axes[0, 1].set_ylabel("Price (Week 1)", fontsize=11)
-        axes[0, 1].set_title("Dribbling vs Price", fontsize=12, fontweight="bold")
-        axes[0, 1].grid(alpha=0.3)
+        axes[0, 1].set_yscale("log")
+        axes[0, 1].set_xlabel("Dribbling", fontsize=12)
+        axes[0, 1].set_title("Dribbling vs Price", fontsize=14, fontweight="bold")
 
+        # Skill Moves
         axes[1, 0].scatter(
-            df["skill_moves"], df["price_w1"], alpha=0.5, s=20, color="purple"
+            df["skill_moves"], df["price_w1"], alpha=0.5, s=30, color="#8E44AD"
         )
-        axes[1, 0].set_xlabel("Skill Moves", fontsize=11)
-        axes[1, 0].set_ylabel("Price (Week 1)", fontsize=11)
-        axes[1, 0].set_title("Skill Moves vs Price", fontsize=12, fontweight="bold")
-        axes[1, 0].grid(alpha=0.3)
+        axes[1, 0].set_yscale("log")
+        axes[1, 0].set_xlabel("Skill Moves", fontsize=12)
+        axes[1, 0].set_ylabel("Price (Week 1, Log Scale)", fontsize=12, labelpad=10)
+        axes[1, 0].set_title("Skill Moves vs Price", fontsize=14, fontweight="bold")
 
+        # Weak Foot
         axes[1, 1].scatter(
-            df["weak_foot"], df["price_w1"], alpha=0.5, s=20, color="red"
+            df["weak_foot"], df["price_w1"], alpha=0.5, s=30, color="#D64545"
         )
-        axes[1, 1].set_xlabel("Weak Foot", fontsize=11)
-        axes[1, 1].set_ylabel("Price (Week 1)", fontsize=11)
-        axes[1, 1].set_title("Weak Foot vs Price", fontsize=12, fontweight="bold")
-        axes[1, 1].grid(alpha=0.3)
+        axes[1, 1].set_yscale("log")
+        axes[1, 1].set_xlabel("Weak Foot", fontsize=12)
+        axes[1, 1].set_title("Weak Foot vs Price", fontsize=14, fontweight="bold")
 
-        plt.tight_layout()
-        plt.savefig(OUTPUT_DIR / "06_top4_attributes.png", dpi=300, bbox_inches="tight")
+        # Save
+        plt.subplots_adjust(
+            left=0.1, right=0.95, top=0.95, bottom=0.1, hspace=0.3, wspace=0.3
+        )
+        plt.savefig(OUTPUT_DIR / "06_top4_attributes.png", dpi=300)
         plt.close()
 
         # Summary
@@ -245,7 +294,7 @@ def main() -> None:
         logger.info("")
         logger.info("Price Ranges by Category:")
 
-        for category in ["Gold", "Special", "Icons_Heroes"]:
+        for category in ["Gold", "Special", "Icons/Heroes"]:
             cat_data = df[df["card_category"] == category]["price_w1"]
             if len(cat_data) > 0:
                 logger.info(

@@ -9,8 +9,8 @@ trading opportunities.
 - Overpriced: Actual price > Predicted price (potential sells)
 
 Generates:
-* Figure 16: Market inefficiency scatter plot (actual vs predicted) (PNG)
-* Figure 17: Trading opportunities bar charts (top 15 each) (PNG)
+* Figure 15: Market inefficiency scatter plot (actual vs predicted) (PNG)
+* Figure 16: Trading opportunities bar charts (top 15 each) (PNG)
 * Table: Market inefficiencies - all mispriced players (CSV)
 
 Second stretch goal from proposal
@@ -77,7 +77,11 @@ def main() -> None:
         # Figure 1: Scatter plot
         _, ax = plt.subplots(figsize=(12, 8))
 
-        colors = {"Underpriced": "green", "Fair Value": "gray", "Overpriced": "red"}
+        colors = {
+            "Underpriced": "#2E7D32",
+            "Fair Value": "gray",
+            "Overpriced": "#D64545",
+        }
         for status in ["Fair Value", "Underpriced", "Overpriced"]:
             subset = df[df["status"] == status]
             ax.scatter(
@@ -109,7 +113,7 @@ def main() -> None:
         )
 
         ax.set_xlabel("Actual Price W2 (credits)", fontsize=12)
-        ax.set_ylabel("Predicted Price W2 (credits)", fontsize=12)
+        ax.set_ylabel("Predicted Price W2 (credits)", fontsize=12, labelpad=15)
         ax.set_title(
             "Market Inefficiency Detection: Actual vs Predicted Prices",
             fontsize=14,
@@ -119,29 +123,28 @@ def main() -> None:
         ax.grid(alpha=0.3)
         ax.set_xscale("log")
         ax.set_yscale("log")
-        plt.tight_layout()
 
+        # Save
+        plt.subplots_adjust(left=0.10, right=0.95, top=0.91, bottom=0.1)
         FIGURES_DIR.mkdir(parents=True, exist_ok=True)
         output_path = FIGURES_DIR / "15_market_inefficiency_scatter.png"
-        plt.savefig(output_path, dpi=300, bbox_inches="tight")
+        plt.savefig(output_path, dpi=300)
         plt.close()
 
         # Figure 2: Top opportunities bar chart
-        _, axes = plt.subplots(1, 2, figsize=(16, 6))
+        _, axes = plt.subplots(1, 2, figsize=(12, 4))
 
         # Top 15 underpriced
-        top_underpriced = df[df["status"] == "Underpriced"].nlargest(
-            15, "price_diff"
-        )
+        top_underpriced = df[df["status"] == "Underpriced"].nlargest(15, "price_diff")
         axes[0].barh(
             range(len(top_underpriced)),
             top_underpriced["price_diff"],
-            color="green",
+            color="#2E7D32",
             alpha=0.7,
             edgecolor="black",
         )
         axes[0].set_yticks(range(len(top_underpriced)))
-        axes[0].set_yticklabels(top_underpriced["player_name"], fontsize=9)
+        axes[0].set_yticklabels(top_underpriced["player_name"], fontsize=8)
         axes[0].set_xlabel("Underpriced (credits)", fontsize=11)
         axes[0].set_title(
             "Top 15 Underpriced Players (Best Buys)", fontsize=12, fontweight="bold"
@@ -153,21 +156,25 @@ def main() -> None:
         for idx, (_, row) in enumerate(top_underpriced.iterrows()):
             val = row["price_diff"]
             pct = row["price_diff_pct"]
-            axes[0].text(val + val*0.02, idx, f"+{val:,.0f} ({pct:+.1f}%)", va="center", fontsize=8)
+            axes[0].text(
+                val + val * 0.02,
+                idx,
+                f"+{val:,.0f} ({pct:+.1f}%)",
+                va="center",
+                fontsize=8,
+            )
 
         # Top 15 overpriced
-        top_overpriced = df[df["status"] == "Overpriced"].nsmallest(
-            15, "price_diff"
-        )
+        top_overpriced = df[df["status"] == "Overpriced"].nsmallest(15, "price_diff")
         axes[1].barh(
             range(len(top_overpriced)),
             top_overpriced["price_diff"].abs(),
-            color="red",
+            color="#D64545",
             alpha=0.7,
             edgecolor="black",
         )
         axes[1].set_yticks(range(len(top_overpriced)))
-        axes[1].set_yticklabels(top_overpriced["player_name"], fontsize=9)
+        axes[1].set_yticklabels(top_overpriced["player_name"], fontsize=8)
         axes[1].set_xlabel("Overpriced (credits)", fontsize=11)
         axes[1].set_title(
             "Top 15 Overpriced Players (Avoid/Sell)", fontsize=12, fontweight="bold"
@@ -177,13 +184,20 @@ def main() -> None:
 
         # Add percentage labels
         for idx, (_, row) in enumerate(top_overpriced.iterrows()):
-            val = abs(row["price_diff"])
-            pct = abs(row["price_diff_pct"])
-            axes[1].text(val + val*0.02, idx, f"+{val:,.0f} ({pct:.1f}%)", va="center", fontsize=8)
+            val = row["price_diff"]
+            pct = row["price_diff_pct"]
+            axes[1].text(
+                abs(val) + abs(val) * 0.02,
+                idx,
+                f"{val:,.0f} ({pct:+.1f}%)",
+                va="center",
+                fontsize=8,
+            )
 
-        plt.tight_layout()
+        # Save
+        plt.subplots_adjust(left=0.17, right=0.89, top=0.90, bottom=0.12, wspace=0.85)
         output_path = FIGURES_DIR / "16_trading_opportunities.png"
-        plt.savefig(output_path, dpi=300, bbox_inches="tight")
+        plt.savefig(output_path, dpi=300)
         plt.close()
 
         # Save full results

@@ -4,7 +4,7 @@ XGBoost Feature Importance for EA FC 26 Player Price Prediction.
 Re-trains XGBoost (best model) to extract feature importances and creates figures.
 
 Generates:
-* Figure 10: XGBoost feature importance with cumulative percentage (PNG)
+* Figure 11: XGBoost feature importance with cumulative percentage (PNG)
 * Table: XGBoost feature importance rankings (CSV)
 """
 
@@ -117,13 +117,14 @@ def main() -> None:
         # Bar chart for importance
         x_pos = np.arange(len(top42))
         _ = ax1.bar(
-            x_pos, top42["importance"], color="steelblue", alpha=0.7, edgecolor="black"
+            x_pos, top42["importance"], color="#4878A8", alpha=0.7, edgecolor="black"
         )
-        ax1.set_xlabel("Features (ranked by importance)", fontsize=12)
-        ax1.set_ylabel("Feature Importance (Gain)", fontsize=12, color="steelblue")
-        ax1.tick_params(axis="y", labelcolor="steelblue")
+        ax1.set_xlabel("Features (Ranked by Importance)", fontsize=12)
+        ax1.set_ylabel("Feature Importance (Gain)", fontsize=12, color="#4878A8")
+        ax1.tick_params(axis="y", labelcolor="#4878A8", labelsize=10)
+        ax1.tick_params(axis="x", labelsize=10)
         ax1.set_xticks(x_pos)
-        ax1.set_xticklabels(top42["feature"], rotation=45, ha="right", fontsize=9)
+        ax1.set_xticklabels(top42["feature"], rotation=45, ha="right", fontsize=8)
         ax1.grid(axis="y", alpha=0.3)
         ax1.set_xlim(-1, len(top42))
 
@@ -132,28 +133,29 @@ def main() -> None:
         ax2.plot(
             x_pos,
             top42["cumulative_pct"],
-            color="red",
+            color="#D32F2F",
             marker="o",
             linewidth=2,
             markersize=4,
             label="Cumulative %",
         )
-        ax2.axhline(y=80, color="red", linestyle="--", linewidth=2, alpha=0.5)
-        ax2.set_ylabel("Cumulative Importance (%)", fontsize=12, color="red")
-        ax2.tick_params(axis="y", labelcolor="red")
+        ax2.axhline(y=80, color="#D32F2F", linestyle="--", linewidth=2, alpha=0.5)
+        ax2.set_ylabel("Cumulative Importance (%)", fontsize=12, color="#D32F2F")
+        ax2.tick_params(axis="y", labelcolor="#D32F2F", labelsize=10)
         ax2.set_ylim([0, 105])
 
         plt.title(
             "XGBoost Feature Importance with Cumulative Percentage",
             fontsize=14,
             fontweight="bold",
+            pad=20,
         )
-        plt.tight_layout()
 
         # Save
+        plt.subplots_adjust(bottom=0.2, top=0.9, left=0.1, right=0.9)
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         output_path = OUTPUT_DIR / "11_xgboost_cumulative_importance.png"
-        plt.savefig(output_path, dpi=300, bbox_inches="tight")
+        plt.savefig(output_path, dpi=300)
         logger.info("  → Saved: results/tables/xgboost_feature_importance.csv")
         logger.info("  → Saved: results/figures/11_xgboost_cumulative_importance.png")
         plt.close()

@@ -6,7 +6,7 @@ Compares all 6 methods on Week 2 test set:
 - 4 Machine Learning models
 
 Generates:
-* Figure 15: Model comparison bar chart (R² performance) (PNG)
+* Figure 0: Model comparison bar chart (R² performance) (PNG)
 * Table: Model comparison results (R², RMSE, MAE) (CSV)
 """
 
@@ -65,8 +65,8 @@ def main() -> None:
                 142364,  # Baseline 1
                 129361,  # Baseline 2
                 116050,  # Linear Regression
-                92889,   # Neural Network
-                63961,   # Random Forest
+                92889,  # Neural Network
+                63961,  # Random Forest
                 42997,
             ],
         }  # XGBoost
@@ -75,9 +75,7 @@ def main() -> None:
 
         # Add improvement over best baseline
         best_baseline_r2 = 0.633
-        df["R² vs Benchmark"] = (
-            (df["R²"] - best_baseline_r2)  * 100
-        ).round(1)
+        df["R² vs Benchmark"] = ((df["R²"] - best_baseline_r2) * 100).round(1)
 
         # Sort by R² descending
         df = df.sort_values("R²", ascending=False).reset_index(drop=True)
@@ -88,7 +86,7 @@ def main() -> None:
         df.to_csv(output_path, index=False)
 
         # Summary
-        logger.info("Models Performance Leaderboard (Sorted by R²):")
+        logger.info("Model Performance Comparison (Sorted by R²):")
         logger.info("-" * 80)
         logger.info(
             "%-6s %-36s %8s %12s %12s %14s",
@@ -121,8 +119,7 @@ def main() -> None:
         _, ax = plt.subplots(figsize=(12, 8))
 
         # Color code: baselines vs ML models
-        colors = ["darkgreen", "steelblue", "steelblue", "gray", "steelblue", "orange"]
-
+        colors = ["#2E7D32", "#4878A8", "#4878A8", "#808080", "#4878A8", "#FFA726"]
         bars = ax.barh(
             df["Model"], df["R²"], color=colors, alpha=0.8, edgecolor="black"
         )
@@ -136,33 +133,32 @@ def main() -> None:
         # Add baseline reference line
         ax.axvline(
             x=best_baseline_r2,
-            color="red",
+            color="#D32F2F",
             linestyle="--",
             linewidth=2,
-            alpha=0.5,
+            alpha=0.7,
             label="Best Baseline",
         )
 
-        ax.set_xlabel("R² (Coefficient of Determination)", fontsize=12)
-        ax.set_ylabel("Model", fontsize=12)
         ax.set_title(
-            "Model Comparison - Week 2 Test Set Performance",
+            "Model Performance Comparison (Sorted by R²)",
             fontsize=14,
             fontweight="bold",
+            pad=25,
         )
-        ax.set_xlim([0, 1.05])
+        ax.set_xlim([0, 1.1])
         ax.legend(fontsize=10)
+        ax.legend(fontsize=10, loc="lower right")
         ax.grid(axis="x", alpha=0.3)
 
         # Invert y-axis so best is on top
         ax.invert_yaxis()
 
-        plt.tight_layout()
-
         # Save
         os.makedirs(FIGURES_DIR, exist_ok=True)
         viz_path = FIGURES_DIR / "10_model_comparison.png"
-        plt.savefig(viz_path, dpi=300, bbox_inches="tight")
+        plt.subplots_adjust(left=0.25, right=0.90, top=0.88, bottom=0.1)
+        plt.savefig(viz_path, dpi=300)
         logger.info("  → Saved: results/tables/model_comparison.csv")
         logger.info("  → Saved: results/figures/10_model_comparison.png")
         plt.close()

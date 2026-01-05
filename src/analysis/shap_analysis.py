@@ -4,9 +4,9 @@ SHAP Analysis for EA FC 26 Player Price Prediction.
 Re-trains XGBoost (best model) to calculate SHAP Values and creates figures.
 
 Generates:
-* Figure 11: SHAP summary plot (beeswarm) - top 20 features (PNG)
-* Figure 12: SHAP bar plot - mean absolute impact (PNG)
-* Figure 13: SHAP waterfall plot - individual prediction breakdown (PNG)
+* Figure 12: SHAP summary plot (beeswarm) - top 20 features (PNG)
+* Figure 13: SHAP bar plot - mean absolute impact (PNG)
+* Figure 14: SHAP waterfall plot - individual prediction breakdown (PNG)
 * Table: SHAP feature importance rankings (CSV)
 
 First stretch goal from proposal
@@ -149,63 +149,92 @@ def main() -> None:
         print()
 
         # Figure 1: SHAP summary plot (Beeswarm)
-        plt.figure(figsize=(10, 10))
+        _, _ = plt.subplots(figsize=(12, 8))
         shap.summary_plot(
-            shap_values, x_test, feature_names=feature_names, show=False, max_display=20
+            shap_values,
+            x_test,
+            feature_names=feature_names,
+            show=False,
+            max_display=20,
+            plot_size=None,
         )
         plt.title(
-            "SHAP Summary Plot - Feature Impact on Predictions",
+            "SHAP Summary Plot: Feature Impact on Price Predictions",
             fontsize=14,
             fontweight="bold",
-            pad=20,
+            pad=25,
         )
-        plt.tight_layout()
 
+        plt.xlabel("SHAP Value (Impact on Log Scale Price Predictions)", fontsize=12)
+        plt.tick_params(labelsize=10)
+        plt.subplots_adjust(left=0.2, right=1, top=0.9, bottom=0.1)
+
+        # Save
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         output_path = OUTPUT_DIR / "12_shap_summary_beeswarm.png"
-        plt.savefig(output_path, dpi=300, bbox_inches="tight")
+        plt.savefig(output_path, dpi=300)
         plt.close()
 
         # Figure 2: SHAP bar plot
-        plt.figure(figsize=(10, 8))
+        _, _ = plt.subplots(figsize=(12, 8))
         shap.summary_plot(
             shap_values,
             x_test,
             feature_names=feature_names,
             plot_type="bar",
             show=False,
-            max_display=20,
+            max_display=42,
+            plot_size=None,
+            color="#4878A8",
         )
         plt.title(
-            "SHAP Feature Importance - Mean Absolute Impact",
+            "SHAP Feature Importance: Mean Absolute Impact",
             fontsize=14,
             fontweight="bold",
+            pad=25,
         )
-        plt.xlabel("Mean |SHAP Value| (Average Impact on Prediction)", fontsize=12)
-        plt.tight_layout()
 
+        plt.xlim(0, 1)
+        plt.xlabel(
+            "Mean |SHAP Value| (Average Impact on Price Prediction)", fontsize=12
+        )
+        plt.tick_params(labelsize=10)
+        plt.subplots_adjust(left=0.2, right=0.95, top=0.9, bottom=0.1)
+
+        # Save
         output_path = f"{OUTPUT_DIR}/13_shap_bar_importance.png"
-        plt.savefig(output_path, dpi=300, bbox_inches="tight")
+        plt.savefig(output_path, dpi=300)
         plt.close()
 
-        # Figure 3: SHAP waterfall plot for same players as in example
-        plt.figure(figsize=(10, 8))
-        shap.plots._waterfall.waterfall_legacy(
-            explainer.expected_value,
-            shap_values[high_value_idx],
-            feature_names=feature_names,
-            max_display=15,
-            show=False,
-        )
-        plt.title(
-            f'SHAP Waterfall - {high_value_player["player_name"]} Prediction Breakdown',
+        # Figure 3: SHAP waterfall plot for most expensive player as an example
+        plt.close("all")
+        exp = explainer(x_test)[high_value_idx]
+        shap.plots.waterfall(exp, max_display=20, show=False)
+
+        # Forces the Figure to be 12x8
+        fig = plt.gcf()
+        ax = plt.gca()
+        fig.set_size_inches(12, 8)
+
+        # Title
+        ax.set_title(
+            "SHAP Waterfall: Ronaldo Nazário Price Prediction Breakdown",
             fontsize=14,
             fontweight="bold",
+            pad=25,
         )
-        plt.tight_layout()
 
-        output_path = f"{OUTPUT_DIR}/14_shap_waterfall_example.png"
-        plt.savefig(output_path, dpi=300, bbox_inches="tight")
+        # Labels + remove unnecessary text before features on y-axis
+        ax.set_yticklabels(
+            [t.get_text().split(" = ")[-1] for t in ax.get_yticklabels()]
+        )
+        plt.xlabel("SHAP Value (Impact on Log Scale Price Prediction)", fontsize=12)
+        plt.tick_params(labelsize=10)
+        plt.subplots_adjust(left=0.20, right=0.91, top=0.85, bottom=0.12)
+
+        # Save
+        output_path = OUTPUT_DIR / "14_shap_waterfall_example.png"
+        plt.savefig(output_path, dpi=300)
         plt.close()
 
         # Save importance table
