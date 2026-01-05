@@ -29,6 +29,7 @@ TOTAL_PAGES = 27  # Tested first for small amount of pages
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 OUTPUT_FILE = PROJECT_ROOT / "data" / "player_urls.csv"
 
+
 def scrape_player_urls(base_url: str, total_pages: int) -> List[str]:
     """Scrape player URLs from Futbin website."""
     all_urls = []
