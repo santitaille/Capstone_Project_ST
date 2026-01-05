@@ -145,7 +145,7 @@ def main() -> None:
         ax2.set_ylim([0, 105])
 
         plt.title(
-            "XGBoost Feature Importance with Cumulative Percentage",
+            "XGBoost Feature Importance (Gain) with Cumulative Percentage",
             fontsize=14,
             fontweight="bold",
             pad=20,

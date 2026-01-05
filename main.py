@@ -176,12 +176,12 @@ def main() -> None:
         print(" - Tables: results/tables (5 CSV files)")
         print(" - Predictions: results/predictions (4 CSV files)")
         print("\nLines of code:")
-        print(" - Scrapers: 469 lines (not run on this file)")
+        print(" - Scrapers: 470 lines (not run on this file)")
         print(" - Preprocessing: 503 lines")
         print(" - Models: 858 lines")
-        print(" - Analysis: 1,574 lines")
-        print(" - Main: 207 lines")
-        print("Total: 3,611 lines (+440 lines of tests)")
+        print(" - Analysis: 1,674 lines")
+        print(" - Main: 206 lines")
+        print("Total: 3,713 lines (+440 lines of tests)")
         print(
             "\nBest Model: XGBoost (R² = 0.956 | RMSE = 137,993 credits | MAE = 42,997 credits)"
         )

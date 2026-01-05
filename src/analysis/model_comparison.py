@@ -86,7 +86,7 @@ def main() -> None:
         df.to_csv(output_path, index=False)
 
         # Summary
-        logger.info("Model Performance Comparison (Sorted by R²):")
+        logger.info("Model Performance Comparison on Test Set (Sorted by R²):")
         logger.info("-" * 80)
         logger.info(
             "%-6s %-36s %8s %12s %12s %14s",
@@ -141,7 +141,7 @@ def main() -> None:
         )
 
         ax.set_title(
-            "Model Performance Comparison (Sorted by R²)",
+            "Model Performance Comparison on Test Set (Sorted by R²)",
             fontsize=14,
             fontweight="bold",
             pad=25,

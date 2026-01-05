@@ -115,7 +115,7 @@ def main() -> None:
         ax.set_xlabel("Actual Price W2 (credits)", fontsize=12)
         ax.set_ylabel("Predicted Price W2 (credits)", fontsize=12, labelpad=15)
         ax.set_title(
-            "Market Inefficiency Detection: Actual vs Predicted Prices",
+            "Market Inefficiency Detection: Actual vs Predicted Prices (Log Scale)",
             fontsize=14,
             fontweight="bold",
         )

@@ -54,10 +54,10 @@ def main() -> None:
         axes[0].hist(
             df["price_w1"], bins=50, color="#4878A8", edgecolor="black", alpha=0.7
         )
-        axes[0].set_xlabel("Price (Week 1)", fontsize=12)
+        axes[0].set_xlabel("Price Week 1(Credits)", fontsize=12)
         axes[0].set_ylabel("Frequency", fontsize=12, labelpad=10)
         axes[0].set_title(
-            "Price Distribution (Normal Scale)", fontsize=14, fontweight="bold"
+            "Player Card Prices (Credits)", fontsize=14, fontweight="bold"
         )
         axes[0].tick_params(labelsize=10)
         axes[0].grid(alpha=0.3)
@@ -69,9 +69,9 @@ def main() -> None:
             edgecolor="black",
             alpha=0.7,
         )
-        axes[1].set_xlabel("Log Price (Week 1)", fontsize=12)
+        axes[1].set_xlabel("Log Price Week 1 (Credits)", fontsize=12)
         axes[1].set_title(
-            "Price Distribution (Log Scale)", fontsize=14, fontweight="bold"
+            "Log Player Card Prices (Credits)", fontsize=14, fontweight="bold"
         )
         axes[1].tick_params(labelsize=10)
         axes[1].grid(alpha=0.3)
@@ -98,7 +98,7 @@ def main() -> None:
 
         plt.xlabel("Overall Rating", fontsize=12, labelpad=10)
         plt.yscale("log")
-        plt.ylabel("Price (Week 1, Log Scale)", fontsize=12, labelpad=10)
+        plt.ylabel("Log Price Week 1 (Credits)", fontsize=12, labelpad=10)
         plt.title(
             "Overall Rating vs Price by Card Category", fontsize=14, fontweight="bold"
         )
@@ -130,7 +130,7 @@ def main() -> None:
         plt.title("Price by Card Category", fontsize=14, fontweight="bold")
         plt.suptitle("")
         plt.yscale("log")
-        plt.ylabel("Price (Week 1, Log Scale)", fontsize=12, labelpad=10)
+        plt.ylabel("Log Price Week 1 (Credits)", fontsize=12, labelpad=10)
         plt.xlabel("Card Category", fontsize=12, labelpad=10)
         plt.xticks(rotation=0)
         plt.gca().tick_params(labelsize=10)
@@ -160,7 +160,7 @@ def main() -> None:
         for col in position_cols:
             if col in df.columns:
                 players_in_pos = df[df[col] == 1]
-                position_prices.append(players_in_pos["price_w1"].mean())
+                position_prices.append(players_in_pos["price_w1"].median())
             else:
                 position_prices.append(0)
 
@@ -172,9 +172,8 @@ def main() -> None:
             edgecolor="black",
             alpha=0.7,
         )
-        plt.xlabel("Position Cluster", fontsize=12, labelpad=10)
-        plt.ylabel("Average Price (Week 1)", fontsize=12, labelpad=10)
-        plt.title("Average Price by Position Cluster", fontsize=14, fontweight="bold")
+        plt.ylabel("Median Price (Credits)", fontsize=12, labelpad=10)
+        plt.title("Median Price by Position Cluster", fontsize=14, fontweight="bold")
         plt.xticks(rotation=45, ha="right")
         plt.gca().tick_params(labelsize=10)
         plt.grid(axis="y", alpha=0.3)
@@ -247,7 +246,7 @@ def main() -> None:
         axes[0, 0].scatter(df["pace"], df["price_w1"], alpha=0.5, s=30, color="#5BA85B")
         axes[0, 0].set_yscale("log")
         axes[0, 0].set_xlabel("Pace", fontsize=12)
-        axes[0, 0].set_ylabel("Price (Week 1, Log Scale)", fontsize=12, labelpad=10)
+        axes[0, 0].set_ylabel("Log Price Week 1 (Credits)", fontsize=12, labelpad=10)
         axes[0, 0].set_title("Pace vs Price", fontsize=14, fontweight="bold")
 
         # Dribbling
@@ -264,7 +263,7 @@ def main() -> None:
         )
         axes[1, 0].set_yscale("log")
         axes[1, 0].set_xlabel("Skill Moves", fontsize=12)
-        axes[1, 0].set_ylabel("Price (Week 1, Log Scale)", fontsize=12, labelpad=10)
+        axes[1, 0].set_ylabel("Log Price Week 1 (Credits)", fontsize=12, labelpad=10)
         axes[1, 0].set_title("Skill Moves vs Price", fontsize=14, fontweight="bold")
 
         # Weak Foot

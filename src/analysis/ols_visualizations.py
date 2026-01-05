@@ -99,10 +99,10 @@ def main() -> None:
         ax.set_yticks(range(len(top20)))
         ax.set_yticklabels(top20["feature"], fontsize=10)  # Set tick size
         ax.set_xlabel(
-            "Coefficient (with 95% Confidence Interval)", fontsize=12, labelpad=10
+            "Coefficient Value (with 95% Confidence Interval)", fontsize=12, labelpad=10
         )
         ax.set_title(
-            "OLS Coefficients with Confidence Intervals (Top 20 Features)",
+            "Top 20 OLS Coefficients for Log Player Card Prices with 95% Confidence Intervals",
             fontsize=14,
             fontweight="bold",
         )
@@ -125,16 +125,12 @@ def main() -> None:
         logger.info("  → Saved: 07_ols_coefficient_plot.png")
 
         # Figure 2: Top feature bar chart
-        # Get top positive and negative features
-        positive_features = df_features[df_features["coefficient"] > 0].nlargest(
-            17, "coefficient"
-        )
-        negative_features = df_features[df_features["coefficient"] < 0].nsmallest(
-            3, "coefficient"
-        )
+        # Get top 10 and bottom 10 features
+        top_10 = df_features.nlargest(10, "coefficient")
+        bottom_10 = df_features.nsmallest(10, "coefficient")
 
         # Combine
-        combined = pd.concat([positive_features, negative_features])
+        combined = pd.concat([top_10, bottom_10])
         combined = combined.sort_values("coefficient")
 
         _, ax = plt.subplots(figsize=(12, 8))
@@ -168,7 +164,7 @@ def main() -> None:
         ax.set_xlabel("Coefficient Value", fontsize=12, labelpad=10)
         ax.set_xlim(-0.7, 3.3)
         ax.set_title(
-            "Top Features Driving Player Prices (OLS Regression)",
+            "Top 10 and Bottom 10 OLS Coefficients for Log Player Card Prices",
             fontsize=14,
             fontweight="bold",
         )
@@ -210,9 +206,7 @@ def main() -> None:
         # Plot 1: Residuals vs Fitted
         axes[0, 0].scatter(fitted_values, residuals, alpha=0.5, s=30, color="#4878A8")
         axes[0, 0].axhline(y=0, color="#D32F2F", linestyle="--", linewidth=2)
-        axes[0, 0].set_xlabel(
-            "Fitted Values (Log Scale Prices)", fontsize=12, labelpad=10
-        )
+        axes[0, 0].set_xlabel("Fitted Log Price (Credits)", fontsize=12, labelpad=10)
         axes[0, 0].set_ylabel("Residuals", fontsize=12, labelpad=10)
         axes[0, 0].set_title("Residuals vs Fitted", fontsize=12, fontweight="bold")
         axes[0, 0].tick_params(labelsize=10)
@@ -243,9 +237,7 @@ def main() -> None:
             s=30,
             color="#4878A8",
         )
-        axes[1, 0].set_xlabel(
-            "Fitted Values (Log Scale Prices)", fontsize=12, labelpad=10
-        )
+        axes[1, 0].set_xlabel("Fitted Log Price (Credits)", fontsize=12, labelpad=10)
         axes[1, 0].set_ylabel("Standardized Residuals", fontsize=12, labelpad=10)
         axes[1, 0].set_title("Scale-Location", fontsize=12, fontweight="bold")
         axes[1, 0].tick_params(labelsize=10)

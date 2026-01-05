@@ -159,13 +159,13 @@ def main() -> None:
             plot_size=None,
         )
         plt.title(
-            "SHAP Summary Plot: Feature Impact on Price Predictions",
+            "SHAP Summary Plot: Feature Impact on Log Price Prediction",
             fontsize=14,
             fontweight="bold",
             pad=25,
         )
 
-        plt.xlabel("SHAP Value (Impact on Log Scale Price Predictions)", fontsize=12)
+        plt.xlabel("SHAP Value (Impact on Log Price Prediction)", fontsize=12)
         plt.tick_params(labelsize=10)
         plt.subplots_adjust(left=0.2, right=1, top=0.9, bottom=0.1)
 
@@ -188,7 +188,7 @@ def main() -> None:
             color="#4878A8",
         )
         plt.title(
-            "SHAP Feature Importance: Mean Absolute Impact",
+            "SHAP Feature Importance: Mean Absolute Impact on Log Price Prediction",
             fontsize=14,
             fontweight="bold",
             pad=25,
@@ -196,7 +196,7 @@ def main() -> None:
 
         plt.xlim(0, 1)
         plt.xlabel(
-            "Mean |SHAP Value| (Average Impact on Price Prediction)", fontsize=12
+            "Mean |SHAP Value| (Average Impact on Log Price Prediction)", fontsize=12
         )
         plt.tick_params(labelsize=10)
         plt.subplots_adjust(left=0.2, right=0.95, top=0.9, bottom=0.1)
