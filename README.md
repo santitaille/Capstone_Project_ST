@@ -1,24 +1,24 @@
 # EA FC 26 Player Price Prediction
 
-**Course:** Data Science and Advanced Programming 
-**Student Name:** Santiago Tailleferd
-**Student ID:** 20557377
+**Course:** Data Science and Advanced Programming  
+**Student Name:** Santiago Tailleferd  
+**Student ID:** 20557377  
 
 This repository contains the full implementation of a data science and machine learning pipeline designed to **predict**, **explain** and **evaluate player card prices** in the *EA FC 26 Ultimate Team* transfer market. The project combines **web scraping**, **extensive feature engineering**, **two baseline models**, **four machine learning models** and **three interpretability analyses**
 
 ## Research Questions
-This project addresses the following research questions:
-**1. What card features influence card prices the most?**
-**2. Which machine learning model can most accurately predict card prices?**
-**3. Can prediction models identify market inefficiencies?**
+This project addresses the following research questions:  
+**1. What card features influence card prices the most?**  
+**2. Which machine learning model can most accurately predict card prices?**  
+**3. Can prediction models identify market inefficiencies?**  
 
 ---
 
 ## Project Overview
 
-- **Dataset:** ~801 player cards scraped from FUTBIN
+- **Dataset:** 801 player cards scraped from FUTBIN
 - **Validation scheme:** Temporal validation (Trained in Week 1 → Tested in Week 2)
-- **Models implemented:** Two median-based baselines, linear regression, Random Forest, XGBoost, neural network (MLP)
+- **Models implemented:** Two median-based baselines, linear regression, Random Forest, XGBoost and neural network (MLP)
 - **Evaluation metrics:** R², MAE (credits) and RMSE (credits)
 - **Interpretability methods:** OLS coefficients, XGBoost feature importance, SHAP values
 - **Market inefficiency analysis:** Comparison of predicted “fair values” vs observed market prices
@@ -53,6 +53,9 @@ Capstone_Project_ST/
 ├── requirements.txt                # Main Python dependencies (unversioned)
 └── requirements-pinned.txt         # Fully pinned environment
 ```
+
+---
+
 ## Setup, Environment and Reproducibility
 - Python version: 3.10
 - Developed and tested using VSCode + Nuvulous
@@ -61,19 +64,19 @@ Capstone_Project_ST/
 Note: Scraping scripts are included for completeness but do not need to be executed to reproduce the results.
 Running main.py reproduces all figures and tables used in the report.
 
-### 1.Clone the repository
+### 1. Clone the repository
 ```text
 git clone https://github.com/santitaille/Capstone_Project_ST.git
 cd Capstone_Project_ST
 ```
 
-### 2.Create a Conda environment with Python 3.10
+### 2. Create a Conda environment with Python 3.10
 ```text
 conda create -n eafc_dsap python=3.10 -y
 conda activate eafc_dsap
 ```
 
-### 3.Install dependencies
+### 3. Install dependencies
 
 #### 3.1. Standard installation (recommended)
 ```text
@@ -91,8 +94,10 @@ python main.py
 
 Note: TensorFlow is very heavy when downloaded via environment.yml, so creating a Conda 3.10 environment and installing requirements is faster.
 
-## Results and Key Finding
-**Table 1: Model Performance Metrics (ranked by R²)**
+---
+
+## Results, Key Findings and Limitations
+Table 1 – Model Performance Metrics (ranked by R²)
 | Model                    | R²    | RMSE    | MAE    | R² improvement over benchmark |
 |--------------------------|-------|---------|--------|-------------------------------|
 | XGBoost                  | 0.956 | 137,993 | 42,997 | 32.3%                         |
@@ -102,4 +107,11 @@ Note: TensorFlow is very heavy when downloaded via environment.yml, so creating 
 | Linear Regression        | 0.631 | 398,273 | 116,050| (0.2%)                        |
 | Baseline 1               | 0.608 | 410,874 | 142,364| (2.5%)                        |
 
-XGBoost clearly outperformed all models (R² = 0.956), followed by Random Forest, neural netowrk and linear regression. It improved the benchmark by 32.3 percentage points, showing that the relationship between card features and card prices is highly nonlinear. Overall rating, card category and the number of Playstyles+ were detected as the most impactful features. Finally, taking XGBoost's price predictions are fair value estimates and a ±20% conservative threshold 35.1% of player cards were classified as mispriced.
+XGBoost clearly outperformed all models (R² = 0.956), followed by Random Forest, neural network and linear regression. It improved the benchmark by **32.3 percentage points**, indicating that the relationship between card features and prices is **highly nonlinear**. Among all interpretability analyses, **overall rating**, **card category** and the **number of Playstyles+** were detected as the most influential drivers of price. Taking XGBoost predictions as **fair value estimates** and using a conservative **±20% threshold**, **35.1% of player cards** were classified as mispriced, suggesting the presence of market inefficiencies.
+
+This project focuses on **two discrete weekly price snapshots** rather than continuous price dynamics. Additionally, factors such as SBC and evolution requirements, sentiment-driven demand and pack availability are not modeled and may affect predicted prices.
+
+---
+
+## Video Presentation URL
+url will go here
