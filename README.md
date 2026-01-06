@@ -8,6 +8,7 @@ This repository contains the full implementation of a data science and machine l
 
 ## Research Questions
 This project addresses the following research questions:  
+
 **1. What card features influence card prices the most?**  
 **2. Which machine learning model can most accurately predict card prices?**  
 **3. Can prediction models identify market inefficiencies?**  
@@ -61,7 +62,7 @@ Capstone_Project_ST/
 - Developed and tested using VSCode + Nuvulous
 - Fixed random seed (42)
 
-Note: Scraping scripts are included for completeness but do not need to be executed to reproduce the results.
+Note: Scrapers are included for completeness but do not need to be executed to reproduce the results.
 Running main.py reproduces all figures and tables used in the report.
 
 ### 1. Clone the repository
