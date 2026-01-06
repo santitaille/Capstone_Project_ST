@@ -187,7 +187,7 @@ def create_league_features(df: pd.DataFrame) -> pd.DataFrame:
 
     # Ensure all expected columns exist (safety for train/test consistency)
     expected_cols = [
-        f'league_{c.lower().replace(" ", "_").replace("\'", "").replace(".", "")}'
+        "league_" + c.lower().replace(" ", "_").replace("'", "").replace(".", "")
         for c in TOP_LEAGUES + ["OTHER"]
     ]
     for col in expected_cols:
