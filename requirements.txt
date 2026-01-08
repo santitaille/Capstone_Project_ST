@@ -1,0 +1,28 @@
+# EA FC 26 Player Price Prediction
+# Python 3.10
+
+
+# Web scraping
+requests
+beautifulsoup4
+
+# Data manipulation
+pandas
+numpy
+
+# Machine learning
+# xgboost pinned for compatibility with shap
+scikit-learn
+xgboost==2.1.4
+tensorflow
+
+# Statistical analysis
+statsmodels
+scipy
+
+# Interpretability
+shap
+
+# Visualization
+matplotlib
+seaborn

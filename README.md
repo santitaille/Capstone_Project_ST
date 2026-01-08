@@ -63,7 +63,7 @@ Capstone_Project_ST/
 - Fixed random seed (42)
 
 Note: Scrapers are included for completeness but do not need to be executed to reproduce the results.
-Running main.py reproduces all figures and tables used in the report.
+Running main.py reproduces all figures, tables and predictions used in the report.
 
 ### 1. Clone the repository
 ```text
