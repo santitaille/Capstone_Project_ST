@@ -22,8 +22,8 @@ These tools were only used to:
 **Tools used:** ChatGPT and Grammarly
 
 These tools were only used to:
-- Format text in **LaTeX** and **Markdown**
-- Correct English grammar and improve clarity
+- format text in LaTeX and Markdown
+- correct English grammar and improve clarity
 
 ---
 
@@ -32,5 +32,5 @@ These tools were only used to:
 **Tools used:** ChatGPT and Grammarly
 
 These tools were only used to:
-- Ensure I was not missing important information in my script
-- Correct English grammar and improve clarity
+- ensure I was not missing important information in my script
+- correct English grammar and improve clarity
