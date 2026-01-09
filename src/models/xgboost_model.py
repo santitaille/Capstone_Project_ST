@@ -65,7 +65,7 @@ def main() -> None:
         logger.info(
             "Hyperparameters: n_estimators=1000, max_depth=4, learning_rate=0.03"
         )
-        logger.info("Cross-validation: 10-fold CV R² = 0.921 ± 0.021 (stable)")
+        logger.info("Cross-validation: 10-fold CV R² = 0.921 ± 0.043 (stable)")
         print()
 
         xgb_model = XGBRegressor(
