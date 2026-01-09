@@ -9,11 +9,11 @@ In any case these tools replaced my own thinking or independently generated the 
 **Tools used:** Claude, ChatGPT, YouTube tutorials and library documentation
 
 These tools were only used to:
-- debug Python code and understand error messages
-- learn and understand new libraries (BeautifulSoup for example)
-- improve plot formatting and clarity
-- converting hard-coded paths to relative paths
-- improve code structure
+- Debug Python code and understand error messages
+- Learn and understand new libraries (BeautifulSoup for example)
+- Improve plot formatting and clarity
+- Converting hard-coded paths to relative paths
+- Improve code structure
 
 ---
 
@@ -22,8 +22,8 @@ These tools were only used to:
 **Tools used:** ChatGPT and Grammarly
 
 These tools were only used to:
-- format text in LaTeX and Markdown
-- correct English grammar and improve clarity
+- Format text in LaTeX and Markdown
+- Correct English grammar and improve clarity
 
 ---
 
@@ -32,5 +32,5 @@ These tools were only used to:
 **Tools used:** ChatGPT and Grammarly
 
 These tools were only used to:
-- ensure I was not missing important information in my script
-- correct English grammar and improve clarity
+- Ensure I was not missing important information in my script
+- Correct English grammar and improve clarity

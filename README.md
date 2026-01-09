@@ -1,10 +1,10 @@
-# EA FC 26 Player Price Prediction
+# EA FC 26 Player Card Price Prediction
 
 **Course:** Data Science and Advanced Programming  
 **Student Name:** Santiago Tailleferd  
 **Student ID:** 20557377  
 
-This repository contains the full implementation of a data science and machine learning pipeline designed to **predict**, **explain** and **evaluate player card prices** in the *EA FC 26 Ultimate Team* transfer market. The project combines **web scraping**, **extensive feature engineering**, **two baseline models**, **four machine learning models** and **three interpretability analyses**
+This repository contains the full implementation of a data science and machine learning pipeline designed to **predict**, **explain** and **evaluate player card prices** in the EA FC 26 Ultimate Team transfer market. The project combines **web scraping**, **extensive feature engineering**, **two baseline models**, **four machine learning models** and **three interpretability analyses**
 
 ## Research Questions
 This project addresses the following research questions:  
@@ -31,27 +31,27 @@ This project addresses the following research questions:
 ```text
 Capstone_Project_ST/
 │
-├── data/                           # Raw, intermediary and completely merged data
+├── data/                           # Raw, intermediate and fully merged datasets
 │
 ├── results/
-│   ├── figures/                    # 16 generated figures
-│   ├── predictions/                # 4 prediction files (one per model, Week 2)
-│   └── tables/                     # 5 result tables (metrics, coefficients, importances)
+│   ├── figures/                    # 16 figures
+│   ├── predictions/                # 4 prediction files (one per model)
+│   └── tables/                     # 5 tables (evaluation metrics and interpretability results)
 │
 ├── src/
 │   ├── scrapers/                   # Data collection from FUTBIN
-│   ├── preprocessing/              # Data merging & feature engineering
-│   ├── models/                     # Models implementation
-│   └── analysis/                   # Evaluation & interpretability
+│   ├── preprocessing/              # Data merging and feature engineering
+│   ├── models/                     # Model implementations
+│   └── analysis/                   # Evaluation and interpretability
 │
-├── tests/                          # 5 unit tests
+├── tests/                          # 5 automated unit tests
 │
-├── main.py                         # Single entry point (reproduces all results)
-├── project_report.pdf              # Final project report
+├── main.py                         # Single entry point reproducing all results
+├── ST_project_report.pdf           # Final project report
 ├── PROPOSAL.md                     # Approved project proposal
 ├── AI_USAGE.md                     # AI usage declaration
-├── README.md                       # Setup, usage instructions and overview
-├── requirements.txt                # Main Python dependencies (unversioned)
+├── README.md                       # Setup instructions and project overview
+├── requirements.txt                # Main Python dependencies (unpinned)
 └── requirements-pinned.txt         # Fully pinned environment
 ```
 
@@ -62,8 +62,7 @@ Capstone_Project_ST/
 - Developed and tested using VSCode + Nuvulous
 - Fixed random seed (42)
 
-Note: Scrapers are included for completeness but do not need to be executed to reproduce the results.
-Running main.py reproduces all figures, tables and predictions used in the report.
+Note: Data scrapers are included as they are part of the project but do not need to be executed to reproduce the results. Otherwise, temporal validation would not be possible. Executing main.py generates all figures, tables and predictions presented in the report.
 
 ### 1. Clone the repository
 ```text
@@ -79,12 +78,12 @@ conda activate eafc_dsap
 
 ### 3. Install dependencies
 
-#### 3.1. Standard installation (recommended)
+#### 3.1. Unpinned environment
 ```text
 pip install -r requirements.txt
 ```
 
-#### 3.2. Fully pinned environment (optional):
+#### 3.2. Fully pinned environment
 ```text
 pip install -r requirements-pinned.txt
 ```
