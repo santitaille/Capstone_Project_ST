@@ -114,4 +114,4 @@ This project focuses on **two discrete weekly price snapshots** rather than cont
 ---
 
 ## Video Presentation URL
-url will go here
+https://youtu.be/hzh6kNWK304
