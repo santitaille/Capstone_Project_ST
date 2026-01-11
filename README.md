@@ -1,4 +1,4 @@
-# EA FC 26 Player Card Price Prediction
+# EA FC 26 Player Card Price Prediction  
 
 **Course:** Data Science and Advanced Programming  
 **Student Name:** Santiago Tailleferd  
@@ -92,7 +92,11 @@ pip install -r requirements-pinned.txt
 python main.py
 ```
 
-Note: TensorFlow is very heavy when downloaded via environment.yml, so creating a Conda 3.10 environment and installing requirements is faster.
+**Note:** TensorFlow is very heavy when downloaded via environment.yml, so creating a Conda 3.10 environment and installing requirements is faster.
+
+**Note:** The project was tested using both `requirements.txt` and `requirements-pinned.txt`.
+
+**Note:** When testing the code on other machines in VS Code, sometimes all figures appeared as **modified (M)**. However, the figures are visually identical, contain the same results and in any case results are impacted.
 
 ---
 
