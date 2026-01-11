@@ -59,7 +59,7 @@ Capstone_Project_ST/
 
 ## Setup, Environment and Reproducibility
 - Python version: 3.10
-- Developed and tested using VSCode + Nuvulous
+- Developed and tested using VS Code and Nuvolos
 - Fixed random seed (42)
 
 Note: Data scrapers are included as they are part of the project but do not need to be executed to reproduce the results. Otherwise, temporal validation would not be possible. Executing main.py generates all figures, tables and predictions presented in the report.
